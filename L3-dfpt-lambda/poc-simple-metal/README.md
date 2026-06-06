@@ -18,7 +18,7 @@ inputs, each with a real reference λ/ω_log read from LKM (QE is open-source �
 
 ```
 poc-simple-metal/
-├── task.toml
+├── task.toml                      # Harbor v1.0 schema
 ├── instruction.md                 # method WITHHELD-as-choice; I/O contract; scoring
 ├── environment/
 │   ├── Dockerfile                 # python+numpy (cheap verifier; real DFPT runs off-image)
@@ -31,14 +31,15 @@ poc-simple-metal/
 │   ├── precomputed.csv            # the cached reference
 │   └── solve.sh
 ├── tests/
-│   ├── test.sh
+│   ├── test.sh                    # Harbor verifier: nobody + root-only gold + reward.txt
 │   ├── score.py                   # accuracy + cost; exit 0 iff all pass
 │   ├── hidden/cases.csv
 │   └── gold/ref.csv               # root-only reference
-└── selfcheck.sh                   # oracle PASS, perturbed-λ FAIL  (run in CI)
+├── scripts/selfcheck.sh          # host-side: oracle PASS, perturbed-λ FAIL
+└── tests/hidden/structures/      # structures for the verifier
 ```
 
-Run: `bash selfcheck.sh` → oracle passes all 5; a λ+50 % perturbation fails all 5.
+Run: `bash scripts/selfcheck.sh` → oracle passes all 5; a λ+50 % perturbation fails all 5.
 
 **Engine.** Quantum ESPRESSO (`pw.x`/`ph.x`/`lambda.x`, GPL) — see
 `environment/packet/protocol/`. No VASP licence required.

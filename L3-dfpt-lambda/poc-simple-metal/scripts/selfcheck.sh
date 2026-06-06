@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Host-side self-check: oracle passes; a perturbed λ fails.
 set -uo pipefail
-HERE="$(cd "$(dirname "$0")" && pwd)"
+HERE="$(cd "$(dirname "$0")/.." && pwd)"
 echo "== oracle on hidden cases =="
 python "$HERE/solution/run_lambda.py" --params "$HERE/tests/hidden/cases.csv" --out /tmp/poc_out.csv
 python "$HERE/tests/score.py" --pred /tmp/poc_out.csv --gold "$HERE/tests/gold/ref.csv"

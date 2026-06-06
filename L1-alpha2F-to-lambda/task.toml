@@ -1,0 +1,19 @@
+version = "1.0"
+
+[metadata]
+author_name = "ARM λ-Bench (WF-6) — L1 (α²F → λ, ω_log)"
+author_email = "noreply@example.com"
+difficulty_explanation = "Given the Eliashberg spectral function α²F(ω) as a digitized ω-grid, compute the electron-phonon coupling λ and the logarithmic-average phonon frequency ω_log. The moment-integral formulas are NOT given — the agent must recall λ = 2∫α²F/ω dω and ω_log = exp[(2/λ)∫lnω·α²F/ω dω], handle the meV→K unit conversion, and implement a generic run_lambda.py, then reproduce held-out gold on concealed spectra it never saw. Pure post-processing (no DFT/HPC); deterministic; sub-second verifier. Cheap counterpart to the DFPT λ levels and to allen-dynes-tc-benchmark."
+category = "scientific-computing"
+tags = ["physics", "superconductivity", "electron-phonon", "eliashberg", "a2F", "lambda", "closed-form", "python", "wf-6", "level-1"]
+
+# Pure-Python integration on 4 hidden spectra: sub-second.
+[verifier]
+timeout_sec = 120.0
+
+[agent]
+timeout_sec = 1800.0
+
+# Tiny Python image; no numpy/HPC/artifacts.
+[environment]
+build_timeout_sec = 600.0

@@ -14,6 +14,7 @@ DFPT driver (Quantum ESPRESSO pw.x/ph.x + a λ extraction) for a live run.
 import argparse, csv, os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+_CACHE = os.path.join(HERE, "precomputed.csv")
 
 
 def main():
@@ -22,7 +23,7 @@ def main():
     ap.add_argument("--out", required=True)      # out.csv (case_id, lambda, omega_log_K, core_hours)
     a = ap.parse_args()
 
-    cached = {r["case_id"]: r for r in csv.DictReader(open(os.path.join(HERE, "precomputed.csv")))}
+    cached = {r["case_id"]: r for r in csv.DictReader(open(_CACHE))}
     with open(a.params) as f:
         ids = [r["case_id"] for r in csv.DictReader(f)]
 

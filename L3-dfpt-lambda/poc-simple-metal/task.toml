@@ -1,12 +1,17 @@
-[task]
-name = "tc-lambda-L3-poc-simple-metal"
-description = "PoC: compute electron-phonon λ and ω_log from first principles (DFPT) for simple/elemental metals; graded on accuracy vs reference + reported core-hours."
+version = "1.0"
 
-[agent]
-timeout_sec = 7200          # a real DFPT run is off-sandbox; generous
-
-[build]
-timeout_sec = 600
+[metadata]
+author_name = "ARM λ-Bench (WF-6) — L3 PoC (DFPT λ, simple metals)"
+author_email = "noreply@example.com"
+difficulty_explanation = "Given a crystal structure (QE pw.x input) and condition, compute the electron-phonon coupling λ and ω_log from first principles (DFPT: pw.x scf -> ph.x electron_phonon -> lambda.x / a2F integration), choosing the method appropriate to the material. The agent submits run_lambda.py and reports λ, ω_log, and core-hours; graded on accuracy (|λ-λ_ref|, |ω_log-ω_log_ref| <= 15%) against the paper's first-principles reference, with cost reported (accuracy x cost). HPC step runs off-sandbox (open-source Quantum ESPRESSO); the verifier compares the reported numbers to a cached reference (PoC) — hardening submits DFPT artifacts for server-side recompute."
+category = "scientific-computing"
+tags = ["physics", "superconductivity", "electron-phonon", "dfpt", "quantum-espresso", "lambda", "first-principles", "wf-6", "level-3"]
 
 [verifier]
-timeout_sec = 120
+timeout_sec = 120.0
+
+[agent]
+timeout_sec = 7200.0
+
+[environment]
+build_timeout_sec = 600.0

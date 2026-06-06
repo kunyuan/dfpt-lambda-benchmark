@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Oracle: emit the cached reference result (stand-in for a correct DFPT run).
 set -euo pipefail
-cp "$(dirname "$0")/run_lambda.py" ./run_lambda.py
-python run_lambda.py --params ./packet/cases.csv --out ./out.csv
+D="$(dirname "$0")"
+cp "$D/run_lambda.py" /app/run_lambda.py
+cp "$D/precomputed.csv" /app/precomputed.csv   # oracle's cached "DFPT result"

@@ -21,6 +21,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--pred", required=True)
     ap.add_argument("--gold", required=True)
+    ap.add_argument("--json", default="result.json")
     a = ap.parse_args()
     gold = read(a.gold, "case_id")
     pred = read(a.pred, "case_id")
@@ -53,7 +54,7 @@ def main():
     print(f"\ntotal cost: {total_cost:g} core-hours  (cost axis — reported, not gated)")
     print("RESULT:", "PASS" if ok else "FAIL")
     json.dump({"pass": ok, "tolerance": TOL, "total_core_hours": total_cost, "cases": results},
-              open("result.json", "w"), indent=2)
+              open(a.json, "w"), indent=2)
     sys.exit(0 if ok else 1)
 
 

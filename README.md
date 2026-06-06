@@ -23,8 +23,10 @@ Two levels, mirroring how λ is actually obtained:
 
 - **L1 — α²F(ω) → λ, ω_log** (cheap, auto-gradable at scale). Given the Eliashberg
   spectral function α²F(ω), compute λ = 2∫α²F(ω)/ω dω and the logarithmic-average
-  ω_log. Pure post-processing; sub-second verifier. *(Reference α²F spectra still to
-  be harvested — see Status.)*
+  ω_log. Pure post-processing; sub-second verifier. **Built as a runnable Harbor
+  code-submission task** (`run_lambda.py`, formula withheld, held-out grading) —
+  same mold as `allen-dynes-tc-benchmark`. See
+  [`L1-alpha2F-to-lambda/`](L1-alpha2F-to-lambda/).
 - **L3 — structure → DFPT → λ** (the real first-principles task; HPC). Given a
   relaxed crystal structure + pseudopotentials + a protocol, run DFPT (phonons +
   electron-phonon) and return λ, ω_log.
@@ -92,16 +94,22 @@ method variants above.
 
 ## Status
 
-- ✅ **Reference data assembled** (276 λ points / 123 materials, classified into the
-  5 material-type tracks; computed-vs-experimental cross-check).
-- ✅ **L3 PoC** — a runnable Harbor task,
-  [`L3-dfpt-lambda/poc-simple-metal/`](L3-dfpt-lambda/poc-simple-metal/): 5 elemental
-  metals with real structures + reference λ/ω_log, a verifier scoring accuracy
-  (|λ−λ_ref|, |ω_log−ω_log_ref| ≤ 15 %) + reported core-hours, and a self-check
-  (oracle PASS, perturbed-λ FAIL) wired into CI.
-- ⬜ **Scale L3** — attach structures for the remaining cases (paper / Materials
-  Project) and harden the verifier (submit DFPT artifacts, recompute λ server-side).
-- ⬜ **L1** needs reference α²F(ω) spectra harvested.
+- ✅ **L1 — runnable Harbor task** ([`L1-alpha2F-to-lambda/`](L1-alpha2F-to-lambda/)):
+  code-submission (`run_lambda.py`), formula withheld, 10 dev + 4 held-out α²F
+  spectra (λ ≈ 0.8–2.8, ω_log ≈ 87–524 K), `tests/test.sh` on the **Harbor contract**
+  (runs agent code as `nobody`, root-only gold, writes `reward.txt`), 2 % tolerance.
+  Deterministic + sub-second → the level that validates **end-to-end** under Harbor.
+- ✅ **L3 PoC** ([`L3-dfpt-lambda/poc-simple-metal/`](L3-dfpt-lambda/poc-simple-metal/)):
+  5 elemental metals, QE `pw.x`/`ph.x` structures + reference λ/ω_log, Harbor-contract
+  `tests/test.sh`, accuracy (≤ 15 %) + reported core-hours. The DFPT runs off-sandbox
+  (open-source QE); the verifier compares to a cached reference (PoC). **Validated by
+  a real QE run: bcc Ta gives λ = 0.87 vs reference 0.877 (~1 %).**
+- ✅ **Reference data assembled** (276 λ points / 123 materials, 5 material-type tracks).
+- ⬜ **Run through real Harbor** — both tasks follow the contract and pass host-side
+  self-checks, but have not been executed by the `harbor` runner (needs Docker + the
+  CLI). `harbor run --agent oracle --path <task>` is the next validation step.
+- ⬜ **Scale L3** — attach structures for the remaining cases; harden the verifier
+  (submit DFPT artifacts, recompute λ server-side).
 
 ## License
 
