@@ -1,6 +1,6 @@
 case_id,structure_file,condition,mu_star
-lam242,Ta_bcc.poscar,"bcc tantalum, ambient",0.13
-lam245,Li_fcc_30GPa.poscar,"fcc Li, 30 GPa",0.13
-lam249,La_fcc.poscar,"fcc La, ambient",0.12
-lam251,Fe_hcp_100GPa.poscar,"nm hcp Fe, 100 GPa",0.1
-lam261,P_sc_20GPa.poscar,"sc P, 20 GPa",0.18
+lam242,Ta_bcc.scf.in,"bcc tantalum, ambient",0.13
+lam245,Li_fcc_30GPa.scf.in,"fcc Li, 30 GPa",0.13
+lam249,La_fcc.scf.in,"fcc La, ambient",0.12
+lam251,Fe_hcp_100GPa.scf.in,"nm hcp Fe, 100 GPa",0.1
+lam261,P_sc_20GPa.scf.in,"sc P, 20 GPa",0.18

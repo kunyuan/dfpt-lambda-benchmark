@@ -5,8 +5,8 @@ compute the electron-phonon **λ** and **ω_log** from first principles, report 
 plus the **core-hours** spent; graded on accuracy (|λ−λ_ref|, |ω_log−ω_log_ref| ≤
 15 %) with cost reported (accuracy × cost).
 
-5 elemental/simple-metal cases (clean Bravais lattices), each with a real reference
-λ/ω_log read from LKM:
+5 elemental/simple-metal cases (clean Bravais lattices) as **Quantum ESPRESSO**
+inputs, each with a real reference λ/ω_log read from LKM (QE is open-source — no VASP):
 
 | case | material | condition | λ_ref | ω_log_ref (K) |
 |---|---|---|---:|---:|
@@ -24,7 +24,8 @@ poc-simple-metal/
 │   ├── Dockerfile                 # python+numpy (cheap verifier; real DFPT runs off-image)
 │   └── packet/
 │       ├── cases.csv              # case_id, structure_file, condition, mu_star  (NO λ)
-│       └── structures/*.poscar    # 5 crystal structures
+│       ├── structures/*.scf.in    # 5 QE pw.x SCF inputs
+│       └── protocol/              # QE ph.x el-ph workflow (ph.in.template + README)
 ├── solution/
 │   ├── run_lambda.py              # oracle stand-in (emits cached DFPT result)
 │   ├── precomputed.csv            # the cached reference
@@ -39,8 +40,11 @@ poc-simple-metal/
 
 Run: `bash selfcheck.sh` → oracle passes all 5; a λ+50 % perturbation fails all 5.
 
+**Engine.** Quantum ESPRESSO (`pw.x`/`ph.x`/`lambda.x`, GPL) — see
+`environment/packet/protocol/`. No VASP licence required.
+
 **Scope.** The verifier compares reported numbers to a cached reference (the oracle
-stands in for a correct DFPT run, which executes off-sandbox on HPC). The hardened
+stands in for a correct QE/DFPT run, which executes off-sandbox on HPC). The hardened
 version requires submitting DFPT artifacts (dynamical matrices / α²F) and recomputes
 λ server-side — see the note in `instruction.md`. The pressure-case lattice params
 are representative; relax to the stated pressure for a live run.
