@@ -1,0 +1,12 @@
+[task]
+name = "tc-lambda-L3-poc-simple-metal"
+description = "PoC: compute electron-phonon λ and ω_log from first principles (DFPT) for simple/elemental metals; graded on accuracy vs reference + reported core-hours."
+
+[agent]
+timeout_sec = 7200          # a real DFPT run is off-sandbox; generous
+
+[build]
+timeout_sec = 600
+
+[verifier]
+timeout_sec = 120

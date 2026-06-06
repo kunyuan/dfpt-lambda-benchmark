@@ -1,39 +1,39 @@
-case_id,paper_id,material,condition,lambda_ref,omega_log_K,theta_D_K,mu_star,expected_method,cost_tier_coreh
-lam021,1215273021510516746,"Grokene (doped 4x4 graphene superlattice, alkali interstitial 6.25 at.","Grokene (K-doped graphene 4x4), Allen-Dynes mean-field",3.8,1650,,,DFPT+Wannier/EPW,1e3-1e4
-lam027,811176152671453187,Blue-phosphorus bilayer with Li/Na/Mg intercalation (X0.2P0.8),Li0.2P0.8 (A-X-B intercalated blue-P bilayer),1.2,221.3,,,DFPT+Wannier/EPW,1e3-1e4
-lam028,811176152671453187,Blue-phosphorus bilayer with Li/Na/Mg intercalation (X0.2P0.8),Mg0.2P0.8 (A-X-B intercalated blue-P bilayer),0.8,221.3,,,DFPT+Wannier/EPW,1e3-1e4
-lam029,811176152671453187,Blue-phosphorus bilayer with Li/Na/Mg intercalation (X0.2P0.8),Na0.2P0.8 (A-X-B intercalated blue-P bilayer),1.1,221.3,,,DFPT+Wannier/EPW,1e3-1e4
-lam036,811685820145598464,Monolayer Pb on Si(111) (striped incommensurate SIC-Pb),(single),0.72,56.86,,,DFPT+Wannier/EPW,1e3-1e4
-lam068,812325968965271553,2H-NbS2 (layered transition-metal dichalcogenide),(single),0.554,131.4,,,DFPT+Wannier/EPW,1e3-1e4
-lam072,812473244324986880,"Monolayer Mg2B4C2 (2D MgB2-derived, layer group p-3m1)",(single),1.4,506,,,DFPT+Wannier/EPW,1e3-1e4
-lam094,812688058997538816,Monolayer 1T-TiS2 (electron-doped / strained / chemically intercalated,CaTiS2 (Ca-deposited monolayer),1.78,72.6,,,DFPT+Wannier/EPW,1e3-1e4
-lam120,813214157951205376,electron-doped single-layer (monolayer) MoS2,"electron-doped monolayer MoS2, x=0.18 electrons/f.u.",1.7,,,,DFPT+Wannier/EPW,1e3-1e4
-lam128,813254743873814530,2D TiB4 monolayer and bilayer (nodal-line semimetal),TiB4 bilayer +11% biaxial tensile strain,0.65,57.61,,,DFPT+Wannier/EPW,1e3-1e4
-lam129,813254743873814530,2D TiB4 monolayer and bilayer (nodal-line semimetal),TiB4 monolayer (freestanding),0.65,57.61,,,DFPT+Wannier/EPW,1e3-1e4
-lam158,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",hexagonal CaB6,0.87,413.8,,,DFPT+Wannier/EPW,1e3-1e4
-lam159,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",hexagonal MgB6,0.46,413.8,,,DFPT+Wannier/EPW,1e3-1e4
-lam160,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",hexagonal ScB6,0.6,413.8,,,DFPT+Wannier/EPW,1e3-1e4
-lam161,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",hexagonal TiB6,0.4,413.8,,,DFPT+Wannier/EPW,1e3-1e4
-lam162,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",type-I orthorhombic CaB6,0.57,413.8,,,DFPT+Wannier/EPW,1e3-1e4
-lam163,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",type-I orthorhombic MgB6,0.59,413.8,,,DFPT+Wannier/EPW,1e3-1e4
-lam164,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",type-II orthorhombic (2x1) TiB6,0.92,413.8,,,DFPT+Wannier/EPW,1e3-1e4
-lam165,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",type-III orthorhombic (2x1) YB6,1,413.8,,,DFPT+Wannier/EPW,1e3-1e4
-lam177,867750509996409561,Honeycomb borophene h-B2 on Al(111); monolayer AlB2; bulk AlB2,"CeH10 (Fm-3m) 94 GPa, mu*=0.10",1.952,206.8,,,DFPT+Wannier/EPW,1e3-1e4
-lam178,867750509996409561,Honeycomb borophene h-B2 on Al(111); monolayer AlB2; bulk AlB2,"CeH9 (F-43m) 94 GPa, mu*=0.10",1.596,206.8,,,DFPT+Wannier/EPW,1e3-1e4
-lam191,867754756150395675,"HPC3 (2D hydrogenated phosphorus carbide monolayer, H1P2C6)","HPC3, 1% biaxial strain",1.05,482.84,,,DFPT+Wannier/EPW,1e3-1e4
-lam192,867754756150395675,"HPC3 (2D hydrogenated phosphorus carbide monolayer, H1P2C6)","HPC3, 2% biaxial strain",1.24,482.84,,,DFPT+Wannier/EPW,1e3-1e4
-lam193,867754756150395675,"HPC3 (2D hydrogenated phosphorus carbide monolayer, H1P2C6)","HPC3, 3% biaxial strain (f1f2 corrected)",1.65,482.84,,,DFPT+Wannier/EPW,1e3-1e4
-lam194,867754756150395675,"HPC3 (2D hydrogenated phosphorus carbide monolayer, H1P2C6)","HPC3, unstrained",0.95,482.84,,,DFPT+Wannier/EPW,1e3-1e4
-lam198,867757693798973751,electron-doped monolayer phosphorene (black phosphorus),I-4m2 SnH8 250 GPa (mu*=0.10),1.139,,,,DFPT+Wannier/EPW,1e3-1e4
-lam201,867761305644171944,"Doped stanene (Li- and Ca-decorated, LiSn6 / CaSn6)",CaSn6 (Ca-decorated stanene),0.54,60.97,,,DFPT+Wannier/EPW,1e3-1e4
-lam202,867761305644171944,"Doped stanene (Li- and Ca-decorated, LiSn6 / CaSn6)",LiSn6 (Li-decorated stanene),0.65,60.97,,,DFPT+Wannier/EPW,1e3-1e4
-lam208,867761622720971643,"Monolayer Mg2B4C2 (2D MgB2-like, layer group p-3m1)",(single),1.4,506,,,DFPT+Wannier/EPW,1e3-1e4
-lam252,867772526099431971,"Monolayer Mo2C MXene (2H phase, bare/O/H/OH terminated; also Ti2C, Ti2",Mo2C bare 2H MXene,0.55554,179.701,,,DFPT+Wannier/EPW,1e3-1e4
-lam253,867772526099431971,"Monolayer Mo2C MXene (2H phase, bare/O/H/OH terminated; also Ti2C, Ti2","Mo2C(OH)2 (OH-terminated 2H, unstable)",1.9296,179.701,,,DFPT+Wannier/EPW,1e3-1e4
-lam254,867772526099431971,"Monolayer Mo2C MXene (2H phase, bare/O/H/OH terminated; also Ti2C, Ti2","Mo2CH2 (H-terminated 2H, 1% strain)",0.73205,179.701,,,DFPT+Wannier/EPW,1e3-1e4
-lam255,867772526099431971,"Monolayer Mo2C MXene (2H phase, bare/O/H/OH terminated; also Ti2C, Ti2",Mo2CO2 (O-terminated 2H),0.23134,179.701,,,DFPT+Wannier/EPW,1e3-1e4
-lam256,867772526099431971,"Monolayer Mo2C MXene (2H phase, bare/O/H/OH terminated; also Ti2C, Ti2",Ti2C monolayer,0.4022,179.701,,,DFPT+Wannier/EPW,1e3-1e4
-lam258,867773664412566427,B2C single-layer (2D monolayer),"B2C monolayer, mu*=0.10",0.92,314.8,,,DFPT+Wannier/EPW,1e3-1e4
-lam271,938859326162862687,Ca-intercalated AA-stacking bilayer graphene C2CaC2,"C2CaC2 AA-stacking, -2% biaxial strain",0.86,470.6,,,DFPT+Wannier/EPW,1e3-1e4
-lam272,938859326162862687,Ca-intercalated AA-stacking bilayer graphene C2CaC2,"C2CaC2 AA-stacking, -4% biaxial strain",1.11,470.6,,,DFPT+Wannier/EPW,1e3-1e4
-lam273,938859326162862687,Ca-intercalated AA-stacking bilayer graphene C2CaC2,"C2CaC2 AA-stacking, unstrained",0.75,470.6,,,DFPT+Wannier/EPW,1e3-1e4
+case_id,paper_id,material,condition,lambda_ref,omega_log_K,theta_D_K,omega2_K,mu_star,expected_method,cost_tier_coreh
+lam001,1215273021510516746,"Grokene (doped 4x4 graphene superlattice, alkali interstitial 6.25 at.","Grokene (K-doped graphene 4x4), Allen-Dynes mean-field",3.8,1650,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam002,811176152671453187,Blue-phosphorus bilayer with Li/Na/Mg intercalation (X0.2P0.8),Li0.2P0.8 (A-X-B intercalated blue-P bilayer),1.2,221.3,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam003,811176152671453187,Blue-phosphorus bilayer with Li/Na/Mg intercalation (X0.2P0.8),Mg0.2P0.8 (A-X-B intercalated blue-P bilayer),0.8,275.4,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam004,811176152671453187,Blue-phosphorus bilayer with Li/Na/Mg intercalation (X0.2P0.8),Na0.2P0.8 (A-X-B intercalated blue-P bilayer),1.1,241.6,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam005,811685820145598464,Monolayer Pb on Si(111) (striped incommensurate SIC-Pb),(single),0.72,56.86,,,0.14,DFPT+Wannier/EPW,1e3-1e4
+lam006,812325968965271553,2H-NbS2 (layered transition-metal dichalcogenide),(single),0.554,131.4,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam007,812473244324986880,"Monolayer Mg2B4C2 (2D MgB2-derived, layer group p-3m1)",(single),1.4,506,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam008,812688058997538816,Monolayer 1T-TiS2 (electron-doped / strained / chemically intercalated,CaTiS2 (Ca-deposited monolayer),1.78,72.6,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam009,813214157951205376,electron-doped single-layer (monolayer) MoS2,"electron-doped monolayer MoS2, x=0.18 electrons/f.u.",1.7,230.2,,,0.13,DFPT+Wannier/EPW,1e3-1e4
+lam010,813254743873814530,2D TiB4 monolayer and bilayer (nodal-line semimetal),TiB4 bilayer +11% biaxial tensile strain,0.65,223.47,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam011,813254743873814530,2D TiB4 monolayer and bilayer (nodal-line semimetal),TiB4 monolayer (freestanding),0.65,57.61,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam012,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",hexagonal CaB6,0.87,413.8,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam013,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",hexagonal MgB6,0.46,559.6,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam014,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",hexagonal ScB6,0.6,297.8,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam015,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",hexagonal TiB6,0.4,324.6,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam016,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",type-I orthorhombic CaB6,0.57,347.4,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam017,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",type-I orthorhombic MgB6,0.59,447.2,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam018,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",type-II orthorhombic (2x1) TiB6,0.92,276.8,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam019,817359063850418177,"2D MB6 monolayers (Mg,Ca,Ti,Y,Sc; ortho & hex)",type-III orthorhombic (2x1) YB6,1,250.2,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam020,867750509996409561,Honeycomb borophene h-B2 on Al(111); monolayer AlB2; bulk AlB2,"CeH10 (Fm-3m) 94 GPa, mu*=0.10",1.952,1188.91,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam021,867750509996409561,Honeycomb borophene h-B2 on Al(111); monolayer AlB2; bulk AlB2,"CeH9 (F-43m) 94 GPa, mu*=0.10",1.596,1181.38,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam022,867754756150395675,"HPC3 (2D hydrogenated phosphorus carbide monolayer, H1P2C6)","HPC3, 1% biaxial strain",1.05,497.73,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam023,867754756150395675,"HPC3 (2D hydrogenated phosphorus carbide monolayer, H1P2C6)","HPC3, 2% biaxial strain",1.24,475.57,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam024,867754756150395675,"HPC3 (2D hydrogenated phosphorus carbide monolayer, H1P2C6)","HPC3, 3% biaxial strain (f1f2 corrected)",1.65,402.84,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam025,867754756150395675,"HPC3 (2D hydrogenated phosphorus carbide monolayer, H1P2C6)","HPC3, unstrained",0.95,482.84,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam026,867757693798973751,electron-doped monolayer phosphorene (black phosphorus),I-4m2 SnH8 250 GPa (mu*=0.10),1.139,859,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam027,867761305644171944,"Doped stanene (Li- and Ca-decorated, LiSn6 / CaSn6)",CaSn6 (Ca-decorated stanene),0.54,62.62,,,0.13,DFPT+Wannier/EPW,1e3-1e4
+lam028,867761305644171944,"Doped stanene (Li- and Ca-decorated, LiSn6 / CaSn6)",LiSn6 (Li-decorated stanene),0.65,60.97,,,0.13,DFPT+Wannier/EPW,1e3-1e4
+lam029,867761622720971643,"Monolayer Mg2B4C2 (2D MgB2-like, layer group p-3m1)",(single),1.4,506,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam030,867772526099431971,"Monolayer Mo2C MXene (2H phase, bare/O/H/OH terminated; also Ti2C, Ti2",Mo2C bare 2H MXene,0.556,179.7,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam031,867772526099431971,"Monolayer Mo2C MXene (2H phase, bare/O/H/OH terminated; also Ti2C, Ti2","Mo2C(OH)2 (OH-terminated 2H, unstable)",1.93,169.78,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam032,867772526099431971,"Monolayer Mo2C MXene (2H phase, bare/O/H/OH terminated; also Ti2C, Ti2","Mo2CH2 (H-terminated 2H, 1% strain)",0.732,326.54,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam033,867772526099431971,"Monolayer Mo2C MXene (2H phase, bare/O/H/OH terminated; also Ti2C, Ti2",Mo2CO2 (O-terminated 2H),0.231,299.65,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam034,867772526099431971,"Monolayer Mo2C MXene (2H phase, bare/O/H/OH terminated; also Ti2C, Ti2",Ti2C monolayer,0.402,305.76,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam035,867773664412566427,B2C single-layer (2D monolayer),"B2C monolayer, mu*=0.10",0.92,314.8,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam036,938859326162862687,Ca-intercalated AA-stacking bilayer graphene C2CaC2,"C2CaC2 AA-stacking, -2% biaxial strain",0.86,404.5,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam037,938859326162862687,Ca-intercalated AA-stacking bilayer graphene C2CaC2,"C2CaC2 AA-stacking, -4% biaxial strain",1.11,327.8,,,0.1,DFPT+Wannier/EPW,1e3-1e4
+lam038,938859326162862687,Ca-intercalated AA-stacking bilayer graphene C2CaC2,"C2CaC2 AA-stacking, unstrained",0.75,470.6,,,0.1,DFPT+Wannier/EPW,1e3-1e4

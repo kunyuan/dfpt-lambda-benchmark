@@ -94,9 +94,13 @@ method variants above.
 
 - ✅ **Reference data assembled** (276 λ points / 123 materials, classified into the
   5 material-type tracks; computed-vs-experimental cross-check).
-- ⬜ **Runnable L3 Harbor tasks** need a crystal **structure** attached per case
-  (from the paper / Materials Project) plus an HPC-aware verifier (run-or-cached
-  DFPT, accuracy × core-hour scoring).
+- ✅ **L3 PoC** — a runnable Harbor task,
+  [`L3-dfpt-lambda/poc-simple-metal/`](L3-dfpt-lambda/poc-simple-metal/): 5 elemental
+  metals with real structures + reference λ/ω_log, a verifier scoring accuracy
+  (|λ−λ_ref|, |ω_log−ω_log_ref| ≤ 15 %) + reported core-hours, and a self-check
+  (oracle PASS, perturbed-λ FAIL) wired into CI.
+- ⬜ **Scale L3** — attach structures for the remaining cases (paper / Materials
+  Project) and harden the verifier (submit DFPT artifacts, recompute λ server-side).
 - ⬜ **L1** needs reference α²F(ω) spectra harvested.
 
 ## License

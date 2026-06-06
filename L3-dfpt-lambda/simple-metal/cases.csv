@@ -1,43 +1,41 @@
-case_id,paper_id,material,condition,lambda_ref,omega_log_K,theta_D_K,mu_star,expected_method,cost_tier_coreh
-lam001,1056817631564136450,"Transition-metal trioxides XO3 (X=Ru,Re,Os,Ir,Pt,Au) R-3c under pressu","OsO3, R-3c, 30 GPa, no SOC",1.501,347,,,DFPT-direct,1e2-1e3
-lam002,1056817631564136450,"Transition-metal trioxides XO3 (X=Ru,Re,Os,Ir,Pt,Au) R-3c under pressu","PtO3, R-3c, 30 GPa, no SOC",0.498,347,,,DFPT-direct,1e2-1e3
-lam003,1056817631564136450,"Transition-metal trioxides XO3 (X=Ru,Re,Os,Ir,Pt,Au) R-3c under pressu","ReO3, R-3c, 30 GPa, no SOC",0.95,347,,,DFPT-direct,1e2-1e3
-lam004,1056817631564136450,"Transition-metal trioxides XO3 (X=Ru,Re,Os,Ir,Pt,Au) R-3c under pressu","ReO3, R-3c, 30 GPa, with SOC",0.945,347,,,DFPT-direct,1e2-1e3
-lam005,1056817631564136450,"Transition-metal trioxides XO3 (X=Ru,Re,Os,Ir,Pt,Au) R-3c under pressu","RuO3, R-3c, 30 GPa, no SOC",2.542,347,,,DFPT-direct,1e2-1e3
-lam022,811048440174739456,bcc tantalum (Ta),(single),0.877,150.8,,,DFPT-direct,1e2-1e3
-lam030,811679993317818370,"Ca-VI (Pnma calcium, high pressure 158-180 GPa)","Pnma Ca-VI, 172 GPa, mu*=0.10",0.934,396,,,DFPT-direct,1e2-1e3
-lam037,811709692383330305,fcc lithium under high pressure,"fcc Li, 14 GPa",0.49,288,,,DFPT-direct,1e2-1e3
-lam038,811709692383330305,fcc lithium under high pressure,"fcc Li, 20 GPa",0.66,288,,,DFPT-direct,1e2-1e3
-lam039,811709692383330305,fcc lithium under high pressure,"fcc Li, 30 GPa",0.83,288,,,DFPT-direct,1e2-1e3
-lam040,811709692383330305,fcc lithium under high pressure,"fcc Li, 36 GPa",1.1,288,,,DFPT-direct,1e2-1e3
-lam041,811709692383330305,fcc lithium under high pressure,"fcc Li, 8 GPa",0.39,288,,,DFPT-direct,1e2-1e3
-lam044,811795868670754816,elemental lanthanum (fcc and dhcp phases),dhcp La,0.97,85,,,DFPT-direct,1e2-1e3
-lam045,811795868670754816,elemental lanthanum (fcc and dhcp phases),fcc La,1.06,85,,,DFPT-direct,1e2-1e3
-lam067,812322173833183232,hcp Li at 247 kbar (high pressure),(single),0.806,,265,,DFPT-direct,1e2-1e3
-lam069,812383700997111808,non-magnetic hcp iron (Fe) at 100 GPa (also bcc Fe lattice dynamics),"nm-hcp Fe, 100 GPa",0.33,450,,,DFPT-direct,1e2-1e3
-lam070,812446916401954817,"Amorphous superconductors (a-PbCu, a-Mo, a-Nb, etc.) - Eliashberg func",rock-salt SnAs,0.64,,,,DFPT-direct,1e2-1e3
-lam077,812507119646408706,"A-15 X3Y compounds (X=V,Cr,Mo; Y=Os,Ir,Pt) - focus Mo3Os, Mo3Pt, Mo3Ir",Mo3Os (A-15),1.51,56.17,,,DFPT-direct,1e2-1e3
-lam080,812549822006427649,Lanthanum at megabar pressures (R-3m and Fmmm distorted fcc),La Fmmm distorted fcc 130 GPa,0.69,288,,,DFPT-direct,1e2-1e3
-lam081,812549822006427649,Lanthanum at megabar pressures (R-3m and Fmmm distorted fcc),La R-3m slightly distorted fcc ~50 GPa,1.07,288,,,DFPT-direct,1e2-1e3
-lam090,812654281252405248,"doped C60 fullerides A3C60 (alkali-doped), plus hole-doped case","A3C60, a=14.1 Angstrom",0.49,1251.7,,,DFPT-direct,1e2-1e3
-lam091,812654281252405248,"doped C60 fullerides A3C60 (alkali-doped), plus hole-doped case","A3C60, a=14.4 Angstrom",0.77,1251.7,,,DFPT-direct,1e2-1e3
-lam092,812654281252405248,"doped C60 fullerides A3C60 (alkali-doped), plus hole-doped case","A3C60, a=14.6 Angstrom",0.83,1251.7,,,DFPT-direct,1e2-1e3
-lam093,812654281252405248,"doped C60 fullerides A3C60 (alkali-doped), plus hole-doped case","A3C60, two-hole doped hu band, a=14.1 Angstrom",0.85,1251.7,,,DFPT-direct,1e2-1e3
-lam095,812737475888807939,"Silicon high-pressure metallic phases (simple-hexagonal sh, beta-Sn)",Si simple-hexagonal (sh) 12.7 GPa,0.4,,623,,DFPT-direct,1e2-1e3
-lam117,813203421422157825,Simple cubic (sc) phosphorus under pressure,"sc P, 20 GPa (P_calc)",0.795,418,,,DFPT-direct,1e2-1e3
-lam118,813203421422157825,Simple cubic (sc) phosphorus under pressure,"sc P, 70 GPa (P_calc)",0.676,418,,,DFPT-direct,1e2-1e3
-lam122,813217096233123840,Compressed elemental sulfur (S): beta-Po and simple-cubic phases at 16,beta-Po 160 GPa,0.76,439,,,DFPT-direct,1e2-1e3
-lam123,813217096233123840,Compressed elemental sulfur (S): beta-Po and simple-cubic phases at 16,sc 280 GPa,0.53,439,,,DFPT-direct,1e2-1e3
-lam209,867761707680793089,fcc Yttrium (Y) under pressure/compression,"fcc Y, v=0.90 (P~6 GPa)",0.75,,,,DFPT-direct,1e2-1e3
-lam235,867768967756775707,"Ca-VI (orthorhombic Pnma, high pressure)",monolayer AlB2 (single Al on honeycomb B),1.01,396,,,DFPT-direct,1e2-1e3
-lam236,867769399187079437,"Mg(B1-xCx)2 carbon-doped MgB2, 0<=x<=0.3",Cmcm-AtH2 50 GPa,0.57,834,,,DFPT-direct,1e2-1e3
-lam237,867769399187079437,"Mg(B1-xCx)2 carbon-doped MgB2, 0<=x<=0.3",Cmmm-AtH4 250 GPa,0.9,834,,,DFPT-direct,1e2-1e3
-lam238,867769399187079437,"Mg(B1-xCx)2 carbon-doped MgB2, 0<=x<=0.3",P6/mmm-AtH4 100 GPa,0.82,834,,,DFPT-direct,1e2-1e3
-lam239,867769399187079437,"Mg(B1-xCx)2 carbon-doped MgB2, 0<=x<=0.3",P6/mmm-AtH4 200 GPa with SOC,0.86,834,,,DFPT-direct,1e2-1e3
-lam240,867769399187079437,"Mg(B1-xCx)2 carbon-doped MgB2, 0<=x<=0.3",P6/mmm-AtH4 200 GPa without SOC,0.76,834,,,DFPT-direct,1e2-1e3
-lam241,867769399187079437,"Mg(B1-xCx)2 carbon-doped MgB2, 0<=x<=0.3",Pnma-AtH2 200 GPa,0.56,834,,,DFPT-direct,1e2-1e3
-lam242,867769693774021285,Field-effect hole-doped hydrogenated diamond (111) surface (FET geomet,"H-diamond(111) FET n=6e14 cm-2, full-BZ Wannier",0.81,971,,,DFPT-direct,1e2-1e3
-lam243,867769693774021285,Field-effect hole-doped hydrogenated diamond (111) surface (FET geomet,"H-diamond(111) FET n=6e14 cm-2, q=Gamma approx",1.09,971,,,DFPT-direct,1e2-1e3
-lam274,943000233191669804,"Elemental scandium (high pressure, Sc-III/IV/V)","Sc-III, 100 GPa, mu*=0.10",0.79,261,,,DFPT-direct,1e2-1e3
-lam275,943000233191669804,"Elemental scandium (high pressure, Sc-III/IV/V)","Sc-IV, 170 GPa, mu*=0.10",1.11,261,,,DFPT-direct,1e2-1e3
-lam276,943000233191669804,"Elemental scandium (high pressure, Sc-III/IV/V)","Sc-V, 260 GPa, mu*=0.10",1.12,261,,,DFPT-direct,1e2-1e3
+case_id,paper_id,material,condition,lambda_ref,omega_log_K,theta_D_K,omega2_K,mu_star,expected_method,cost_tier_coreh
+lam237,1056817631564136450,"Transition-metal trioxides XO3 (X=Ru,Re,Os,Ir,Pt,Au) R-3c under pressu","OsO3, R-3c, 30 GPa, no SOC",1.501,291,,,0.1,DFPT-direct,1e2-1e3
+lam238,1056817631564136450,"Transition-metal trioxides XO3 (X=Ru,Re,Os,Ir,Pt,Au) R-3c under pressu","PtO3, R-3c, 30 GPa, no SOC",0.498,394,,,0.1,DFPT-direct,1e2-1e3
+lam239,1056817631564136450,"Transition-metal trioxides XO3 (X=Ru,Re,Os,Ir,Pt,Au) R-3c under pressu","ReO3, R-3c, 30 GPa, no SOC",0.95,347,,,0.1,DFPT-direct,1e2-1e3
+lam240,1056817631564136450,"Transition-metal trioxides XO3 (X=Ru,Re,Os,Ir,Pt,Au) R-3c under pressu","ReO3, R-3c, 30 GPa, with SOC",0.945,342,,,0.13,DFPT-direct,1e2-1e3
+lam241,1056817631564136450,"Transition-metal trioxides XO3 (X=Ru,Re,Os,Ir,Pt,Au) R-3c under pressu","RuO3, R-3c, 30 GPa, no SOC",2.542,168,,,0.1,DFPT-direct,1e2-1e3
+lam242,811048440174739456,bcc tantalum (Ta),(single),0.877,150.8,,,0.13,DFPT-direct,1e2-1e3
+lam243,811709692383330305,fcc lithium under high pressure,"fcc Li, 14 GPa",0.49,293,,376,0.13,DFPT-direct,1e2-1e3
+lam244,811709692383330305,fcc lithium under high pressure,"fcc Li, 20 GPa",0.66,288,,373,0.13,DFPT-direct,1e2-1e3
+lam245,811709692383330305,fcc lithium under high pressure,"fcc Li, 30 GPa",0.83,274,,360,0.13,DFPT-direct,1e2-1e3
+lam246,811709692383330305,fcc lithium under high pressure,"fcc Li, 36 GPa",1.1,255,,341,0.13,DFPT-direct,1e2-1e3
+lam247,811709692383330305,fcc lithium under high pressure,"fcc Li, 8 GPa",0.39,308,,378,0.13,DFPT-direct,1e2-1e3
+lam248,811795868670754816,elemental lanthanum (fcc and dhcp phases),dhcp La,0.97,82,,91,0.12,DFPT-direct,1e2-1e3
+lam249,811795868670754816,elemental lanthanum (fcc and dhcp phases),fcc La,1.06,85,,93,0.12,DFPT-direct,1e2-1e3
+lam250,812322173833183232,hcp Li at 247 kbar (high pressure),(single),0.806,,265,187.4,0.1,DFPT-direct,1e2-1e3
+lam251,812383700997111808,non-magnetic hcp iron (Fe) at 100 GPa (also bcc Fe lattice dynamics),"nm-hcp Fe, 100 GPa",0.33,450,,,0.1,DFPT-direct,1e2-1e3
+lam252,812446916401954817,"Amorphous superconductors (a-PbCu, a-Mo, a-Nb, etc.) - Eliashberg func",rock-salt SnAs,0.64,155,,,0.13,DFPT-direct,1e2-1e3
+lam253,812507119646408706,"A-15 X3Y compounds (X=V,Cr,Mo; Y=Os,Ir,Pt) - focus Mo3Os, Mo3Pt, Mo3Ir",Mo3Os (A-15),1.51,130.9,,,0.15,DFPT-direct,1e2-1e3
+lam254,812549822006427649,Lanthanum at megabar pressures (R-3m and Fmmm distorted fcc),La Fmmm distorted fcc 130 GPa,0.69,288,,,0.1,DFPT-direct,1e2-1e3
+lam255,812549822006427649,Lanthanum at megabar pressures (R-3m and Fmmm distorted fcc),La R-3m slightly distorted fcc ~50 GPa,1.07,113,,,0.1,DFPT-direct,1e2-1e3
+lam256,812654281252405248,"doped C60 fullerides A3C60 (alkali-doped), plus hole-doped case","A3C60, a=14.1 Angstrom",0.49,1251.7,,,0.15,DFPT-direct,1e2-1e3
+lam257,812654281252405248,"doped C60 fullerides A3C60 (alkali-doped), plus hole-doped case","A3C60, a=14.4 Angstrom",0.77,1251.7,,,0.15,DFPT-direct,1e2-1e3
+lam258,812654281252405248,"doped C60 fullerides A3C60 (alkali-doped), plus hole-doped case","A3C60, a=14.6 Angstrom",0.83,1251.7,,,0.15,DFPT-direct,1e2-1e3
+lam259,812654281252405248,"doped C60 fullerides A3C60 (alkali-doped), plus hole-doped case","A3C60, two-hole doped hu band, a=14.1 Angstrom",0.85,1251.7,,,0.15,DFPT-direct,1e2-1e3
+lam260,812737475888807939,"Silicon high-pressure metallic phases (simple-hexagonal sh, beta-Sn)",Si simple-hexagonal (sh) 12.7 GPa,0.4,,623,,0.06,DFPT-direct,1e2-1e3
+lam261,813203421422157825,Simple cubic (sc) phosphorus under pressure,"sc P, 20 GPa (P_calc)",0.795,418,,449,0.18,DFPT-direct,1e2-1e3
+lam262,813203421422157825,Simple cubic (sc) phosphorus under pressure,"sc P, 70 GPa (P_calc)",0.676,469,,561,0.18,DFPT-direct,1e2-1e3
+lam263,813217096233123840,Compressed elemental sulfur (S): beta-Po and simple-cubic phases at 16,beta-Po 160 GPa,0.76,439.1,,540.9,0.11,DFPT-direct,1e2-1e3
+lam264,813217096233123840,Compressed elemental sulfur (S): beta-Po and simple-cubic phases at 16,sc 280 GPa,0.53,560.1,,836.5,0.11,DFPT-direct,1e2-1e3
+lam265,867751696124608720,Nb(1-x)B2 (NbB2 and vacancy series),NbB1.93 (B-deficient),0.212,494,,,0.09,DFPT-direct,1e2-1e3
+lam266,867751696124608720,Nb(1-x)B2 (NbB2 and vacancy series),NbB2 (stoichiometric),0.294,494,,,0.09,DFPT-direct,1e2-1e3
+lam267,867761707680793089,fcc Yttrium (Y) under pressure/compression,"fcc Y, v=0.90 (P~6 GPa)",0.75,145.05,,170.6,0.15,DFPT-direct,1e2-1e3
+lam268,867769399187079437,"Mg(B1-xCx)2 carbon-doped MgB2, 0<=x<=0.3",Cmcm-AtH2 50 GPa,0.57,299.2,,,0.1,DFPT-direct,1e2-1e3
+lam269,867769399187079437,"Mg(B1-xCx)2 carbon-doped MgB2, 0<=x<=0.3",Cmmm-AtH4 250 GPa,0.9,812.5,,,0.1,DFPT-direct,1e2-1e3
+lam270,867769399187079437,"Mg(B1-xCx)2 carbon-doped MgB2, 0<=x<=0.3",P6/mmm-AtH4 100 GPa,0.82,680.9,,,0.1,DFPT-direct,1e2-1e3
+lam271,867769399187079437,"Mg(B1-xCx)2 carbon-doped MgB2, 0<=x<=0.3",P6/mmm-AtH4 200 GPa with SOC,0.86,614.4,,,0.1,DFPT-direct,1e2-1e3
+lam272,867769399187079437,"Mg(B1-xCx)2 carbon-doped MgB2, 0<=x<=0.3",P6/mmm-AtH4 200 GPa without SOC,0.76,651.6,,,0.1,DFPT-direct,1e2-1e3
+lam273,867769399187079437,"Mg(B1-xCx)2 carbon-doped MgB2, 0<=x<=0.3",Pnma-AtH2 200 GPa,0.56,545.3,,,0.1,DFPT-direct,1e2-1e3
+lam274,943000233191669804,"Elemental scandium (high pressure, Sc-III/IV/V)","Sc-III, 100 GPa, mu*=0.10",0.79,261,,,0.1,DFPT-direct,1e2-1e3
+lam275,943000233191669804,"Elemental scandium (high pressure, Sc-III/IV/V)","Sc-IV, 170 GPa, mu*=0.10",1.11,264,,,0.1,DFPT-direct,1e2-1e3
+lam276,943000233191669804,"Elemental scandium (high pressure, Sc-III/IV/V)","Sc-V, 260 GPa, mu*=0.10",1.12,367,,,0.1,DFPT-direct,1e2-1e3
