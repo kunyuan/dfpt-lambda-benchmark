@@ -1,0 +1,39 @@
+case_id,paper_id,material,condition,lambda_ref,omega_log_K,theta_D_K,mu_star,expected_method,cost_tier_coreh
+lam073,812489714396299266,"Mg2Ir3Si (Ir Kagome network, P6_3/mmc)",Mg2Ir3Si with SOC,0.93,120.15,,,DFPT+SOC,1e3-1e4
+lam074,812489714396299266,"Mg2Ir3Si (Ir Kagome network, P6_3/mmc)",Mg2Ir3Si without SOC,1.05,120.15,,,DFPT+SOC,1e3-1e4
+lam082,812552562543689728,"ScRuSi and ZrRhSi (orthorhombic TiNiSi-type, Pnma)",ScRuSi,0.54,213.35,,,DFPT+SOC,1e3-1e4
+lam083,812552562543689728,"ScRuSi and ZrRhSi (orthorhombic TiNiSi-type, Pnma)",ZrRhSi,0.84,213.35,,,DFPT+SOC,1e3-1e4
+lam087,812601801109929984,"Filled skutterudites MPt4Ge12 (M = Ba, Sr, Th)",BaPt4Ge12 with SOI,0.74,119.45,,,DFPT+SOC,1e3-1e4
+lam088,812601801109929984,"Filled skutterudites MPt4Ge12 (M = Ba, Sr, Th)",SrPt4Ge12 with SOI,0.79,119.45,,,DFPT+SOC,1e3-1e4
+lam089,812601801109929984,"Filled skutterudites MPt4Ge12 (M = Ba, Sr, Th)",ThPt4Ge12 with SOI,0.69,119.45,,,DFPT+SOC,1e3-1e4
+lam099,812798558582341635,"filled skutterudites YRu4P12, YOs4P12, LaOs4P12, LaOs4As12",LaOs4As12,0.59,216.97,,,DFPT+SOC,1e3-1e4
+lam100,812798558582341635,"filled skutterudites YRu4P12, YOs4P12, LaOs4P12, LaOs4As12",LaOs4P12,0.49,216.97,,,DFPT+SOC,1e3-1e4
+lam101,812798558582341635,"filled skutterudites YRu4P12, YOs4P12, LaOs4P12, LaOs4As12",YOs4P12,0.55,216.97,,,DFPT+SOC,1e3-1e4
+lam102,812798558582341635,"filled skutterudites YRu4P12, YOs4P12, LaOs4P12, LaOs4As12",YRu4P12,0.78,216.97,,,DFPT+SOC,1e3-1e4
+lam107,813094079012274176,"CaIr2 and CaRh2 (cubic C15 Laves phase), SOC study","CaIr2, with SOC",1.05,100.97,,,DFPT+SOC,1e3-1e4
+lam108,813094079012274176,"CaIr2 and CaRh2 (cubic C15 Laves phase), SOC study","CaIr2, without SOC",1.43,100.97,,,DFPT+SOC,1e3-1e4
+lam109,813094079012274176,"CaIr2 and CaRh2 (cubic C15 Laves phase), SOC study","CaRh2, with SOC",0.96,100.97,,,DFPT+SOC,1e3-1e4
+lam110,813094079012274176,"CaIr2 and CaRh2 (cubic C15 Laves phase), SOC study","CaRh2, without SOC",1.17,100.97,,,DFPT+SOC,1e3-1e4
+lam111,813152122194362369,"YIr2Si2 and LaIr2Si2 (high-temperature polymorphs, 122-type)",LaIr2Si2 (HTP P4/nmm),0.56,145.5,,,DFPT+SOC,1e3-1e4
+lam112,813152122194362369,"YIr2Si2 and LaIr2Si2 (high-temperature polymorphs, 122-type)",YIr2Si2 (HTP P4/nmm),0.61,145.5,,,DFPT+SOC,1e3-1e4
+lam125,813228976360128513,boronitride superconductors LaNiBN and LaPtBN,LaNiBN,0.52,376,,,DFPT+SOC,1e3-1e4
+lam126,813228976360128513,boronitride superconductors LaNiBN and LaPtBN,LaPtBN,0.56,376,,,DFPT+SOC,1e3-1e4
+lam127,813231154529304578,"SrPt3P (antiperovskite; series APt3P A=Sr,Ca,La)","SrPt3P, mu*=0.10",1.06,81.35,,,DFPT+SOC,1e3-1e4
+lam136,814537145015336960,SrAuSi3 (I4mm) and SrAu2Si2 (I4/mmm),(single),0.47,235.81,,,DFPT+SOC,1e3-1e4
+lam146,814602831179808769,"RM2B2C borocarbides: LaPt2B2C, YPd2B2C, YPt2B2C, LuNi2B2C (I4/mmm)",LaPt2B2C,0.78,182,220,,DFPT+SOC,1e3-1e4
+lam147,814602831179808769,"RM2B2C borocarbides: LaPt2B2C, YPd2B2C, YPt2B2C, LuNi2B2C (I4/mmm)",LuNi2B2C,0.83,182,220,,DFPT+SOC,1e3-1e4
+lam148,814602831179808769,"RM2B2C borocarbides: LaPt2B2C, YPd2B2C, YPt2B2C, LuNi2B2C (I4/mmm)",YPd2B2C,1.48,182,220,,DFPT+SOC,1e3-1e4
+lam149,814602831179808769,"RM2B2C borocarbides: LaPt2B2C, YPd2B2C, YPt2B2C, LuNi2B2C (I4/mmm)",YPt2B2C,0.96,182,220,,DFPT+SOC,1e3-1e4
+lam150,814617345912733702,Ca3Ir4Ge4 (noncentrosymmetric superconductor),(single),0.51,158.3,,,DFPT+SOC,1e3-1e4
+lam157,814721288294629376,"SrPtAs (hexagonal pnictide, P6/mmm)",(single),0.78,105.5,,,DFPT+SOC,1e3-1e4
+lam166,817398434037235713,"Bi4I4 high-pressure phases (epsilon-P31c, zeta-P4/mmm)","epsilon-Bi4I4 (P31c), 15 GPa",0.67,86.6,,,DFPT+SOC,1e3-1e4
+lam167,817398434037235713,"Bi4I4 high-pressure phases (epsilon-P31c, zeta-P4/mmm)","zeta-Bi4I4 (P4/mmm), 18 GPa",0.72,86.6,,,DFPT+SOC,1e3-1e4
+lam169,867747199868470067,"OsN2 (marcasite-like Pnnm), N-N covalent-bond-mediated SC",OsN2 0.5 holes/cell doped (Os0.75Re0.25N2),0.49,280,,,DFPT+SOC,1e3-1e4
+lam171,867747957653373759,LaO0.5F0.5BiS2 (layered BiS2 superconductor),(single),0.85,,260,,DFPT+SOC,1e3-1e4
+lam195,867756414980849698,"Zr2Ir (body-centered tetragonal, I4/mcm)",Zr2Ir with SOC,0.93,122,214,,DFPT+SOC,1e3-1e4
+lam196,867756414980849698,"Zr2Ir (body-centered tetragonal, I4/mcm)",Zr2Ir without SOC,0.96,122,214,,DFPT+SOC,1e3-1e4
+lam214,867764510792876439,Bi3Ni (bulk),"Bi3Ni, SOC DOS (lambda from N_expt/N_calc)",1.23,,127.77,,DFPT+SOC,1e3-1e4
+lam215,867764510792876439,Bi3Ni (bulk),"Bi3Ni, non-SOC DOS (lambda from N_expt/N_calc)",0.842,,127.77,,DFPT+SOC,1e3-1e4
+lam268,884073293311640172,Nb4CoSi and Ta4CoSi (ternary silicides),Nb4CoSi,0.72,209,,,DFPT+SOC,1e3-1e4
+lam269,884073293311640172,Nb4CoSi and Ta4CoSi (ternary silicides),Ta4CoSi,0.63,209,,,DFPT+SOC,1e3-1e4
+lam270,923643931596423577,"TlTaSe2 (nodal-line semimetal, P-6m2), anisotropic SC",(single),0.97,141.13,,,DFPT+SOC,1e3-1e4

@@ -1,0 +1,54 @@
+case_id,paper_id,material,condition,lambda_ref,omega_log_K,theta_D_K,mu_star,expected_method,cost_tier_coreh
+lam006,1068413857002684417,"X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",Ba2RhH6 at 20 GPa,0.62,927.52,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam007,1068413857002684417,"X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",Ca2CoH6 at 20 GPa,0.39,927.52,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam008,1068413857002684417,"X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",Ca2IrH6 at 20 GPa,0.68,927.52,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam009,1068413857002684417,"X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",Ca2RhH6 at 20 GPa,0.51,927.52,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam010,1068413857002684417,"X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",Mg2CoH6 at 20 GPa,1.34,927.52,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam011,1068413857002684417,"X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",Mg2IrH6 at 20 GPa,3.04,927.52,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam012,1068413857002684417,"X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",Mg2RhH6 at 20 GPa,2.05,927.52,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam013,1068413857002684417,"X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",Sr2CoH6 at 20 GPa,0.27,927.52,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam014,1068413857002684417,"X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",Sr2IrH6 at 20 GPa,0.43,927.52,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam015,1096665832190115840,"LaPtH6 (ternary hydride, R-3m, triatomic H3 units) [duplicate paper_id","La2Pt2H13, 20 GPa",0.615,511.7,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam016,1096665832190115840,"LaPtH6 (ternary hydride, R-3m, triatomic H3 units) [duplicate paper_id","LaPt2H7, 20 GPa",0.7879,511.7,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam017,1096665832190115840,"LaPtH6 (ternary hydride, R-3m, triatomic H3 units) [duplicate paper_id","LaPt3H9, 20 GPa",0.8158,511.7,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam018,1096665832190115840,"LaPtH6 (ternary hydride, R-3m, triatomic H3 units) [duplicate paper_id","LaPtH5, 20 GPa",0.4942,511.7,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam019,1096665832190115840,"LaPtH6 (ternary hydride, R-3m, triatomic H3 units) [duplicate paper_id","LaPtH6, 0 GPa",0.7893,511.7,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam020,1096665832190115840,"LaPtH6 (ternary hydride, R-3m, triatomic H3 units) [duplicate paper_id","LaPtH6, 20 GPa",0.7014,511.7,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam032,811682811466481665,"Monatomic metallic hydrogen, I4_1/amd (Cs-IV phase) under high pressur","I4_1/amd H, 480 GPa, mu*=0.10",2.17,1870.04,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam033,811682811466481665,"Monatomic metallic hydrogen, I4_1/amd (Cs-IV phase) under high pressur","I4_1/amd H, 539 GPa, mu*=0.10",2.01,1870.04,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam034,811682811466481665,"Monatomic metallic hydrogen, I4_1/amd (Cs-IV phase) under high pressur","I4_1/amd H, 608 GPa, mu*=0.10",1.89,1870.04,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam035,811682811466481665,"Monatomic metallic hydrogen, I4_1/amd (Cs-IV phase) under high pressur","I4_1/amd H, 802 GPa, mu*=0.10",1.68,1870.04,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam052,812042380692684801,"halogen(F)-doped carbon clathrate FC34 (fluorine in C28 cage, fcc)",FC34 (fluorine in C28 cage),0.85,1472,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam078,812509483795218435,"ternary S-P-H alloy hydrides (S0.75P0.25H3, S0.5P0.5H3) under high pre","S0.5P0.5H3, Imma, 200 GPa",0.94,291,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam079,812509483795218435,"ternary S-P-H alloy hydrides (S0.75P0.25H3, S0.5P0.5H3) under high pre","S0.75P0.25H3, Immm, 200 GPa",1.31,291,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam084,812581407606964224,"Mg0.5Ca0.5H6 (Im-3m sodalite clathrate hexahydride, 200 GPa)",(single),2.53,1400,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam105,813087272097284096,FeH5 (tetragonal I4/mmm) at 130-200 GPa,"FeH5, I4/mmm, 130 GPa",1.13,614,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam106,813087272097284096,FeH5 (tetragonal I4/mmm) at 130-200 GPa,"FeH5, I4/mmm, 200 GPa",1.1,614,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam113,813179722505650176,"GeH3 (A15, P4_2/mmc, Cccm) at ~180 GPa","A15 GeH3, r_s=1.52 (~180 GPa)",1.82,989,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam114,813179722505650176,"GeH3 (A15, P4_2/mmc, Cccm) at ~180 GPa","Cccm GeH3, r_s=1.52 (~180 GPa)",1.6,989,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam115,813179722505650176,"GeH3 (A15, P4_2/mmc, Cccm) at ~180 GPa","P4_2/mmc GeH3, r_s=1.52 (~180 GPa)",1.56,989,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam116,813198240718520323,AlH3 cubic Pm-3n phase (73-165 GPa),AlH3 Pm-3n 73 GPa,0.591,388.8,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam137,814544077151272962,"H5S2 (sulfur hydride, P1 phase) under high pressure",SrAu2Si2 (I4/mmm),0.42,898,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam138,814544077151272962,"H5S2 (sulfur hydride, P1 phase) under high pressure",SrAuSi3 (I4mm),0.47,898,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam140,814559975392149507,"Tellurium hydrides (H4Te, H5Te2, HTe) at high pressure","H4Te, 200 GPa",1.46,929.1,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam141,814565865667166209,"SnH4, C2/m phase (high pressure hydride)","SnH4 C2/m, 500 GPa",1.02,1027,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam155,814691620430544896,BeH2 (Cmcm and P4/nmm metallic phases under pressure),"BeH2 Cmcm 250 GPa, mu*=0.10",0.63,2170,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam156,814691620430544896,BeH2 (Cmcm and P4/nmm metallic phases under pressure),"BeH2 P4/nmm 400 GPa, mu*=0.10",0.65,2170,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam172,867750354362564780,"CS2H10 (CH4-intercalated H3S, host-guest hydride) under pressure","Cmc2_1, 150 GPa, mu*=0.10 (Allen-Dynes)",2.01,799,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam173,867750354362564780,"CS2H10 (CH4-intercalated H3S, host-guest hydride) under pressure","P-3m1, 100 GPa, mu*=0.10 (Allen-Dynes)",0.63,799,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam174,867750354362564780,"CS2H10 (CH4-intercalated H3S, host-guest hydride) under pressure","P3m1, 100 GPa, mu*=0.10 (Allen-Dynes)",1.21,799,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam175,867750354362564780,"CS2H10 (CH4-intercalated H3S, host-guest hydride) under pressure","P3m1, 50 GPa, mu*=0.10 (Allen-Dynes)",1.51,799,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam176,867750354362564780,"CS2H10 (CH4-intercalated H3S, host-guest hydride) under pressure","Pm, 200 GPa, mu*=0.10 (Allen-Dynes)",0.69,799,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam199,867760184875811501,"(Ce,La)H9 (ordered P-6m2, Ce:La=1, 200 GPa)",(single),3,327,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam211,867763770720518898,"C2/m KYH8 (K-Y-H ternary hydride, high pressure)","C2/m KYH8, 200 GPa",1.478,1342.505,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam212,867763770720518898,"C2/m KYH8 (K-Y-H ternary hydride, high pressure)","C2/m KYH8, 250 GPa",1.214,1342.505,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam213,867763770720518898,"C2/m KYH8 (K-Y-H ternary hydride, high pressure)","C2/m KYH8, 300 GPa",2.09,1342.505,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam216,867765680290660591,"Tin hydrides SnH8, SnH12, SnH14 (also SnH4), high pressure","C2/m-SnH12, 250 GPa",1.25,919,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam217,867765680290660591,"Tin hydrides SnH8, SnH12, SnH14 (also SnH4), high pressure","C2/m-SnH14, 300 GPa",1.187,919,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam218,867765680290660591,"Tin hydrides SnH8, SnH12, SnH14 (also SnH4), high pressure","I-4m2-SnH8, 220 GPa",1.188,919,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam219,867765680290660591,"Tin hydrides SnH8, SnH12, SnH14 (also SnH4), high pressure","I4/mmm-SnH4, 220 GPa",1.18,919,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam228,867768106380952491,"Ternary lanthanum borohydrides (LaBH7, LaBH8)","Fm-3m LaBH8, 100 GPa",1.11,837,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam229,867768106380952491,"Ternary lanthanum borohydrides (LaBH7, LaBH8)","Fm-3m LaBH8, 200 GPa",0.72,837,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam230,867768106380952491,"Ternary lanthanum borohydrides (LaBH7, LaBH8)","Fm-3m LaBH8, 50 GPa (Allen-Dynes)",2.29,837,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam231,867768106380952491,"Ternary lanthanum borohydrides (LaBH7, LaBH8)","Fm-3m LaBH8, 55 GPa (Allen-Dynes)",1.97,837,,,DFPT+anharmonic/SSCHA,1e4-1e5
+lam232,867768106380952491,"Ternary lanthanum borohydrides (LaBH7, LaBH8)","P-3m1 LaBH7, 110 GPa",1.46,837,,,DFPT+anharmonic/SSCHA,1e4-1e5
