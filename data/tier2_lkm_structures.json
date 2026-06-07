@@ -1,0 +1,2903 @@
+[
+ {
+  "paper_id": "1068413857002684417",
+  "conditions": [
+   {
+    "case_id": "lam077",
+    "formula": "Ba2RhH6",
+    "space_group": "Fm-3m (225)",
+    "prototype": "K2PtCl6 (cubic antifluorite-type, fcc, MH6 octahedra)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [
+     {
+      "element": "Rh",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "Ba",
+      "x": 0.25,
+      "y": 0.25,
+      "z": 0.25
+     },
+     {
+      "element": "H",
+      "x": 0.24,
+      "y": 0.0,
+      "z": 0.0
+     }
+    ],
+    "pressure_GPa": 20.0,
+    "completeness": "proto-only",
+    "notes": "FCC X2MH6 family; H-H cage separation 2.418 A reported; no per-compound lattice constants in LKM."
+   },
+   {
+    "case_id": "lam079",
+    "formula": "Ca2IrH6",
+    "space_group": "Fm-3m (225)",
+    "prototype": "K2PtCl6 (cubic antifluorite-type, fcc, MH6 octahedra)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [
+     {
+      "element": "Ir",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "Ca",
+      "x": 0.25,
+      "y": 0.25,
+      "z": 0.25
+     },
+     {
+      "element": "H",
+      "x": 0.24,
+      "y": 0.0,
+      "z": 0.0
+     }
+    ],
+    "pressure_GPa": 20.0,
+    "completeness": "proto-only",
+    "notes": "FCC X2MH6 family; H-H cage separation 2.418 A reported; no per-compound lattice constants in LKM."
+   },
+   {
+    "case_id": "lam080",
+    "formula": "Ca2RhH6",
+    "space_group": "Fm-3m (225)",
+    "prototype": "K2PtCl6 (cubic antifluorite-type, fcc, MH6 octahedra)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [
+     {
+      "element": "Rh",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "Ca",
+      "x": 0.25,
+      "y": 0.25,
+      "z": 0.25
+     },
+     {
+      "element": "H",
+      "x": 0.24,
+      "y": 0.0,
+      "z": 0.0
+     }
+    ],
+    "pressure_GPa": 20.0,
+    "completeness": "proto-only",
+    "notes": "FCC X2MH6 family; H-H cage separation 2.418 A reported; no per-compound lattice constants in LKM."
+   },
+   {
+    "case_id": "lam082",
+    "formula": "Mg2IrH6",
+    "space_group": "Fm-3m (225)",
+    "prototype": "K2PtCl6 (cubic antifluorite-type, fcc, MH6 octahedra)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [
+     {
+      "element": "Ir",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "Mg",
+      "x": 0.25,
+      "y": 0.25,
+      "z": 0.25
+     },
+     {
+      "element": "H",
+      "x": 0.24,
+      "y": 0.0,
+      "z": 0.0
+     }
+    ],
+    "pressure_GPa": 20.0,
+    "completeness": "proto-only",
+    "notes": "FCC X2MH6 family; H-H cage separation 2.418 A reported; no per-compound lattice constants in LKM."
+   },
+   {
+    "case_id": "lam083",
+    "formula": "Mg2RhH6",
+    "space_group": "Fm-3m (225)",
+    "prototype": "K2PtCl6 (cubic antifluorite-type, fcc, MH6 octahedra)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [
+     {
+      "element": "Rh",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "Mg",
+      "x": 0.25,
+      "y": 0.25,
+      "z": 0.25
+     },
+     {
+      "element": "H",
+      "x": 0.24,
+      "y": 0.0,
+      "z": 0.0
+     }
+    ],
+    "pressure_GPa": 20.0,
+    "completeness": "proto-only",
+    "notes": "FCC X2MH6 family; H-H cage separation 2.418 A reported; no per-compound lattice constants in LKM."
+   },
+   {
+    "case_id": "lam085",
+    "formula": "Sr2IrH6",
+    "space_group": "Fm-3m (225)",
+    "prototype": "K2PtCl6 (cubic antifluorite-type, fcc, MH6 octahedra)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [
+     {
+      "element": "Ir",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "Sr",
+      "x": 0.25,
+      "y": 0.25,
+      "z": 0.25
+     },
+     {
+      "element": "H",
+      "x": 0.24,
+      "y": 0.0,
+      "z": 0.0
+     }
+    ],
+    "pressure_GPa": 20.0,
+    "completeness": "proto-only",
+    "notes": "FCC X2MH6 family; H-H cage separation 2.418 A reported; no per-compound lattice constants in LKM."
+   }
+  ]
+ },
+ {
+  "paper_id": "1096665832190115840",
+  "conditions": [
+   {
+    "case_id": "lam086",
+    "formula": "La2Pt2H13",
+    "space_group": null,
+    "prototype": "La-Pt-H ternary (metallic, dynamically stable; structure not detailed in LKM)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": 20.0,
+    "completeness": "none",
+    "notes": "Convex-hull/superconducting member at 20 GPa (dH=0.74 mRy/atom); no space group/lattice/coords reported in LKM."
+   },
+   {
+    "case_id": "lam087",
+    "formula": "LaPt2H7",
+    "space_group": null,
+    "prototype": "La-Pt-H ternary (metallic, dynamically stable; structure not detailed in LKM)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": 20.0,
+    "completeness": "none",
+    "notes": "Convex-hull/superconducting member at 20 GPa (dH=2.11 mRy/atom); no space group/lattice/coords reported in LKM."
+   },
+   {
+    "case_id": "lam088",
+    "formula": "LaPt3H9",
+    "space_group": null,
+    "prototype": "La-Pt-H ternary (metallic, dynamically stable; structure not detailed in LKM)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": 20.0,
+    "completeness": "none",
+    "notes": "Convex-hull/superconducting member at 20 GPa (dH=1.95 mRy/atom); no space group/lattice/coords reported in LKM."
+   },
+   {
+    "case_id": "lam089",
+    "formula": "LaPtH5",
+    "space_group": null,
+    "prototype": "La-Pt-H ternary (metallic, dynamically stable; structure not detailed in LKM)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": 20.0,
+    "completeness": "none",
+    "notes": "Convex-hull/superconducting member at 20 GPa (dH=0.0 mRy/atom); no space group/lattice/coords reported in LKM."
+   },
+   {
+    "case_id": "lam090",
+    "formula": "LaPtH6",
+    "space_group": "R-3m (166)",
+    "prototype": "trigonal LaPtH6; PtH6 octahedra + La layers; equilateral H3 units (kagome-like H layer)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": 0.0,
+    "completeness": "proto-only",
+    "notes": "R-3m LaPtH6 at 0 GPa; R_H=2.23 A, R_H3=2.43 A; no a,b,c or fractional coords in LKM."
+   },
+   {
+    "case_id": "lam091",
+    "formula": "LaPtH6",
+    "space_group": "R-3m (166)",
+    "prototype": "trigonal LaPtH6; PtH6 octahedra + La layers; equilateral H3 units (kagome-like H layer)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": 20.0,
+    "completeness": "proto-only",
+    "notes": "R-3m LaPtH6 at 20 GPa; R_H(H-H in H3)=1.87 A, R_H3=2.55 A; no a,b,c or fractional coords in LKM."
+   }
+  ]
+ },
+ {
+  "paper_id": "1215273021510516746",
+  "conditions": [
+   {
+    "case_id": "lam001",
+    "formula": "KC32 (K-doped 4x4 graphene, 6.25 at.%)",
+    "space_group": "P-6m2 (reported P6/m2, reduced from P6/mmm by buckling)",
+    "prototype": "doped 4x4 graphene superlattice (interstitial alkali); hexagonal",
+    "lattice": {
+     "a": 9.84,
+     "b": 8.52,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 120.0
+    },
+    "sites": [
+     {
+      "element": "K",
+      "x": null,
+      "y": null,
+      "z": "1.85 A above graphene midplane (Cartesian, not fractional)"
+     }
+    ],
+    "pressure_GPa": 0.0,
+    "completeness": "lattice+proto",
+    "notes": "In-plane a=9.84, b=8.52 A; 2D supercell (no c). Dopant vertical height z=1.85+-0.05 A given as Cartesian, not fractional; C positions not enumerated."
+   }
+  ]
+ },
+ {
+  "paper_id": "811176152671453187",
+  "conditions": [
+   {
+    "case_id": "lam002",
+    "formula": "Li0.2P0.8",
+    "space_group": null,
+    "prototype": "intercalated blue-phosphorus bilayer (A-X-B registry); 2D hexagonal",
+    "lattice": {
+     "a": 3.356,
+     "b": 3.356,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 120.0
+    },
+    "sites": [],
+    "pressure_GPa": 0.0,
+    "completeness": "lattice+proto",
+    "notes": "2D bilayer (no c). In-plane a=3.356 A; interlayer P-P distance d=2.252 A; Li-to-nearest-P distance h=2.036 A. A-X-B is lowest-energy registry. Coordinates expressible from these distances but not given as fractional."
+   },
+   {
+    "case_id": "lam003",
+    "formula": "Mg0.2P0.8",
+    "space_group": null,
+    "prototype": "intercalated blue-phosphorus bilayer (A-X-B registry); 2D hexagonal",
+    "lattice": {
+     "a": 3.327,
+     "b": 3.327,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 120.0
+    },
+    "sites": [],
+    "pressure_GPa": 0.0,
+    "completeness": "lattice+proto",
+    "notes": "2D bilayer (no c). In-plane a=3.327 A; interlayer P-P distance d=2.281 A; Mg-to-nearest-P distance h=2.067 A. A-X-B is lowest-energy registry. Coordinates expressible from these distances but not given as fractional."
+   },
+   {
+    "case_id": "lam004",
+    "formula": "Na0.2P0.8",
+    "space_group": null,
+    "prototype": "intercalated blue-phosphorus bilayer (A-X-B registry); 2D hexagonal",
+    "lattice": {
+     "a": 3.398,
+     "b": 3.398,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 120.0
+    },
+    "sites": [],
+    "pressure_GPa": 0.0,
+    "completeness": "lattice+proto",
+    "notes": "2D bilayer (no c). In-plane a=3.398 A; interlayer P-P distance d=2.261 A; Na-to-nearest-P distance h=2.314 A. A-X-B is lowest-energy registry. Coordinates expressible from these distances but not given as fractional."
+   }
+  ]
+ },
+ {
+  "paper_id": "811679993317818370",
+  "conditions": [
+   {
+    "case_id": "lam134",
+    "formula": "Ca",
+    "space_group": "Pnma (62)",
+    "prototype": "orthorhombic Ca-VI (Pnma); 8-coordinate, single Ca 4c site",
+    "lattice": {
+     "a": 4.2555,
+     "b": 3.2198,
+     "c": 2.7554,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [
+     {
+      "element": "Ca",
+      "x": 0.169183,
+      "y": 0.25,
+      "z": 0.116283
+     }
+    ],
+    "pressure_GPa": 172.0,
+    "completeness": "full",
+    "notes": "Geometry-optimized at 172 GPa; V=37.75 A^3; Ca coordination 8. Single Ca 4c site fully populates Pnma. mu*=0.10."
+   }
+  ]
+ },
+ {
+  "paper_id": "811682811466481665",
+  "conditions": [
+   {
+    "case_id": "lam092",
+    "formula": "H",
+    "space_group": "I4_1/amd (141)",
+    "prototype": "Cs-IV (beta-Sn / I4_1/amd-type) monatomic metallic hydrogen",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [
+     {
+      "element": "H",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     }
+    ],
+    "pressure_GPa": 480.0,
+    "completeness": "proto-only",
+    "notes": "I4_1/amd H, 480 GPa, mu*=0.10. No absolute a; c/a increases with P (=2.67 at 539 GPa). H on symmetry-fixed Wyckoff site; one free DOF (c/a) only."
+   },
+   {
+    "case_id": "lam093",
+    "formula": "H",
+    "space_group": "I4_1/amd (141)",
+    "prototype": "Cs-IV (beta-Sn / I4_1/amd-type) monatomic metallic hydrogen",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [
+     {
+      "element": "H",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     }
+    ],
+    "pressure_GPa": 539.0,
+    "completeness": "proto-only",
+    "notes": "I4_1/amd H, 539 GPa, mu*=0.10. c/a=2.67 reported here; absolute a not given. H position fixed by symmetry."
+   },
+   {
+    "case_id": "lam094",
+    "formula": "H",
+    "space_group": "I4_1/amd (141)",
+    "prototype": "Cs-IV (beta-Sn / I4_1/amd-type) monatomic metallic hydrogen",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [
+     {
+      "element": "H",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     }
+    ],
+    "pressure_GPa": 608.0,
+    "completeness": "proto-only",
+    "notes": "I4_1/amd H, 608 GPa, mu*=0.10. No absolute a; H position fixed by symmetry."
+   },
+   {
+    "case_id": "lam095",
+    "formula": "H",
+    "space_group": "I4_1/amd (141)",
+    "prototype": "Cs-IV (beta-Sn / I4_1/amd-type) monatomic metallic hydrogen",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [
+     {
+      "element": "H",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     }
+    ],
+    "pressure_GPa": 802.0,
+    "completeness": "proto-only",
+    "notes": "I4_1/amd H, 802 GPa, mu*=0.10. NN H-H=0.94 A reported; absolute a not given; H position fixed by symmetry."
+   }
+  ]
+ },
+ {
+  "paper_id": "811685820145598464",
+  "conditions": [
+   {
+    "case_id": "lam005",
+    "formula": "Pb (monolayer on Si(111))",
+    "space_group": null,
+    "prototype": "striped-incommensurate (SIC) Pb monolayer on Si(111); slab model (1 Pb layer + 3 Si bilayers, 22 A vacuum)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": null,
+    "completeness": "none",
+    "notes": "Incommensurate Pb/Si(111) interface; 4 Pb atoms per cell mentioned but no lattice constants or fractional coordinates reported in LKM. Bulk Pb is fcc; monolayer is SIC-incommensurate."
+   }
+  ]
+ },
+ {
+  "paper_id": "811893892143120386",
+  "conditions": [
+   {
+    "case_id": "lam138",
+    "formula": "CdCNi3",
+    "space_group": "Pm-3m (221)",
+    "prototype": "cubic antiperovskite (Heusler-related ACNi3 / inverse perovskite)",
+    "lattice": {
+     "a": 3.863,
+     "b": 3.863,
+     "c": 3.863,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [
+     {
+      "element": "Cd",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "C",
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+     },
+     {
+      "element": "Ni",
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.0
+     },
+     {
+      "element": "Ni",
+      "x": 0.5,
+      "y": 0.0,
+      "z": 0.5
+     },
+     {
+      "element": "Ni",
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.5
+     }
+    ],
+    "pressure_GPa": 0.0,
+    "completeness": "full",
+    "notes": "a=3.863 A; antiperovskite positions implied by Pm-3m symmetry (Cd 1a, C 1b, Ni 3c). mu*=0.12."
+   }
+  ]
+ },
+ {
+  "paper_id": "811903513046024196",
+  "conditions": [
+   {
+    "case_id": "lam139",
+    "formula": "NaBC (requested) / paper is Mo3Sb7",
+    "space_group": null,
+    "prototype": null,
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": null,
+    "completeness": "none",
+    "notes": "PAPER CONTENT MISMATCH: paper_id 811903513046024196 is 'Superconductivity of Mo3Sb7 from first principles' (cubic Mo3Sb7, a=9.6405 A), not hole-doped NaBC. No NaBC structure available from this LKM record."
+   }
+  ]
+ },
+ {
+  "paper_id": "811998282417963010",
+  "conditions": [
+   {
+    "case_id": "lam142",
+    "formula": "LiB",
+    "space_group": null,
+    "prototype": "MS1-LiB (layered MgB2-derived; B honeycomb + Li intercalant); rhombohedral",
+    "lattice": {
+     "a": 5.92,
+     "b": 5.92,
+     "c": 5.92,
+     "alpha": 29.8,
+     "beta": 29.8,
+     "gamma": 29.8
+    },
+    "sites": [],
+    "pressure_GPa": 0.0,
+    "completeness": "lattice+proto",
+    "notes": "Rhombohedral primitive cell a=b=c=5.92 A, alpha=beta=gamma=29.8 deg. Two B-derived sigma sheets + Li intercalant band. No fractional coords; space group number not given in LKM. mu*=0.10."
+   }
+  ]
+ },
+ {
+  "paper_id": "812042380692684801",
+  "conditions": [
+   {
+    "case_id": "lam096",
+    "formula": "FC34",
+    "space_group": "Fd-3m (227)",
+    "prototype": "type-II (clathrate-II) carbon clathrate, fcc; F endohedral in larger C28 cage",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [],
+    "pressure_GPa": 0.0,
+    "completeness": "proto-only",
+    "notes": "Face-centered-cubic carbon clathrate (Fd-3m; C sites 8a/32e/96g referenced). One F per cell at center of larger C28 cage. No numeric lattice constant or fractional coordinates in LKM. mu* 0.10-0.20."
+   }
+  ]
+ },
+ {
+  "paper_id": "812473244324986880",
+  "conditions": [
+   {
+    "case_id": "lam007",
+    "formula": "Mg2B4C2",
+    "space_group": "p-3m1 (layer group)",
+    "prototype": "2D MgB2-derived monolayer (Mg-B interior, B-C passivated surfaces); hexagonal",
+    "lattice": {
+     "a": 2.87,
+     "b": 2.87,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 120.0
+    },
+    "sites": [],
+    "pressure_GPa": 0.0,
+    "completeness": "lattice+proto",
+    "notes": "2D monolayer (no periodic c). In-plane a=b=2.87 A; total thickness top-to-bottom plane = 7.14 A; Mg-to-inner-B spacing ~1.8 A, Mg-to-outer-B/C ~1.7 A; 8 atoms/cell. Inversion-symmetric stacking. mu*=0.04-0.14."
+   }
+  ]
+ },
+ {
+  "paper_id": "812489714396299266",
+  "conditions": [
+   {
+    "case_id": "lam039",
+    "formula": "Mg2Ir3Si",
+    "space_group": "P6_3/mmc",
+    "prototype": "Mg2Cu3Si-type (hexagonal; Ir Kagome network)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": 0,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam040",
+    "formula": "Mg2Ir3Si",
+    "space_group": "P6_3/mmc",
+    "prototype": "Mg2Cu3Si-type (hexagonal; Ir Kagome network)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": 0,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "812509483795218435",
+  "conditions": [
+   {
+    "case_id": "lam097",
+    "formula": "S0.5P0.5H3",
+    "space_group": "Imma",
+    "prototype": "orthorhombic (H3S-derived parent lattice)",
+    "lattice": {
+     "a": 2.902,
+     "b": 4.153,
+     "c": 8.304,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [],
+    "pressure_GPa": 200,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam098",
+    "formula": "S0.75P0.25H3",
+    "space_group": "Immm",
+    "prototype": "orthorhombic (H3S-derived parent lattice)",
+    "lattice": {
+     "a": 8.557,
+     "b": 2.964,
+     "c": 4.232,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [],
+    "pressure_GPa": 200,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "812552562543689728",
+  "conditions": [
+   {
+    "case_id": "lam042",
+    "formula": "ZrRhSi",
+    "space_group": "Pnma",
+    "prototype": "TiNiSi-type (orthorhombic)",
+    "lattice": {
+     "a": 6.5903,
+     "b": 3.9466,
+     "c": 7.4938,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "Zr",
+      "x": 0.01898,
+      "y": 0.25,
+      "z": 0.68273,
+      "note": "T site, Wyckoff 4c (x,1/4,z)"
+     },
+     {
+      "element": "Rh",
+      "x": 0.14857,
+      "y": 0.25,
+      "z": 0.06495,
+      "note": "T' site, Wyckoff 4c (x,1/4,z)"
+     },
+     {
+      "element": "Si",
+      "x": 0.27719,
+      "y": 0.25,
+      "z": 0.38285,
+      "note": "X site, Wyckoff 4c (x,1/4,z)"
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "full"
+   }
+  ]
+ },
+ {
+  "paper_id": "812581407606964224",
+  "conditions": [
+   {
+    "case_id": "lam099",
+    "formula": "Mg0.5Ca0.5H6",
+    "space_group": "Im-3m",
+    "prototype": "sodalite-like clathrate hexahydride (H24 cage; bcc metal site)",
+    "lattice": {
+     "a": 3.3215,
+     "b": 3.3215,
+     "c": 3.3215,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [],
+    "pressure_GPa": 200,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "812601801109929984",
+  "conditions": [
+   {
+    "case_id": "lam043",
+    "formula": "BaPt4Ge12",
+    "space_group": "Im-3",
+    "prototype": "filled skutterudite (LaFe4P12-type; bcc)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": 0,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam044",
+    "formula": "SrPt4Ge12",
+    "space_group": "Im-3",
+    "prototype": "filled skutterudite (LaFe4P12-type; bcc)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": 0,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam045",
+    "formula": "ThPt4Ge12",
+    "space_group": "Im-3",
+    "prototype": "filled skutterudite (LaFe4P12-type; bcc)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": 0,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "812654281252405248",
+  "conditions": [
+   {
+    "case_id": "lam256",
+    "formula": "C60",
+    "space_group": "Fm-3m",
+    "prototype": "fcc A3C60 alkali-doped fulleride",
+    "lattice": {
+     "a": 14.1,
+     "b": 14.1,
+     "c": 14.1,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [],
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam257",
+    "formula": "C60",
+    "space_group": "Fm-3m",
+    "prototype": "fcc A3C60 alkali-doped fulleride",
+    "lattice": {
+     "a": 14.4,
+     "b": 14.4,
+     "c": 14.4,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [],
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam258",
+    "formula": "C60",
+    "space_group": "Fm-3m",
+    "prototype": "fcc A3C60 alkali-doped fulleride",
+    "lattice": {
+     "a": 14.6,
+     "b": 14.6,
+     "c": 14.6,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [],
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam259",
+    "formula": "C60",
+    "space_group": "Fm-3m",
+    "prototype": "fcc C60 (two-hole-doped hu band, rigid-band)",
+    "lattice": {
+     "a": 14.1,
+     "b": 14.1,
+     "c": 14.1,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [],
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "812798558582341635",
+  "conditions": [
+   {
+    "case_id": "lam046",
+    "formula": "LaOs4As12",
+    "space_group": "Im-3",
+    "prototype": "filled skutterudite (LaFe4P12-type; bcc, 17-atom cell)",
+    "lattice": {
+     "a": 8.706,
+     "b": 8.706,
+     "c": 8.706,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "As",
+      "x": 0.0,
+      "y": 0.3489,
+      "z": 0.1504,
+      "note": "pnictogen 24g (0,y,z); La at 2a (0,0,0); Os at 8c (1/4,1/4,1/4)"
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "full"
+   },
+   {
+    "case_id": "lam048",
+    "formula": "YOs4P12",
+    "space_group": "Im-3",
+    "prototype": "filled skutterudite (LaFe4P12-type; bcc, 17-atom cell)",
+    "lattice": {
+     "a": 8.136,
+     "b": 8.136,
+     "c": 8.136,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "P",
+      "x": 0.0,
+      "y": 0.357,
+      "z": 0.1419,
+      "note": "pnictogen 24g (0,y,z); Y at 2a (0,0,0); Os at 8c (1/4,1/4,1/4)"
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "full"
+   },
+   {
+    "case_id": "lam049",
+    "formula": "YRu4P12",
+    "space_group": "Im-3",
+    "prototype": "filled skutterudite (LaFe4P12-type; bcc, 17-atom cell)",
+    "lattice": {
+     "a": 8.085,
+     "b": 8.085,
+     "c": 8.085,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "P",
+      "x": 0.0,
+      "y": 0.3575,
+      "z": 0.1428,
+      "note": "pnictogen 24g (0,y,z); Y at 2a (0,0,0); Ru at 8c (1/4,1/4,1/4)"
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "full"
+   }
+  ]
+ },
+ {
+  "paper_id": "813152122194362369",
+  "conditions": [
+   {
+    "case_id": "lam054",
+    "formula": "LaIr2Si2",
+    "space_group": "P4/nmm",
+    "prototype": "122-type high-temperature polymorph (CaBe2Ge2-type, tetragonal)",
+    "lattice": {
+     "a": 4.214,
+     "b": 4.214,
+     "c": 10.009,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "La",
+      "x": 0.25,
+      "y": 0.25,
+      "z": 0.744,
+      "note": "1/4,1/4,z site (relaxed z)"
+     },
+     {
+      "element": "Si2",
+      "x": 0.25,
+      "y": 0.25,
+      "z": 0.129,
+      "note": "1/4,1/4,z site (relaxed z); Si2 ~0.129c from Ir1 net"
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam055",
+    "formula": "YIr2Si2",
+    "space_group": "P4/nmm",
+    "prototype": "122-type high-temperature polymorph (CaBe2Ge2-type, tetragonal)",
+    "lattice": {
+     "a": 4.132,
+     "b": 4.132,
+     "c": 9.858,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "Y",
+      "x": 0.25,
+      "y": 0.25,
+      "z": 0.754,
+      "note": "1/4,1/4,z site (relaxed z)"
+     },
+     {
+      "element": "Si2",
+      "x": 0.25,
+      "y": 0.25,
+      "z": 0.369,
+      "note": "1/4,1/4,z site (relaxed z); Si2 ~0.131c from Ir1 net"
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "813179722505650176",
+  "conditions": [
+   {
+    "case_id": "lam104",
+    "formula": "GeH3",
+    "space_group": "P4_2/mmc",
+    "prototype": "A15-derived tetragonal distortion (c/a>1)",
+    "lattice": {
+     "a": 3.033,
+     "b": 3.033,
+     "c": 3.318,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "Ge",
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.0,
+      "note": "Wyckoff 2c"
+     },
+     {
+      "element": "H",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.25,
+      "note": "Wyckoff 2e"
+     },
+     {
+      "element": "H",
+      "x": 0.2244,
+      "y": 0.5,
+      "z": 0.5,
+      "note": "Wyckoff 4k"
+     }
+    ],
+    "pressure_GPa": 180,
+    "completeness": "full"
+   }
+  ]
+ },
+ {
+  "paper_id": "813214614123708416",
+  "conditions": [
+   {
+    "case_id": "lam169",
+    "formula": "LiB0.9Be0.1C",
+    "space_group": "P6_3/mmc",
+    "prototype": "LiBC layered (MgB2-like honeycomb B-C net), Be on B site (VCA)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": 0,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "813228976360128513",
+  "conditions": [
+   {
+    "case_id": "lam057",
+    "formula": "LaPtBN",
+    "space_group": null,
+    "prototype": "n=2 layered boronitride (LaPtBN; alternating Pt-B and La-N layers)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [],
+    "pressure_GPa": 0,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "813231154529304578",
+  "conditions": [
+   {
+    "case_id": "lam058",
+    "formula": "SrPt3P",
+    "space_group": "P4/nmm",
+    "prototype": "antiperovskite SrPt3P (tetragonal, antipolar; Pt6 octahedra)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": [
+     {
+      "element": "Pt",
+      "x": null,
+      "y": null,
+      "z": null,
+      "note": "Pt(I) on in-plane 4e site; Pt(II) on 2c site (no fractional coords given)"
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "813364301560545280",
+  "conditions": [
+   {
+    "case_id": "lam175",
+    "formula": "RaSi2",
+    "space_group": "P-3m1",
+    "prototype": "EuGe2-type (trigonal, AlB2-derived)",
+    "lattice": {
+     "a": 4.07,
+     "b": 4.07,
+     "c": 5.09,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 120
+    },
+    "sites": [
+     {
+      "element": "Ra",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "Si",
+      "x": 0.3333,
+      "y": 0.6667,
+      "z": 0.544
+     },
+     {
+      "element": "Si",
+      "x": 0.6667,
+      "y": 0.3333,
+      "z": 0.456
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "full"
+   }
+  ]
+ },
+ {
+  "paper_id": "814537145015336960",
+  "conditions": [
+   {
+    "case_id": "lam059",
+    "formula": "SrAuSi3",
+    "space_group": "I4mm",
+    "prototype": "BaNiSn3-type",
+    "lattice": {
+     "a": 4.475,
+     "b": 4.475,
+     "c": 10.136,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "Sr",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "Au",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.632
+     },
+     {
+      "element": "Si",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.378
+     },
+     {
+      "element": "Si",
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.257
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "full"
+   }
+  ]
+ },
+ {
+  "paper_id": "814544077151272962",
+  "conditions": [
+   {
+    "case_id": "lam106",
+    "formula": "SrAu2Si2",
+    "space_group": "I4/mmm",
+    "prototype": "ThCr2Si2-type",
+    "lattice": {
+     "a": 4.472,
+     "b": 4.472,
+     "c": 10.128,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "Sr",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "Au",
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.25
+     },
+     {
+      "element": "Si",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.382
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "full"
+   },
+   {
+    "case_id": "lam107",
+    "formula": "SrAuSi3",
+    "space_group": "I4mm",
+    "prototype": "BaNiSn3-type",
+    "lattice": {
+     "a": 4.475,
+     "b": 4.475,
+     "c": 10.136,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "Sr",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "Au",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.632
+     },
+     {
+      "element": "Si",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.378
+     },
+     {
+      "element": "Si",
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.257
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "full"
+   }
+  ]
+ },
+ {
+  "paper_id": "814559975392149507",
+  "conditions": [
+   {
+    "case_id": "lam108",
+    "formula": "H4Te",
+    "space_group": "P6/mmm",
+    "prototype": "TeH12 H-sharing polyhedra (quasimolecular H2 units)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 200,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "814582504823455745",
+  "conditions": [
+   {
+    "case_id": "lam178",
+    "formula": "K2Cr3As3",
+    "space_group": "P-6m2",
+    "prototype": "K2Cr3As3-type (noncentrosymmetric quasi-1D)",
+    "lattice": {
+     "a": 9.9832,
+     "b": 9.9832,
+     "c": 4.2304,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 120
+    },
+    "sites": null,
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "814601823489884160",
+  "conditions": [
+   {
+    "case_id": "lam179",
+    "formula": "P1H5S2",
+    "space_group": "P1",
+    "prototype": "mixed H2S-H3S motif (triclinic)",
+    "lattice": {
+     "a": 2.7127,
+     "b": 2.7119,
+     "c": 8.6105,
+     "alpha": 84.706,
+     "beta": 84.447,
+     "gamma": 71.868
+    },
+    "sites": [
+     {
+      "element": "S",
+      "x": 0.1869,
+      "y": 0.1539,
+      "z": 0.3865
+     },
+     {
+      "element": "S",
+      "x": 0.2812,
+      "y": 0.2819,
+      "z": 0.8685
+     },
+     {
+      "element": "S",
+      "x": 0.7196,
+      "y": 0.7232,
+      "z": 0.1301
+     },
+     {
+      "element": "S",
+      "x": 0.8252,
+      "y": 0.8495,
+      "z": 0.6114
+     },
+     {
+      "element": "H",
+      "x": 0.6031,
+      "y": 0.5675,
+      "z": 0.7345
+     },
+     {
+      "element": "H",
+      "x": 0.7238,
+      "y": 0.8394,
+      "z": 0.8735
+     },
+     {
+      "element": "H",
+      "x": 0.1554,
+      "y": 0.2735,
+      "z": 0.126
+     },
+     {
+      "element": "H",
+      "x": 0.0269,
+      "y": 0.9946,
+      "z": 0.9939
+     },
+     {
+      "element": "H",
+      "x": 0.7166,
+      "y": 0.5739,
+      "z": 0.4144
+     },
+     {
+      "element": "H",
+      "x": 0.2905,
+      "y": 0.4248,
+      "z": 0.5862
+     },
+     {
+      "element": "H",
+      "x": 0.0626,
+      "y": 0.0306,
+      "z": 0.7276
+     },
+     {
+      "element": "H",
+      "x": 0.9602,
+      "y": 0.9548,
+      "z": 0.2744
+     },
+     {
+      "element": "H",
+      "x": 0.4342,
+      "y": 0.4268,
+      "z": 0.2592
+     },
+     {
+      "element": "H",
+      "x": 0.5163,
+      "y": 0.487,
+      "z": 0.002
+     }
+    ],
+    "pressure_GPa": 112,
+    "completeness": "full"
+   },
+   {
+    "case_id": "lam180",
+    "formula": "P1H5S2",
+    "space_group": "P1",
+    "prototype": "mixed H2S-H3S motif (triclinic)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 120,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam181",
+    "formula": "P1H5S2",
+    "space_group": "P1",
+    "prototype": "mixed H2S-H3S motif (triclinic)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 130,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "814602831179808769",
+  "conditions": [
+   {
+    "case_id": "lam060",
+    "formula": "LaPt2B2C",
+    "space_group": "I4/mmm",
+    "prototype": "LuNi2B2C-type (RM2B2C borocarbide)",
+    "lattice": {
+     "a": 3.904,
+     "b": 3.904,
+     "c": 10.773,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "La",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "Pt",
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.25
+     },
+     {
+      "element": "B",
+      "x": 0.0,
+      "y": 0.0,
+      "z": null
+     },
+     {
+      "element": "C",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.5
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam062",
+    "formula": "YPd2B2C",
+    "space_group": "I4/mmm",
+    "prototype": "LuNi2B2C-type (RM2B2C borocarbide)",
+    "lattice": {
+     "a": 3.807,
+     "b": 3.807,
+     "c": 10.745,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "Y",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "Pd",
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.25
+     },
+     {
+      "element": "B",
+      "x": 0.0,
+      "y": 0.0,
+      "z": null
+     },
+     {
+      "element": "C",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.5
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam063",
+    "formula": "YPt2B2C",
+    "space_group": "I4/mmm",
+    "prototype": "LuNi2B2C-type (RM2B2C borocarbide)",
+    "lattice": {
+     "a": 3.809,
+     "b": 3.809,
+     "c": 10.818,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "Y",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "Pt",
+      "x": 0.0,
+      "y": 0.5,
+      "z": 0.25
+     },
+     {
+      "element": "B",
+      "x": 0.0,
+      "y": 0.0,
+      "z": null
+     },
+     {
+      "element": "C",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.5
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "814617345912733702",
+  "conditions": [
+   {
+    "case_id": "lam064",
+    "formula": "Ca3Ir4Ge4",
+    "space_group": "noncentrosymmetric body-centred cubic (Ca3Ir4Ge4-type)",
+    "prototype": "Ca3Ir4Ge4-type (noncentrosymmetric body-centred cubic)",
+    "lattice": {
+     "a": 7.651,
+     "b": 7.651,
+     "c": 7.651,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": [
+     {
+      "element": "Ir",
+      "x": 0.634,
+      "y": 0.634,
+      "z": 0.634
+     },
+     {
+      "element": "Ge",
+      "x": 0.813,
+      "y": 0.813,
+      "z": 0.813
+     }
+    ],
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "814721288294629376",
+  "conditions": [
+   {
+    "case_id": "lam065",
+    "formula": "SrPtAs",
+    "space_group": "P6/mmm",
+    "prototype": "hexagonal honeycomb pnictide (KZnAs-related)",
+    "lattice": {
+     "a": 4.307,
+     "b": 4.307,
+     "c": 9.063,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 120
+    },
+    "sites": null,
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "817359063850418177",
+  "conditions": [
+   {
+    "case_id": "lam016",
+    "formula": "CaB6",
+    "space_group": "Pmmm",
+    "prototype": "type-I orthorhombic MB6 monolayer (delta4 borophene-derived, eta=1/4)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": null,
+    "pressure_GPa": 0,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam017",
+    "formula": "MgB6",
+    "space_group": "Pmmm",
+    "prototype": "type-I orthorhombic MB6 monolayer (delta4 borophene-derived, eta=1/4)",
+    "lattice": {
+     "a": 3.46,
+     "b": 2.9,
+     "c": null,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": null,
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam018",
+    "formula": "TiB6",
+    "space_group": "Pmmm",
+    "prototype": "type-II orthorhombic (2x1) MB6 monolayer (CDW-stabilized supercell)",
+    "lattice": {
+     "a": 6.76,
+     "b": 2.95,
+     "c": null,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": null,
+    "pressure_GPa": 0,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam019",
+    "formula": "YB6",
+    "space_group": "Pmmm",
+    "prototype": "type-III orthorhombic (2x1) MB6 monolayer (CDW-stabilized supercell)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": null,
+    "pressure_GPa": 0,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "817398434037235713",
+  "conditions": [
+   {
+    "case_id": "lam066",
+    "formula": "Bi4I4",
+    "space_group": "P31c",
+    "prototype": "epsilon-Bi4I4 ([Bi4I3] chains + isolated I)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 15,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam067",
+    "formula": "Bi4I4",
+    "space_group": "P4/mmm",
+    "prototype": "zeta-Bi4I4 (quasi-3D, alternating X/Y units)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 18,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "867747957653373759",
+  "conditions": [
+   {
+    "case_id": "lam069",
+    "formula": "LaO0.5F0.5BiS2",
+    "space_group": "tetragonal layered BiS2 (P4/nmm-type, not explicitly named in node)",
+    "prototype": "layered BiS2 (CeOBiS2-type / ZrCuSiAs-related)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 90
+    },
+    "sites": null,
+    "pressure_GPa": 0,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "867750354362564780",
+  "conditions": [
+   {
+    "case_id": "lam112",
+    "formula": "CS2H10",
+    "space_group": "Cmc2_1",
+    "prototype": "host-guest (CH4 in H3S-like Im-3m/R3m host sublattice)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 150,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam114",
+    "formula": "P3",
+    "space_group": "P3m1",
+    "prototype": "CH4 + SH3 units arranged analogous to R3m H3S",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 100,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam115",
+    "formula": "P3",
+    "space_group": "P3m1",
+    "prototype": "CH4 + SH3 units arranged analogous to R3m H3S",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 50,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam116",
+    "formula": "CS2H10",
+    "space_group": "Pm",
+    "prototype": "host-guest (CH4 in H3S-like host sublattice), monoclinic",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 200,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "867750509996409561",
+  "conditions": [
+   {
+    "case_id": "lam020",
+    "formula": "CeH10",
+    "space_group": null,
+    "prototype": null,
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 94,
+    "completeness": "none"
+   },
+   {
+    "case_id": "lam021",
+    "formula": "CeH9",
+    "space_group": null,
+    "prototype": null,
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 94,
+    "completeness": "none"
+   }
+  ]
+ },
+ {
+  "paper_id": "867750520855462386",
+  "conditions": [
+   {
+    "case_id": "lam117",
+    "formula": "CaAlSiF",
+    "space_group": null,
+    "prototype": null,
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "none"
+   }
+  ]
+ },
+ {
+  "paper_id": "867751696124608720",
+  "conditions": [
+   {
+    "case_id": "lam265",
+    "formula": "NbB1.93",
+    "space_group": "P6/mmm",
+    "prototype": "AlB2",
+    "lattice": {
+     "a": 3.1153,
+     "b": 3.1153,
+     "c": 3.2603,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 120
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "867754756150395675",
+  "conditions": [
+   {
+    "case_id": "lam022",
+    "formula": "HPC3",
+    "space_group": null,
+    "prototype": "2D hydrogenated phosphorus carbide (hexagonal, H1P2C6); 2P+6C+2H per cell",
+    "lattice": {
+     "a": 5.46208,
+     "b": 5.46208,
+     "c": null,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 120
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam023",
+    "formula": "HPC3",
+    "space_group": null,
+    "prototype": "2D hydrogenated phosphorus carbide (hexagonal, H1P2C6); 2P+6C+2H per cell",
+    "lattice": {
+     "a": 5.51616,
+     "b": 5.51616,
+     "c": null,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 120
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam024",
+    "formula": "HPC3",
+    "space_group": null,
+    "prototype": "2D hydrogenated phosphorus carbide (hexagonal, H1P2C6); 2P+6C+2H per cell",
+    "lattice": {
+     "a": 5.57024,
+     "b": 5.57024,
+     "c": null,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 120
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam025",
+    "formula": "HPC3",
+    "space_group": null,
+    "prototype": "2D hydrogenated phosphorus carbide (hexagonal, H1P2C6); 2P+6C+2H per cell; P-H=1.445A, P-C=1.765A, C-C=1.428A, H-H vertical h=3.874A",
+    "lattice": {
+     "a": 5.408,
+     "b": 5.408,
+     "c": null,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 120
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "867757683732643869",
+  "conditions": [
+   {
+    "case_id": "lam197",
+    "formula": "K2Cr3As3",
+    "space_group": "P-6m2",
+    "prototype": "noncentrosymmetric quasi-1D A2T3As3 (Cr3As3 tubes), hexagonal",
+    "lattice": {
+     "a": 9.9832,
+     "b": 9.9832,
+     "c": 4.2304,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 120
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "867757693798973751",
+  "conditions": [
+   {
+    "case_id": "lam026",
+    "formula": "ISnH8",
+    "space_group": null,
+    "prototype": null,
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 250,
+    "completeness": "none"
+   }
+  ]
+ },
+ {
+  "paper_id": "867760184875811501",
+  "conditions": [
+   {
+    "case_id": "lam198",
+    "formula": "(Ce,La)H9",
+    "space_group": "P-6m2",
+    "prototype": "ordered Ce/La substitution on P6_3/mmc superhydride parent (clathrate H cage); Ce:La=1, 1x1x1 ordered cell",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 200,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "867760796275311043",
+  "conditions": [
+   {
+    "case_id": "lam199",
+    "formula": "C6H6",
+    "space_group": "P2_1/c",
+    "prototype": "molecular benzene crystal (monoclinic)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 190,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "867761419615994028",
+  "conditions": [
+   {
+    "case_id": "lam203",
+    "formula": "Be43Bi20Pb37",
+    "space_group": null,
+    "prototype": null,
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "none"
+   },
+   {
+    "case_id": "lam204",
+    "formula": "Be43Pb57",
+    "space_group": null,
+    "prototype": null,
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "none"
+   }
+  ]
+ },
+ {
+  "paper_id": "867761622720971643",
+  "conditions": [
+   {
+    "case_id": "lam029",
+    "formula": "Mg2B4C2",
+    "space_group": "P-3m1 (layer group p-3m1)",
+    "prototype": "2D MgB2-like monolayer (inner B-B layer + outer B-C layers + Mg); charge-neutral inversion-symmetric",
+    "lattice": {
+     "a": 2.87,
+     "b": 2.87,
+     "c": null,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 120
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "867762315619991562",
+  "conditions": [
+   {
+    "case_id": "lam205",
+    "formula": "K2Mo3As3",
+    "space_group": "P-6m2",
+    "prototype": "noncentrosymmetric quasi-1D A2T3As3 (Mo3As3 tubes), hexagonal",
+    "lattice": {
+     "a": 10.256,
+     "b": 10.256,
+     "c": 4.463,
+     "alpha": 90,
+     "beta": 90,
+     "gamma": 120
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "867763770720518898",
+  "conditions": [
+   {
+    "case_id": "lam118",
+    "formula": "C2KYH8",
+    "space_group": "C2/m",
+    "prototype": "monoclinic KYH8 with H3 molecular-like units and Y-H chain motif (no named prototype)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 200,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam119",
+    "formula": "C2KYH8",
+    "space_group": "C2/m",
+    "prototype": "monoclinic KYH8 with H3 molecular-like units and Y-H chain motif (no named prototype)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 250,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam120",
+    "formula": "C2KYH8",
+    "space_group": "C2/m",
+    "prototype": "monoclinic KYH8 with H3 molecular-like units and Y-H chain motif (no named prototype). At 300 GPa reported H-H distances: H1-H2=0.921 A, H3-H5=0.819 A; Y-H7=1.773 A (bond distances only, not lattice/Wyckoff)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 300,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "867765680290660591",
+  "conditions": [
+   {
+    "case_id": "lam121",
+    "formula": "C2SnH12",
+    "space_group": "C2/m",
+    "prototype": "monoclinic SnH12 with linear H4- blocks (no named prototype)",
+    "lattice": {
+     "a": 5.191,
+     "b": 3.065,
+     "c": 7.388,
+     "alpha": 90.0,
+     "beta": 148.95,
+     "gamma": 90.0
+    },
+    "sites": null,
+    "pressure_GPa": 250,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam122",
+    "formula": "C2SnH14",
+    "space_group": "C2/m",
+    "prototype": "monoclinic SnH14 (no named prototype)",
+    "lattice": {
+     "a": 7.129,
+     "b": 2.73,
+     "c": 3.673,
+     "alpha": 90.0,
+     "beta": 60.71,
+     "gamma": 90.0
+    },
+    "sites": null,
+    "pressure_GPa": 300,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam123",
+    "formula": "ISnH8",
+    "space_group": "I-4m2",
+    "prototype": "tetragonal SnH8 with bent H3- units and H2 semi-molecular units (no named prototype)",
+    "lattice": {
+     "a": 3.076,
+     "b": 3.076,
+     "c": 5.523,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 90.0
+    },
+    "sites": [
+     {
+      "element": "Sn",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+     },
+     {
+      "element": "H",
+      "x": 0.2729,
+      "y": 0.0,
+      "z": 0.33331
+     },
+     {
+      "element": "H",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.62088
+     }
+    ],
+    "pressure_GPa": 220,
+    "completeness": "full"
+   },
+   {
+    "case_id": "lam124",
+    "formula": "I4SnH4",
+    "space_group": "I4/mmm",
+    "prototype": null,
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 220,
+    "completeness": "none"
+   }
+  ]
+ },
+ {
+  "paper_id": "867768106380952491",
+  "conditions": [
+   {
+    "case_id": "lam125",
+    "formula": "LaBH8",
+    "space_group": "Fm-3m",
+    "prototype": "B-centered BH8 covalent units in interstitial sites of fcc La lattice; La+8H sublattice geometry resembles LaH10 clathrate-like / H3S coordination",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 100,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam126",
+    "formula": "LaBH8",
+    "space_group": "Fm-3m",
+    "prototype": "B-centered BH8 covalent units in interstitial sites of fcc La lattice; La+8H sublattice geometry resembles LaH10 clathrate-like / H3S coordination",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 200,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam127",
+    "formula": "LaBH8",
+    "space_group": "Fm-3m",
+    "prototype": "B-centered BH8 covalent units in interstitial sites of fcc La lattice; La+8H sublattice geometry resembles LaH10 clathrate-like / H3S coordination",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 50,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam128",
+    "formula": "LaBH8",
+    "space_group": "Fm-3m",
+    "prototype": "B-centered BH8 covalent units in interstitial sites of fcc La lattice; La+8H sublattice geometry resembles LaH10 clathrate-like / H3S coordination",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 55,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam129",
+    "formula": "PLaBH7",
+    "space_group": "P-3m1",
+    "prototype": "trigonal LaBH7 with edge-connected BH6 units linked by H-H bridges (no named prototype)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 110,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "867769399187079437",
+  "conditions": [
+   {
+    "case_id": "lam269",
+    "formula": "H4",
+    "space_group": "Cmmm",
+    "prototype": null,
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 250,
+    "completeness": "none"
+   },
+   {
+    "case_id": "lam270",
+    "formula": "P6H4",
+    "space_group": "P6/mmm",
+    "prototype": null,
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 100,
+    "completeness": "none"
+   },
+   {
+    "case_id": "lam271",
+    "formula": "P6H4",
+    "space_group": "P6/mmm",
+    "prototype": null,
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 200,
+    "completeness": "none"
+   },
+   {
+    "case_id": "lam272",
+    "formula": "P6H4",
+    "space_group": "P6/mmm",
+    "prototype": null,
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 200,
+    "completeness": "none"
+   }
+  ]
+ },
+ {
+  "paper_id": "867769693774021285",
+  "conditions": [
+   {
+    "case_id": "lam217",
+    "formula": "H",
+    "space_group": null,
+    "prototype": "Hydrogenated (111) diamond surface slab in FET geometry (hexagonal surface cell); surface C in sp3 diamond network terminated by H, hole-doped n=6e14 cm-2",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam218",
+    "formula": "H",
+    "space_group": null,
+    "prototype": "Hydrogenated (111) diamond surface slab in FET geometry (hexagonal surface cell); surface C in sp3 diamond network terminated by H, hole-doped n=6e14 cm-2",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "867770734955462927",
+  "conditions": [
+   {
+    "case_id": "lam219",
+    "formula": "Sn3S4I",
+    "space_group": "I-43d",
+    "prototype": "body-centered cubic Sn3S4 (no named prototype)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 30,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "867772526099431971",
+  "conditions": [
+   {
+    "case_id": "lam030",
+    "formula": "Mo2CHXe",
+    "space_group": null,
+    "prototype": "2H MXene Mo2C monolayer, hexagonal cell with A-A Mo stacking (bare)",
+    "lattice": {
+     "a": 2.82,
+     "b": 2.82,
+     "c": null,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 120.0
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam032",
+    "formula": "Mo2CH2",
+    "space_group": null,
+    "prototype": "2H MXene Mo2C monolayer (H-terminated, hollow sites, 1% in-plane tensile strain); in-plane a from bare 2H Mo2C = 2.82 A (terminated lattice constant not separately reported)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "proto-only"
+   },
+   {
+    "case_id": "lam033",
+    "formula": "Mo2CO2",
+    "space_group": null,
+    "prototype": "2H MXene Mo2C monolayer (O-terminated, O above topmost C sites); in-plane a from bare 2H Mo2C = 2.82 A (terminated lattice constant not separately reported)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "867774094156759483",
+  "conditions": [
+   {
+    "case_id": "lam229",
+    "formula": "LaPtBN",
+    "space_group": null,
+    "prototype": "Layered TM boronitride LaPtBN (n=2 boronitride; alternating Pt-B and La-N layers); isostructural with LaNiBN",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "923643931596423577",
+  "conditions": [
+   {
+    "case_id": "lam076",
+    "formula": "TlTaSe2",
+    "space_group": "P-6m2",
+    "prototype": "non-centrosymmetric hexagonal layered TlTaSe2 (no named prototype)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "proto-only"
+   }
+  ]
+ },
+ {
+  "paper_id": "938859326162862687",
+  "conditions": [
+   {
+    "case_id": "lam036",
+    "formula": "C2CaC2",
+    "space_group": "P6/mmm",
+    "prototype": "Ca-intercalated AA-stacking bilayer graphene; pristine (unstrained) a0=2.605 A, interlayer separation 5.096 A. Case is -2% biaxial strain: a = 0.98*2.605 = 2.553 A (computed from pristine; strained lattice not separately tabulated)",
+    "lattice": {
+     "a": 2.553,
+     "b": 2.553,
+     "c": 5.096,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 120.0
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam037",
+    "formula": "C2CaC2",
+    "space_group": "P6/mmm",
+    "prototype": "Ca-intercalated AA-stacking bilayer graphene; pristine (unstrained) a0=2.605 A, interlayer separation 5.096 A. Case is -4% biaxial strain: a = 0.96*2.605 = 2.501 A (computed from pristine; strained lattice not separately tabulated)",
+    "lattice": {
+     "a": 2.501,
+     "b": 2.501,
+     "c": 5.096,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 120.0
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "lattice+proto"
+   },
+   {
+    "case_id": "lam038",
+    "formula": "C2CaC2",
+    "space_group": "P6/mmm",
+    "prototype": "Ca-intercalated AA-stacking bilayer graphene (unstrained). a=2.605 A, interlayer graphene separation 5.096 A (used as c), C-C bond 1.501 A, nearest Ca-Ca 2.601 A",
+    "lattice": {
+     "a": 2.605,
+     "b": 2.605,
+     "c": 5.096,
+     "alpha": 90.0,
+     "beta": 90.0,
+     "gamma": 120.0
+    },
+    "sites": null,
+    "pressure_GPa": null,
+    "completeness": "lattice+proto"
+   }
+  ]
+ },
+ {
+  "paper_id": "943000233191669804",
+  "conditions": [
+   {
+    "case_id": "lam274",
+    "formula": "III",
+    "space_group": null,
+    "prototype": "Sc-III high-pressure phase of elemental scandium (structure not fully solved experimentally; calc input structure not reported in LKM text)",
+    "lattice": {
+     "a": null,
+     "b": null,
+     "c": null,
+     "alpha": null,
+     "beta": null,
+     "gamma": null
+    },
+    "sites": null,
+    "pressure_GPa": 100,
+    "completeness": "none"
+   }
+  ]
+ }
+]

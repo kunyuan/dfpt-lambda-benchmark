@@ -28,7 +28,7 @@ lam133,La3Ni2B2N3,intermetallic,(single),openlam,La3Ni2B2N3.scf.in,I4/mmm,built,
 lam002,Li0.2P0.8,2d-layered,Li0.2P0.8 (A-X-B intercalated blue-P bilayer),absent,,,tier2-fallback,1.2
 lam003,Mg0.2P0.8,2d-layered,Mg0.2P0.8 (A-X-B intercalated blue-P bilayer),absent,,,tier2-fallback,0.8
 lam004,Na0.2P0.8,2d-layered,Na0.2P0.8 (A-X-B intercalated blue-P bilayer),absent,,,tier2-fallback,1.1
-lam134,CaVI,intermetallic,"Pnma Ca-VI, 172 GPa, mu*=0.10",absent,,,tier2-fallback,0.934
+lam134,CaVI,intermetallic,"Pnma Ca-VI, 172 GPa, mu*=0.10",lkm,Ca__lam134.scf.in,,built,0.934
 lam135,V3Si,intermetallic,(single),openlam,V3Si.scf.in,Pm-3n,built,1.28
 lam092,I4H,hydride,"I4_1/amd H, 480 GPa, mu*=0.10",absent,,,tier2-fallback,2.17
 lam093,I4H,hydride,"I4_1/amd H, 539 GPa, mu*=0.10",absent,,,tier2-fallback,2.01
@@ -81,7 +81,7 @@ lam098,S0.75P0.25H3,hydride,"S0.75P0.25H3, Immm, 200 GPa",absent,,,tier2-fallbac
 lam254,La,simple-metal,La Fmmm distorted fcc 130 GPa,openlam,La.scf.in,Fm-3m,built,0.69
 lam255,La,simple-metal,La R-3m slightly distorted fcc ~50 GPa,openlam,La.scf.in,Fm-3m,built,1.07
 lam041,RuSi,heavy-soc,ScRuSi,mp,RuSi.scf.in,,built,0.54
-lam042,ZrRhSi,heavy-soc,ZrRhSi,absent,,,tier2-fallback,0.84
+lam042,ZrRhSi,heavy-soc,ZrRhSi,lkm,ZrRhSi__lam042.scf.in,,built,0.84
 lam099,Mg0.5Ca0.5H6,hydride,(single),absent,,,tier2-fallback,2.53
 lam161,LaNiSi,intermetallic,LaNiSi,mp,LaNiSi.scf.in,,built,0.49
 lam162,LaPtSi,intermetallic,LaPtSi,mp,LaPtSi.scf.in,,built,0.59
@@ -113,7 +113,7 @@ lam054,LaIr2Si2,heavy-soc,LaIr2Si2 (HTP P4/nmm),absent,,,tier2-fallback,0.56
 lam055,YIr2Si2,heavy-soc,YIr2Si2 (HTP P4/nmm),absent,,,tier2-fallback,0.61
 lam102,GeH3,hydride,"A15 GeH3, r_s=1.52 (~180 GPa)",openlam,GeH3.scf.in,Pm,built,1.82
 lam103,GeH3,hydride,"Cccm GeH3, r_s=1.52 (~180 GPa)",openlam,GeH3.scf.in,Pm,built,1.6
-lam104,P4GeH3,hydride,"P4_2/mmc GeH3, r_s=1.52 (~180 GPa)",absent,,,tier2-fallback,1.56
+lam104,P4GeH3,hydride,"P4_2/mmc GeH3, r_s=1.52 (~180 GPa)",lkm,GeH3__lam104.scf.in,,built,1.56
 lam105,AlH3,hydride,AlH3 Pm-3n 73 GPa,openlam,AlH3.scf.in,Cmcm,built,0.591
 lam261,P,simple-metal,"sc P, 20 GPa (P_calc)",openlam,P.scf.in,Cmce,built,0.795
 lam262,P,simple-metal,"sc P, 70 GPa (P_calc)",openlam,P.scf.in,Cmce,built,0.676
@@ -134,9 +134,9 @@ lam173,CaSi2,intermetallic,"CaSi2, 16 GPa",openlam,CaSi2.scf.in,C2/m,built,1.1
 lam174,MgSi2,intermetallic,MgSi2 (z_tuned=0.593),openlam,MgSi2.scf.in,P1,built,0.79
 lam175,Si2,intermetallic,RaSi2 (z_tuned=0.544),absent,,,tier2-fallback,0.93
 lam176,SrSi2,intermetallic,SrSi2,openlam,SrSi2.scf.in,P6_3/mmc,built,0.5
-lam059,SrAuSi3,heavy-soc,(single),absent,,,tier2-fallback,0.47
-lam106,SrAu2Si2,hydride,SrAu2Si2 (I4/mmm),absent,,,tier2-fallback,0.42
-lam107,SrAuSi3,hydride,SrAuSi3 (I4mm),absent,,,tier2-fallback,0.47
+lam059,SrAuSi3,heavy-soc,(single),lkm,SrAuSi3__lam059.scf.in,,built,0.47
+lam106,SrAu2Si2,hydride,SrAu2Si2 (I4/mmm),lkm,SrAu2Si2__lam106.scf.in,,built,0.42
+lam107,SrAuSi3,hydride,SrAuSi3 (I4mm),lkm,SrAuSi3__lam107.scf.in,,built,0.47
 lam177,NaAlSi,intermetallic,"NaAlSi, mu*=0.10",openlam,NaAlSi.scf.in,P4/nmm,built,0.68
 lam108,H4Te,hydride,"H4Te, 200 GPa",absent,,,tier2-fallback,1.46
 lam109,SnH4,hydride,"SnH4 C2/m, 500 GPa",openlam,SnH4.scf.in,Cmcm,built,1.02
