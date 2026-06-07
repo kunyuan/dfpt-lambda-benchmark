@@ -7,7 +7,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - name: L1 (α²F→λ) host self-check
+      - name: L1 (α²F→λ)
         run: bash L1-alpha2F-to-lambda/scripts/selfcheck.sh
-      - name: L3 PoC (DFPT λ) host self-check
-        run: bash L3-dfpt-lambda/poc-simple-metal/scripts/selfcheck.sh
+      - name: L3 tracks (one benchmark per material type)
+        run: |
+          for t in simple-metal intermetallic heavy-soc 2d-layered hydride; do
+            echo "== $t =="; bash L3-dfpt-lambda/$t/scripts/selfcheck.sh
+          done

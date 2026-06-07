@@ -1,0 +1,194 @@
+{
+ "Al": {
+  "upf": "Al_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "As": {
+  "upf": "As_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "B": {
+  "upf": "B_ONCV_PBE-1.2.upf",
+  "ecutwfc": 80
+ },
+ "Ba": {
+  "upf": "Ba_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Be": {
+  "upf": "Be_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "C": {
+  "upf": "C_ONCV_PBE-1.2.upf",
+  "ecutwfc": 80
+ },
+ "Ca": {
+  "upf": "Ca_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Cd": {
+  "upf": "Cd_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Co": {
+  "upf": "Co_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Cr": {
+  "upf": "Cr_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Cu": {
+  "upf": "Cu_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "F": {
+  "upf": "F_ONCV_PBE-1.2.upf",
+  "ecutwfc": 80
+ },
+ "Fe": {
+  "upf": "Fe_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Ga": {
+  "upf": "Ga_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Ge": {
+  "upf": "Ge_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "H": {
+  "upf": "H_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Hf": {
+  "upf": "Hf_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Hg": {
+  "upf": "Hg_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "In": {
+  "upf": "In_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Ir": {
+  "upf": "Ir_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "La": {
+  "upf": "La_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Li": {
+  "upf": "Li_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Lu": {
+  "upf": "Lu_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Mg": {
+  "upf": "Mg_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Mo": {
+  "upf": "Mo_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "N": {
+  "upf": "N_ONCV_PBE-1.2.upf",
+  "ecutwfc": 80
+ },
+ "Na": {
+  "upf": "Na_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Nb": {
+  "upf": "Nb_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Ni": {
+  "upf": "Ni_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "O": {
+  "upf": "O_ONCV_PBE-1.2.upf",
+  "ecutwfc": 80
+ },
+ "Os": {
+  "upf": "Os_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "P": {
+  "upf": "P_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Pt": {
+  "upf": "Pt_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Re": {
+  "upf": "Re_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Rh": {
+  "upf": "Rh_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Ru": {
+  "upf": "Ru_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "S": {
+  "upf": "S_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Sb": {
+  "upf": "Sb_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Sc": {
+  "upf": "Sc_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Si": {
+  "upf": "Si_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Sn": {
+  "upf": "Sn_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Sr": {
+  "upf": "Sr_ONCV_PBE-1.2.upf",
+  "ecutwfc": 60
+ },
+ "Ta": {
+  "upf": "Ta_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Ti": {
+  "upf": "Ti_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "V": {
+  "upf": "V_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Y": {
+  "upf": "Y_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Zn": {
+  "upf": "Zn_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ },
+ "Zr": {
+  "upf": "Zr_ONCV_PBE-1.2.upf",
+  "ecutwfc": 90
+ }
+}

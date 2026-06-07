@@ -1,0 +1,27 @@
+&control
+  calculation='scf', prefix='x', pseudo_dir='./pseudo', outdir='./out'
+/
+&system
+  ibrav=6, celldm(1)=6.968, celldm(3)=2.10651, nat=8, ntyp=4,
+  ecutwfc=90, ecutrho=360,
+  occupations='smearing', smearing='methfessel-paxton', degauss=0.02, nspin=1
+/
+&electrons
+  conv_thr=1.0d-10, mixing_beta=0.7
+/
+ATOMIC_SPECIES
+  B 10.811 B_ONCV_PBE-1.2.upf
+  La 138.90547 La_ONCV_PBE-1.2.upf
+  N 14.0067 N_ONCV_PBE-1.2.upf
+  Ni 58.6934 Ni_ONCV_PBE-1.2.upf
+ATOMIC_POSITIONS crystal
+  La 0.500000 0.000000 0.671407
+  La 0.000000 0.500000 0.328593
+  Ni 0.000000 0.000000 0.000000
+  Ni 0.500000 0.500000 0.000000
+  B 0.500000 0.000000 0.150610
+  B 0.000000 0.500000 0.849390
+  N 0.500000 0.000000 0.337067
+  N 0.000000 0.500000 0.662933
+K_POINTS automatic
+  24 24 24 0 0 0

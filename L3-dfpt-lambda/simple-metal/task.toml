@@ -1,0 +1,15 @@
+version = "1.0"
+
+[metadata]
+author_name = "ARM λ-Bench (WF-6) — L3 simple-metal"
+author_email = "noreply@example.com"
+difficulty_explanation = "Compute the electron-phonon coupling λ (and ω_log) from first principles for simple-metal superconductors. 30 cases ship a ready QE structure (structures/); 10 are build-from-spec (construct the crystal from structure_hints.json, then run). Method is the agent's choice (this class typically uses DFPT-direct). Gold is the paper-reported λ; graded within 15%, core-hours reported (accuracy × cost). HPC runs off-sandbox (open-source Quantum ESPRESSO); the verifier compares reported values to the cached reference."
+category = "scientific-computing"
+tags = ["physics","superconductivity","electron-phonon","dfpt","quantum-espresso","lambda","first-principles","wf-6","simple-metal"]
+
+[verifier]
+timeout_sec = 120.0
+[agent]
+timeout_sec = 14400.0
+[environment]
+build_timeout_sec = 600.0

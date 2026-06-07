@@ -1,0 +1,26 @@
+case_id,mode,structure_file,condition,mu_star
+lam002,build-from-spec,,Li0.2P0.8 (A-X-B intercalated blue-P bilayer),0.1
+lam003,build-from-spec,,Mg0.2P0.8 (A-X-B intercalated blue-P bilayer),0.1
+lam005,build-from-spec,,(single),0.14
+lam007,build-from-spec,,(single),0.1
+lam017,build-from-spec,,type-I orthorhombic MgB6,0.1
+lam018,build-from-spec,,type-II orthorhombic (2x1) TiB6,0.1
+lam020,build-from-spec,,"CeH10 (Fm-3m) 94 GPa, mu*=0.10",0.1
+lam021,build-from-spec,,"CeH9 (F-43m) 94 GPa, mu*=0.10",0.1
+lam023,build-from-spec,,"HPC3, 2% biaxial strain",0.1
+lam024,build-from-spec,,"HPC3, 3% biaxial strain (f1f2 corrected)",0.1
+lam026,build-from-spec,,I-4m2 SnH8 250 GPa (mu*=0.10),0.1
+lam029,build-from-spec,,(single),0.1
+lam032,build-from-spec,,"Mo2CH2 (H-terminated 2H, 1% strain)",0.1
+lam033,build-from-spec,,Mo2CO2 (O-terminated 2H),0.1
+lam037,build-from-spec,,"C2CaC2 AA-stacking, -4% biaxial strain",0.1
+lam038,build-from-spec,,"C2CaC2 AA-stacking, unstrained",0.1
+lam008,structure-ready,CaTiS2.scf.in,CaTiS2 (Ca-deposited monolayer),0.1
+lam009,structure-ready,MoS2.scf.in,"electron-doped monolayer MoS2, x=0.18 electrons/f.u.",0.13
+lam011,structure-ready,TiB4.scf.in,TiB4 monolayer (freestanding),0.1
+lam012,structure-ready,CaB6.scf.in,hexagonal CaB6,0.1
+lam014,structure-ready,ScB6.scf.in,hexagonal ScB6,0.1
+lam015,structure-ready,TiB6.scf.in,hexagonal TiB6,0.1
+lam028,structure-ready,LiSn6.scf.in,LiSn6 (Li-decorated stanene),0.13
+lam031,structure-ready,Mo2C.scf.in,"Mo2C(OH)2 (OH-terminated 2H, unstable)",0.1
+lam035,structure-ready,B2C.scf.in,"B2C monolayer, mu*=0.10",0.1

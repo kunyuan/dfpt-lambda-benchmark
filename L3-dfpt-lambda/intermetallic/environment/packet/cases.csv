@@ -1,0 +1,72 @@
+case_id,mode,structure_file,condition,mu_star
+lam139,build-from-spec,,(single),0.1
+lam142,build-from-spec,,"MS1-LiB (stoichiometric), mu*=0.10",0.1
+lam175,build-from-spec,,RaSi2 (z_tuned=0.544),0.1
+lam178,build-from-spec,,(single),0.12
+lam180,build-from-spec,,"P1 H5S2, 120 GPa",0.13
+lam181,build-from-spec,,"P1 H5S2, 130 GPa",0.13
+lam198,build-from-spec,,(single),0.1
+lam199,build-from-spec,,"benzene P2_1/c, 190 GPa, mu*=0.10",0.1
+lam204,build-from-spec,,Be43Pb57,0.116
+lam205,build-from-spec,,"K2Mo3As3, mu*=0.12",0.12
+lam218,build-from-spec,,"H-diamond(111) FET n=6e14 cm-2, q=Gamma approx",0.13
+lam219,build-from-spec,,Sn3S4 I-43d 30 GPa,0.1
+lam130,structure-ready,Nb3Sn.scf.in,"A15 Nb1-bSnb, Sn=0.1875 (one antisite, 16-atom)",0.21
+lam131,structure-ready,Nb3Sn.scf.in,"A15 Nb1-bSnb, Sn=0.21875 (one antisite, 32-atom)",0.22
+lam133,structure-ready,La3Ni2B2N3.scf.in,(single),0.1
+lam134,structure-ready,Ca__lam134.scf.in,"Pnma Ca-VI, 172 GPa, mu*=0.10",0.1
+lam136,structure-ready,MgB2.scf.in,MgB2,0.094
+lam137,structure-ready,BaSi2.scf.in,(single),0.1
+lam141,structure-ready,YS.scf.in,"YS rock-salt, mu*=0.10",0.1
+lam143,structure-ready,Nb3Sn.scf.in,A15 Nb3Sn (mu*=0.10),0.1
+lam145,structure-ready,Li.scf.in,"BCC tellurium, V/V0=0.90 (~54 GPa)",0.12
+lam146,structure-ready,Li.scf.in,"BCC tellurium, V/V0=0.95 (~46 GPa)",0.12
+lam148,structure-ready,Li.scf.in,"FCC iodine, 103 GPa",0.1
+lam149,structure-ready,Li.scf.in,"FCC iodine, 64 GPa",0.1
+lam151,structure-ready,C6Ca.scf.in,(single),0.14
+lam152,structure-ready,HfN.scf.in,HfN (B1),0.115
+lam154,structure-ready,TaC.scf.in,TaC (B1),0.12
+lam155,structure-ready,TiN.scf.in,TiN (B1),0.145
+lam157,structure-ready,ZrN.scf.in,ZrN (B1),0.12
+lam158,structure-ready,BF.scf.in,(single),0.1
+lam160,structure-ready,YC2.scf.in,"YC2 (CaC2-type bct), 20 GPa",0.13
+lam161,structure-ready,LaNiSi.scf.in,LaNiSi,0.1
+lam163,structure-ready,YIn3.scf.in,"YIn3, 1.04 GPa",0.07
+lam164,structure-ready,YIn3.scf.in,"YIn3, 2.1 GPa",0.07
+lam166,structure-ready,YSn3.scf.in,"YSn3, 3.48 GPa negative pressure (2% lattice increment)",0.15
+lam167,structure-ready,YSn3.scf.in,"YSn3, ambient pressure",0.15
+lam170,structure-ready,YIn3.scf.in,(single),0.1
+lam171,structure-ready,BaSi2.scf.in,BaSi2,0.1
+lam173,structure-ready,CaSi2.scf.in,"CaSi2, 16 GPa",0.1
+lam174,structure-ready,MgSi2.scf.in,MgSi2 (z_tuned=0.593),0.1
+lam177,structure-ready,NaAlSi.scf.in,"NaAlSi, mu*=0.10",0.1
+lam182,structure-ready,BaSn5.scf.in,(single),0.13
+lam184,structure-ready,YC2.scf.in,YC2 (CaC2-type),0.13
+lam185,structure-ready,Nb2InC.scf.in,"Nb2InC, +10% tensile strain",0.13
+lam187,structure-ready,Li2B3C.scf.in,(single),0.093
+lam188,structure-ready,LaO.scf.in,"bulk LaO, 4% biaxial tensile strain",0.13
+lam190,structure-ready,MoS2.scf.in,"1T-MoS2, 0 GPa",0.138
+lam191,structure-ready,CaAlSiH.scf.in,"CaAlSi 1H, 20 kbar",0.1
+lam193,structure-ready,CaAlSiH.scf.in,"CaAlSi 1H, P=0",0.1
+lam194,structure-ready,CaAlSiH.scf.in,"CaAlSi 2H, 20 kbar",0.1
+lam196,structure-ready,CaAlSiH.scf.in,"CaAlSi 2H, P=0",0.1
+lam200,structure-ready,BeAl.scf.in,Be-Al 24:976,0.127
+lam202,structure-ready,BeNb.scf.in,Be-Nb 23:77,0.117
+lam206,structure-ready,NbN.scf.in,delta-NbN (sigma=0.18 Ry),0.1
+lam208,structure-ready,CdN.scf.in,FCC CdN,0.1
+lam209,structure-ready,CdP.scf.in,FCC CdP,0.1
+lam211,structure-ready,HfP.scf.in,FCC HfP,0.1
+lam212,structure-ready,HgSb.scf.in,FCC HgSb,0.1
+lam214,structure-ready,H3P.scf.in,"Im-3m H3P, a=3.0 A (~220 GPa), mu*=0 (H-point unstable modes omitted)",0
+lam215,structure-ready,H3S.scf.in,"Im-3m H3S, a=3.0 A (~220 GPa), mu*=0",0
+lam220,structure-ready,SnS.scf.in,gamma-SnS Pm-3m 40 GPa,0.1
+lam221,structure-ready,BaC6.scf.in,BaC6 0 GPa,0.14
+lam223,structure-ready,CaC6.scf.in,CaC6 0 GPa,0.14
+lam224,structure-ready,CaC6.scf.in,CaC6 5 GPa,0.14
+lam226,structure-ready,SrC6.scf.in,SrC6 8 GPa,0.14
+lam227,structure-ready,Mo3Sb7.scf.in,"Mo3Sb7, mu*=0.10",0.1
+lam230,structure-ready,LaNiC2.scf.in,(single),0.12
+lam231,structure-ready,Nb4N5.scf.in,beta'-Nb4N5 (tetragonal I4/m),0.1
+lam233,structure-ready,Nb2N.scf.in,beta2-Nb2N (trigonal P-3m1),0.1
+lam234,structure-ready,Nb2N.scf.in,beta3-Nb2N (hexagonal P63/mmc),0.1
+lam236,structure-ready,Nb4N3.scf.in,gamma-Nb4N3 (tetragonal I4/mmm),0.1

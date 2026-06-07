@@ -1,0 +1,574 @@
+[
+ {
+  "case_id": "lam138",
+  "formula": "CdCNi3",
+  "material": "CdCNi3 (cubic antiperovskite, Pm-3m)",
+  "condition": "CdCNi3, mu*=0.12",
+  "material_type": "intermetallic",
+  "pressure_GPa": 0.0,
+  "space_group": "Pm-3m (221)",
+  "prototype": "cubic antiperovskite (Heusler-related ACNi3 / inverse perovskite)",
+  "lattice": {
+   "a": 3.863,
+   "b": 3.863,
+   "c": 3.863,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0
+  },
+  "sites": [
+   {
+    "element": "Cd",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   {
+    "element": "C",
+    "x": 0.5,
+    "y": 0.5,
+    "z": 0.5
+   },
+   {
+    "element": "Ni",
+    "x": 0.5,
+    "y": 0.5,
+    "z": 0.0
+   },
+   {
+    "element": "Ni",
+    "x": 0.5,
+    "y": 0.0,
+    "z": 0.5
+   },
+   {
+    "element": "Ni",
+    "x": 0.0,
+    "y": 0.5,
+    "z": 0.5
+   }
+  ],
+  "structure_completeness": "full",
+  "mu_star": "0.12",
+  "lambda_ref": "0.8",
+  "omega_log_K_ref": "89.41"
+ },
+ {
+  "case_id": "lam139",
+  "formula": "NaBC (requested) / paper is Mo3Sb7",
+  "material": "Hole-doped NaBC (NaB1.1C0.9), MgB2-like borocarbide",
+  "condition": "(single)",
+  "material_type": "intermetallic",
+  "pressure_GPa": null,
+  "space_group": null,
+  "prototype": null,
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "none",
+  "mu_star": "0.1",
+  "lambda_ref": "0.73",
+  "omega_log_K_ref": "903"
+ },
+ {
+  "case_id": "lam142",
+  "formula": "LiB",
+  "material": "Layered LiB (MS1 structure)",
+  "condition": "MS1-LiB (stoichiometric), mu*=0.10",
+  "material_type": "intermetallic",
+  "pressure_GPa": 0.0,
+  "space_group": null,
+  "prototype": "MS1-LiB (layered MgB2-derived; B honeycomb + Li intercalant); rhombohedral",
+  "lattice": {
+   "a": 5.92,
+   "b": 5.92,
+   "c": 5.92,
+   "alpha": 29.8,
+   "beta": 29.8,
+   "gamma": 29.8
+  },
+  "sites": [],
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.1",
+  "lambda_ref": "0.62",
+  "omega_log_K_ref": "626.6"
+ },
+ {
+  "case_id": "lam169",
+  "formula": "LiB0.9Be0.1C",
+  "material": "Hole-doped LiBC via Be substitution: LiB0.9Be0.1C",
+  "condition": "(single)",
+  "material_type": "intermetallic",
+  "pressure_GPa": 0,
+  "space_group": "P6_3/mmc",
+  "prototype": "LiBC layered (MgB2-like honeycomb B-C net), Be on B site (VCA)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.75",
+  "omega_log_K_ref": "901"
+ },
+ {
+  "case_id": "lam175",
+  "formula": "RaSi2",
+  "material": "Layered binary silicides XSi2 (X=Mg,Ca,Sr,Ba,Ra), trigonal EuGe2-type",
+  "condition": "RaSi2 (z_tuned=0.544)",
+  "material_type": "intermetallic",
+  "pressure_GPa": 0,
+  "space_group": "P-3m1",
+  "prototype": "EuGe2-type (trigonal, AlB2-derived)",
+  "lattice": {
+   "a": 4.07,
+   "b": 4.07,
+   "c": 5.09,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 120
+  },
+  "sites": [
+   {
+    "element": "Ra",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   {
+    "element": "Si",
+    "x": 0.3333,
+    "y": 0.6667,
+    "z": 0.544
+   },
+   {
+    "element": "Si",
+    "x": 0.6667,
+    "y": 0.3333,
+    "z": 0.456
+   }
+  ],
+  "structure_completeness": "full",
+  "mu_star": "0.1",
+  "lambda_ref": "0.93",
+  "omega_log_K_ref": "134"
+ },
+ {
+  "case_id": "lam178",
+  "formula": "K2Cr3As3",
+  "material": "K2Cr3As3 (noncentrosymmetric quasi-1D)",
+  "condition": "(single)",
+  "material_type": "intermetallic",
+  "pressure_GPa": 0,
+  "space_group": "P-6m2",
+  "prototype": "K2Cr3As3-type (noncentrosymmetric quasi-1D)",
+  "lattice": {
+   "a": 9.9832,
+   "b": 9.9832,
+   "c": 4.2304,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 120
+  },
+  "sites": null,
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.12",
+  "lambda_ref": "3",
+  "omega_log_K_ref": "102.2"
+ },
+ {
+  "case_id": "lam179",
+  "formula": "P1H5S2",
+  "material": "SnAs (rock-salt / NaCl structure)",
+  "condition": "P1 H5S2, 112 GPa",
+  "material_type": "intermetallic",
+  "pressure_GPa": 112,
+  "space_group": "P1",
+  "prototype": "mixed H2S-H3S motif (triclinic)",
+  "lattice": {
+   "a": 2.7127,
+   "b": 2.7119,
+   "c": 8.6105,
+   "alpha": 84.706,
+   "beta": 84.447,
+   "gamma": 71.868
+  },
+  "sites": [
+   {
+    "element": "S",
+    "x": 0.1869,
+    "y": 0.1539,
+    "z": 0.3865
+   },
+   {
+    "element": "S",
+    "x": 0.2812,
+    "y": 0.2819,
+    "z": 0.8685
+   },
+   {
+    "element": "S",
+    "x": 0.7196,
+    "y": 0.7232,
+    "z": 0.1301
+   },
+   {
+    "element": "S",
+    "x": 0.8252,
+    "y": 0.8495,
+    "z": 0.6114
+   },
+   {
+    "element": "H",
+    "x": 0.6031,
+    "y": 0.5675,
+    "z": 0.7345
+   },
+   {
+    "element": "H",
+    "x": 0.7238,
+    "y": 0.8394,
+    "z": 0.8735
+   },
+   {
+    "element": "H",
+    "x": 0.1554,
+    "y": 0.2735,
+    "z": 0.126
+   },
+   {
+    "element": "H",
+    "x": 0.0269,
+    "y": 0.9946,
+    "z": 0.9939
+   },
+   {
+    "element": "H",
+    "x": 0.7166,
+    "y": 0.5739,
+    "z": 0.4144
+   },
+   {
+    "element": "H",
+    "x": 0.2905,
+    "y": 0.4248,
+    "z": 0.5862
+   },
+   {
+    "element": "H",
+    "x": 0.0626,
+    "y": 0.0306,
+    "z": 0.7276
+   },
+   {
+    "element": "H",
+    "x": 0.9602,
+    "y": 0.9548,
+    "z": 0.2744
+   },
+   {
+    "element": "H",
+    "x": 0.4342,
+    "y": 0.4268,
+    "z": 0.2592
+   },
+   {
+    "element": "H",
+    "x": 0.5163,
+    "y": 0.487,
+    "z": 0.002
+   }
+  ],
+  "structure_completeness": "full",
+  "mu_star": "0.13",
+  "lambda_ref": "1.186",
+  "omega_log_K_ref": "898"
+ },
+ {
+  "case_id": "lam180",
+  "formula": "P1H5S2",
+  "material": "SnAs (rock-salt / NaCl structure)",
+  "condition": "P1 H5S2, 120 GPa",
+  "material_type": "intermetallic",
+  "pressure_GPa": 120,
+  "space_group": "P1",
+  "prototype": "mixed H2S-H3S motif (triclinic)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.13",
+  "lambda_ref": "1.239",
+  "omega_log_K_ref": "907"
+ },
+ {
+  "case_id": "lam181",
+  "formula": "P1H5S2",
+  "material": "SnAs (rock-salt / NaCl structure)",
+  "condition": "P1 H5S2, 130 GPa",
+  "material_type": "intermetallic",
+  "pressure_GPa": 130,
+  "space_group": "P1",
+  "prototype": "mixed H2S-H3S motif (triclinic)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.13",
+  "lambda_ref": "1.242",
+  "omega_log_K_ref": "951"
+ },
+ {
+  "case_id": "lam197",
+  "formula": "K2Cr3As3",
+  "material": "K2Cr3As3 (noncentrosymmetric quasi-1D, P-6m2)",
+  "condition": "(single)",
+  "material_type": "intermetallic",
+  "pressure_GPa": null,
+  "space_group": "P-6m2",
+  "prototype": "noncentrosymmetric quasi-1D A2T3As3 (Cr3As3 tubes), hexagonal",
+  "lattice": {
+   "a": 9.9832,
+   "b": 9.9832,
+   "c": 4.2304,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 120
+  },
+  "sites": null,
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.12",
+  "lambda_ref": "3",
+  "omega_log_K_ref": "102.2"
+ },
+ {
+  "case_id": "lam198",
+  "formula": "(Ce,La)H9",
+  "material": "(Ce,La)H9 (ordered P-6m2, Ce:La=1, 200 GPa)",
+  "condition": "(single)",
+  "material_type": "intermetallic",
+  "pressure_GPa": 200,
+  "space_group": "P-6m2",
+  "prototype": "ordered Ce/La substitution on P6_3/mmc superhydride parent (clathrate H cage); Ce:La=1, 1x1x1 ordered cell",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "3",
+  "omega_log_K_ref": "327"
+ },
+ {
+  "case_id": "lam199",
+  "formula": "C6H6",
+  "material": "compressed solid benzene molecular crystal (C6H6, P2_1/c) at 180-200 G",
+  "condition": "benzene P2_1/c, 190 GPa, mu*=0.10",
+  "material_type": "intermetallic",
+  "pressure_GPa": 190,
+  "space_group": "P2_1/c",
+  "prototype": "molecular benzene crystal (monoclinic)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.68",
+  "omega_log_K_ref": "565.1"
+ },
+ {
+  "case_id": "lam203",
+  "formula": "Be43Bi20Pb37",
+  "material": "beryllium-based alloys (Be-Pb, Be-Al, Be-In, Be-Nb, Tl-Pb, ternary Be-",
+  "condition": "Be43Bi20Pb37 (ternary)",
+  "material_type": "intermetallic",
+  "pressure_GPa": null,
+  "space_group": null,
+  "prototype": null,
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "none",
+  "mu_star": "0.115",
+  "lambda_ref": "1.015",
+  "omega_log_K_ref": ""
+ },
+ {
+  "case_id": "lam204",
+  "formula": "Be43Pb57",
+  "material": "beryllium-based alloys (Be-Pb, Be-Al, Be-In, Be-Nb, Tl-Pb, ternary Be-",
+  "condition": "Be43Pb57",
+  "material_type": "intermetallic",
+  "pressure_GPa": null,
+  "space_group": null,
+  "prototype": null,
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "none",
+  "mu_star": "0.116",
+  "lambda_ref": "0.988",
+  "omega_log_K_ref": ""
+ },
+ {
+  "case_id": "lam205",
+  "formula": "K2Mo3As3",
+  "material": "K2Mo3As3",
+  "condition": "K2Mo3As3, mu*=0.12",
+  "material_type": "intermetallic",
+  "pressure_GPa": null,
+  "space_group": "P-6m2",
+  "prototype": "noncentrosymmetric quasi-1D A2T3As3 (Mo3As3 tubes), hexagonal",
+  "lattice": {
+   "a": 10.256,
+   "b": 10.256,
+   "c": 4.463,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 120
+  },
+  "sites": null,
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.12",
+  "lambda_ref": "1.92",
+  "omega_log_K_ref": "123"
+ },
+ {
+  "case_id": "lam217",
+  "formula": "H",
+  "material": "Field-effect hole-doped hydrogenated diamond (111) surface (FET geomet",
+  "condition": "H-diamond(111) FET n=6e14 cm-2, full-BZ Wannier",
+  "material_type": "intermetallic",
+  "pressure_GPa": null,
+  "space_group": null,
+  "prototype": "Hydrogenated (111) diamond surface slab in FET geometry (hexagonal surface cell); surface C in sp3 diamond network terminated by H, hole-doped n=6e14 cm-2",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.13",
+  "lambda_ref": "0.81",
+  "omega_log_K_ref": "964.2"
+ },
+ {
+  "case_id": "lam218",
+  "formula": "H",
+  "material": "Field-effect hole-doped hydrogenated diamond (111) surface (FET geomet",
+  "condition": "H-diamond(111) FET n=6e14 cm-2, q=Gamma approx",
+  "material_type": "intermetallic",
+  "pressure_GPa": null,
+  "space_group": null,
+  "prototype": "Hydrogenated (111) diamond surface slab in FET geometry (hexagonal surface cell); surface C in sp3 diamond network terminated by H, hole-doped n=6e14 cm-2",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.13",
+  "lambda_ref": "1.09",
+  "omega_log_K_ref": "906.3"
+ },
+ {
+  "case_id": "lam219",
+  "formula": "Sn3S4I",
+  "material": "high-pressure tin-sulfide compounds: gamma-SnS (Pm-3m) and Sn3S4 (I-43",
+  "condition": "Sn3S4 I-43d 30 GPa",
+  "material_type": "intermetallic",
+  "pressure_GPa": 30,
+  "space_group": "I-43d",
+  "prototype": "body-centered cubic Sn3S4 (no named prototype)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "1.2",
+  "omega_log_K_ref": "244"
+ },
+ {
+  "case_id": "lam229",
+  "formula": "LaPtBN",
+  "material": "boronitride superconductors LaMBN (M=Ni, Pt)",
+  "condition": "LaPtBN",
+  "material_type": "intermetallic",
+  "pressure_GPa": null,
+  "space_group": null,
+  "prototype": "Layered TM boronitride LaPtBN (n=2 boronitride; alternating Pt-B and La-N layers); isostructural with LaNiBN",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.56",
+  "omega_log_K_ref": "294"
+ }
+]

@@ -1,0 +1,24 @@
+&control
+  calculation='scf', prefix='x', pseudo_dir='./pseudo', outdir='./out'
+/
+&system
+  ibrav=4, celldm(1)=9.81148, celldm(3)=1.75593, nat=7, ntyp=2,
+  ecutwfc=60, ecutrho=240,
+  occupations='smearing', smearing='methfessel-paxton', degauss=0.02, nspin=1
+/
+&electrons
+  conv_thr=1.0d-10, mixing_beta=0.7
+/
+ATOMIC_SPECIES
+  Li 6.941 Li_ONCV_PBE-1.2.upf
+  Sn 118.71 Sn_ONCV_PBE-1.2.upf
+ATOMIC_POSITIONS crystal
+  Li 0.000000 0.000000 0.500000
+  Sn 0.000000 0.000000 0.163630
+  Sn 0.000000 0.000000 0.836370
+  Sn 0.333333 0.666667 0.516890
+  Sn 0.666667 0.333333 0.483110
+  Sn 0.333333 0.666667 0.842920
+  Sn 0.666667 0.333333 0.157080
+K_POINTS automatic
+  24 24 24 0 0 0

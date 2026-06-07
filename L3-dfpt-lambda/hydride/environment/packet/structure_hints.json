@@ -1,0 +1,1037 @@
+[
+ {
+  "case_id": "lam077",
+  "formula": "Ba2RhH6",
+  "material": "X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",
+  "condition": "Ba2RhH6 at 20 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 20.0,
+  "space_group": "Fm-3m (225)",
+  "prototype": "K2PtCl6 (cubic antifluorite-type, fcc, MH6 octahedra)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0
+  },
+  "sites": [
+   {
+    "element": "Rh",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   {
+    "element": "Ba",
+    "x": 0.25,
+    "y": 0.25,
+    "z": 0.25
+   },
+   {
+    "element": "H",
+    "x": 0.24,
+    "y": 0.0,
+    "z": 0.0
+   }
+  ],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.62",
+  "omega_log_K_ref": "329.59"
+ },
+ {
+  "case_id": "lam079",
+  "formula": "Ca2IrH6",
+  "material": "X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",
+  "condition": "Ca2IrH6 at 20 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 20.0,
+  "space_group": "Fm-3m (225)",
+  "prototype": "K2PtCl6 (cubic antifluorite-type, fcc, MH6 octahedra)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0
+  },
+  "sites": [
+   {
+    "element": "Ir",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   {
+    "element": "Ca",
+    "x": 0.25,
+    "y": 0.25,
+    "z": 0.25
+   },
+   {
+    "element": "H",
+    "x": 0.24,
+    "y": 0.0,
+    "z": 0.0
+   }
+  ],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.68",
+  "omega_log_K_ref": "1372.79"
+ },
+ {
+  "case_id": "lam080",
+  "formula": "Ca2RhH6",
+  "material": "X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",
+  "condition": "Ca2RhH6 at 20 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 20.0,
+  "space_group": "Fm-3m (225)",
+  "prototype": "K2PtCl6 (cubic antifluorite-type, fcc, MH6 octahedra)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0
+  },
+  "sites": [
+   {
+    "element": "Rh",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   {
+    "element": "Ca",
+    "x": 0.25,
+    "y": 0.25,
+    "z": 0.25
+   },
+   {
+    "element": "H",
+    "x": 0.24,
+    "y": 0.0,
+    "z": 0.0
+   }
+  ],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.51",
+  "omega_log_K_ref": "849.56"
+ },
+ {
+  "case_id": "lam082",
+  "formula": "Mg2IrH6",
+  "material": "X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",
+  "condition": "Mg2IrH6 at 20 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 20.0,
+  "space_group": "Fm-3m (225)",
+  "prototype": "K2PtCl6 (cubic antifluorite-type, fcc, MH6 octahedra)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0
+  },
+  "sites": [
+   {
+    "element": "Ir",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   {
+    "element": "Mg",
+    "x": 0.25,
+    "y": 0.25,
+    "z": 0.25
+   },
+   {
+    "element": "H",
+    "x": 0.24,
+    "y": 0.0,
+    "z": 0.0
+   }
+  ],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "3.04",
+  "omega_log_K_ref": "927.52"
+ },
+ {
+  "case_id": "lam083",
+  "formula": "Mg2RhH6",
+  "material": "X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",
+  "condition": "Mg2RhH6 at 20 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 20.0,
+  "space_group": "Fm-3m (225)",
+  "prototype": "K2PtCl6 (cubic antifluorite-type, fcc, MH6 octahedra)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0
+  },
+  "sites": [
+   {
+    "element": "Rh",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   {
+    "element": "Mg",
+    "x": 0.25,
+    "y": 0.25,
+    "z": 0.25
+   },
+   {
+    "element": "H",
+    "x": 0.24,
+    "y": 0.0,
+    "z": 0.0
+   }
+  ],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "2.05",
+  "omega_log_K_ref": "1002.21"
+ },
+ {
+  "case_id": "lam085",
+  "formula": "Sr2IrH6",
+  "material": "X2MH6 hydrides (X=Mg/Ca/Sr/Ba, M=Co/Rh/Ir) at 20 GPa; notably Mg2IrH6",
+  "condition": "Sr2IrH6 at 20 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 20.0,
+  "space_group": "Fm-3m (225)",
+  "prototype": "K2PtCl6 (cubic antifluorite-type, fcc, MH6 octahedra)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0
+  },
+  "sites": [
+   {
+    "element": "Ir",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   {
+    "element": "Sr",
+    "x": 0.25,
+    "y": 0.25,
+    "z": 0.25
+   },
+   {
+    "element": "H",
+    "x": 0.24,
+    "y": 0.0,
+    "z": 0.0
+   }
+  ],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.43",
+  "omega_log_K_ref": "429.14"
+ },
+ {
+  "case_id": "lam086",
+  "formula": "La2Pt2H13",
+  "material": "LaPtH6 (ternary hydride, R-3m, triatomic H3 units) [duplicate paper_id",
+  "condition": "La2Pt2H13, 20 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 20.0,
+  "space_group": null,
+  "prototype": "La-Pt-H ternary (metallic, dynamically stable; structure not detailed in LKM)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "none",
+  "mu_star": "0.1",
+  "lambda_ref": "0.615",
+  "omega_log_K_ref": "449.5"
+ },
+ {
+  "case_id": "lam087",
+  "formula": "LaPt2H7",
+  "material": "LaPtH6 (ternary hydride, R-3m, triatomic H3 units) [duplicate paper_id",
+  "condition": "LaPt2H7, 20 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 20.0,
+  "space_group": null,
+  "prototype": "La-Pt-H ternary (metallic, dynamically stable; structure not detailed in LKM)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "none",
+  "mu_star": "0.1",
+  "lambda_ref": "0.788",
+  "omega_log_K_ref": "305.3"
+ },
+ {
+  "case_id": "lam088",
+  "formula": "LaPt3H9",
+  "material": "LaPtH6 (ternary hydride, R-3m, triatomic H3 units) [duplicate paper_id",
+  "condition": "LaPt3H9, 20 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 20.0,
+  "space_group": null,
+  "prototype": "La-Pt-H ternary (metallic, dynamically stable; structure not detailed in LKM)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "none",
+  "mu_star": "0.1",
+  "lambda_ref": "0.816",
+  "omega_log_K_ref": "284"
+ },
+ {
+  "case_id": "lam089",
+  "formula": "LaPtH5",
+  "material": "LaPtH6 (ternary hydride, R-3m, triatomic H3 units) [duplicate paper_id",
+  "condition": "LaPtH5, 20 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 20.0,
+  "space_group": null,
+  "prototype": "La-Pt-H ternary (metallic, dynamically stable; structure not detailed in LKM)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "none",
+  "mu_star": "0.1",
+  "lambda_ref": "0.494",
+  "omega_log_K_ref": "551.6"
+ },
+ {
+  "case_id": "lam090",
+  "formula": "LaPtH6",
+  "material": "LaPtH6 (ternary hydride, R-3m, triatomic H3 units) [duplicate paper_id",
+  "condition": "LaPtH6, 0 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 0.0,
+  "space_group": "R-3m (166)",
+  "prototype": "trigonal LaPtH6; PtH6 octahedra + La layers; equilateral H3 units (kagome-like H layer)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.789",
+  "omega_log_K_ref": "282.1"
+ },
+ {
+  "case_id": "lam091",
+  "formula": "LaPtH6",
+  "material": "LaPtH6 (ternary hydride, R-3m, triatomic H3 units) [duplicate paper_id",
+  "condition": "LaPtH6, 20 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 20.0,
+  "space_group": "R-3m (166)",
+  "prototype": "trigonal LaPtH6; PtH6 octahedra + La layers; equilateral H3 units (kagome-like H layer)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.701",
+  "omega_log_K_ref": "511.7"
+ },
+ {
+  "case_id": "lam092",
+  "formula": "H",
+  "material": "Monatomic metallic hydrogen, I4_1/amd (Cs-IV phase) under high pressur",
+  "condition": "I4_1/amd H, 480 GPa, mu*=0.10",
+  "material_type": "hydride",
+  "pressure_GPa": 480.0,
+  "space_group": "I4_1/amd (141)",
+  "prototype": "Cs-IV (beta-Sn / I4_1/amd-type) monatomic metallic hydrogen",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0
+  },
+  "sites": [
+   {
+    "element": "H",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  ],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "2.17",
+  "omega_log_K_ref": "1870.04"
+ },
+ {
+  "case_id": "lam093",
+  "formula": "H",
+  "material": "Monatomic metallic hydrogen, I4_1/amd (Cs-IV phase) under high pressur",
+  "condition": "I4_1/amd H, 539 GPa, mu*=0.10",
+  "material_type": "hydride",
+  "pressure_GPa": 539.0,
+  "space_group": "I4_1/amd (141)",
+  "prototype": "Cs-IV (beta-Sn / I4_1/amd-type) monatomic metallic hydrogen",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0
+  },
+  "sites": [
+   {
+    "element": "H",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  ],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "2.01",
+  "omega_log_K_ref": "2015.98"
+ },
+ {
+  "case_id": "lam094",
+  "formula": "H",
+  "material": "Monatomic metallic hydrogen, I4_1/amd (Cs-IV phase) under high pressur",
+  "condition": "I4_1/amd H, 608 GPa, mu*=0.10",
+  "material_type": "hydride",
+  "pressure_GPa": 608.0,
+  "space_group": "I4_1/amd (141)",
+  "prototype": "Cs-IV (beta-Sn / I4_1/amd-type) monatomic metallic hydrogen",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0
+  },
+  "sites": [
+   {
+    "element": "H",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  ],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "1.89",
+  "omega_log_K_ref": "2106.38"
+ },
+ {
+  "case_id": "lam095",
+  "formula": "H",
+  "material": "Monatomic metallic hydrogen, I4_1/amd (Cs-IV phase) under high pressur",
+  "condition": "I4_1/amd H, 802 GPa, mu*=0.10",
+  "material_type": "hydride",
+  "pressure_GPa": 802.0,
+  "space_group": "I4_1/amd (141)",
+  "prototype": "Cs-IV (beta-Sn / I4_1/amd-type) monatomic metallic hydrogen",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0
+  },
+  "sites": [
+   {
+    "element": "H",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  ],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "1.68",
+  "omega_log_K_ref": "2238.58"
+ },
+ {
+  "case_id": "lam096",
+  "formula": "FC34",
+  "material": "halogen(F)-doped carbon clathrate FC34 (fluorine in C28 cage, fcc)",
+  "condition": "FC34 (fluorine in C28 cage)",
+  "material_type": "hydride",
+  "pressure_GPa": 0.0,
+  "space_group": "Fd-3m (227)",
+  "prototype": "type-II (clathrate-II) carbon clathrate, fcc; F endohedral in larger C28 cage",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0
+  },
+  "sites": [],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.85",
+  "omega_log_K_ref": "1471.9"
+ },
+ {
+  "case_id": "lam097",
+  "formula": "S0.5P0.5H3",
+  "material": "ternary S-P-H alloy hydrides (S0.75P0.25H3, S0.5P0.5H3) under high pre",
+  "condition": "S0.5P0.5H3, Imma, 200 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 200,
+  "space_group": "Imma",
+  "prototype": "orthorhombic (H3S-derived parent lattice)",
+  "lattice": {
+   "a": 2.902,
+   "b": 4.153,
+   "c": 8.304,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 90
+  },
+  "sites": [],
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.1",
+  "lambda_ref": "0.94",
+  "omega_log_K_ref": "1200"
+ },
+ {
+  "case_id": "lam098",
+  "formula": "S0.75P0.25H3",
+  "material": "ternary S-P-H alloy hydrides (S0.75P0.25H3, S0.5P0.5H3) under high pre",
+  "condition": "S0.75P0.25H3, Immm, 200 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 200,
+  "space_group": "Immm",
+  "prototype": "orthorhombic (H3S-derived parent lattice)",
+  "lattice": {
+   "a": 8.557,
+   "b": 2.964,
+   "c": 4.232,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 90
+  },
+  "sites": [],
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.1",
+  "lambda_ref": "1.31",
+  "omega_log_K_ref": "291"
+ },
+ {
+  "case_id": "lam099",
+  "formula": "Mg0.5Ca0.5H6",
+  "material": "Mg0.5Ca0.5H6 (Im-3m sodalite clathrate hexahydride, 200 GPa)",
+  "condition": "(single)",
+  "material_type": "hydride",
+  "pressure_GPa": 200,
+  "space_group": "Im-3m",
+  "prototype": "sodalite-like clathrate hexahydride (H24 cage; bcc metal site)",
+  "lattice": {
+   "a": 3.3215,
+   "b": 3.3215,
+   "c": 3.3215,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 90
+  },
+  "sites": [],
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.1",
+  "lambda_ref": "2.53",
+  "omega_log_K_ref": "1400"
+ },
+ {
+  "case_id": "lam108",
+  "formula": "H4Te",
+  "material": "Tellurium hydrides (H4Te, H5Te2, HTe) at high pressure",
+  "condition": "H4Te, 200 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 200,
+  "space_group": "P6/mmm",
+  "prototype": "TeH12 H-sharing polyhedra (quasimolecular H2 units)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "1.46",
+  "omega_log_K_ref": "929.1"
+ },
+ {
+  "case_id": "lam112",
+  "formula": "CS2H10",
+  "material": "CS2H10 (CH4-intercalated H3S, host-guest hydride) under pressure",
+  "condition": "Cmc2_1, 150 GPa, mu*=0.10 (Allen-Dynes)",
+  "material_type": "hydride",
+  "pressure_GPa": 150,
+  "space_group": "Cmc2_1",
+  "prototype": "host-guest (CH4 in H3S-like Im-3m/R3m host sublattice)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "2.01",
+  "omega_log_K_ref": "799"
+ },
+ {
+  "case_id": "lam114",
+  "formula": "P3",
+  "material": "CS2H10 (CH4-intercalated H3S, host-guest hydride) under pressure",
+  "condition": "P3m1, 100 GPa, mu*=0.10 (Allen-Dynes)",
+  "material_type": "hydride",
+  "pressure_GPa": 100,
+  "space_group": "P3m1",
+  "prototype": "CH4 + SH3 units arranged analogous to R3m H3S",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "1.21",
+  "omega_log_K_ref": "916"
+ },
+ {
+  "case_id": "lam115",
+  "formula": "P3",
+  "material": "CS2H10 (CH4-intercalated H3S, host-guest hydride) under pressure",
+  "condition": "P3m1, 50 GPa, mu*=0.10 (Allen-Dynes)",
+  "material_type": "hydride",
+  "pressure_GPa": 50,
+  "space_group": "P3m1",
+  "prototype": "CH4 + SH3 units arranged analogous to R3m H3S",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "1.51",
+  "omega_log_K_ref": "651"
+ },
+ {
+  "case_id": "lam116",
+  "formula": "CS2H10",
+  "material": "CS2H10 (CH4-intercalated H3S, host-guest hydride) under pressure",
+  "condition": "Pm, 200 GPa, mu*=0.10 (Allen-Dynes)",
+  "material_type": "hydride",
+  "pressure_GPa": 200,
+  "space_group": "Pm",
+  "prototype": "host-guest (CH4 in H3S-like host sublattice), monoclinic",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.69",
+  "omega_log_K_ref": "1386"
+ },
+ {
+  "case_id": "lam117",
+  "formula": "CaAlSiF",
+  "material": "Carbon sodalite C6 and XC6 (NaC6, AlC6, ClC6)",
+  "condition": "CaAlSi AF-like stacking",
+  "material_type": "hydride",
+  "pressure_GPa": null,
+  "space_group": null,
+  "prototype": null,
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "none",
+  "mu_star": "0.1",
+  "lambda_ref": "0.8",
+  "omega_log_K_ref": "146.76"
+ },
+ {
+  "case_id": "lam118",
+  "formula": "C2KYH8",
+  "material": "C2/m KYH8 (K-Y-H ternary hydride, high pressure)",
+  "condition": "C2/m KYH8, 200 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 200,
+  "space_group": "C2/m",
+  "prototype": "monoclinic KYH8 with H3 molecular-like units and Y-H chain motif (no named prototype)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "1.478",
+  "omega_log_K_ref": "989.9"
+ },
+ {
+  "case_id": "lam119",
+  "formula": "C2KYH8",
+  "material": "C2/m KYH8 (K-Y-H ternary hydride, high pressure)",
+  "condition": "C2/m KYH8, 250 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 250,
+  "space_group": "C2/m",
+  "prototype": "monoclinic KYH8 with H3 molecular-like units and Y-H chain motif (no named prototype)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "1.214",
+  "omega_log_K_ref": "1342.51"
+ },
+ {
+  "case_id": "lam120",
+  "formula": "C2KYH8",
+  "material": "C2/m KYH8 (K-Y-H ternary hydride, high pressure)",
+  "condition": "C2/m KYH8, 300 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 300,
+  "space_group": "C2/m",
+  "prototype": "monoclinic KYH8 with H3 molecular-like units and Y-H chain motif (no named prototype). At 300 GPa reported H-H distances: H1-H2=0.921 A, H3-H5=0.819 A; Y-H7=1.773 A (bond distances only, not lattice/Wyckoff)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "2.09",
+  "omega_log_K_ref": "960.47"
+ },
+ {
+  "case_id": "lam121",
+  "formula": "C2SnH12",
+  "material": "Tin hydrides SnH8, SnH12, SnH14 (also SnH4), high pressure",
+  "condition": "C2/m-SnH12, 250 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 250,
+  "space_group": "C2/m",
+  "prototype": "monoclinic SnH12 with linear H4- blocks (no named prototype)",
+  "lattice": {
+   "a": 5.191,
+   "b": 3.065,
+   "c": 7.388,
+   "alpha": 90.0,
+   "beta": 148.95,
+   "gamma": 90.0
+  },
+  "sites": null,
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.1",
+  "lambda_ref": "1.25",
+  "omega_log_K_ref": "991"
+ },
+ {
+  "case_id": "lam122",
+  "formula": "C2SnH14",
+  "material": "Tin hydrides SnH8, SnH12, SnH14 (also SnH4), high pressure",
+  "condition": "C2/m-SnH14, 300 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 300,
+  "space_group": "C2/m",
+  "prototype": "monoclinic SnH14 (no named prototype)",
+  "lattice": {
+   "a": 7.129,
+   "b": 2.73,
+   "c": 3.673,
+   "alpha": 90.0,
+   "beta": 60.71,
+   "gamma": 90.0
+  },
+  "sites": null,
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.1",
+  "lambda_ref": "1.187",
+  "omega_log_K_ref": "1099"
+ },
+ {
+  "case_id": "lam123",
+  "formula": "ISnH8",
+  "material": "Tin hydrides SnH8, SnH12, SnH14 (also SnH4), high pressure",
+  "condition": "I-4m2-SnH8, 220 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 220,
+  "space_group": "I-4m2",
+  "prototype": "tetragonal SnH8 with bent H3- units and H2 semi-molecular units (no named prototype)",
+  "lattice": {
+   "a": 3.076,
+   "b": 3.076,
+   "c": 5.523,
+   "alpha": 90.0,
+   "beta": 90.0,
+   "gamma": 90.0
+  },
+  "sites": [
+   {
+    "element": "Sn",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   {
+    "element": "H",
+    "x": 0.2729,
+    "y": 0.0,
+    "z": 0.33331
+   },
+   {
+    "element": "H",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.62088
+   }
+  ],
+  "structure_completeness": "full",
+  "mu_star": "0.1",
+  "lambda_ref": "1.188",
+  "omega_log_K_ref": "919"
+ },
+ {
+  "case_id": "lam124",
+  "formula": "I4SnH4",
+  "material": "Tin hydrides SnH8, SnH12, SnH14 (also SnH4), high pressure",
+  "condition": "I4/mmm-SnH4, 220 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 220,
+  "space_group": "I4/mmm",
+  "prototype": null,
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "none",
+  "mu_star": "0.1",
+  "lambda_ref": "1.18",
+  "omega_log_K_ref": "1025"
+ },
+ {
+  "case_id": "lam125",
+  "formula": "LaBH8",
+  "material": "Ternary lanthanum borohydrides (LaBH7, LaBH8)",
+  "condition": "Fm-3m LaBH8, 100 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 100,
+  "space_group": "Fm-3m",
+  "prototype": "B-centered BH8 covalent units in interstitial sites of fcc La lattice; La+8H sublattice geometry resembles LaH10 clathrate-like / H3S coordination",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "1.11",
+  "omega_log_K_ref": "1189"
+ },
+ {
+  "case_id": "lam126",
+  "formula": "LaBH8",
+  "material": "Ternary lanthanum borohydrides (LaBH7, LaBH8)",
+  "condition": "Fm-3m LaBH8, 200 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 200,
+  "space_group": "Fm-3m",
+  "prototype": "B-centered BH8 covalent units in interstitial sites of fcc La lattice; La+8H sublattice geometry resembles LaH10 clathrate-like / H3S coordination",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.72",
+  "omega_log_K_ref": "1557"
+ },
+ {
+  "case_id": "lam127",
+  "formula": "LaBH8",
+  "material": "Ternary lanthanum borohydrides (LaBH7, LaBH8)",
+  "condition": "Fm-3m LaBH8, 50 GPa (Allen-Dynes)",
+  "material_type": "hydride",
+  "pressure_GPa": 50,
+  "space_group": "Fm-3m",
+  "prototype": "B-centered BH8 covalent units in interstitial sites of fcc La lattice; La+8H sublattice geometry resembles LaH10 clathrate-like / H3S coordination",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "2.29",
+  "omega_log_K_ref": "692"
+ },
+ {
+  "case_id": "lam128",
+  "formula": "LaBH8",
+  "material": "Ternary lanthanum borohydrides (LaBH7, LaBH8)",
+  "condition": "Fm-3m LaBH8, 55 GPa (Allen-Dynes)",
+  "material_type": "hydride",
+  "pressure_GPa": 55,
+  "space_group": "Fm-3m",
+  "prototype": "B-centered BH8 covalent units in interstitial sites of fcc La lattice; La+8H sublattice geometry resembles LaH10 clathrate-like / H3S coordination",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "1.97",
+  "omega_log_K_ref": "807"
+ },
+ {
+  "case_id": "lam129",
+  "formula": "PLaBH7",
+  "material": "Ternary lanthanum borohydrides (LaBH7, LaBH8)",
+  "condition": "P-3m1 LaBH7, 110 GPa",
+  "material_type": "hydride",
+  "pressure_GPa": 110,
+  "space_group": "P-3m1",
+  "prototype": "trigonal LaBH7 with edge-connected BH6 units linked by H-H bridges (no named prototype)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "1.46",
+  "omega_log_K_ref": "837"
+ }
+]

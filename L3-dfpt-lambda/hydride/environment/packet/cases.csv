@@ -1,0 +1,36 @@
+case_id,mode,structure_file,condition,mu_star
+lam079,build-from-spec,,Ca2IrH6 at 20 GPa,0.1
+lam080,build-from-spec,,Ca2RhH6 at 20 GPa,0.1
+lam083,build-from-spec,,Mg2RhH6 at 20 GPa,0.1
+lam085,build-from-spec,,Sr2IrH6 at 20 GPa,0.1
+lam087,build-from-spec,,"LaPt2H7, 20 GPa",0.1
+lam088,build-from-spec,,"LaPt3H9, 20 GPa",0.1
+lam090,build-from-spec,,"LaPtH6, 0 GPa",0.1
+lam091,build-from-spec,,"LaPtH6, 20 GPa",0.1
+lam093,build-from-spec,,"I4_1/amd H, 539 GPa, mu*=0.10",0.1
+lam094,build-from-spec,,"I4_1/amd H, 608 GPa, mu*=0.10",0.1
+lam096,build-from-spec,,FC34 (fluorine in C28 cage),0.1
+lam097,build-from-spec,,"S0.5P0.5H3, Imma, 200 GPa",0.1
+lam099,build-from-spec,,(single),0.1
+lam108,build-from-spec,,"H4Te, 200 GPa",0.1
+lam114,build-from-spec,,"P3m1, 100 GPa, mu*=0.10 (Allen-Dynes)",0.1
+lam115,build-from-spec,,"P3m1, 50 GPa, mu*=0.10 (Allen-Dynes)",0.1
+lam117,build-from-spec,,CaAlSi AF-like stacking,0.1
+lam118,build-from-spec,,"C2/m KYH8, 200 GPa",0.1
+lam120,build-from-spec,,"C2/m KYH8, 300 GPa",0.1
+lam121,build-from-spec,,"C2/m-SnH12, 250 GPa",0.1
+lam123,build-from-spec,,"I-4m2-SnH8, 220 GPa",0.1
+lam124,build-from-spec,,"I4/mmm-SnH4, 220 GPa",0.1
+lam126,build-from-spec,,"Fm-3m LaBH8, 200 GPa",0.1
+lam127,build-from-spec,,"Fm-3m LaBH8, 50 GPa (Allen-Dynes)",0.1
+lam129,build-from-spec,,"P-3m1 LaBH7, 110 GPa",0.1
+lam078,structure-ready,Ca2CoH6.scf.in,Ca2CoH6 at 20 GPa,0.1
+lam084,structure-ready,Sr2CoH6.scf.in,Sr2CoH6 at 20 GPa,0.1
+lam100,structure-ready,FeH5.scf.in,"FeH5, I4/mmm, 130 GPa",0.1
+lam102,structure-ready,GeH3.scf.in,"A15 GeH3, r_s=1.52 (~180 GPa)",0.13
+lam103,structure-ready,GeH3.scf.in,"Cccm GeH3, r_s=1.52 (~180 GPa)",0.13
+lam105,structure-ready,AlH3.scf.in,AlH3 Pm-3n 73 GPa,0.07
+lam106,structure-ready,SrAu2Si2__lam106.scf.in,SrAu2Si2 (I4/mmm),0.12
+lam109,structure-ready,SnH4.scf.in,"SnH4 C2/m, 500 GPa",0.1
+lam110,structure-ready,BeH2.scf.in,"BeH2 Cmcm 250 GPa, mu*=0.10",0.1
+lam113,structure-ready,P.scf.in,"P-3m1, 100 GPa, mu*=0.10 (Allen-Dynes)",0.1

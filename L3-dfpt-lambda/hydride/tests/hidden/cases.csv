@@ -1,0 +1,19 @@
+case_id,mode,structure_file,condition,mu_star
+lam077,build-from-spec,,Ba2RhH6 at 20 GPa,0.1
+lam082,build-from-spec,,Mg2IrH6 at 20 GPa,0.1
+lam086,build-from-spec,,"La2Pt2H13, 20 GPa",0.1
+lam089,build-from-spec,,"LaPtH5, 20 GPa",0.1
+lam092,build-from-spec,,"I4_1/amd H, 480 GPa, mu*=0.10",0.1
+lam095,build-from-spec,,"I4_1/amd H, 802 GPa, mu*=0.10",0.1
+lam098,build-from-spec,,"S0.75P0.25H3, Immm, 200 GPa",0.1
+lam112,build-from-spec,,"Cmc2_1, 150 GPa, mu*=0.10 (Allen-Dynes)",0.1
+lam116,build-from-spec,,"Pm, 200 GPa, mu*=0.10 (Allen-Dynes)",0.1
+lam119,build-from-spec,,"C2/m KYH8, 250 GPa",0.1
+lam122,build-from-spec,,"C2/m-SnH14, 300 GPa",0.1
+lam125,build-from-spec,,"Fm-3m LaBH8, 100 GPa",0.1
+lam128,build-from-spec,,"Fm-3m LaBH8, 55 GPa (Allen-Dynes)",0.1
+lam081,structure-ready,Mg2CoH6.scf.in,Mg2CoH6 at 20 GPa,0.1
+lam101,structure-ready,FeH5.scf.in,"FeH5, I4/mmm, 200 GPa",0.1
+lam104,structure-ready,GeH3__lam104.scf.in,"P4_2/mmc GeH3, r_s=1.52 (~180 GPa)",0.13
+lam107,structure-ready,SrAuSi3__lam107.scf.in,SrAuSi3 (I4mm),0.12
+lam111,structure-ready,BeH2.scf.in,"BeH2 P4/nmm 400 GPa, mu*=0.10",0.1

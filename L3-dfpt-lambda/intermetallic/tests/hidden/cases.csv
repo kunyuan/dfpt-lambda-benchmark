@@ -1,0 +1,37 @@
+case_id,mode,structure_file,condition,mu_star
+lam138,build-from-spec,,"CdCNi3, mu*=0.12",0.12
+lam169,build-from-spec,,(single),0.1
+lam179,build-from-spec,,"P1 H5S2, 112 GPa",0.13
+lam197,build-from-spec,,(single),0.12
+lam203,build-from-spec,,Be43Bi20Pb37 (ternary),0.115
+lam217,build-from-spec,,"H-diamond(111) FET n=6e14 cm-2, full-BZ Wannier",0.13
+lam229,build-from-spec,,LaPtBN,0.1
+lam132,structure-ready,Nb3Sn.scf.in,"A15 Nb3Sn, Sn=0.25 (stoichiometric)",0.24
+lam135,structure-ready,V3Si.scf.in,(single),0.13
+lam140,structure-ready,LaNiPO.scf.in,(single),0.12
+lam144,structure-ready,MgB2.scf.in,MgB2 unstrained (bulk reference),0.15
+lam147,structure-ready,Li.scf.in,"BCC tellurium, V/V0=1.0 (~38 GPa)",0.12
+lam150,structure-ready,Li.scf.in,"FCC iodine, 81 GPa",0.1
+lam153,structure-ready,NbC.scf.in,NbC (B1),0.18
+lam156,structure-ready,VC.scf.in,"VC (B1, stoichiometric)",0.12
+lam159,structure-ready,YC2.scf.in,"YC2 (CaC2-type bct), 0 GPa",0.13
+lam162,structure-ready,LaPtSi.scf.in,LaPtSi,0.1
+lam165,structure-ready,YIn3.scf.in,"YIn3, ambient pressure",0.07
+lam168,structure-ready,Cr3GaN.scf.in,"Cr3GaN, 0 GPa, mu*=0.10",0.1
+lam172,structure-ready,CaSi2.scf.in,"CaSi2, 0 GPa",0.1
+lam176,structure-ready,SrSi2.scf.in,SrSi2,0.1
+lam183,structure-ready,LaC2.scf.in,LaC2 (CaC2-type),0.13
+lam186,structure-ready,MgB2.scf.in,(single),0.13
+lam189,structure-ready,LaO.scf.in,"bulk LaO, zero strain (epsilon=0%)",0.13
+lam192,structure-ready,CaAlSiH.scf.in,"CaAlSi 1H, 40 kbar",0.1
+lam195,structure-ready,CaAlSiH.scf.in,"CaAlSi 2H, 40 kbar",0.1
+lam201,structure-ready,BeIn.scf.in,Be-In 31:69,0.12
+lam207,structure-ready,CdAs.scf.in,FCC CdAs,0.1
+lam210,structure-ready,CuSb.scf.in,FCC CuSb,0.1
+lam213,structure-ready,ZnSb.scf.in,FCC ZnSb,0.1
+lam216,structure-ready,AlB2.scf.in,monolayer AlB2 (single Al on honeycomb B),0.23
+lam222,structure-ready,BaC6.scf.in,BaC6 8 GPa,0.14
+lam225,structure-ready,SrC6.scf.in,SrC6 0 GPa,0.14
+lam228,structure-ready,LaNiBN.scf.in,LaNiBN,0.12
+lam232,structure-ready,Nb2N.scf.in,beta1-Nb2N (trigonal P-31m),0.1
+lam235,structure-ready,Nb2N.scf.in,beta4-Nb2N (orthorhombic Pnnm),0.1

@@ -1,0 +1,20 @@
+&control
+  calculation='scf', prefix='x', pseudo_dir='./pseudo', outdir='./out'
+/
+&system
+  ibrav=8, celldm(1)=5.20695, celldm(2)=1.16854, celldm(3)=1.54442, nat=4, ntyp=1,
+  ecutwfc=60, ecutrho=240,
+  occupations='smearing', smearing='methfessel-paxton', degauss=0.02, nspin=1
+/
+&electrons
+  conv_thr=1.0d-10, mixing_beta=0.7
+/
+ATOMIC_SPECIES
+  Ca 40.078 Ca_ONCV_PBE-1.2.upf
+ATOMIC_POSITIONS crystal
+  Ca 0.883717 0.750000 0.830817
+  Ca 0.616283 0.750000 0.330817
+  Ca 0.383717 0.250000 0.669183
+  Ca 0.116283 0.250000 0.169183
+K_POINTS automatic
+  24 24 24 0 0 0

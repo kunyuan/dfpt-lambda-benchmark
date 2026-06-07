@@ -1,0 +1,33 @@
+&control
+  calculation='scf', prefix='x', pseudo_dir='./pseudo', outdir='./out'
+/
+&system
+  ibrav=14, celldm(1)=13.83003, celldm(2)=1.0077, celldm(3)=1.06983, celldm(4)=-0.32042, celldm(5)=-0.07553, celldm(6)=-0.10045, nat=16, ntyp=2,
+  ecutwfc=60, ecutrho=240,
+  occupations='smearing', smearing='methfessel-paxton', degauss=0.02, nspin=1
+/
+&electrons
+  conv_thr=1.0d-10, mixing_beta=0.7
+/
+ATOMIC_SPECIES
+  H 1.00794 H_ONCV_PBE-1.2.upf
+  P 30.973762 P_ONCV_PBE-1.2.upf
+ATOMIC_POSITIONS crystal
+  P 0.760146 0.323984 0.186371
+  P 0.245880 0.079910 0.656296
+  P 0.236496 0.808613 0.422591
+  P 0.812228 0.689312 0.770280
+  H 0.702517 0.997943 0.457508
+  H 0.634458 0.449198 0.153239
+  H 0.148972 0.687237 0.512163
+  H 0.393498 0.940449 0.941175
+  H 0.793078 0.018511 0.516894
+  H 0.866012 0.346986 0.046379
+  H 0.438583 0.138702 0.654699
+  H 0.846642 0.521403 0.629296
+  H 0.059522 0.828152 0.343790
+  H 0.929504 0.647373 0.903121
+  H 0.652603 0.589449 0.810810
+  H 0.479859 0.932778 0.995389
+K_POINTS automatic
+  24 24 24 0 0 0

@@ -99,21 +99,35 @@ method variants above.
   spectra (λ ≈ 0.8–2.8, ω_log ≈ 87–524 K), `tests/test.sh` on the **Harbor contract**
   (runs agent code as `nobody`, root-only gold, writes `reward.txt`), 2 % tolerance.
   Deterministic + sub-second → the level that validates **end-to-end** under Harbor.
-- ✅ **L3 PoC** ([`L3-dfpt-lambda/poc-simple-metal/`](L3-dfpt-lambda/poc-simple-metal/)):
-  5 elemental metals, QE `pw.x`/`ph.x` structures + reference λ/ω_log, Harbor-contract
-  `tests/test.sh`, accuracy (≤ 15 %) + reported core-hours. The DFPT runs off-sandbox
-  (open-source QE); the verifier compares to a cached reference (PoC).
+- ✅ **L3 — one Harbor task per material type** (`L3-dfpt-lambda/<track>/`): the 276
+  cases are packaged into **5 runnable benchmarks**, each a full Harbor task
+  (`task.toml`, `instruction.md`, `environment/packet/`, `tests/` with root-only gold +
+  `reward.txt`, `scripts/selfcheck.sh`). Method is withheld (the agent picks the DFPT
+  approach for the class); gold = paper λ, graded ≤ 15 % + core-hours reported.
+
+  | track | cases | structure-ready | build-from-spec |
+  |---|---:|---:|---:|
+  | `intermetallic` | 107 | 88 | 19 |
+  | `hydride` | 53 | 15 | 38 |
+  | `simple-metal` | 40 | 30 | 10 |
+  | `heavy-soc` | 38 | 17 | 21 |
+  | `2d-layered` | 38 | 14 | 24 |
+
+  Each case is either **structure-ready** (a proper-`ibrav` QE input in
+  `packet/structures/`) or **build-from-spec** (construct the crystal from
+  `packet/structure_hints.json` — paper space group / prototype / lattice — then run).
 - ✅ **Real QE reproduction** ([`L3-dfpt-lambda/VALIDATION.md`](L3-dfpt-lambda/VALIDATION.md)):
   ran QE end-to-end on a 192-core server (MPI). With structures **relaxed to the
   stated pressure** + a **4×4×4 q-grid**, bcc Ta / sc P / fcc Li reproduce the paper
-  λ within **2–6 %** and ω_log within **1–13 %**. Confirmed the two production fixes:
-  ship pressure-relaxed structures, and pair ω_log with a q-grid spec.
-- ✅ **Reference data assembled** (276 λ points / 123 materials, 5 material-type tracks).
-- ⬜ **Run through real Harbor** — both tasks follow the contract and pass host-side
-  self-checks, but have not been executed by the `harbor` runner (needs Docker + the
-  CLI). `harbor run --agent oracle --path <task>` is the next validation step.
-- ⬜ **Scale L3** — attach structures for the remaining cases; harden the verifier
-  (submit DFPT artifacts, recompute λ server-side).
+  λ within **2–6 %** and ω_log within **1–13 %**.
+- ✅ **Structures assembled** — 164/276 structure-ready (OpenLAM 144 / MP 14 / LKM 6);
+  112 build-from-spec with the paper's structural info in `structure_hints`. SG15
+  pseudo manifest + fetch script in each `packet/pseudos/`. See
+  [`L3-dfpt-lambda/BUILD.md`](L3-dfpt-lambda/BUILD.md).
+- ⬜ **Run through real Harbor** — all tasks follow the contract and pass host-side
+  self-checks, but have not been executed by the `harbor` runner (needs Docker).
+- ⬜ **Harden** — fill remaining build-from-spec structures; verifier to recompute λ
+  from submitted DFPT artifacts; fix the case_id↔paper provenance mismatches.
 
 ## License
 

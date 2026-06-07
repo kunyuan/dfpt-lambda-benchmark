@@ -1,0 +1,635 @@
+[
+ {
+  "case_id": "lam039",
+  "formula": "Mg2Ir3Si",
+  "material": "Mg2Ir3Si (Ir Kagome network, P6_3/mmc)",
+  "condition": "Mg2Ir3Si with SOC",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "P6_3/mmc",
+  "prototype": "Mg2Cu3Si-type (hexagonal; Ir Kagome network)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.11",
+  "lambda_ref": "0.93",
+  "omega_log_K_ref": "120.15"
+ },
+ {
+  "case_id": "lam040",
+  "formula": "Mg2Ir3Si",
+  "material": "Mg2Ir3Si (Ir Kagome network, P6_3/mmc)",
+  "condition": "Mg2Ir3Si without SOC",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "P6_3/mmc",
+  "prototype": "Mg2Cu3Si-type (hexagonal; Ir Kagome network)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.11",
+  "lambda_ref": "1.05",
+  "omega_log_K_ref": "107.17"
+ },
+ {
+  "case_id": "lam043",
+  "formula": "BaPt4Ge12",
+  "material": "Filled skutterudites MPt4Ge12 (M = Ba, Sr, Th)",
+  "condition": "BaPt4Ge12 with SOI",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "Im-3",
+  "prototype": "filled skutterudite (LaFe4P12-type; bcc)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.74",
+  "omega_log_K_ref": "133.68"
+ },
+ {
+  "case_id": "lam044",
+  "formula": "SrPt4Ge12",
+  "material": "Filled skutterudites MPt4Ge12 (M = Ba, Sr, Th)",
+  "condition": "SrPt4Ge12 with SOI",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "Im-3",
+  "prototype": "filled skutterudite (LaFe4P12-type; bcc)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.79",
+  "omega_log_K_ref": "119.45"
+ },
+ {
+  "case_id": "lam045",
+  "formula": "ThPt4Ge12",
+  "material": "Filled skutterudites MPt4Ge12 (M = Ba, Sr, Th)",
+  "condition": "ThPt4Ge12 with SOI",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "Im-3",
+  "prototype": "filled skutterudite (LaFe4P12-type; bcc)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.69",
+  "omega_log_K_ref": "132.51"
+ },
+ {
+  "case_id": "lam046",
+  "formula": "LaOs4As12",
+  "material": "filled skutterudites YRu4P12, YOs4P12, LaOs4P12, LaOs4As12",
+  "condition": "LaOs4As12",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "Im-3",
+  "prototype": "filled skutterudite (LaFe4P12-type; bcc, 17-atom cell)",
+  "lattice": {
+   "a": 8.706,
+   "b": 8.706,
+   "c": 8.706,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 90
+  },
+  "sites": [
+   {
+    "element": "As",
+    "x": 0.0,
+    "y": 0.3489,
+    "z": 0.1504,
+    "note": "pnictogen 24g (0,y,z); La at 2a (0,0,0); Os at 8c (1/4,1/4,1/4)"
+   }
+  ],
+  "structure_completeness": "full",
+  "mu_star": "0.13",
+  "lambda_ref": "0.59",
+  "omega_log_K_ref": "221.81"
+ },
+ {
+  "case_id": "lam048",
+  "formula": "YOs4P12",
+  "material": "filled skutterudites YRu4P12, YOs4P12, LaOs4P12, LaOs4As12",
+  "condition": "YOs4P12",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "Im-3",
+  "prototype": "filled skutterudite (LaFe4P12-type; bcc, 17-atom cell)",
+  "lattice": {
+   "a": 8.136,
+   "b": 8.136,
+   "c": 8.136,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 90
+  },
+  "sites": [
+   {
+    "element": "P",
+    "x": 0.0,
+    "y": 0.357,
+    "z": 0.1419,
+    "note": "pnictogen 24g (0,y,z); Y at 2a (0,0,0); Os at 8c (1/4,1/4,1/4)"
+   }
+  ],
+  "structure_completeness": "full",
+  "mu_star": "0.13",
+  "lambda_ref": "0.55",
+  "omega_log_K_ref": "235.41"
+ },
+ {
+  "case_id": "lam049",
+  "formula": "YRu4P12",
+  "material": "filled skutterudites YRu4P12, YOs4P12, LaOs4P12, LaOs4As12",
+  "condition": "YRu4P12",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "Im-3",
+  "prototype": "filled skutterudite (LaFe4P12-type; bcc, 17-atom cell)",
+  "lattice": {
+   "a": 8.085,
+   "b": 8.085,
+   "c": 8.085,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 90
+  },
+  "sites": [
+   {
+    "element": "P",
+    "x": 0.0,
+    "y": 0.3575,
+    "z": 0.1428,
+    "note": "pnictogen 24g (0,y,z); Y at 2a (0,0,0); Ru at 8c (1/4,1/4,1/4)"
+   }
+  ],
+  "structure_completeness": "full",
+  "mu_star": "0.13",
+  "lambda_ref": "0.78",
+  "omega_log_K_ref": "216.97"
+ },
+ {
+  "case_id": "lam054",
+  "formula": "LaIr2Si2",
+  "material": "YIr2Si2 and LaIr2Si2 (high-temperature polymorphs, 122-type)",
+  "condition": "LaIr2Si2 (HTP P4/nmm)",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "P4/nmm",
+  "prototype": "122-type high-temperature polymorph (CaBe2Ge2-type, tetragonal)",
+  "lattice": {
+   "a": 4.214,
+   "b": 4.214,
+   "c": 10.009,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 90
+  },
+  "sites": [
+   {
+    "element": "La",
+    "x": 0.25,
+    "y": 0.25,
+    "z": 0.744,
+    "note": "1/4,1/4,z site (relaxed z)"
+   },
+   {
+    "element": "Si2",
+    "x": 0.25,
+    "y": 0.25,
+    "z": 0.129,
+    "note": "1/4,1/4,z site (relaxed z); Si2 ~0.129c from Ir1 net"
+   }
+  ],
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.13",
+  "lambda_ref": "0.56",
+  "omega_log_K_ref": "159.2"
+ },
+ {
+  "case_id": "lam055",
+  "formula": "YIr2Si2",
+  "material": "YIr2Si2 and LaIr2Si2 (high-temperature polymorphs, 122-type)",
+  "condition": "YIr2Si2 (HTP P4/nmm)",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "P4/nmm",
+  "prototype": "122-type high-temperature polymorph (CaBe2Ge2-type, tetragonal)",
+  "lattice": {
+   "a": 4.132,
+   "b": 4.132,
+   "c": 9.858,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 90
+  },
+  "sites": [
+   {
+    "element": "Y",
+    "x": 0.25,
+    "y": 0.25,
+    "z": 0.754,
+    "note": "1/4,1/4,z site (relaxed z)"
+   },
+   {
+    "element": "Si2",
+    "x": 0.25,
+    "y": 0.25,
+    "z": 0.369,
+    "note": "1/4,1/4,z site (relaxed z); Si2 ~0.131c from Ir1 net"
+   }
+  ],
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.13",
+  "lambda_ref": "0.61",
+  "omega_log_K_ref": "145.5"
+ },
+ {
+  "case_id": "lam057",
+  "formula": "LaPtBN",
+  "material": "boronitride superconductors LaNiBN and LaPtBN",
+  "condition": "LaPtBN",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": null,
+  "prototype": "n=2 layered boronitride (LaPtBN; alternating Pt-B and La-N layers)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.56",
+  "omega_log_K_ref": "294"
+ },
+ {
+  "case_id": "lam058",
+  "formula": "SrPt3P",
+  "material": "SrPt3P (antiperovskite; series APt3P A=Sr,Ca,La)",
+  "condition": "SrPt3P, mu*=0.10",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "P4/nmm",
+  "prototype": "antiperovskite SrPt3P (tetragonal, antipolar; Pt6 octahedra)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": [
+   {
+    "element": "Pt",
+    "x": null,
+    "y": null,
+    "z": null,
+    "note": "Pt(I) on in-plane 4e site; Pt(II) on 2c site (no fractional coords given)"
+   }
+  ],
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "1.06",
+  "omega_log_K_ref": "81.35"
+ },
+ {
+  "case_id": "lam060",
+  "formula": "LaPt2B2C",
+  "material": "RM2B2C borocarbides: LaPt2B2C, YPd2B2C, YPt2B2C, LuNi2B2C (I4/mmm)",
+  "condition": "LaPt2B2C",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "I4/mmm",
+  "prototype": "LuNi2B2C-type (RM2B2C borocarbide)",
+  "lattice": {
+   "a": 3.904,
+   "b": 3.904,
+   "c": 10.773,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 90
+  },
+  "sites": [
+   {
+    "element": "La",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   {
+    "element": "Pt",
+    "x": 0.0,
+    "y": 0.5,
+    "z": 0.25
+   },
+   {
+    "element": "B",
+    "x": 0.0,
+    "y": 0.0,
+    "z": null
+   },
+   {
+    "element": "C",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.5
+   }
+  ],
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.1",
+  "lambda_ref": "0.78",
+  "omega_log_K_ref": "235"
+ },
+ {
+  "case_id": "lam062",
+  "formula": "YPd2B2C",
+  "material": "RM2B2C borocarbides: LaPt2B2C, YPd2B2C, YPt2B2C, LuNi2B2C (I4/mmm)",
+  "condition": "YPd2B2C",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "I4/mmm",
+  "prototype": "LuNi2B2C-type (RM2B2C borocarbide)",
+  "lattice": {
+   "a": 3.807,
+   "b": 3.807,
+   "c": 10.745,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 90
+  },
+  "sites": [
+   {
+    "element": "Y",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   {
+    "element": "Pd",
+    "x": 0.0,
+    "y": 0.5,
+    "z": 0.25
+   },
+   {
+    "element": "B",
+    "x": 0.0,
+    "y": 0.0,
+    "z": null
+   },
+   {
+    "element": "C",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.5
+   }
+  ],
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.1",
+  "lambda_ref": "1.48",
+  "omega_log_K_ref": "182"
+ },
+ {
+  "case_id": "lam063",
+  "formula": "YPt2B2C",
+  "material": "RM2B2C borocarbides: LaPt2B2C, YPd2B2C, YPt2B2C, LuNi2B2C (I4/mmm)",
+  "condition": "YPt2B2C",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "I4/mmm",
+  "prototype": "LuNi2B2C-type (RM2B2C borocarbide)",
+  "lattice": {
+   "a": 3.809,
+   "b": 3.809,
+   "c": 10.818,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 90
+  },
+  "sites": [
+   {
+    "element": "Y",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+   },
+   {
+    "element": "Pt",
+    "x": 0.0,
+    "y": 0.5,
+    "z": 0.25
+   },
+   {
+    "element": "B",
+    "x": 0.0,
+    "y": 0.0,
+    "z": null
+   },
+   {
+    "element": "C",
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.5
+   }
+  ],
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.1",
+  "lambda_ref": "0.96",
+  "omega_log_K_ref": "175"
+ },
+ {
+  "case_id": "lam064",
+  "formula": "Ca3Ir4Ge4",
+  "material": "Ca3Ir4Ge4 (noncentrosymmetric superconductor)",
+  "condition": "(single)",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "noncentrosymmetric body-centred cubic (Ca3Ir4Ge4-type)",
+  "prototype": "Ca3Ir4Ge4-type (noncentrosymmetric body-centred cubic)",
+  "lattice": {
+   "a": 7.651,
+   "b": 7.651,
+   "c": 7.651,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 90
+  },
+  "sites": [
+   {
+    "element": "Ir",
+    "x": 0.634,
+    "y": 0.634,
+    "z": 0.634
+   },
+   {
+    "element": "Ge",
+    "x": 0.813,
+    "y": 0.813,
+    "z": 0.813
+   }
+  ],
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.11",
+  "lambda_ref": "0.51",
+  "omega_log_K_ref": "158.3"
+ },
+ {
+  "case_id": "lam065",
+  "formula": "SrPtAs",
+  "material": "SrPtAs (hexagonal pnictide, P6/mmm)",
+  "condition": "(single)",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "P6/mmm",
+  "prototype": "hexagonal honeycomb pnictide (KZnAs-related)",
+  "lattice": {
+   "a": 4.307,
+   "b": 4.307,
+   "c": 9.063,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 120
+  },
+  "sites": null,
+  "structure_completeness": "lattice+proto",
+  "mu_star": "0.2",
+  "lambda_ref": "0.78",
+  "omega_log_K_ref": "105.5"
+ },
+ {
+  "case_id": "lam066",
+  "formula": "Bi4I4",
+  "material": "Bi4I4 high-pressure phases (epsilon-P31c, zeta-P4/mmm)",
+  "condition": "epsilon-Bi4I4 (P31c), 15 GPa",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 15,
+  "space_group": "P31c",
+  "prototype": "epsilon-Bi4I4 ([Bi4I3] chains + isolated I)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.67",
+  "omega_log_K_ref": "86.6"
+ },
+ {
+  "case_id": "lam067",
+  "formula": "Bi4I4",
+  "material": "Bi4I4 high-pressure phases (epsilon-P31c, zeta-P4/mmm)",
+  "condition": "zeta-Bi4I4 (P4/mmm), 18 GPa",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 18,
+  "space_group": "P4/mmm",
+  "prototype": "zeta-Bi4I4 (quasi-3D, alternating X/Y units)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.72",
+  "omega_log_K_ref": "97.5"
+ },
+ {
+  "case_id": "lam069",
+  "formula": "LaO0.5F0.5BiS2",
+  "material": "LaO0.5F0.5BiS2 (layered BiS2 superconductor)",
+  "condition": "(single)",
+  "material_type": "heavy-soc",
+  "pressure_GPa": 0,
+  "space_group": "tetragonal layered BiS2 (P4/nmm-type, not explicitly named in node)",
+  "prototype": "layered BiS2 (CeOBiS2-type / ZrCuSiAs-related)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": 90,
+   "beta": 90,
+   "gamma": 90
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.1",
+  "lambda_ref": "0.85",
+  "omega_log_K_ref": ""
+ },
+ {
+  "case_id": "lam076",
+  "formula": "TlTaSe2",
+  "material": "TlTaSe2 (nodal-line semimetal, P-6m2), anisotropic SC",
+  "condition": "(single)",
+  "material_type": "heavy-soc",
+  "pressure_GPa": null,
+  "space_group": "P-6m2",
+  "prototype": "non-centrosymmetric hexagonal layered TlTaSe2 (no named prototype)",
+  "lattice": {
+   "a": null,
+   "b": null,
+   "c": null,
+   "alpha": null,
+   "beta": null,
+   "gamma": null
+  },
+  "sites": null,
+  "structure_completeness": "proto-only",
+  "mu_star": "0.16",
+  "lambda_ref": "0.97",
+  "omega_log_K_ref": "141.13"
+ }
+]

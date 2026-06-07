@@ -1,0 +1,14 @@
+case_id,mode,structure_file,condition,mu_star
+lam039,build-from-spec,,Mg2Ir3Si with SOC,0.11
+lam044,build-from-spec,,SrPt4Ge12 with SOI,0.1
+lam048,build-from-spec,,YOs4P12,0.13
+lam055,build-from-spec,,YIr2Si2 (HTP P4/nmm),0.13
+lam060,build-from-spec,,LaPt2B2C,0.1
+lam064,build-from-spec,,(single),0.11
+lam067,build-from-spec,,"zeta-Bi4I4 (P4/mmm), 18 GPa",0.1
+lam041,structure-ready,RuSi.scf.in,ScRuSi,0.11
+lam050,structure-ready,CaIr2.scf.in,"CaIr2, with SOC",0.15
+lam053,structure-ready,CaRh2.scf.in,"CaRh2, without SOC",0.15
+lam061,structure-ready,LuNi2B2C.scf.in,LuNi2B2C,0.1
+lam071,structure-ready,Zr2Ir.scf.in,Zr2Ir without SOC,0.1
+lam074,structure-ready,Nb4CoSi.scf.in,Nb4CoSi,0.13

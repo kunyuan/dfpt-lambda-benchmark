@@ -1,0 +1,30 @@
+&control
+  calculation='scf', prefix='x', pseudo_dir='./pseudo', outdir='./out'
+/
+&system
+  ibrav=8, celldm(1)=7.45799, celldm(2)=1.66987, celldm(3)=1.8988, nat=12, ntyp=3,
+  ecutwfc=90, ecutrho=360,
+  occupations='smearing', smearing='methfessel-paxton', degauss=0.02, nspin=1
+/
+&electrons
+  conv_thr=1.0d-10, mixing_beta=0.7
+/
+ATOMIC_SPECIES
+  Rh 102.9055 Rh_ONCV_PBE-1.2.upf
+  Si 28.0855 Si_ONCV_PBE-1.2.upf
+  Zr 91.224 Zr_ONCV_PBE-1.2.upf
+ATOMIC_POSITIONS crystal
+  Zr 0.750000 0.981020 0.317270
+  Zr 0.750000 0.481020 0.182730
+  Zr 0.250000 0.518980 0.817270
+  Zr 0.250000 0.018980 0.682730
+  Si 0.750000 0.722810 0.617150
+  Si 0.750000 0.222810 0.882850
+  Si 0.250000 0.777190 0.117150
+  Si 0.250000 0.277190 0.382850
+  Rh 0.750000 0.851430 0.935050
+  Rh 0.750000 0.351430 0.564950
+  Rh 0.250000 0.648570 0.435050
+  Rh 0.250000 0.148570 0.064950
+K_POINTS automatic
+  24 24 24 0 0 0

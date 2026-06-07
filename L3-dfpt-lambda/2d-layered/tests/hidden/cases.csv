@@ -1,0 +1,14 @@
+case_id,mode,structure_file,condition,mu_star
+lam001,build-from-spec,,"Grokene (K-doped graphene 4x4), Allen-Dynes mean-field",0.1
+lam004,build-from-spec,,Na0.2P0.8 (A-X-B intercalated blue-P bilayer),0.1
+lam016,build-from-spec,,type-I orthorhombic CaB6,0.1
+lam019,build-from-spec,,type-III orthorhombic (2x1) YB6,0.1
+lam022,build-from-spec,,"HPC3, 1% biaxial strain",0.1
+lam025,build-from-spec,,"HPC3, unstrained",0.1
+lam030,build-from-spec,,Mo2C bare 2H MXene,0.1
+lam036,build-from-spec,,"C2CaC2 AA-stacking, -2% biaxial strain",0.1
+lam006,structure-ready,NbS2.scf.in,(single),0.1
+lam010,structure-ready,TiB4.scf.in,TiB4 bilayer +11% biaxial tensile strain,0.1
+lam013,structure-ready,MgB6.scf.in,hexagonal MgB6,0.1
+lam027,structure-ready,CaSn6.scf.in,CaSn6 (Ca-decorated stanene),0.13
+lam034,structure-ready,Ti2C.scf.in,Ti2C monolayer,0.1

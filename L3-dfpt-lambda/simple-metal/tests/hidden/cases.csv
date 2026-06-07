@@ -1,0 +1,15 @@
+case_id,mode,structure_file,condition,mu_star
+lam256,build-from-spec,,"A3C60, a=14.1 Angstrom",0.15
+lam259,build-from-spec,,"A3C60, two-hole doped hu band, a=14.1 Angstrom",0.15
+lam270,build-from-spec,,P6/mmm-AtH4 100 GPa,0.1
+lam274,build-from-spec,,"Sc-III, 100 GPa, mu*=0.10",0.1
+lam239,structure-ready,ReO3.scf.in,"ReO3, R-3c, 30 GPa, no SOC",0.1
+lam242,structure-ready,Ta.scf.in,(single),0.13
+lam245,structure-ready,Li.scf.in,"fcc Li, 30 GPa",0.13
+lam248,structure-ready,La.scf.in,dhcp La,0.12
+lam251,structure-ready,Fe.scf.in,"nm-hcp Fe, 100 GPa",0.1
+lam254,structure-ready,La.scf.in,La Fmmm distorted fcc 130 GPa,0.1
+lam261,structure-ready,P.scf.in,"sc P, 20 GPa (P_calc)",0.18
+lam264,structure-ready,S.scf.in,sc 280 GPa,0.11
+lam268,structure-ready,H2.scf.in,Cmcm-AtH2 50 GPa,0.1
+lam276,structure-ready,V.scf.in,"Sc-V, 260 GPa, mu*=0.10",0.1

@@ -1,0 +1,27 @@
+case_id,mode,structure_file,condition,mu_star
+lam257,build-from-spec,,"A3C60, a=14.4 Angstrom",0.15
+lam258,build-from-spec,,"A3C60, a=14.6 Angstrom",0.15
+lam265,build-from-spec,,NbB1.93 (B-deficient),0.09
+lam269,build-from-spec,,Cmmm-AtH4 250 GPa,0.1
+lam271,build-from-spec,,P6/mmm-AtH4 200 GPa with SOC,0.1
+lam272,build-from-spec,,P6/mmm-AtH4 200 GPa without SOC,0.1
+lam237,structure-ready,OsO3.scf.in,"OsO3, R-3c, 30 GPa, no SOC",0.1
+lam238,structure-ready,PtO3.scf.in,"PtO3, R-3c, 30 GPa, no SOC",0.1
+lam240,structure-ready,ReO3.scf.in,"ReO3, R-3c, 30 GPa, with SOC",0.13
+lam241,structure-ready,RuO3.scf.in,"RuO3, R-3c, 30 GPa, no SOC",0.1
+lam243,structure-ready,Li.scf.in,"fcc Li, 14 GPa",0.13
+lam244,structure-ready,Li.scf.in,"fcc Li, 20 GPa",0.13
+lam246,structure-ready,Li.scf.in,"fcc Li, 36 GPa",0.13
+lam247,structure-ready,Li.scf.in,"fcc Li, 8 GPa",0.13
+lam249,structure-ready,La.scf.in,fcc La,0.12
+lam250,structure-ready,Li.scf.in,(single),0.1
+lam252,structure-ready,SnAs.scf.in,rock-salt SnAs,0.13
+lam253,structure-ready,Mo3Os.scf.in,Mo3Os (A-15),0.15
+lam255,structure-ready,La.scf.in,La R-3m slightly distorted fcc ~50 GPa,0.1
+lam260,structure-ready,Si.scf.in,Si simple-hexagonal (sh) 12.7 GPa,0.06
+lam262,structure-ready,P.scf.in,"sc P, 70 GPa (P_calc)",0.18
+lam263,structure-ready,S.scf.in,beta-Po 160 GPa,0.11
+lam266,structure-ready,NbB2.scf.in,NbB2 (stoichiometric),0.09
+lam267,structure-ready,Y.scf.in,"fcc Y, v=0.90 (P~6 GPa)",0.15
+lam273,structure-ready,H2.scf.in,Pnma-AtH2 200 GPa,0.1
+lam275,structure-ready,IV.scf.in,"Sc-IV, 170 GPa, mu*=0.10",0.1
