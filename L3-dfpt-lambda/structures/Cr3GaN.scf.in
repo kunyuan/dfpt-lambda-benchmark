@@ -1,2 +1,28 @@
+&control
+  calculation='scf', prefix='x', pseudo_dir='./pseudo', outdir='./out'
+/
+&system
+  ibrav=9, celldm(1)=5.28971, celldm(2)=3.53406, celldm(3)=2.80893, nat=10, ntyp=3,
+  ecutwfc=90, ecutrho=360,
+  occupations='smearing', smearing='methfessel-paxton', degauss=0.02, nspin=1
+/
+&electrons
+  conv_thr=1.0d-10, mixing_beta=0.7
+/
+ATOMIC_SPECIES
+  Cr 51.9961 Cr_ONCV_PBE-1.2.upf
+  Ga 69.723 Ga_ONCV_PBE-1.2.upf
+  N 14.0067 N_ONCV_PBE-1.2.upf
+ATOMIC_POSITIONS crystal
+  Cr 0.994389 0.005611 0.250000
+  Cr 0.005611 0.994389 0.750000
+  Cr 0.629810 0.370190 0.032784
+  Cr 0.370190 0.629810 0.967216
+  Cr 0.370190 0.629810 0.532784
+  Cr 0.629810 0.370190 0.467216
+  Ga 0.736556 0.263444 0.750000
+  Ga 0.263444 0.736556 0.250000
+  N 0.000000 0.000000 0.000000
+  N 1.000000 0.000000 0.500000
 K_POINTS automatic
   24 24 24 0 0 0
