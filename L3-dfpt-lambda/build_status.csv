@@ -21,9 +21,9 @@ lam090,LaPtH6,hydride,"LaPtH6, 0 GPa",absent,,,tier2-fallback,0.789
 lam091,LaPtH6,hydride,"LaPtH6, 20 GPa",absent,,,tier2-fallback,0.701
 lam001,,2d-layered,"Grokene (K-doped graphene 4x4), Allen-Dynes mean-field",no-formula,,,tier2-fallback,3.8
 lam242,Ta,simple-metal,(single),openlam,Ta.scf.in,Im-3m,built,0.877
-lam130,Nb1Sn,intermetallic,"A15 Nb1-bSnb, Sn=0.1875 (one antisite, 16-atom)",absent,,,tier2-fallback,0.92
-lam131,Nb1Sn,intermetallic,"A15 Nb1-bSnb, Sn=0.21875 (one antisite, 32-atom)",absent,,,tier2-fallback,1.22
-lam132,Nb3Sn,intermetallic,"A15 Nb3Sn, Sn=0.25 (stoichiometric)",openlam,Nb3Sn.scf.in,Pm-3n,built,1.85
+lam130,Nb3Sn,intermetallic,"A15 Nb1-bSnb, Sn=0.1875 (one antisite, 16-atom)",mp,Nb3Sn.scf.in,,built,0.92
+lam131,Nb3Sn,intermetallic,"A15 Nb1-bSnb, Sn=0.21875 (one antisite, 32-atom)",mp,Nb3Sn.scf.in,,built,1.22
+lam132,Nb3Sn,intermetallic,"A15 Nb3Sn, Sn=0.25 (stoichiometric)",mp,Nb3Sn.scf.in,Pm-3n,built,1.85
 lam133,La3Ni2B2N3,intermetallic,(single),openlam,La3Ni2B2N3.scf.in,I4/mmm,built,0.73
 lam002,Li0.2P0.8,2d-layered,Li0.2P0.8 (A-X-B intercalated blue-P bilayer),absent,,,tier2-fallback,1.2
 lam003,Mg0.2P0.8,2d-layered,Mg0.2P0.8 (A-X-B intercalated blue-P bilayer),absent,,,tier2-fallback,0.8
@@ -49,7 +49,7 @@ lam139,HoNaBC,intermetallic,(single),absent,,,tier2-fallback,0.73
 lam140,LaNiPO,intermetallic,(single),openlam,LaNiPO.scf.in,P4/nmm,built,0.58
 lam141,YS,intermetallic,"YS rock-salt, mu*=0.10",openlam,YS.scf.in,Fm-3m,built,0.52
 lam142,S1LiB,intermetallic,"MS1-LiB (stoichiometric), mu*=0.10",absent,,,tier2-fallback,0.62
-lam143,Nb3Sn,intermetallic,A15 Nb3Sn (mu*=0.10),openlam,Nb3Sn.scf.in,Pm-3n,built,1.51
+lam143,Nb3Sn,intermetallic,A15 Nb3Sn (mu*=0.10),mp,Nb3Sn.scf.in,Pm-3n,built,1.51
 lam096,FC34,hydride,FC34 (fluorine in C28 cage),absent,,,tier2-fallback,0.85
 lam144,MgB2,intermetallic,MgB2 unstrained (bulk reference),openlam,MgB2.scf.in,P6/mmm,built,0.94
 lam145,Li,intermetallic,"BCC tellurium, V/V0=0.90 (~54 GPa)",openlam,Li.scf.in,P2_1/m,built,0.698
@@ -58,7 +58,7 @@ lam147,Li,intermetallic,"BCC tellurium, V/V0=1.0 (~38 GPa)",openlam,Li.scf.in,P2
 lam148,Li,intermetallic,"FCC iodine, 103 GPa",openlam,Li.scf.in,P2_1/m,built,0.375
 lam149,Li,intermetallic,"FCC iodine, 64 GPa",openlam,Li.scf.in,P2_1/m,built,0.546
 lam150,Li,intermetallic,"FCC iodine, 81 GPa",openlam,Li.scf.in,P2_1/m,built,0.43
-lam151,C6Ca,intermetallic,(single),absent,,,tier2-fallback,0.83
+lam151,C6Ca,intermetallic,(single),mp,C6Ca.scf.in,,built,0.83
 lam152,HfN,intermetallic,HfN (B1),openlam,HfN.scf.in,Fm-3m,built,0.67
 lam153,NbC,intermetallic,NbC (B1),openlam,NbC.scf.in,Fm-3m,built,0.87
 lam154,TaC,intermetallic,TaC (B1),openlam,TaC.scf.in,Fm-3m,built,0.78
@@ -80,11 +80,11 @@ lam097,S0.5P0.5H3,hydride,"S0.5P0.5H3, Imma, 200 GPa",absent,,,tier2-fallback,0.
 lam098,S0.75P0.25H3,hydride,"S0.75P0.25H3, Immm, 200 GPa",absent,,,tier2-fallback,1.31
 lam254,La,simple-metal,La Fmmm distorted fcc 130 GPa,openlam,La.scf.in,Fm-3m,built,0.69
 lam255,La,simple-metal,La R-3m slightly distorted fcc ~50 GPa,openlam,La.scf.in,Fm-3m,built,1.07
-lam041,RuSi,heavy-soc,ScRuSi,absent,,,tier2-fallback,0.54
+lam041,RuSi,heavy-soc,ScRuSi,mp,RuSi.scf.in,,built,0.54
 lam042,ZrRhSi,heavy-soc,ZrRhSi,absent,,,tier2-fallback,0.84
 lam099,Mg0.5Ca0.5H6,hydride,(single),absent,,,tier2-fallback,2.53
-lam161,LaNiSi,intermetallic,LaNiSi,absent,,,tier2-fallback,0.49
-lam162,LaPtSi,intermetallic,LaPtSi,absent,,,tier2-fallback,0.59
+lam161,LaNiSi,intermetallic,LaNiSi,mp,LaNiSi.scf.in,,built,0.49
+lam162,LaPtSi,intermetallic,LaPtSi,mp,LaPtSi.scf.in,,built,0.59
 lam043,BaPt4Ge12,heavy-soc,BaPt4Ge12 with SOI,absent,,,tier2-fallback,0.74
 lam044,SrPt4Ge12,heavy-soc,SrPt4Ge12 with SOI,absent,,,tier2-fallback,0.79
 lam045,ThPt4Ge12,heavy-soc,ThPt4Ge12 with SOI,absent,,,tier2-fallback,0.69
@@ -98,7 +98,7 @@ lam163,YIn3,intermetallic,"YIn3, 1.04 GPa",openlam,YIn3.scf.in,Pm-3m,built,0.36
 lam164,YIn3,intermetallic,"YIn3, 2.1 GPa",openlam,YIn3.scf.in,Pm-3m,built,0.32
 lam165,YIn3,intermetallic,"YIn3, ambient pressure",openlam,YIn3.scf.in,Pm-3m,built,0.38
 lam046,LaOs4As12,heavy-soc,LaOs4As12,absent,,,tier2-fallback,0.59
-lam047,LaOs4P12,heavy-soc,LaOs4P12,absent,,,tier2-fallback,0.49
+lam047,LaOs4P12,heavy-soc,LaOs4P12,mp,LaOs4P12.scf.in,,built,0.49
 lam048,YOs4P12,heavy-soc,YOs4P12,absent,,,tier2-fallback,0.55
 lam049,YRu4P12,heavy-soc,YRu4P12,absent,,,tier2-fallback,0.78
 lam166,YSn3,intermetallic,"YSn3, 3.48 GPa negative pressure (2% lattice increment)",openlam,YSn3.scf.in,P2_1/m,built,1.55
@@ -212,8 +212,8 @@ lam205,K2Mo3As3,intermetallic,"K2Mo3As3, mu*=0.12",absent,,,tier2-fallback,1.92
 lam118,C2KYH8,hydride,"C2/m KYH8, 200 GPa",absent,,,tier2-fallback,1.478
 lam119,C2KYH8,hydride,"C2/m KYH8, 250 GPa",absent,,,tier2-fallback,1.214
 lam120,C2KYH8,hydride,"C2/m KYH8, 300 GPa",absent,,,tier2-fallback,2.09
-lam072,Bi3Ni,heavy-soc,"Bi3Ni, SOC DOS (lambda from N_expt/N_calc)",absent,,,tier2-fallback,1.23
-lam073,Bi3Ni,heavy-soc,"Bi3Ni, non-SOC DOS (lambda from N_expt/N_calc)",absent,,,tier2-fallback,0.842
+lam072,Bi3Ni,heavy-soc,"Bi3Ni, SOC DOS (lambda from N_expt/N_calc)",mp,Bi3Ni.scf.in,,built,1.23
+lam073,Bi3Ni,heavy-soc,"Bi3Ni, non-SOC DOS (lambda from N_expt/N_calc)",mp,Bi3Ni.scf.in,,built,0.842
 lam121,C2SnH12,hydride,"C2/m-SnH12, 250 GPa",absent,,,tier2-fallback,1.25
 lam122,C2SnH14,hydride,"C2/m-SnH14, 300 GPa",absent,,,tier2-fallback,1.187
 lam123,ISnH8,hydride,"I-4m2-SnH8, 220 GPa",absent,,,tier2-fallback,1.188
@@ -231,7 +231,7 @@ lam126,LaBH8,hydride,"Fm-3m LaBH8, 200 GPa",absent,,,tier2-fallback,0.72
 lam127,LaBH8,hydride,"Fm-3m LaBH8, 50 GPa (Allen-Dynes)",absent,,,tier2-fallback,2.29
 lam128,LaBH8,hydride,"Fm-3m LaBH8, 55 GPa (Allen-Dynes)",absent,,,tier2-fallback,1.97
 lam129,PLaBH7,hydride,"P-3m1 LaBH7, 110 GPa",absent,,,tier2-fallback,1.46
-lam214,H3P,intermetallic,"Im-3m H3P, a=3.0 A (~220 GPa), mu*=0 (H-point unstable modes omitted)",absent,,,tier2-fallback,1.66
+lam214,H3P,intermetallic,"Im-3m H3P, a=3.0 A (~220 GPa), mu*=0 (H-point unstable modes omitted)",mp,H3P.scf.in,,built,1.66
 lam215,H3S,intermetallic,"Im-3m H3S, a=3.0 A (~220 GPa), mu*=0",openlam,H3S.scf.in,P1,built,1.38
 lam216,AlB2,intermetallic,monolayer AlB2 (single Al on honeycomb B),openlam,AlB2.scf.in,P6/mmm,built,1.01
 lam268,H2,simple-metal,Cmcm-AtH2 50 GPa,openlam,H2.scf.in,P6_3/mmc,built,0.57
@@ -255,7 +255,7 @@ lam031,Mo2C,2d-layered,"Mo2C(OH)2 (OH-terminated 2H, unstable)",openlam,Mo2C.scf
 lam032,Mo2CH2,2d-layered,"Mo2CH2 (H-terminated 2H, 1% strain)",absent,,,tier2-fallback,0.732
 lam033,Mo2CO2,2d-layered,Mo2CO2 (O-terminated 2H),absent,,,tier2-fallback,0.231
 lam034,Ti2C,2d-layered,Ti2C monolayer,openlam,Ti2C.scf.in,P-1,built,0.402
-lam227,Mo3Sb7,intermetallic,"Mo3Sb7, mu*=0.10",absent,,,tier2-fallback,0.54
+lam227,Mo3Sb7,intermetallic,"Mo3Sb7, mu*=0.10",mp,Mo3Sb7.scf.in,,built,0.54
 lam035,B2C,2d-layered,"B2C monolayer, mu*=0.10",openlam,B2C.scf.in,P-3m1,built,0.92
 lam228,LaNiBN,intermetallic,LaNiBN,openlam,LaNiBN.scf.in,P4/nmm,built,0.52
 lam229,LaPtBN,intermetallic,LaPtBN,absent,,,tier2-fallback,0.56
@@ -273,5 +273,5 @@ lam036,C2CaC2,2d-layered,"C2CaC2 AA-stacking, -2% biaxial strain",absent,,,tier2
 lam037,C2CaC2,2d-layered,"C2CaC2 AA-stacking, -4% biaxial strain",absent,,,tier2-fallback,1.11
 lam038,C2CaC2,2d-layered,"C2CaC2 AA-stacking, unstrained",absent,,,tier2-fallback,0.75
 lam274,III,simple-metal,"Sc-III, 100 GPa, mu*=0.10",absent,,,tier2-fallback,0.79
-lam275,IV,simple-metal,"Sc-IV, 170 GPa, mu*=0.10",absent,,,tier2-fallback,1.11
+lam275,IV,simple-metal,"Sc-IV, 170 GPa, mu*=0.10",mp,IV.scf.in,,built,1.11
 lam276,V,simple-metal,"Sc-V, 260 GPa, mu*=0.10",openlam,V.scf.in,Im-3m,built,1.12

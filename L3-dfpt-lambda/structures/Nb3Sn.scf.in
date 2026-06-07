@@ -2,7 +2,7 @@
   calculation='scf', prefix='x', pseudo_dir='./pseudo', outdir='./out'
 /
 &system
-  ibrav=1, celldm(1)=10.07368, nat=8, ntyp=2,
+  ibrav=1, celldm(1)=10.06197, nat=8, ntyp=2,
   ecutwfc=90, ecutrho=360,
   occupations='smearing', smearing='methfessel-paxton', degauss=0.02, nspin=1
 /
@@ -15,11 +15,11 @@ ATOMIC_SPECIES
 ATOMIC_POSITIONS crystal
   Nb 0.250000 0.000000 0.500000
   Nb 0.750000 0.000000 0.500000
-  Nb 0.500000 0.250000 0.000000
-  Nb 0.500000 0.750000 0.000000
-  Nb 0.000000 0.500000 0.750000
   Nb 0.000000 0.500000 0.250000
-  Sn 0.500000 0.500000 0.500000
+  Nb 0.000000 0.500000 0.750000
+  Nb 0.500000 0.750000 0.000000
+  Nb 0.500000 0.250000 0.000000
   Sn 0.000000 0.000000 0.000000
+  Sn 0.500000 0.500000 0.500000
 K_POINTS automatic
   24 24 24 0 0 0
