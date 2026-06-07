@@ -1,0 +1,21 @@
+&control
+  calculation='scf', prefix='x', pseudo_dir='./pseudo', outdir='./out'
+/
+&system
+  ibrav=12, celldm(1)=5.56296, celldm(2)=5.96931, celldm(3)=1.49038, celldm(4)=0.0, nat=4, ntyp=2,
+  ecutwfc=60, ecutrho=240,
+  occupations='smearing', smearing='methfessel-paxton', degauss=0.02, nspin=1
+/
+&electrons
+  conv_thr=1.0d-10, mixing_beta=0.7
+/
+ATOMIC_SPECIES
+  Ge 72.64 Ge_ONCV_PBE-1.2.upf
+  H 1.00794 H_ONCV_PBE-1.2.upf
+ATOMIC_POSITIONS crystal
+  Ge 0.223520 0.500000 0.954010
+  H 0.178763 0.573195 0.131657
+  H 0.178763 0.426805 0.131657
+  H 0.932379 0.500000 0.596383
+K_POINTS automatic
+  24 24 24 0 0 0

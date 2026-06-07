@@ -1,0 +1,29 @@
+&control
+  calculation='scf', prefix='x', pseudo_dir='./pseudo', outdir='./out'
+/
+&system
+  ibrav=1, celldm(1)=12.82817, nat=12, ntyp=2,
+  ecutwfc=60, ecutrho=240,
+  occupations='smearing', smearing='methfessel-paxton', degauss=0.02, nspin=1
+/
+&electrons
+  conv_thr=1.0d-10, mixing_beta=0.7
+/
+ATOMIC_SPECIES
+  Ba 137.327 Ba_ONCV_PBE-1.2.upf
+  Si 28.0855 Si_ONCV_PBE-1.2.upf
+ATOMIC_POSITIONS crystal
+  Ba 0.125000 0.625000 0.875000
+  Ba 0.875000 0.125000 0.625000
+  Ba 0.375000 0.375000 0.375000
+  Ba 0.625000 0.875000 0.125000
+  Si 0.410251 0.910251 0.589749
+  Si 0.160251 0.839749 0.339749
+  Si 0.660251 0.660251 0.660251
+  Si 0.910251 0.589749 0.410251
+  Si 0.589749 0.410251 0.910251
+  Si 0.339749 0.160251 0.839749
+  Si 0.839749 0.339749 0.160251
+  Si 0.089749 0.089749 0.089749
+K_POINTS automatic
+  24 24 24 0 0 0

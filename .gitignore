@@ -1,3 +1,5 @@
 result.json
 __pycache__/
 *.pyc
+*.upf
+pseudo/
