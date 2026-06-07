@@ -47,3 +47,23 @@ cd pseudos && bash fetch_sg15.sh && cd ..          # one-time: download SG15
   space-group fragments) → re-query OpenLAM;
 - COD / Materials-Project / prototype-from-LKM-lattice for the genuinely-absent
   compounds (most hydrides, several ternaries).
+
+## Two task modes — every case is now a task
+
+After the database + LKM build, the 276 cases split into two modes (`build_status.csv`):
+
+- **`structure-ready` (164)** — a ready proper-`ibrav` QE input in `structures/`
+  (OpenLAM 144 / MP 14 / LKM-full 6). The agent just runs scf → ph → λ.
+- **`build-from-spec` (112)** — no database/coords exist (predicted high-pressure
+  hydrides, 2D, complex prototypes). Instead of a ready structure, the agent is given
+  **all the structural information the paper reports** in
+  [`structure_hints.json`](structure_hints.json) / `structure_hints.csv`:
+  formula, condition (pressure), **space group, prototype, lattice constants**
+  (where reported), any atomic coordinates / bond lengths, and the μ\*. The agent must
+  **construct the crystal structure from this spec** (build the prototype, relax to the
+  pressure) and then compute λ. 100/112 carry a lattice and/or a named prototype to
+  build from; the rest are deliberately under-specified hard cases.
+
+Structure construction is then part of the L3 task for these — a harder, genuinely
+research-like sub-skill — with the gold still the paper's λ in
+`data/lambda_reference.csv`.

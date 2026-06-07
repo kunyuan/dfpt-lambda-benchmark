@@ -1,0 +1,113 @@
+case_id,formula,material_type,condition,pressure_GPa,space_group,prototype,a,b,c,structure_completeness,lambda_ref
+lam077,Ba2RhH6,hydride,Ba2RhH6 at 20 GPa,20.0,Fm-3m (225),K2PtCl6 (cubic antifluorite-ty,,,,proto-only,0.62
+lam079,Ca2IrH6,hydride,Ca2IrH6 at 20 GPa,20.0,Fm-3m (225),K2PtCl6 (cubic antifluorite-ty,,,,proto-only,0.68
+lam080,Ca2RhH6,hydride,Ca2RhH6 at 20 GPa,20.0,Fm-3m (225),K2PtCl6 (cubic antifluorite-ty,,,,proto-only,0.51
+lam082,Mg2IrH6,hydride,Mg2IrH6 at 20 GPa,20.0,Fm-3m (225),K2PtCl6 (cubic antifluorite-ty,,,,proto-only,3.04
+lam083,Mg2RhH6,hydride,Mg2RhH6 at 20 GPa,20.0,Fm-3m (225),K2PtCl6 (cubic antifluorite-ty,,,,proto-only,2.05
+lam085,Sr2IrH6,hydride,Sr2IrH6 at 20 GPa,20.0,Fm-3m (225),K2PtCl6 (cubic antifluorite-ty,,,,proto-only,0.43
+lam086,La2Pt2H13,hydride,"La2Pt2H13, 20 GPa",20.0,,"La-Pt-H ternary (metallic, dyn",,,,none,0.615
+lam087,LaPt2H7,hydride,"LaPt2H7, 20 GPa",20.0,,"La-Pt-H ternary (metallic, dyn",,,,none,0.788
+lam088,LaPt3H9,hydride,"LaPt3H9, 20 GPa",20.0,,"La-Pt-H ternary (metallic, dyn",,,,none,0.816
+lam089,LaPtH5,hydride,"LaPtH5, 20 GPa",20.0,,"La-Pt-H ternary (metallic, dyn",,,,none,0.494
+lam090,LaPtH6,hydride,"LaPtH6, 0 GPa",0.0,R-3m (166),trigonal LaPtH6; PtH6 octahedr,,,,proto-only,0.789
+lam091,LaPtH6,hydride,"LaPtH6, 20 GPa",20.0,R-3m (166),trigonal LaPtH6; PtH6 octahedr,,,,proto-only,0.701
+lam001,"KC32 (K-doped 4x4 graphene, 6.25 at.%)",2d-layered,"Grokene (K-doped graphene 4x4), Allen-Dy",0.0,"P-6m2 (reported P6/m2, reduced from P6/mmm by buckling)",doped 4x4 graphene superlattic,9.84,8.52,,lattice+proto,3.8
+lam002,Li0.2P0.8,2d-layered,Li0.2P0.8 (A-X-B intercalated blue-P bil,0.0,,intercalated blue-phosphorus b,3.356,3.356,,lattice+proto,1.2
+lam003,Mg0.2P0.8,2d-layered,Mg0.2P0.8 (A-X-B intercalated blue-P bil,0.0,,intercalated blue-phosphorus b,3.327,3.327,,lattice+proto,0.8
+lam004,Na0.2P0.8,2d-layered,Na0.2P0.8 (A-X-B intercalated blue-P bil,0.0,,intercalated blue-phosphorus b,3.398,3.398,,lattice+proto,1.1
+lam092,H,hydride,"I4_1/amd H, 480 GPa, mu*=0.10",480.0,I4_1/amd (141),Cs-IV (beta-Sn / I4_1/amd-type,,,,proto-only,2.17
+lam093,H,hydride,"I4_1/amd H, 539 GPa, mu*=0.10",539.0,I4_1/amd (141),Cs-IV (beta-Sn / I4_1/amd-type,,,,proto-only,2.01
+lam094,H,hydride,"I4_1/amd H, 608 GPa, mu*=0.10",608.0,I4_1/amd (141),Cs-IV (beta-Sn / I4_1/amd-type,,,,proto-only,1.89
+lam095,H,hydride,"I4_1/amd H, 802 GPa, mu*=0.10",802.0,I4_1/amd (141),Cs-IV (beta-Sn / I4_1/amd-type,,,,proto-only,1.68
+lam005,Pb (monolayer on Si(111)),2d-layered,(single),,,striped-incommensurate (SIC) P,,,,none,0.72
+lam138,CdCNi3,intermetallic,"CdCNi3, mu*=0.12",0.0,Pm-3m (221),cubic antiperovskite (Heusler-,3.863,3.863,3.863,full,0.8
+lam139,NaBC (requested) / paper is Mo3Sb7,intermetallic,(single),,,,,,,none,0.73
+lam142,LiB,intermetallic,"MS1-LiB (stoichiometric), mu*=0.10",0.0,,MS1-LiB (layered MgB2-derived;,5.92,5.92,5.92,lattice+proto,0.62
+lam096,FC34,hydride,FC34 (fluorine in C28 cage),0.0,Fd-3m (227),type-II (clathrate-II) carbon ,,,,proto-only,0.85
+lam007,Mg2B4C2,2d-layered,(single),0.0,p-3m1 (layer group),2D MgB2-derived monolayer (Mg-,2.87,2.87,,lattice+proto,1.4
+lam039,Mg2Ir3Si,heavy-soc,Mg2Ir3Si with SOC,0,P6_3/mmc,Mg2Cu3Si-type (hexagonal; Ir K,,,,proto-only,0.93
+lam040,Mg2Ir3Si,heavy-soc,Mg2Ir3Si without SOC,0,P6_3/mmc,Mg2Cu3Si-type (hexagonal; Ir K,,,,proto-only,1.05
+lam097,S0.5P0.5H3,hydride,"S0.5P0.5H3, Imma, 200 GPa",200,Imma,orthorhombic (H3S-derived pare,2.902,4.153,8.304,lattice+proto,0.94
+lam098,S0.75P0.25H3,hydride,"S0.75P0.25H3, Immm, 200 GPa",200,Immm,orthorhombic (H3S-derived pare,8.557,2.964,4.232,lattice+proto,1.31
+lam099,Mg0.5Ca0.5H6,hydride,(single),200,Im-3m,sodalite-like clathrate hexahy,3.3215,3.3215,3.3215,lattice+proto,2.53
+lam043,BaPt4Ge12,heavy-soc,BaPt4Ge12 with SOI,0,Im-3,filled skutterudite (LaFe4P12-,,,,proto-only,0.74
+lam044,SrPt4Ge12,heavy-soc,SrPt4Ge12 with SOI,0,Im-3,filled skutterudite (LaFe4P12-,,,,proto-only,0.79
+lam045,ThPt4Ge12,heavy-soc,ThPt4Ge12 with SOI,0,Im-3,filled skutterudite (LaFe4P12-,,,,proto-only,0.69
+lam256,C60,simple-metal,"A3C60, a=14.1 Angstrom",0,Fm-3m,fcc A3C60 alkali-doped fulleri,14.1,14.1,14.1,lattice+proto,0.49
+lam257,C60,simple-metal,"A3C60, a=14.4 Angstrom",0,Fm-3m,fcc A3C60 alkali-doped fulleri,14.4,14.4,14.4,lattice+proto,0.77
+lam258,C60,simple-metal,"A3C60, a=14.6 Angstrom",0,Fm-3m,fcc A3C60 alkali-doped fulleri,14.6,14.6,14.6,lattice+proto,0.83
+lam259,C60,simple-metal,"A3C60, two-hole doped hu band, a=14.1 An",0,Fm-3m,fcc C60 (two-hole-doped hu ban,14.1,14.1,14.1,lattice+proto,0.85
+lam046,LaOs4As12,heavy-soc,LaOs4As12,0,Im-3,filled skutterudite (LaFe4P12-,8.706,8.706,8.706,full,0.59
+lam048,YOs4P12,heavy-soc,YOs4P12,0,Im-3,filled skutterudite (LaFe4P12-,8.136,8.136,8.136,full,0.55
+lam049,YRu4P12,heavy-soc,YRu4P12,0,Im-3,filled skutterudite (LaFe4P12-,8.085,8.085,8.085,full,0.78
+lam054,LaIr2Si2,heavy-soc,LaIr2Si2 (HTP P4/nmm),0,P4/nmm,122-type high-temperature poly,4.214,4.214,10.009,lattice+proto,0.56
+lam055,YIr2Si2,heavy-soc,YIr2Si2 (HTP P4/nmm),0,P4/nmm,122-type high-temperature poly,4.132,4.132,9.858,lattice+proto,0.61
+lam169,LiB0.9Be0.1C,intermetallic,(single),0,P6_3/mmc,LiBC layered (MgB2-like honeyc,,,,proto-only,0.75
+lam057,LaPtBN,heavy-soc,LaPtBN,0,,n=2 layered boronitride (LaPtB,,,,proto-only,0.56
+lam058,SrPt3P,heavy-soc,"SrPt3P, mu*=0.10",0,P4/nmm,antiperovskite SrPt3P (tetrago,,,,proto-only,1.06
+lam175,RaSi2,intermetallic,RaSi2 (z_tuned=0.544),0,P-3m1,"EuGe2-type (trigonal, AlB2-der",4.07,4.07,5.09,full,0.93
+lam108,H4Te,hydride,"H4Te, 200 GPa",200,P6/mmm,TeH12 H-sharing polyhedra (qua,,,,proto-only,1.46
+lam178,K2Cr3As3,intermetallic,(single),0,P-6m2,K2Cr3As3-type (noncentrosymmet,9.9832,9.9832,4.2304,lattice+proto,3
+lam179,P1H5S2,intermetallic,"P1 H5S2, 112 GPa",112,P1,mixed H2S-H3S motif (triclinic,2.7127,2.7119,8.6105,full,1.186
+lam180,P1H5S2,intermetallic,"P1 H5S2, 120 GPa",120,P1,mixed H2S-H3S motif (triclinic,,,,proto-only,1.239
+lam181,P1H5S2,intermetallic,"P1 H5S2, 130 GPa",130,P1,mixed H2S-H3S motif (triclinic,,,,proto-only,1.242
+lam060,LaPt2B2C,heavy-soc,LaPt2B2C,0,I4/mmm,LuNi2B2C-type (RM2B2C borocarb,3.904,3.904,10.773,lattice+proto,0.78
+lam062,YPd2B2C,heavy-soc,YPd2B2C,0,I4/mmm,LuNi2B2C-type (RM2B2C borocarb,3.807,3.807,10.745,lattice+proto,1.48
+lam063,YPt2B2C,heavy-soc,YPt2B2C,0,I4/mmm,LuNi2B2C-type (RM2B2C borocarb,3.809,3.809,10.818,lattice+proto,0.96
+lam064,Ca3Ir4Ge4,heavy-soc,(single),0,noncentrosymmetric body-centred cubic (Ca3Ir4Ge4-type),Ca3Ir4Ge4-type (noncentrosymme,7.651,7.651,7.651,lattice+proto,0.51
+lam065,SrPtAs,heavy-soc,(single),0,P6/mmm,hexagonal honeycomb pnictide (,4.307,4.307,9.063,lattice+proto,0.78
+lam016,CaB6,2d-layered,type-I orthorhombic CaB6,0,Pmmm,type-I orthorhombic MB6 monola,,,,proto-only,0.57
+lam017,MgB6,2d-layered,type-I orthorhombic MgB6,0,Pmmm,type-I orthorhombic MB6 monola,3.46,2.9,,lattice+proto,0.59
+lam018,TiB6,2d-layered,type-II orthorhombic (2x1) TiB6,0,Pmmm,type-II orthorhombic (2x1) MB6,6.76,2.95,,lattice+proto,0.92
+lam019,YB6,2d-layered,type-III orthorhombic (2x1) YB6,0,Pmmm,type-III orthorhombic (2x1) MB,,,,proto-only,1
+lam066,Bi4I4,heavy-soc,"epsilon-Bi4I4 (P31c), 15 GPa",15,P31c,epsilon-Bi4I4 ([Bi4I3] chains ,,,,proto-only,0.67
+lam067,Bi4I4,heavy-soc,"zeta-Bi4I4 (P4/mmm), 18 GPa",18,P4/mmm,"zeta-Bi4I4 (quasi-3D, alternat",,,,proto-only,0.72
+lam069,LaO0.5F0.5BiS2,heavy-soc,(single),0,"tetragonal layered BiS2 (P4/nmm-type, not explicitly named in node)",layered BiS2 (CeOBiS2-type / Z,,,,proto-only,0.85
+lam112,CS2H10,hydride,"Cmc2_1, 150 GPa, mu*=0.10 (Allen-Dynes)",150,Cmc2_1,host-guest (CH4 in H3S-like Im,,,,proto-only,2.01
+lam114,P3,hydride,"P3m1, 100 GPa, mu*=0.10 (Allen-Dynes)",100,P3m1,CH4 + SH3 units arranged analo,,,,proto-only,1.21
+lam115,P3,hydride,"P3m1, 50 GPa, mu*=0.10 (Allen-Dynes)",50,P3m1,CH4 + SH3 units arranged analo,,,,proto-only,1.51
+lam116,CS2H10,hydride,"Pm, 200 GPa, mu*=0.10 (Allen-Dynes)",200,Pm,host-guest (CH4 in H3S-like ho,,,,proto-only,0.69
+lam020,CeH10,2d-layered,"CeH10 (Fm-3m) 94 GPa, mu*=0.10",94,,,,,,none,1.952
+lam021,CeH9,2d-layered,"CeH9 (F-43m) 94 GPa, mu*=0.10",94,,,,,,none,1.596
+lam117,CaAlSiF,hydride,CaAlSi AF-like stacking,,,,,,,none,0.8
+lam265,NbB1.93,simple-metal,NbB1.93 (B-deficient),,P6/mmm,AlB2,3.1153,3.1153,3.2603,lattice+proto,0.212
+lam022,HPC3,2d-layered,"HPC3, 1% biaxial strain",,,2D hydrogenated phosphorus car,5.46208,5.46208,,lattice+proto,1.05
+lam023,HPC3,2d-layered,"HPC3, 2% biaxial strain",,,2D hydrogenated phosphorus car,5.51616,5.51616,,lattice+proto,1.24
+lam024,HPC3,2d-layered,"HPC3, 3% biaxial strain (f1f2 corrected)",,,2D hydrogenated phosphorus car,5.57024,5.57024,,lattice+proto,1.65
+lam025,HPC3,2d-layered,"HPC3, unstrained",,,2D hydrogenated phosphorus car,5.408,5.408,,lattice+proto,0.95
+lam197,K2Cr3As3,intermetallic,(single),,P-6m2,noncentrosymmetric quasi-1D A2,9.9832,9.9832,4.2304,lattice+proto,3
+lam026,ISnH8,2d-layered,I-4m2 SnH8 250 GPa (mu*=0.10),250,,,,,,none,1.139
+lam198,"(Ce,La)H9",intermetallic,(single),200,P-6m2,ordered Ce/La substitution on ,,,,proto-only,3
+lam199,C6H6,intermetallic,"benzene P2_1/c, 190 GPa, mu*=0.10",190,P2_1/c,molecular benzene crystal (mon,,,,proto-only,0.68
+lam203,Be43Bi20Pb37,intermetallic,Be43Bi20Pb37 (ternary),,,,,,,none,1.015
+lam204,Be43Pb57,intermetallic,Be43Pb57,,,,,,,none,0.988
+lam029,Mg2B4C2,2d-layered,(single),,P-3m1 (layer group p-3m1),2D MgB2-like monolayer (inner ,2.87,2.87,,lattice+proto,1.4
+lam205,K2Mo3As3,intermetallic,"K2Mo3As3, mu*=0.12",,P-6m2,noncentrosymmetric quasi-1D A2,10.256,10.256,4.463,lattice+proto,1.92
+lam118,C2KYH8,hydride,"C2/m KYH8, 200 GPa",200,C2/m,monoclinic KYH8 with H3 molecu,,,,proto-only,1.478
+lam119,C2KYH8,hydride,"C2/m KYH8, 250 GPa",250,C2/m,monoclinic KYH8 with H3 molecu,,,,proto-only,1.214
+lam120,C2KYH8,hydride,"C2/m KYH8, 300 GPa",300,C2/m,monoclinic KYH8 with H3 molecu,,,,proto-only,2.09
+lam121,C2SnH12,hydride,"C2/m-SnH12, 250 GPa",250,C2/m,monoclinic SnH12 with linear H,5.191,3.065,7.388,lattice+proto,1.25
+lam122,C2SnH14,hydride,"C2/m-SnH14, 300 GPa",300,C2/m,monoclinic SnH14 (no named pro,7.129,2.73,3.673,lattice+proto,1.187
+lam123,ISnH8,hydride,"I-4m2-SnH8, 220 GPa",220,I-4m2,tetragonal SnH8 with bent H3- ,3.076,3.076,5.523,full,1.188
+lam124,I4SnH4,hydride,"I4/mmm-SnH4, 220 GPa",220,I4/mmm,,,,,none,1.18
+lam125,LaBH8,hydride,"Fm-3m LaBH8, 100 GPa",100,Fm-3m,B-centered BH8 covalent units ,,,,proto-only,1.11
+lam126,LaBH8,hydride,"Fm-3m LaBH8, 200 GPa",200,Fm-3m,B-centered BH8 covalent units ,,,,proto-only,0.72
+lam127,LaBH8,hydride,"Fm-3m LaBH8, 50 GPa (Allen-Dynes)",50,Fm-3m,B-centered BH8 covalent units ,,,,proto-only,2.29
+lam128,LaBH8,hydride,"Fm-3m LaBH8, 55 GPa (Allen-Dynes)",55,Fm-3m,B-centered BH8 covalent units ,,,,proto-only,1.97
+lam129,PLaBH7,hydride,"P-3m1 LaBH7, 110 GPa",110,P-3m1,trigonal LaBH7 with edge-conne,,,,proto-only,1.46
+lam269,H4,simple-metal,Cmmm-AtH4 250 GPa,250,Cmmm,,,,,none,0.9
+lam270,P6H4,simple-metal,P6/mmm-AtH4 100 GPa,100,P6/mmm,,,,,none,0.82
+lam271,P6H4,simple-metal,P6/mmm-AtH4 200 GPa with SOC,200,P6/mmm,,,,,none,0.86
+lam272,P6H4,simple-metal,P6/mmm-AtH4 200 GPa without SOC,200,P6/mmm,,,,,none,0.76
+lam217,H,intermetallic,"H-diamond(111) FET n=6e14 cm-2, full-BZ ",,,Hydrogenated (111) diamond sur,,,,proto-only,0.81
+lam218,H,intermetallic,"H-diamond(111) FET n=6e14 cm-2, q=Gamma ",,,Hydrogenated (111) diamond sur,,,,proto-only,1.09
+lam219,Sn3S4I,intermetallic,Sn3S4 I-43d 30 GPa,30,I-43d,body-centered cubic Sn3S4 (no ,,,,proto-only,1.2
+lam030,Mo2CHXe,2d-layered,Mo2C bare 2H MXene,,,"2H MXene Mo2C monolayer, hexag",2.82,2.82,,lattice+proto,0.556
+lam032,Mo2CH2,2d-layered,"Mo2CH2 (H-terminated 2H, 1% strain)",,,2H MXene Mo2C monolayer (H-ter,,,,proto-only,0.732
+lam033,Mo2CO2,2d-layered,Mo2CO2 (O-terminated 2H),,,2H MXene Mo2C monolayer (O-ter,,,,proto-only,0.231
+lam229,LaPtBN,intermetallic,LaPtBN,,,Layered TM boronitride LaPtBN ,,,,proto-only,0.56
+lam076,TlTaSe2,heavy-soc,(single),,P-6m2,non-centrosymmetric hexagonal ,,,,proto-only,0.97
+lam036,C2CaC2,2d-layered,"C2CaC2 AA-stacking, -2% biaxial strain",,P6/mmm,Ca-intercalated AA-stacking bi,2.553,2.553,5.096,lattice+proto,0.86
+lam037,C2CaC2,2d-layered,"C2CaC2 AA-stacking, -4% biaxial strain",,P6/mmm,Ca-intercalated AA-stacking bi,2.501,2.501,5.096,lattice+proto,1.11
+lam038,C2CaC2,2d-layered,"C2CaC2 AA-stacking, unstrained",,P6/mmm,Ca-intercalated AA-stacking bi,2.605,2.605,5.096,lattice+proto,0.75
+lam274,III,simple-metal,"Sc-III, 100 GPa, mu*=0.10",100,,Sc-III high-pressure phase of ,,,,none,0.79
