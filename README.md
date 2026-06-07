@@ -102,8 +102,12 @@ method variants above.
 - ✅ **L3 PoC** ([`L3-dfpt-lambda/poc-simple-metal/`](L3-dfpt-lambda/poc-simple-metal/)):
   5 elemental metals, QE `pw.x`/`ph.x` structures + reference λ/ω_log, Harbor-contract
   `tests/test.sh`, accuracy (≤ 15 %) + reported core-hours. The DFPT runs off-sandbox
-  (open-source QE); the verifier compares to a cached reference (PoC). **Validated by
-  a real QE run: bcc Ta gives λ = 0.87 vs reference 0.877 (~1 %).**
+  (open-source QE); the verifier compares to a cached reference (PoC).
+- ✅ **Real QE reproduction** ([`L3-dfpt-lambda/VALIDATION.md`](L3-dfpt-lambda/VALIDATION.md)):
+  ran QE end-to-end on a 192-core server (MPI). With structures **relaxed to the
+  stated pressure** + a **4×4×4 q-grid**, bcc Ta / sc P / fcc Li reproduce the paper
+  λ within **2–6 %** and ω_log within **1–13 %**. Confirmed the two production fixes:
+  ship pressure-relaxed structures, and pair ω_log with a q-grid spec.
 - ✅ **Reference data assembled** (276 λ points / 123 materials, 5 material-type tracks).
 - ⬜ **Run through real Harbor** — both tasks follow the contract and pass host-side
   self-checks, but have not been executed by the `harbor` runner (needs Docker + the
