@@ -66,3 +66,24 @@ QE + MPI; structures in `<track>/environment/packet/structures/`, pseudos via
 `packet/pseudos/fetch_sg15.sh`. Per case: (relax to pressure →) scf → `ph.x`
 electron_phonon → extract λ with
 [`extract_lambda.py`](../.claude/skills/qe-eph-lambda/references/extract_lambda.py).
+
+## Batch-sweep attempt & the structure-provenance limit
+
+A bulk P1 sweep (structure-ready simple-metal + intermetallic, 2×2×2 q) was tried on
+the shared server. Outcome after a long run: of 20 cases attempted, **9 timed out**
+(pathological scf, e.g. La₃Ni₂B₂N₃ hung 8 h), **4 scf-failed**, **7 completed** — and
+of those 7, **only 2 reproduced within ±20 %** (the rest off by 2–5×).
+
+The dominant failure was **not** compute but **structure provenance**: the auto-fetched
+OpenLAM *ground-state* structure often is **not the phase / composition / pressure the
+paper studied** (e.g. doped A₃C₆₀ fullerides → λ 3.07 vs 0.5; off-stoichiometric
+NbB₂; specific polymorphs). When the structure doesn't match the paper, a clean DFPT
+run still gives a λ that doesn't match the gold.
+
+**Implication.** The carefully-matched cases above (Ta/P/Li/V/Y/YIn₃/Fe/MgB₂) reproduce
+*because* their structure matches the paper. A full 270-case reproduction needs
+**per-paper structure curation** (correct phase + pressure + ordering), not a database
+auto-fetch — a multi-day research effort, not a batch sweep. This does **not** weaken
+the benchmark: gold is the paper λ, and selecting/constructing the right structure is
+exactly part of the L3 task (the structure-ready vs build-from-spec split already
+reflects this).
