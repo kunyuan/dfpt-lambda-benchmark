@@ -45,11 +45,18 @@ running QE is to *validate* that gold is reachable and to fill missing values.
    "representative" cell gave λ **2–3× too high** (sc-P, fcc-Li). After
    `vc-relax (&cell press=<kbar>)`, λ landed within +2–4 %. λ is extremely
    volume-sensitive for compressed/soft systems.
-3. **q-grid convergence is material-dependent.** Simple metals are fine at 2×2×2–4×4×4
-   (λ within a few %; ω_log needs ≥4×4×4 — Ta ω_log went 175→153 K from 2×2×2→4×4×4).
-   **Strong-coupling systems (MgB₂) badly overestimate on coarse grids** (λ≈1.4–2 on
-   2×2×2 vs 0.75 converged) because the E₂g coupling peaks near Γ — they need 6×6×6+
-   or EPW/Wannier interpolation. Cost ∝ number of irreducible q (≈ linear).
+3. **q-grid under-convergence is the #1 cause of a computed λ that is 2–5× too high.**
+   Coarse 2×2×2 grossly overestimates λ for any material with a sharp acoustic/optical
+   **phonon anomaly** (Kohn anomaly / Fermi-surface nesting / soft mode), because the
+   few coarse q-points land on and over-weight the anomalous q whose true phase-space
+   is tiny. **Validated convergence (λ at 2×2×2 → 4×4×4 vs paper):**
+   NbC 2.44→**0.99** (0.87) · VC 4.39→**1.20** (0.78, needs 6×6×6) · MgB₂ 1.44→**0.66**
+   (0.75) · HfN **0.59** already-OK (0.67, no anomaly). **Always do a 2×2×2 then 4×4×4
+   convergence check**; if λ drops a lot, it is anomaly-driven → go to 6×6×6 (or EPW).
+   Anomaly-free systems (simple metals, HfN) are fine at 2×2×2. ω_log also tightens with
+   denser q (Ta 175→153 K). Cost ∝ #irreducible q (≈ linear).
+   *Diagnostic:* dump the per-mode `lambda(ν)` per q — λ_qν ≳ 1 on acoustic modes flags
+   an anomaly that a coarse grid will over-weight (NbC/VC showed 1.2–4.1 vs HfN's 0.5).
 4. **OpenLAM: pick the ground state by energy PER ATOM, not total energy.** Total
    energy favors larger cells (more formula units) and selects the wrong polymorph
    (picked a 6-atom P-1 MgB₂ over the 3-atom P6/mmm). Prefer the structure whose space
@@ -94,6 +101,24 @@ Cost ≈ (#irreducible q) × (cost/q). Measured @48 cores: MgB₂ 2×2×2 (4 q) 
 Fe 2×2×2 (4 q) ≈ 23 min. Scaling 2×2×2→6×6×6 ≈ ×7. Tiers: simple metal 10²–10³,
 intermetallic/2D/heavy 10³–10⁴, hydride (anharmonic/SSCHA) 10⁴–10⁵ core-h.
 
+## Failure-mode triage (symptom → cause → fix)
+
+When a run fails or λ is far off, match the symptom — most are fixable, not pipeline bugs:
+
+| symptom (in scf.out / ph.out) | cause | fix |
+|---|---|---|
+| `ph.x` SIGSEGV right after "Dynamical matrices for (n,n,n)" | `ibrav=0` + multi-atom | use proper Bravais `ibrav` |
+| **λ 2–5× too high**, per-mode λ_qν≳1 on acoustic modes | phonon anomaly under-converged on coarse q | denser q (4×4×4→6×6×6); convergence-check |
+| computed λ off **and** structure phase/composition ≠ paper (e.g. dhcp vs fcc, doped, off-stoich); **soft phonons (ω≲30 cm⁻¹)** | wrong/auto-fetched structure — not the paper's phase | get the paper's exact phase/pressure/ordering; relax to condition |
+| `Error in routine readpp` / `stopping` | a pseudopotential file won't read (corrupt/format) | re-download or swap that element's UPF |
+| `cdiaghg: S matrix not positive definite` (MPI_ABORT) at a k+q band recalc | ill-conditioned overlap (e.g. WC-type NbN) | retune ecutwfc / try a different pseudo |
+| scf prints "iteration #1" then no progress for hours | cell too big/heavy (e.g. 10 atoms, 3600 k, ecut 90) | more cores/time, or it genuinely needs HPC |
+| `vc-relax`/scf "convergence NOT achieved" | metal mixing/smearing | raise `electron_maxstep`, lower `mixing_beta`, check `degauss` |
+
+**Always sanity-check the phonon spectrum first**: large imaginary/negative or very soft
+(<30 cm⁻¹) frequencies mean the structure is dynamically unstable *as computed* → λ is
+spurious → the structure (phase/volume) is wrong, not the el-ph.
+
 ## Validation evidence (this benchmark)
 
 | material | λ computed / gold | note |
@@ -101,11 +126,16 @@ intermetallic/2D/heavy 10³–10⁴, hydride (anharmonic/SSCHA) 10⁴–10⁵ co
 | bcc Ta | 0.927 / 0.877 (+6%) | simple metal, 4×4×4 ✅ |
 | sc P (relaxed 20 GPa) | 0.808 / 0.795 (+2%) | relaxation essential ✅ |
 | fcc Li (relaxed 30 GPa) | 0.862 / 0.83 (+4%) | ✅ |
-| fcc La | 1.393 / 1.06 (+31%) | 4f, physics-hard |
-| hcp Fe (ibrav=4) | 0.42 / 0.33 (+27%) | crash fixed by ibrav |
-| MgB₂ (ibrav=4) | 1.44 (2×2×2) / 0.75 | needs dense q (E₂g) |
+| bcc V / fcc Y | 1.01/1.12 · 0.63/0.75 | simple metals ✅ |
+| YIn₃ | 0.362 / 0.36 (+0.6%) | ✅ |
+| hcp Fe (ibrav=4, 4×4×4) | 0.27 / 0.33 (−18%) | crash fixed by ibrav ✅ |
+| MgB₂ (ibrav=4) | 1.44→**0.66** (2×2×2→4×4×4) / 0.75 | q-convergence ✅ |
+| NbC / VC (B1) | 2.44→**0.99** · 4.39→**1.20** / 0.87,0.78 | acoustic Kohn anomaly, q-convergence |
+| HfN (B1) | 0.59 / 0.67 (−12%) | anomaly-free, 2×2×2 OK ✅ |
+| fcc La | 1.4–3.1 / 1.06 | 4f + soft modes + phase (fcc vs dhcp) ⚠️ |
 
-**Bottom line:** the pipeline runs end-to-end; accuracy is gated by per-material
-convergence — proper `ibrav`, pressure relaxation, q-grid density, and f-electron
-treatment. That difficulty gradient is exactly why "compute λ" is a meaningful agent
-benchmark.
+**Bottom line:** the pipeline runs end-to-end; accuracy is gated by (1) proper `ibrav`,
+(2) the structure matching the paper's phase/condition, and (3) a q-grid dense enough
+for the material's phonon anomalies. Those three — not the el-ph method — explain every
+mismatch we saw. That difficulty gradient is exactly why "compute λ" is a meaningful
+agent benchmark.

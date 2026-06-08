@@ -34,10 +34,11 @@ def extract(path):
             nm = len(lam[0])
             qdata.append((M, freqs[-nm:], lam))
     N = sum(q[0] for q in qdata)
-    res = {}  # sigma_Ry -> (lambda, omega_log_K)
+    res = {}      # sigma_Ry -> (lambda, omega_log_K)
+    domfrac = {}  # sigma_Ry -> max single-(q,ν) weighted contribution / λ_total
     nsig = max((len(q[2]) for q in qdata), default=0)
     for si in range(nsig):
-        lt = ls = 0.0
+        lt = ls = 0.0; mxc = 0.0
         for M, fr, lam in qdata:
             if si >= len(lam):
                 continue
@@ -46,10 +47,13 @@ def extract(path):
                 wq = abs(fr[nu])
                 if wq < 5:                      # skip Γ acoustic
                     continue
-                lt += w * lam[si][nu]
-                ls += w * lam[si][nu] * math.log(wq * CM2K)
+                c = w * lam[si][nu]             # weighted contribution of this (q,ν)
+                lt += c
+                ls += c * math.log(wq * CM2K)
+                mxc = max(mxc, c)
         res[round(0.005 * (si + 1), 3)] = (lt, math.exp(ls / lt) if lt > 0 else 0.0)
-    return res, N, len(qdata)
+        domfrac[round(0.005 * (si + 1), 3)] = (mxc / lt) if lt > 0 else 0.0
+    return res, N, len(qdata), domfrac
 
 
 if __name__ == "__main__":
@@ -57,10 +61,14 @@ if __name__ == "__main__":
     ap.add_argument("phout")
     ap.add_argument("--sigma", type=float, default=0.025, help="el_ph broadening (Ry) to report")
     a = ap.parse_args()
-    res, N, nq = extract(a.phout)
+    res, N, nq, domfrac = extract(a.phout)
     print(f"# {a.phout}: {nq} irreducible q, N(grid)={N}")
-    print(f"{'sigma_Ry':>9}{'lambda':>9}{'omega_log_K':>13}")
+    print(f"{'sigma_Ry':>9}{'lambda':>9}{'omega_log_K':>13}{'top_q_share':>13}")
     for s in sorted(res):
         lt, wl = res[s]
         mark = "  <-" if abs(s - a.sigma) < 1e-6 else ""
-        print(f"{s:9.3f}{lt:9.3f}{wl:13.1f}{mark}")
+        print(f"{s:9.3f}{lt:9.3f}{wl:13.1f}{domfrac[s]*100:11.0f} %{mark}")
+    if domfrac.get(round(a.sigma, 3), 0) > 0.25:
+        print(f"# WARNING: a single (q,ν) carries {domfrac[round(a.sigma,3)]*100:.0f}% of λ "
+              f"-> a phonon anomaly dominates this {'coarse ' if N <= 27 else ''}grid; λ is likely "
+              f"NOT converged. Re-run on a denser q-grid and check λ stabilizes.")
