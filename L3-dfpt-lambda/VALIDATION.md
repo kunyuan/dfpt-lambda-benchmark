@@ -87,3 +87,22 @@ auto-fetch — a multi-day research effort, not a batch sweep. This does **not**
 the benchmark: gold is the paper λ, and selecting/constructing the right structure is
 exactly part of the L3 task (the structure-ready vs build-from-spec split already
 reflects this).
+
+## Why the big λ-overshoots happen: q-grid under-convergence at phonon anomalies
+
+The cases where computed λ was 2–5× the paper value are **not pipeline errors** — they
+are coarse-q-grid overestimates for materials with sharp acoustic-phonon anomalies
+(Kohn anomalies / Fermi-surface nesting). Evidence — same material, 2×2×2 → 4×4×4:
+
+| material | λ (2×2×2) | λ (4×4×4) | paper λ | mechanism |
+|---|---:|---:|---:|---|
+| NbC (B1) | 2.44 | **0.99** | 0.87 | acoustic Kohn anomaly → +13 % at 4×4×4 ✅ |
+| VC (B1) | 4.39 | **1.20** | 0.78 | stronger anomaly; ×3.7 down, needs 6×6×6 |
+| MgB₂ | 1.44 | 0.66 | 0.75 | E₂g mode → −12 % at 4×4×4 ✅ |
+| HfN (B1) | 0.59 | — | 0.67 | no strong anomaly → already OK at 2×2×2 ✅ |
+
+The per-mode breakdown made it explicit: on 2×2×2, NbC/VC acoustic modes carry λ_qν =
+1.2–4.1 (vs HfN's 0.5) — the coarse grid lands on and over-weights the anomalous
+q-points, whose true phase-space is tiny. Denser q dilutes them and λ converges to the
+physical value. **Takeaway: TM-carbide / MgB₂-class / soft-mode materials need a dense
+q-grid; 2×2×2 is only adequate for anomaly-free systems (e.g. HfN, simple metals).**
