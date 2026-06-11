@@ -24,13 +24,13 @@ lam124,build-from-spec,,"I4/mmm-SnH4, 220 GPa",0.1
 lam126,build-from-spec,,"Fm-3m LaBH8, 200 GPa",0.1
 lam127,build-from-spec,,"Fm-3m LaBH8, 50 GPa (Allen-Dynes)",0.1
 lam129,build-from-spec,,"P-3m1 LaBH7, 110 GPa",0.1
-lam078,structure-ready,Ca2CoH6.scf.in,Ca2CoH6 at 20 GPa,0.1
-lam084,structure-ready,Sr2CoH6.scf.in,Sr2CoH6 at 20 GPa,0.1
-lam100,structure-ready,FeH5.scf.in,"FeH5, I4/mmm, 130 GPa",0.1
-lam102,structure-ready,GeH3.scf.in,"A15 GeH3, r_s=1.52 (~180 GPa)",0.13
-lam103,structure-ready,GeH3.scf.in,"Cccm GeH3, r_s=1.52 (~180 GPa)",0.13
-lam105,structure-ready,AlH3.scf.in,AlH3 Pm-3n 73 GPa,0.07
-lam106,structure-ready,SrAu2Si2__lam106.scf.in,SrAu2Si2 (I4/mmm),0.12
-lam109,structure-ready,SnH4.scf.in,"SnH4 C2/m, 500 GPa",0.1
-lam110,structure-ready,BeH2.scf.in,"BeH2 Cmcm 250 GPa, mu*=0.10",0.1
-lam113,structure-ready,P.scf.in,"P-3m1, 100 GPa, mu*=0.10 (Allen-Dynes)",0.1
+lam078,build-from-spec,,Ca2CoH6 at 20 GPa,0.1
+lam084,build-from-spec,,Sr2CoH6 at 20 GPa,0.1
+lam100,build-from-spec,,"FeH5, I4/mmm, 130 GPa",0.1
+lam102,build-from-spec,,"A15 GeH3, r_s=1.52 (~180 GPa)",0.13
+lam103,build-from-spec,,"Cccm GeH3, r_s=1.52 (~180 GPa)",0.13
+lam105,build-from-spec,,AlH3 Pm-3n 73 GPa,0.07
+lam106,build-from-spec,,SrAu2Si2 (I4/mmm),0.12
+lam109,build-from-spec,,"SnH4 C2/m, 500 GPa",0.1
+lam110,build-from-spec,,"BeH2 Cmcm 250 GPa, mu*=0.10",0.1
+lam113,build-from-spec,,"P-3m1, 100 GPa, mu*=0.10 (Allen-Dynes)",0.1

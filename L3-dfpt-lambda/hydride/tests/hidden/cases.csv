@@ -12,8 +12,8 @@ lam119,build-from-spec,,"C2/m KYH8, 250 GPa",0.1
 lam122,build-from-spec,,"C2/m-SnH14, 300 GPa",0.1
 lam125,build-from-spec,,"Fm-3m LaBH8, 100 GPa",0.1
 lam128,build-from-spec,,"Fm-3m LaBH8, 55 GPa (Allen-Dynes)",0.1
-lam081,structure-ready,Mg2CoH6.scf.in,Mg2CoH6 at 20 GPa,0.1
-lam101,structure-ready,FeH5.scf.in,"FeH5, I4/mmm, 200 GPa",0.1
+lam081,build-from-spec,,Mg2CoH6 at 20 GPa,0.1
+lam101,build-from-spec,,"FeH5, I4/mmm, 200 GPa",0.1
 lam104,structure-ready,GeH3__lam104.scf.in,"P4_2/mmc GeH3, r_s=1.52 (~180 GPa)",0.13
-lam107,structure-ready,SrAuSi3__lam107.scf.in,SrAuSi3 (I4mm),0.12
-lam111,structure-ready,BeH2.scf.in,"BeH2 P4/nmm 400 GPa, mu*=0.10",0.1
+lam107,build-from-spec,,SrAuSi3 (I4mm),0.12
+lam111,build-from-spec,,"BeH2 P4/nmm 400 GPa, mu*=0.10",0.1

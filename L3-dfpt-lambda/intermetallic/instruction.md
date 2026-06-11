@@ -12,6 +12,8 @@ method** appropriate to this material class yourself (typically DFPT-direct).
 - **build-from-spec** — no ready structure; `packet/structure_hints.json` gives the
   paper's space group, prototype, lattice constants, any coordinates/bond lengths and
   pressure. **Construct the crystal structure from that spec**, then run.
+  Some rows were demoted by a structure audit; check `mismatch_flags` and
+  `recommended_next_step` in the hint before trusting a formula/database candidate.
 
 ## I/O
 Input per case: `case_id, mode, structure_file, condition, mu_star`. Write

@@ -1,0 +1,9 @@
+job_id,case_id,qgrid,mode,sku,np,nk,status,exit_code,action,note
+22835214,lam262,2,official_pw_ifort_custom_ph,c64_m128_cpu,8,1,Failed,255,downloaded,"SCF converged with official pw.x; custom ifort ph.x completed Gamma perturbation then segfaulted at PC=0x11A24BA before later q points"
+22835222,lam263,2,official_pw_ifort_custom_ph,c64_m128_cpu,8,1,Failed,255,log_checked,"custom ifort ph.x segfaulted at the same PC=0x11A24BA"
+22835223,lam138,2,official_pw_ifort_custom_ph,c64_m128_cpu,16,1,Running,0,kill_requested,"stopped because multiple simpler cases showed systematic custom ph.x crash"
+22835224,lam264,2,official_pw_ifort_custom_ph,c64_m128_cpu,8,1,Failed,255,log_checked,"custom ifort ph.x segfaulted at the same PC=0x11A24BA"
+22835225,lam253,2,official_pw_ifort_custom_ph,c64_m128_cpu,16,1,Running,0,kill_requested,"stopped because multiple simpler cases showed systematic custom ph.x crash"
+22835226,lam150,2,official_pw_ifort_custom_ph,c64_m128_cpu,8,1,Running,255,log_checked,"custom ifort ph.x segfaulted at the same PC=0x11A24BA; LBG was still retrieving result when recorded"
+22835227,lam154,2,official_pw_ifort_custom_ph,c64_m128_cpu,16,1,Running,0,kill_requested,"stopped because multiple simpler cases showed systematic custom ph.x crash"
+22835235,lam262,2,ifort_custom_pw_ifort_custom_ph,c64_m128_cpu,8,1,Failed,174,log_checked,"matched custom ifort pw.x/ph.x failed in custom pw.x early SCF at PC=0x116271A"

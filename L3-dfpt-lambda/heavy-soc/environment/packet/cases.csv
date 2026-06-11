@@ -15,11 +15,11 @@ lam069,build-from-spec,,(single),0.1
 lam076,build-from-spec,,(single),0.16
 lam042,structure-ready,ZrRhSi__lam042.scf.in,ZrRhSi,0.11
 lam047,structure-ready,LaOs4P12.scf.in,LaOs4P12,0.13
-lam051,structure-ready,CaIr2.scf.in,"CaIr2, without SOC",0.15
+lam051,build-from-spec,,"CaIr2, without SOC",0.15
 lam052,structure-ready,CaRh2.scf.in,"CaRh2, with SOC",0.15
 lam056,structure-ready,LaNiBN.scf.in,LaNiBN,0.12
 lam059,structure-ready,SrAuSi3__lam059.scf.in,(single),0.12
-lam068,structure-ready,OsN2.scf.in,OsN2 0.5 holes/cell doped (Os0.75Re0.25N2),0.1
+lam068,build-from-spec,,OsN2 0.5 holes/cell doped (Os0.75Re0.25N2),0.1
 lam070,structure-ready,Zr2Ir.scf.in,Zr2Ir with SOC,0.1
 lam072,structure-ready,Bi3Ni.scf.in,"Bi3Ni, SOC DOS (lambda from N_expt/N_calc)",0.13
 lam073,structure-ready,Bi3Ni.scf.in,"Bi3Ni, non-SOC DOS (lambda from N_expt/N_calc)",0.13

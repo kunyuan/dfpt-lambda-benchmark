@@ -1,0 +1,12 @@
+case_id,tier,track,structure_file,material,condition,lambda_ref,omega_log_ref_K,pressure_GPa,relax_required,primary_reason,qgrids,kgrids,ecutwfc_Ry,notes
+lam262,A,simple-metal,P__lam262.scf.in,P,"sc P, 70 GPa (P_calc)",0.676,469,70,yes,high-pressure one-atom simple-cubic case not already reproduced,"2;4;6","20;24;32",60,"companion to successful lam261 but different pressure; production value should use pressure-relaxed cell"
+lam263,A,simple-metal,S__lam263.scf.in,S,"beta-Po sulfur, 160 GPa",0.76,439.1,160,yes,rhombohedral high-pressure elemental phase,"2;4;6","20;24;32",60,"tests non-cubic ibrav=5 plus pressure sensitivity"
+lam264,A,simple-metal,S__lam264.scf.in,S,"simple-cubic sulfur, 280 GPa",0.53,560.1,280,yes,same element as lam263 but different phase/pressure,"2;4;6","20;24;32",60,"useful phase-pair scaling with lam263"
+lam150,A,intermetallic,I__lam150.scf.in,I,"fcc iodine, 81 GPa",0.43,186.3,81,yes,one-atom heavy high-pressure fcc case newly fixed from LKM,"2;4;6","20;24;32",60,"if stable, extend pressure series to lam148 and lam149"
+lam138,A,intermetallic,CdCNi3__lam138.scf.in,CdCNi3,"cubic antiperovskite CdCNi3",0.8,89.41,0,no,new five-atom antiperovskite with low omega_log,"2;3;4","16;20;24",90,"watch low-frequency modes and top_q_share"
+lam253,A,simple-metal,Mo3Os__lam253.scf.in,Mo3Os,"A15 Mo3Os",1.51,130.9,0,no,strong-coupling A15 intermetallic not covered by previous successful set,"2;3;4","12;16;20",90,"8-atom cell; run after smaller Tier A cases"
+lam154,A,intermetallic,TaC.scf.in,TaC,"B1 TaC",0.78,272,0,no,B1 carbide analogue not yet reproduced after NbC/VC/HfN lessons,"2;4;6","16;20;24",90,"use as anomaly-family check without rerunning NbC or VC"
+lam052,B,heavy-soc,CaRh2.scf.in,CaRh2,"CaRh2 with SOC",0.96,118,0,no,heavy-SOC toggle pair requires fully relativistic setup,"2;3;4","12;16;20",90,"do not mix with Tier A until FR pseudos and noncolin input are ready"
+lam053,B,heavy-soc,CaRh2.scf.in,CaRh2,"CaRh2 without SOC",1.17,120.2,0,no,non-SOC partner for lam052,"2;3;4","12;16;20",90,"compare against lam052 only after SOC input path is explicit"
+lam104,B,hydride,GeH3__lam104.scf.in,GeH3,"P4_2/mmc GeH3, ~180 GPa",1.56,737,180,yes,only current hydride structure-ready case,"2;3","12;16",60,"harmonic DFPT smoke only; hydride-class paper physics may need anharmonic treatment"
+

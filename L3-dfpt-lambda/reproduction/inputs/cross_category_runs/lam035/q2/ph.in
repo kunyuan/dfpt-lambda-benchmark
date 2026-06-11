@@ -1,0 +1,11 @@
+&inputph
+  prefix='x',
+  outdir='./out',
+  fildvscf='dvscf',
+  tr2_ph=1.0d-14,
+  electron_phonon='simple',
+  el_ph_sigma=0.005,
+  el_ph_nsigma=10,
+  ldisp=.true.,
+  nq1=2, nq2=2, nq3=1
+/

@@ -7,8 +7,8 @@ lam022,build-from-spec,,"HPC3, 1% biaxial strain",0.1
 lam025,build-from-spec,,"HPC3, unstrained",0.1
 lam030,build-from-spec,,Mo2C bare 2H MXene,0.1
 lam036,build-from-spec,,"C2CaC2 AA-stacking, -2% biaxial strain",0.1
-lam006,structure-ready,NbS2.scf.in,(single),0.1
-lam010,structure-ready,TiB4.scf.in,TiB4 bilayer +11% biaxial tensile strain,0.1
-lam013,structure-ready,MgB6.scf.in,hexagonal MgB6,0.1
-lam027,structure-ready,CaSn6.scf.in,CaSn6 (Ca-decorated stanene),0.13
-lam034,structure-ready,Ti2C.scf.in,Ti2C monolayer,0.1
+lam006,build-from-spec,,(single),0.1
+lam010,build-from-spec,,TiB4 bilayer +11% biaxial tensile strain,0.1
+lam013,build-from-spec,,hexagonal MgB6,0.1
+lam027,build-from-spec,,CaSn6 (Ca-decorated stanene),0.13
+lam034,build-from-spec,,Ti2C monolayer,0.1

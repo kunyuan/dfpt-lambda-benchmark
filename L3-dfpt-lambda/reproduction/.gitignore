@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+lbg_downloads/
+downloads/
+*.tar.gz
+out/
+*.save/
+_ph0/
+*.wfc*
+*.mix*
+*.igk*

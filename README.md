@@ -44,8 +44,8 @@ metadata** for the verifier/budgeter, not revealed to the agent.
 
 | material-type track | cases | papers | method (hidden) | cost tier (core-h) |
 |---|---:|---:|---|---|
-| simple / elemental metal | 42 | — | DFPT-direct | 10²–10³ |
-| intermetallic compound | 105 | — | DFPT-direct | 10³–10⁴ |
+| simple / elemental metal | 40 | — | DFPT-direct | 10²–10³ |
+| intermetallic compound | 107 | — | DFPT-direct | 10³–10⁴ |
 | heavy-element (needs SOC) | 38 | — | DFPT + SOC | 10³–10⁴ (×SOC) |
 | 2D / layered | 38 | — | DFPT + Wannier/EPW | 10³–10⁴ |
 | high-pressure hydride | 53 | — | DFPT + anharmonic/SSCHA | 10⁴–10⁵ |
@@ -84,6 +84,7 @@ which gives the material and withholds the physics.
 | file | what |
 |---|---|
 | `lambda_reference.csv` / `.json` | 276 reference points (material, condition, λ, ω, μ\*, type, method, cost) |
+| `structure_targets.csv` / `_summary.md` | audited target phase/prototype, space group, pressure, confidence, and mismatch flags for all 276 L3 cases |
 | `lkm_extraction.json` | full per-paper LKM records (243 papers) |
 | `lambda_per_condition.json` | the per-condition split that produced the reference points |
 | `lambda_computed_vs_experimental.csv` | 15-paper computed-vs-experimental λ comparison |
@@ -107,11 +108,11 @@ method variants above.
 
   | track | cases | structure-ready | build-from-spec |
   |---|---:|---:|---:|
-  | `intermetallic` | 107 | 88 | 19 |
-  | `hydride` | 53 | 15 | 38 |
-  | `simple-metal` | 40 | 30 | 10 |
-  | `heavy-soc` | 38 | 17 | 21 |
-  | `2d-layered` | 38 | 14 | 24 |
+  | `intermetallic` | 107 | 55 | 52 |
+  | `hydride` | 53 | 1 | 52 |
+  | `simple-metal` | 40 | 11 | 29 |
+  | `heavy-soc` | 38 | 13 | 25 |
+  | `2d-layered` | 38 | 0 | 38 |
 
   Each case is either **structure-ready** (a proper-`ibrav` QE input in
   `packet/structures/`) or **build-from-spec** (construct the crystal from
@@ -120,10 +121,19 @@ method variants above.
   ran QE end-to-end on a 192-core server (MPI). With structures **relaxed to the
   stated pressure** + a **4×4×4 q-grid**, bcc Ta / sc P / fcc Li reproduce the paper
   λ within **2–6 %** and ω_log within **1–13 %**.
-- ✅ **Structures assembled** — 164/276 structure-ready (OpenLAM 144 / MP 14 / LKM 6);
-  112 build-from-spec with the paper's structural info in `structure_hints`. SG15
-  pseudo manifest + fetch script in each `packet/pseudos/`. See
-  [`L3-dfpt-lambda/BUILD.md`](L3-dfpt-lambda/BUILD.md).
+- ✅ **LBG/QE reproduction record** ([`L3-dfpt-lambda/reproduction/`](L3-dfpt-lambda/reproduction/)):
+  organized job ledgers, selected scaling inputs, QE 7.1 `ph.x` build notes, and
+  curated λ/ω_log comparisons from the first NP=8 LBG batch. The strongest new
+  reproductions are high-pressure sulfur (`lam263`, `lam264`); 2D, hydride, and
+  heavy-SOC entries are currently smoke/method-validation records rather than final
+  leaderboard-grade results.
+- ✅ **Structures audited + first repair batch** — 80/276 are trusted
+  structure-ready after checking
+  the paper target phase/pressure against LKM and current QE inputs
+  (OpenLAM 55 / MP 10 / LKM 15). The other 196 are build-from-spec with target
+  structure metadata in `structure_hints` and the full audit in
+  `data/structure_targets.csv`. SG15 pseudo manifest + fetch script in each
+  `packet/pseudos/`. See [`L3-dfpt-lambda/BUILD.md`](L3-dfpt-lambda/BUILD.md).
 - ⬜ **Run through real Harbor** — all tasks follow the contract and pass host-side
   self-checks, but have not been executed by the `harbor` runner (needs Docker).
 - ⬜ **Harden** — fill remaining build-from-spec structures; verifier to recompute λ

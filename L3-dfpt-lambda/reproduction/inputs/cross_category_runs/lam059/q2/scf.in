@@ -1,0 +1,23 @@
+&control
+  calculation='scf', prefix='x', pseudo_dir='./pseudo', outdir='./out'
+/
+&system
+  ibrav=7, celldm(1)=8.45652, celldm(3)=2.26503, nat=5, ntyp=3,
+  ecutwfc=90, ecutrho=360,
+  occupations='smearing', smearing='methfessel-paxton', degauss=0.02, nspin=1
+/
+&electrons
+  conv_thr=1.0d-10, mixing_beta=0.7
+/
+ATOMIC_SPECIES
+  Au 196.966569 Au_ONCV_PBE-1.2.upf
+  Si 28.0855 Si_ONCV_PBE-1.2.upf
+  Sr 87.62 Sr_ONCV_PBE-1.2.upf
+ATOMIC_POSITIONS crystal
+  Sr 0.000000 0.000000 0.000000
+  Si 0.378000 0.378000 0.000000
+  Si 0.757000 0.257000 0.500000
+  Si 0.257000 0.757000 0.500000
+  Au 0.632000 0.632000 0.000000
+K_POINTS automatic
+  16 16 16 0 0 0
