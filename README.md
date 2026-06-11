@@ -88,6 +88,7 @@ which gives the material and withholds the physics.
 | `lkm_extraction.json` | full per-paper LKM records (243 papers) |
 | `lambda_per_condition.json` | the per-condition split that produced the reference points |
 | `lambda_computed_vs_experimental.csv` | 15-paper computed-vs-experimental λ comparison |
+| `splits/l3_case_splits.csv` / `splits/l3_validation_core.csv` | Harbor-style L3 train/validation split; 251 train + 25 validation-core cases |
 
 All derive from WF-6 (243 papers). λ is reported first-principles in ~150 of them;
 DFPT/linear-response dominates, with Wannier/EPW, SOC, and anharmonic/SSCHA as the
@@ -134,6 +135,11 @@ method variants above.
   structure metadata in `structure_hints` and the full audit in
   `data/structure_targets.csv`. SG15 pseudo manifest + fetch script in each
   `packet/pseudos/`. See [`L3-dfpt-lambda/BUILD.md`](L3-dfpt-lambda/BUILD.md).
+- ✅ **L3 train/validation split defined** — a case-level Harbor split is in
+  [`splits/`](splits/): 251 public train cases plus a 25-case
+  `validation_core` set with exactly 5 cases from each material class. The
+  validation set excludes the heavily tuned public reproduction cases and mixes
+  structure-ready, build-from-spec, SOC, 2D, and hydride examples.
 - ⬜ **Run through real Harbor** — all tasks follow the contract and pass host-side
   self-checks, but have not been executed by the `harbor` runner (needs Docker).
 - ⬜ **Harden** — fill remaining build-from-spec structures; verifier to recompute λ

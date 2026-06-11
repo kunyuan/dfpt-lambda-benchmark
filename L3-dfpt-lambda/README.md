@@ -26,6 +26,22 @@ omega_log_K/theta_D_K, mu_star, expected_method, cost_tier_coreh`.
 computed-vs-experimental spread), **and** the agent self-reports core-hours used —
 graded on the accuracy × cost Pareto frontier.
 
+## Train/Validation Split
+
+The benchmark now has a case-level Harbor split in [`../splits/`](../splits/):
+
+| split | cases | role |
+|---|---:|---|
+| `train` | 251 | public workflow tuning, structure repair, convergence debugging |
+| `validation_core` | 25 | stable cross-material validation, 5 cases per material class |
+
+Harbor does not need a special `split` field in each task. The intended packaging
+is to publish separate dataset versions from the split manifest, e.g.
+`dfpt-lambda-l3-train@0.1.0` and
+`dfpt-lambda-l3-validation-core@0.1.0`. Current material-type tasks still contain
+many case rows internally; the split manifest is the source of truth for generating
+split-specific task variants or future case-level Harbor tasks.
+
 ## Status — packaged Harbor tracks
 
 The 276 L3 cases are packaged as five runnable Harbor-style tasks. Each track has
