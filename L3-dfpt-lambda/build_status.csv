@@ -1,17 +1,17 @@
 case_id,formula,material_type,condition,structure_source,structure_file,sg,status,lambda_ref
-lam237,OsO3,simple-metal,"OsO3, R-3c, 30 GPa, no SOC",openlam,OsO3.scf.in,Pm-3m,structure-ready,1.501
-lam238,PtO3,simple-metal,"PtO3, R-3c, 30 GPa, no SOC",openlam,PtO3.scf.in,P1,structure-ready,0.498
-lam239,ReO3,simple-metal,"ReO3, R-3c, 30 GPa, no SOC",openlam,ReO3.scf.in,Pm-3m,structure-ready,0.95
-lam240,ReO3,simple-metal,"ReO3, R-3c, 30 GPa, with SOC",openlam,ReO3.scf.in,Pm-3m,structure-ready,0.945
-lam241,RuO3,simple-metal,"RuO3, R-3c, 30 GPa, no SOC",openlam,RuO3.scf.in,Cc,structure-ready,2.542
+lam237,OsO3,simple-metal,"OsO3, R-3c, 30 GPa, no SOC",audit-needs-rebuild,,R-3c,build-from-spec,1.501
+lam238,PtO3,simple-metal,"PtO3, R-3c, 30 GPa, no SOC",audit-needs-rebuild,,R-3c,build-from-spec,0.498
+lam239,ReO3,simple-metal,"ReO3, R-3c, 30 GPa, no SOC",audit-needs-rebuild,,R-3c,build-from-spec,0.95
+lam240,ReO3,simple-metal,"ReO3, R-3c, 30 GPa, with SOC",audit-needs-rebuild,,R-3c,build-from-spec,0.945
+lam241,RuO3,simple-metal,"RuO3, R-3c, 30 GPa, no SOC",audit-needs-rebuild,,R-3c,build-from-spec,2.542
 lam077,Ba2RhH6,hydride,Ba2RhH6 at 20 GPa,absent,,,build-from-spec,0.62
-lam078,Ca2CoH6,hydride,Ca2CoH6 at 20 GPa,openlam,Ca2CoH6.scf.in,Fm-3m,structure-ready,0.39
+lam078,Ca2CoH6,hydride,Ca2CoH6 at 20 GPa,audit-needs-rebuild,,Fm-3m,build-from-spec,0.39
 lam079,Ca2IrH6,hydride,Ca2IrH6 at 20 GPa,absent,,,build-from-spec,0.68
 lam080,Ca2RhH6,hydride,Ca2RhH6 at 20 GPa,absent,,,build-from-spec,0.51
-lam081,Mg2CoH6,hydride,Mg2CoH6 at 20 GPa,openlam,Mg2CoH6.scf.in,P-1,structure-ready,1.34
+lam081,Mg2CoH6,hydride,Mg2CoH6 at 20 GPa,audit-needs-rebuild,,Fm-3m,build-from-spec,1.34
 lam082,Mg2IrH6,hydride,Mg2IrH6 at 20 GPa,absent,,,build-from-spec,3.04
 lam083,Mg2RhH6,hydride,Mg2RhH6 at 20 GPa,absent,,,build-from-spec,2.05
-lam084,Sr2CoH6,hydride,Sr2CoH6 at 20 GPa,openlam,Sr2CoH6.scf.in,Fm-3m,structure-ready,0.27
+lam084,Sr2CoH6,hydride,Sr2CoH6 at 20 GPa,audit-needs-rebuild,,Fm-3m,build-from-spec,0.27
 lam085,Sr2IrH6,hydride,Sr2IrH6 at 20 GPa,absent,,,build-from-spec,0.43
 lam086,La2Pt2H13,hydride,"La2Pt2H13, 20 GPa",absent,,,build-from-spec,0.615
 lam087,LaPt2H7,hydride,"LaPt2H7, 20 GPa",absent,,,build-from-spec,0.788
@@ -20,31 +20,31 @@ lam089,LaPtH5,hydride,"LaPtH5, 20 GPa",absent,,,build-from-spec,0.494
 lam090,LaPtH6,hydride,"LaPtH6, 0 GPa",absent,,,build-from-spec,0.789
 lam091,LaPtH6,hydride,"LaPtH6, 20 GPa",absent,,,build-from-spec,0.701
 lam001,,2d-layered,"Grokene (K-doped graphene 4x4), Allen-Dynes mean-field",no-formula,,,build-from-spec,3.8
-lam242,Ta,simple-metal,(single),openlam,Ta.scf.in,Im-3m,structure-ready,0.877
-lam130,Nb3Sn,intermetallic,"A15 Nb1-bSnb, Sn=0.1875 (one antisite, 16-atom)",mp,Nb3Sn.scf.in,,structure-ready,0.92
-lam131,Nb3Sn,intermetallic,"A15 Nb1-bSnb, Sn=0.21875 (one antisite, 32-atom)",mp,Nb3Sn.scf.in,,structure-ready,1.22
+lam242,Ta,simple-metal,(single),audit-source-review,,Im-3m,build-from-spec,0.877
+lam130,Nb3Sn,intermetallic,"A15 Nb1-bSnb, Sn=0.1875 (one antisite, 16-atom)",audit-needs-rebuild,,,build-from-spec,0.92
+lam131,Nb3Sn,intermetallic,"A15 Nb1-bSnb, Sn=0.21875 (one antisite, 32-atom)",audit-needs-rebuild,,,build-from-spec,1.22
 lam132,Nb3Sn,intermetallic,"A15 Nb3Sn, Sn=0.25 (stoichiometric)",mp,Nb3Sn.scf.in,Pm-3n,structure-ready,1.85
 lam133,La3Ni2B2N3,intermetallic,(single),openlam,La3Ni2B2N3.scf.in,I4/mmm,structure-ready,0.73
 lam002,Li0.2P0.8,2d-layered,Li0.2P0.8 (A-X-B intercalated blue-P bilayer),absent,,,build-from-spec,1.2
 lam003,Mg0.2P0.8,2d-layered,Mg0.2P0.8 (A-X-B intercalated blue-P bilayer),absent,,,build-from-spec,0.8
 lam004,Na0.2P0.8,2d-layered,Na0.2P0.8 (A-X-B intercalated blue-P bilayer),absent,,,build-from-spec,1.1
 lam134,CaVI,intermetallic,"Pnma Ca-VI, 172 GPa, mu*=0.10",lkm,Ca__lam134.scf.in,,structure-ready,0.934
-lam135,V3Si,intermetallic,(single),openlam,V3Si.scf.in,Pm-3n,structure-ready,1.28
+lam135,V3Si,intermetallic,(single),audit-needs-rebuild,,Pm-3n,build-from-spec,1.28
 lam092,I4H,hydride,"I4_1/amd H, 480 GPa, mu*=0.10",absent,,,build-from-spec,2.17
 lam093,I4H,hydride,"I4_1/amd H, 539 GPa, mu*=0.10",absent,,,build-from-spec,2.01
 lam094,I4H,hydride,"I4_1/amd H, 608 GPa, mu*=0.10",absent,,,build-from-spec,1.89
 lam095,I4H,hydride,"I4_1/amd H, 802 GPa, mu*=0.10",absent,,,build-from-spec,1.68
 lam005,PbSi,2d-layered,(single),absent,,,build-from-spec,0.72
-lam243,Li,simple-metal,"fcc Li, 14 GPa",openlam,Li.scf.in,P2_1/m,structure-ready,0.49
-lam244,Li,simple-metal,"fcc Li, 20 GPa",openlam,Li.scf.in,P2_1/m,structure-ready,0.66
-lam245,Li,simple-metal,"fcc Li, 30 GPa",openlam,Li.scf.in,P2_1/m,structure-ready,0.83
-lam246,Li,simple-metal,"fcc Li, 36 GPa",openlam,Li.scf.in,P2_1/m,structure-ready,1.1
-lam247,Li,simple-metal,"fcc Li, 8 GPa",openlam,Li.scf.in,P2_1/m,structure-ready,0.39
+lam243,Li,simple-metal,"fcc Li, 14 GPa",audit-needs-rebuild,,Fm-3m,build-from-spec,0.49
+lam244,Li,simple-metal,"fcc Li, 20 GPa",audit-needs-rebuild,,Fm-3m,build-from-spec,0.66
+lam245,Li,simple-metal,"fcc Li, 30 GPa",audit-needs-rebuild,,Fm-3m,build-from-spec,0.83
+lam246,Li,simple-metal,"fcc Li, 36 GPa",audit-needs-rebuild,,Fm-3m,build-from-spec,1.1
+lam247,Li,simple-metal,"fcc Li, 8 GPa",audit-needs-rebuild,,Fm-3m,build-from-spec,0.39
 lam136,MgB2,intermetallic,MgB2,openlam,MgB2.scf.in,P6/mmm,structure-ready,0.75
 lam137,BaSi2,intermetallic,(single),openlam,BaSi2.scf.in,P4_132,structure-ready,0.33
-lam248,La,simple-metal,dhcp La,openlam,La.scf.in,Fm-3m,structure-ready,0.97
+lam248,La,simple-metal,dhcp La,lkm,La__lam248.scf.in,P6_3/mmc,structure-ready,0.97
 lam249,La,simple-metal,fcc La,openlam,La.scf.in,Fm-3m,structure-ready,1.06
-lam138,CdCNi3,intermetallic,"CdCNi3, mu*=0.12",absent,,,build-from-spec,0.8
+lam138,CdCNi3,intermetallic,"CdCNi3, mu*=0.12",lkm,CdCNi3__lam138.scf.in,Pm-3m,structure-ready,0.8
 lam139,HoNaBC,intermetallic,(single),absent,,,build-from-spec,0.73
 lam140,LaNiPO,intermetallic,(single),openlam,LaNiPO.scf.in,P4/nmm,structure-ready,0.58
 lam141,YS,intermetallic,"YS rock-salt, mu*=0.10",openlam,YS.scf.in,Fm-3m,structure-ready,0.52
@@ -52,12 +52,12 @@ lam142,S1LiB,intermetallic,"MS1-LiB (stoichiometric), mu*=0.10",absent,,,build-f
 lam143,Nb3Sn,intermetallic,A15 Nb3Sn (mu*=0.10),mp,Nb3Sn.scf.in,Pm-3n,structure-ready,1.51
 lam096,FC34,hydride,FC34 (fluorine in C28 cage),absent,,,build-from-spec,0.85
 lam144,MgB2,intermetallic,MgB2 unstrained (bulk reference),openlam,MgB2.scf.in,P6/mmm,structure-ready,0.94
-lam145,Li,intermetallic,"BCC tellurium, V/V0=0.90 (~54 GPa)",openlam,Li.scf.in,P2_1/m,structure-ready,0.698
-lam146,Li,intermetallic,"BCC tellurium, V/V0=0.95 (~46 GPa)",openlam,Li.scf.in,P2_1/m,structure-ready,0.822
-lam147,Li,intermetallic,"BCC tellurium, V/V0=1.0 (~38 GPa)",openlam,Li.scf.in,P2_1/m,structure-ready,0.979
-lam148,Li,intermetallic,"FCC iodine, 103 GPa",openlam,Li.scf.in,P2_1/m,structure-ready,0.375
-lam149,Li,intermetallic,"FCC iodine, 64 GPa",openlam,Li.scf.in,P2_1/m,structure-ready,0.546
-lam150,Li,intermetallic,"FCC iodine, 81 GPa",openlam,Li.scf.in,P2_1/m,structure-ready,0.43
+lam145,Li,intermetallic,"BCC tellurium, V/V0=0.90 (~54 GPa)",audit-needs-rebuild,,Im-3m,build-from-spec,0.698
+lam146,Li,intermetallic,"BCC tellurium, V/V0=0.95 (~46 GPa)",audit-needs-rebuild,,Im-3m,build-from-spec,0.822
+lam147,Li,intermetallic,"BCC tellurium, V/V0=1.0 (~38 GPa)",audit-needs-rebuild,,Im-3m,build-from-spec,0.979
+lam148,I,intermetallic,"FCC iodine, 103 GPa",lkm,I__lam148.scf.in,Fm-3m,structure-ready,0.375
+lam149,I,intermetallic,"FCC iodine, 64 GPa",lkm,I__lam149.scf.in,Fm-3m,structure-ready,0.546
+lam150,I,intermetallic,"FCC iodine, 81 GPa",lkm,I__lam150.scf.in,Fm-3m,structure-ready,0.43
 lam151,C6Ca,intermetallic,(single),mp,C6Ca.scf.in,,structure-ready,0.83
 lam152,HfN,intermetallic,HfN (B1),openlam,HfN.scf.in,Fm-3m,structure-ready,0.67
 lam153,NbC,intermetallic,NbC (B1),openlam,NbC.scf.in,Fm-3m,structure-ready,0.87
@@ -65,22 +65,22 @@ lam154,TaC,intermetallic,TaC (B1),openlam,TaC.scf.in,Fm-3m,structure-ready,0.78
 lam155,TiN,intermetallic,TiN (B1),openlam,TiN.scf.in,Fm-3m,structure-ready,0.59
 lam156,VC,intermetallic,"VC (B1, stoichiometric)",openlam,VC.scf.in,Fm-3m,structure-ready,0.78
 lam157,ZrN,intermetallic,ZrN (B1),openlam,ZrN.scf.in,Fm-3m,structure-ready,0.66
-lam250,Li,simple-metal,(single),openlam,Li.scf.in,P2_1/m,structure-ready,0.806
-lam006,NbS2,2d-layered,(single),openlam,NbS2.scf.in,R3m,structure-ready,0.554
-lam251,Fe,simple-metal,"nm-hcp Fe, 100 GPa",openlam,Fe.scf.in,Im-3m,structure-ready,0.33
-lam252,SnAs,simple-metal,rock-salt SnAs,openlam,SnAs.scf.in,Fm-3m,structure-ready,0.64
-lam158,BF,intermetallic,(single),openlam,BF.scf.in,P1,structure-ready,0.74
+lam250,Li,simple-metal,(single),lkm,Li__lam250.scf.in,P6_3/mmc,structure-ready,0.806
+lam006,NbS2,2d-layered,(single),audit-needs-rebuild,,P6_3/mmc,build-from-spec,0.554
+lam251,Fe,simple-metal,"nm-hcp Fe, 100 GPa",audit-needs-rebuild,,P6_3/mmc,build-from-spec,0.33
+lam252,SnAs,simple-metal,rock-salt SnAs,audit-source-review,,Fm-3m,build-from-spec,0.64
+lam158,BF,intermetallic,(single),audit-source-review,,P2_1,build-from-spec,0.74
 lam007,Mg2B4C2,2d-layered,(single),absent,,,build-from-spec,1.4
 lam039,Mg2Ir3Si,heavy-soc,Mg2Ir3Si with SOC,absent,,,build-from-spec,0.93
 lam040,Mg2Ir3Si,heavy-soc,Mg2Ir3Si without SOC,absent,,,build-from-spec,1.05
 lam159,YC2,intermetallic,"YC2 (CaC2-type bct), 0 GPa",openlam,YC2.scf.in,I4/mmm,structure-ready,0.55
-lam160,YC2,intermetallic,"YC2 (CaC2-type bct), 20 GPa",openlam,YC2.scf.in,I4/mmm,structure-ready,0.45
-lam253,Mo3Os,simple-metal,Mo3Os (A-15),openlam,Mo3Os.scf.in,P2/m,structure-ready,1.51
+lam160,YC2,intermetallic,"YC2 (CaC2-type bct), 20 GPa",audit-needs-rebuild,,I4/mmm,build-from-spec,0.45
+lam253,Mo3Os,simple-metal,Mo3Os (A-15),lkm,Mo3Os__lam253.scf.in,Pm-3n,structure-ready,1.51
 lam097,S0.5P0.5H3,hydride,"S0.5P0.5H3, Imma, 200 GPa",absent,,,build-from-spec,0.94
 lam098,S0.75P0.25H3,hydride,"S0.75P0.25H3, Immm, 200 GPa",absent,,,build-from-spec,1.31
-lam254,La,simple-metal,La Fmmm distorted fcc 130 GPa,openlam,La.scf.in,Fm-3m,structure-ready,0.69
-lam255,La,simple-metal,La R-3m slightly distorted fcc ~50 GPa,openlam,La.scf.in,Fm-3m,structure-ready,1.07
-lam041,RuSi,heavy-soc,ScRuSi,mp,RuSi.scf.in,,structure-ready,0.54
+lam254,La,simple-metal,La Fmmm distorted fcc 130 GPa,audit-needs-rebuild,,Fmmm,build-from-spec,0.69
+lam255,La,simple-metal,La R-3m slightly distorted fcc ~50 GPa,audit-needs-rebuild,,R-3m,build-from-spec,1.07
+lam041,RuSi,heavy-soc,ScRuSi,audit-source-review,,Pnma,build-from-spec,0.54
 lam042,ZrRhSi,heavy-soc,ZrRhSi,lkm,ZrRhSi__lam042.scf.in,,structure-ready,0.84
 lam099,Mg0.5Ca0.5H6,hydride,(single),absent,,,build-from-spec,2.53
 lam161,LaNiSi,intermetallic,LaNiSi,mp,LaNiSi.scf.in,,structure-ready,0.49
@@ -92,8 +92,8 @@ lam256,C60,simple-metal,"A3C60, a=14.1 Angstrom",absent,,,build-from-spec,0.49
 lam257,C60,simple-metal,"A3C60, a=14.4 Angstrom",absent,,,build-from-spec,0.77
 lam258,C60,simple-metal,"A3C60, a=14.6 Angstrom",absent,,,build-from-spec,0.83
 lam259,C60,simple-metal,"A3C60, two-hole doped hu band, a=14.1 Angstrom",absent,,,build-from-spec,0.85
-lam008,CaTiS2,2d-layered,CaTiS2 (Ca-deposited monolayer),openlam,CaTiS2.scf.in,P-3m1,structure-ready,1.78
-lam260,Si,simple-metal,Si simple-hexagonal (sh) 12.7 GPa,openlam,Si.scf.in,Fd-3m,structure-ready,0.4
+lam008,CaTiS2,2d-layered,CaTiS2 (Ca-deposited monolayer),audit-needs-rebuild,,not reported; parent 1T-TiS2 P-3m1,build-from-spec,1.78
+lam260,Si,simple-metal,Si simple-hexagonal (sh) 12.7 GPa,audit-needs-rebuild,,P6/mmm,build-from-spec,0.4
 lam163,YIn3,intermetallic,"YIn3, 1.04 GPa",openlam,YIn3.scf.in,Pm-3m,structure-ready,0.36
 lam164,YIn3,intermetallic,"YIn3, 2.1 GPa",openlam,YIn3.scf.in,Pm-3m,structure-ready,0.32
 lam165,YIn3,intermetallic,"YIn3, ambient pressure",openlam,YIn3.scf.in,Pm-3m,structure-ready,0.38
@@ -103,31 +103,31 @@ lam048,YOs4P12,heavy-soc,YOs4P12,absent,,,build-from-spec,0.55
 lam049,YRu4P12,heavy-soc,YRu4P12,absent,,,build-from-spec,0.78
 lam166,YSn3,intermetallic,"YSn3, 3.48 GPa negative pressure (2% lattice increment)",openlam,YSn3.scf.in,P2_1/m,structure-ready,1.55
 lam167,YSn3,intermetallic,"YSn3, ambient pressure",openlam,YSn3.scf.in,P2_1/m,structure-ready,1.29
-lam100,FeH5,hydride,"FeH5, I4/mmm, 130 GPa",openlam,FeH5.scf.in,Cmmm,structure-ready,1.13
-lam101,FeH5,hydride,"FeH5, I4/mmm, 200 GPa",openlam,FeH5.scf.in,Cmmm,structure-ready,1.1
-lam050,CaIr2,heavy-soc,"CaIr2, with SOC",openlam,CaIr2.scf.in,P6_3/mmc,structure-ready,1.05
-lam051,CaIr2,heavy-soc,"CaIr2, without SOC",openlam,CaIr2.scf.in,P6_3/mmc,structure-ready,1.43
+lam100,FeH5,hydride,"FeH5, I4/mmm, 130 GPa",audit-needs-rebuild,,I4/mmm,build-from-spec,1.13
+lam101,FeH5,hydride,"FeH5, I4/mmm, 200 GPa",audit-needs-rebuild,,I4/mmm,build-from-spec,1.1
+lam050,CaIr2,heavy-soc,"CaIr2, with SOC",audit-needs-rebuild,,Fd-3m,build-from-spec,1.05
+lam051,CaIr2,heavy-soc,"CaIr2, without SOC",audit-needs-rebuild,,Fd-3m,build-from-spec,1.43
 lam052,CaRh2,heavy-soc,"CaRh2, with SOC",openlam,CaRh2.scf.in,Fd-3m,structure-ready,0.96
 lam053,CaRh2,heavy-soc,"CaRh2, without SOC",openlam,CaRh2.scf.in,Fd-3m,structure-ready,1.17
 lam054,LaIr2Si2,heavy-soc,LaIr2Si2 (HTP P4/nmm),absent,,,build-from-spec,0.56
 lam055,YIr2Si2,heavy-soc,YIr2Si2 (HTP P4/nmm),absent,,,build-from-spec,0.61
-lam102,GeH3,hydride,"A15 GeH3, r_s=1.52 (~180 GPa)",openlam,GeH3.scf.in,Pm,structure-ready,1.82
-lam103,GeH3,hydride,"Cccm GeH3, r_s=1.52 (~180 GPa)",openlam,GeH3.scf.in,Pm,structure-ready,1.6
+lam102,GeH3,hydride,"A15 GeH3, r_s=1.52 (~180 GPa)",audit-needs-rebuild,,Pm-3n,build-from-spec,1.82
+lam103,GeH3,hydride,"Cccm GeH3, r_s=1.52 (~180 GPa)",audit-needs-rebuild,,Cccm,build-from-spec,1.6
 lam104,P4GeH3,hydride,"P4_2/mmc GeH3, r_s=1.52 (~180 GPa)",lkm,GeH3__lam104.scf.in,,structure-ready,1.56
-lam105,AlH3,hydride,AlH3 Pm-3n 73 GPa,openlam,AlH3.scf.in,Cmcm,structure-ready,0.591
-lam261,P,simple-metal,"sc P, 20 GPa (P_calc)",openlam,P.scf.in,Cmce,structure-ready,0.795
-lam262,P,simple-metal,"sc P, 70 GPa (P_calc)",openlam,P.scf.in,Cmce,structure-ready,0.676
+lam105,AlH3,hydride,AlH3 Pm-3n 73 GPa,audit-needs-rebuild,,Pm-3n,build-from-spec,0.591
+lam261,P,simple-metal,"sc P, 20 GPa (P_calc)",lkm,P__lam261.scf.in,Pm-3m,structure-ready,0.795
+lam262,P,simple-metal,"sc P, 70 GPa (P_calc)",lkm,P__lam262.scf.in,Pm-3m,structure-ready,0.676
 lam168,Cr3GaN,intermetallic,"Cr3GaN, 0 GPa, mu*=0.10",openlam,Cr3GaN.scf.in,Cmcm,structure-ready,0.53
-lam009,MoS2,2d-layered,"electron-doped monolayer MoS2, x=0.18 electrons/f.u.",openlam,MoS2.scf.in,P6_3/mmc,structure-ready,1.7
+lam009,MoS2,2d-layered,"electron-doped monolayer MoS2, x=0.18 electrons/f.u.",audit-needs-rebuild,,P-6m2 (monolayer proxy),build-from-spec,1.7
 lam169,HoLiBCBeLiB0.9Be0.1C,intermetallic,(single),absent,,,build-from-spec,0.75
-lam263,S,simple-metal,beta-Po 160 GPa,openlam,S.scf.in,Fddd,structure-ready,0.76
-lam264,S,simple-metal,sc 280 GPa,openlam,S.scf.in,Fddd,structure-ready,0.53
+lam263,S,simple-metal,beta-Po 160 GPa,lkm,S__lam263.scf.in,R-3m,structure-ready,0.76
+lam264,S,simple-metal,sc 280 GPa,lkm,S__lam264.scf.in,Pm-3m,structure-ready,0.53
 lam170,YIn3,intermetallic,(single),openlam,YIn3.scf.in,Pm-3m,structure-ready,0.42
 lam056,LaNiBN,heavy-soc,LaNiBN,openlam,LaNiBN.scf.in,P4/nmm,structure-ready,0.52
 lam057,LaPtBN,heavy-soc,LaPtBN,absent,,,build-from-spec,0.56
 lam058,SrPt3P,heavy-soc,"SrPt3P, mu*=0.10",absent,,,build-from-spec,1.06
-lam010,TiB4,2d-layered,TiB4 bilayer +11% biaxial tensile strain,openlam,TiB4.scf.in,Immm,structure-ready,0.65
-lam011,TiB4,2d-layered,TiB4 monolayer (freestanding),openlam,TiB4.scf.in,Immm,structure-ready,0.65
+lam010,TiB4,2d-layered,TiB4 bilayer +11% biaxial tensile strain,audit-needs-rebuild,,P4/nmm,build-from-spec,0.65
+lam011,TiB4,2d-layered,TiB4 monolayer (freestanding),audit-needs-rebuild,,P4/mmm,build-from-spec,0.65
 lam171,BaSi2,intermetallic,BaSi2,openlam,BaSi2.scf.in,P4_132,structure-ready,0.77
 lam172,CaSi2,intermetallic,"CaSi2, 0 GPa",openlam,CaSi2.scf.in,C2/m,structure-ready,0.42
 lam173,CaSi2,intermetallic,"CaSi2, 16 GPa",openlam,CaSi2.scf.in,C2/m,structure-ready,1.1
@@ -135,11 +135,11 @@ lam174,MgSi2,intermetallic,MgSi2 (z_tuned=0.593),openlam,MgSi2.scf.in,P1,structu
 lam175,Si2,intermetallic,RaSi2 (z_tuned=0.544),absent,,,build-from-spec,0.93
 lam176,SrSi2,intermetallic,SrSi2,openlam,SrSi2.scf.in,P6_3/mmc,structure-ready,0.5
 lam059,SrAuSi3,heavy-soc,(single),lkm,SrAuSi3__lam059.scf.in,,structure-ready,0.47
-lam106,SrAu2Si2,hydride,SrAu2Si2 (I4/mmm),lkm,SrAu2Si2__lam106.scf.in,,structure-ready,0.42
-lam107,SrAuSi3,hydride,SrAuSi3 (I4mm),lkm,SrAuSi3__lam107.scf.in,,structure-ready,0.47
+lam106,SrAu2Si2,hydride,SrAu2Si2 (I4/mmm),audit-source-review,,,build-from-spec,0.42
+lam107,SrAuSi3,hydride,SrAuSi3 (I4mm),audit-source-review,,,build-from-spec,0.47
 lam177,NaAlSi,intermetallic,"NaAlSi, mu*=0.10",openlam,NaAlSi.scf.in,P4/nmm,structure-ready,0.68
 lam108,H4Te,hydride,"H4Te, 200 GPa",absent,,,build-from-spec,1.46
-lam109,SnH4,hydride,"SnH4 C2/m, 500 GPa",openlam,SnH4.scf.in,Cmcm,structure-ready,1.02
+lam109,SnH4,hydride,"SnH4 C2/m, 500 GPa",audit-needs-rebuild,,C2/m,build-from-spec,1.02
 lam178,K2Cr3As3,intermetallic,(single),absent,,,build-from-spec,3
 lam179,P1H5S2,intermetallic,"P1 H5S2, 112 GPa",absent,,,build-from-spec,1.186
 lam180,P1H5S2,intermetallic,"P1 H5S2, 120 GPa",absent,,,build-from-spec,1.239
@@ -153,13 +153,13 @@ lam182,BaSn5,intermetallic,(single),openlam,BaSn5.scf.in,Immm,structure-ready,0.
 lam183,LaC2,intermetallic,LaC2 (CaC2-type),openlam,LaC2.scf.in,I4/mmm,structure-ready,0.54
 lam184,YC2,intermetallic,YC2 (CaC2-type),openlam,YC2.scf.in,I4/mmm,structure-ready,0.55
 lam185,Nb2InC,intermetallic,"Nb2InC, +10% tensile strain",openlam,Nb2InC.scf.in,P6_3/mmc,structure-ready,1.26
-lam110,BeH2,hydride,"BeH2 Cmcm 250 GPa, mu*=0.10",openlam,BeH2.scf.in,Ibam,structure-ready,0.63
-lam111,BeH2,hydride,"BeH2 P4/nmm 400 GPa, mu*=0.10",openlam,BeH2.scf.in,Ibam,structure-ready,0.65
+lam110,BeH2,hydride,"BeH2 Cmcm 250 GPa, mu*=0.10",audit-needs-rebuild,,Cmcm,build-from-spec,0.63
+lam111,BeH2,hydride,"BeH2 P4/nmm 400 GPa, mu*=0.10",audit-needs-rebuild,,P4/nmm,build-from-spec,0.65
 lam065,SrPtAs,heavy-soc,(single),absent,,,build-from-spec,0.78
-lam012,CaB6,2d-layered,hexagonal CaB6,openlam,CaB6.scf.in,Pm-3m,structure-ready,0.87
-lam013,MgB6,2d-layered,hexagonal MgB6,openlam,MgB6.scf.in,Pm-3m,structure-ready,0.46
-lam014,ScB6,2d-layered,hexagonal ScB6,openlam,ScB6.scf.in,Pm-3m,structure-ready,0.6
-lam015,TiB6,2d-layered,hexagonal TiB6,openlam,TiB6.scf.in,Pm-3m,structure-ready,0.4
+lam012,CaB6,2d-layered,hexagonal CaB6,audit-needs-rebuild,,P6/mmm,build-from-spec,0.87
+lam013,MgB6,2d-layered,hexagonal MgB6,audit-needs-rebuild,,P6/mmm,build-from-spec,0.46
+lam014,ScB6,2d-layered,hexagonal ScB6,audit-needs-rebuild,,P6/mmm,build-from-spec,0.6
+lam015,TiB6,2d-layered,hexagonal TiB6,audit-needs-rebuild,,P6/mmm,build-from-spec,0.4
 lam016,ICaB6,2d-layered,type-I orthorhombic CaB6,absent,,,build-from-spec,0.57
 lam017,IMgB6,2d-layered,type-I orthorhombic MgB6,absent,,,build-from-spec,0.59
 lam018,II,2d-layered,type-II orthorhombic (2x1) TiB6,absent,,,build-from-spec,0.92
@@ -167,11 +167,11 @@ lam019,III,2d-layered,type-III orthorhombic (2x1) YB6,absent,,,build-from-spec,1
 lam066,Bi4I4,heavy-soc,"epsilon-Bi4I4 (P31c), 15 GPa",absent,,,build-from-spec,0.67
 lam067,Bi4I4,heavy-soc,"zeta-Bi4I4 (P4/mmm), 18 GPa",absent,,,build-from-spec,0.72
 lam186,MgB2,intermetallic,(single),openlam,MgB2.scf.in,P6/mmm,structure-ready,1.01
-lam068,OsN2,heavy-soc,OsN2 0.5 holes/cell doped (Os0.75Re0.25N2),openlam,OsN2.scf.in,P2_1/c,structure-ready,0.49
+lam068,OsN2,heavy-soc,OsN2 0.5 holes/cell doped (Os0.75Re0.25N2),audit-needs-rebuild,,Pnnm,build-from-spec,0.49
 lam187,Li2B3C,intermetallic,(single),openlam,Li2B3C.scf.in,P-6m2,structure-ready,1.53
 lam069,LaO0.5F0.5BiS2,heavy-soc,(single),absent,,,build-from-spec,0.85
 lam112,CS2H10,hydride,"Cmc2_1, 150 GPa, mu*=0.10 (Allen-Dynes)",absent,,,build-from-spec,2.01
-lam113,P,hydride,"P-3m1, 100 GPa, mu*=0.10 (Allen-Dynes)",openlam,P.scf.in,Cmce,structure-ready,0.63
+lam113,P,hydride,"P-3m1, 100 GPa, mu*=0.10 (Allen-Dynes)",audit-needs-rebuild,,P-3m1,build-from-spec,0.63
 lam114,P3,hydride,"P3m1, 100 GPa, mu*=0.10 (Allen-Dynes)",absent,,,build-from-spec,1.21
 lam115,P3,hydride,"P3m1, 50 GPa, mu*=0.10 (Allen-Dynes)",absent,,,build-from-spec,1.51
 lam116,CS2H10,hydride,"Pm, 200 GPa, mu*=0.10 (Allen-Dynes)",absent,,,build-from-spec,0.69
@@ -183,12 +183,12 @@ lam266,NbB2,simple-metal,NbB2 (stoichiometric),openlam,NbB2.scf.in,P6/mmm,struct
 lam188,LaO,intermetallic,"bulk LaO, 4% biaxial tensile strain",openlam,LaO.scf.in,Fm-3m,structure-ready,0.818
 lam189,LaO,intermetallic,"bulk LaO, zero strain (epsilon=0%)",openlam,LaO.scf.in,Fm-3m,structure-ready,0.653
 lam190,MoS2,intermetallic,"1T-MoS2, 0 GPa",openlam,MoS2.scf.in,P6_3/mmc,structure-ready,0.658
-lam191,CaAlSiH,intermetallic,"CaAlSi 1H, 20 kbar",openlam,CaAlSiH.scf.in,P3m1,structure-ready,0.7
-lam192,CaAlSiH,intermetallic,"CaAlSi 1H, 40 kbar",openlam,CaAlSiH.scf.in,P3m1,structure-ready,0.7
-lam193,CaAlSiH,intermetallic,"CaAlSi 1H, P=0",openlam,CaAlSiH.scf.in,P3m1,structure-ready,0.73
-lam194,CaAlSiH,intermetallic,"CaAlSi 2H, 20 kbar",openlam,CaAlSiH.scf.in,P3m1,structure-ready,0.47
-lam195,CaAlSiH,intermetallic,"CaAlSi 2H, 40 kbar",openlam,CaAlSiH.scf.in,P3m1,structure-ready,0.43
-lam196,CaAlSiH,intermetallic,"CaAlSi 2H, P=0",openlam,CaAlSiH.scf.in,P3m1,structure-ready,0.6
+lam191,CaAlSiH,intermetallic,"CaAlSi 1H, 20 kbar",audit-needs-rebuild,,P-6m2,build-from-spec,0.7
+lam192,CaAlSiH,intermetallic,"CaAlSi 1H, 40 kbar",audit-needs-rebuild,,P-6m2,build-from-spec,0.7
+lam193,CaAlSiH,intermetallic,"CaAlSi 1H, P=0",audit-needs-rebuild,,P-6m2,build-from-spec,0.73
+lam194,CaAlSiH,intermetallic,"CaAlSi 2H, 20 kbar",audit-needs-rebuild,,P6_3/mmc,build-from-spec,0.47
+lam195,CaAlSiH,intermetallic,"CaAlSi 2H, 40 kbar",audit-needs-rebuild,,P6_3/mmc,build-from-spec,0.43
+lam196,CaAlSiH,intermetallic,"CaAlSi 2H, P=0",audit-needs-rebuild,,P6_3/mmc,build-from-spec,0.6
 lam022,HPC3,2d-layered,"HPC3, 1% biaxial strain",absent,,,build-from-spec,1.05
 lam023,HPC3,2d-layered,"HPC3, 2% biaxial strain",absent,,,build-from-spec,1.24
 lam024,HPC3,2d-layered,"HPC3, 3% biaxial strain (f1f2 corrected)",absent,,,build-from-spec,1.65
@@ -199,11 +199,11 @@ lam197,K2Cr3As3,intermetallic,(single),absent,,,build-from-spec,3
 lam026,ISnH8,2d-layered,I-4m2 SnH8 250 GPa (mu*=0.10),absent,,,build-from-spec,1.139
 lam198,,intermetallic,(single),no-formula,,,build-from-spec,3
 lam199,P2,intermetallic,"benzene P2_1/c, 190 GPa, mu*=0.10",absent,,,build-from-spec,0.68
-lam027,CaSn6,2d-layered,CaSn6 (Ca-decorated stanene),openlam,CaSn6.scf.in,I4/mcm,structure-ready,0.54
-lam028,LiSn6,2d-layered,LiSn6 (Li-decorated stanene),openlam,LiSn6.scf.in,P-3m1,structure-ready,0.65
-lam200,BeAl,intermetallic,Be-Al 24:976,openlam,BeAl.scf.in,Pnma,structure-ready,0.427
-lam201,BeIn,intermetallic,Be-In 31:69,openlam,BeIn.scf.in,P6_3/mmc,structure-ready,0.627
-lam202,BeNb,intermetallic,Be-Nb 23:77,openlam,BeNb.scf.in,Cmcm,structure-ready,0.684
+lam027,CaSn6,2d-layered,CaSn6 (Ca-decorated stanene),audit-needs-rebuild,,,build-from-spec,0.54
+lam028,LiSn6,2d-layered,LiSn6 (Li-decorated stanene),audit-needs-rebuild,,,build-from-spec,0.65
+lam200,BeAl,intermetallic,Be-Al 24:976,audit-needs-rebuild,,,build-from-spec,0.427
+lam201,BeIn,intermetallic,Be-In 31:69,audit-needs-rebuild,,,build-from-spec,0.627
+lam202,BeNb,intermetallic,Be-Nb 23:77,audit-needs-rebuild,,,build-from-spec,0.684
 lam203,Be43Bi20Pb37,intermetallic,Be43Bi20Pb37 (ternary),absent,,,build-from-spec,1.015
 lam204,Be43Pb57,intermetallic,Be43Pb57,absent,,,build-from-spec,0.988
 lam029,Mg2B4C2,2d-layered,(single),absent,,,build-from-spec,1.4
@@ -219,47 +219,47 @@ lam122,C2SnH14,hydride,"C2/m-SnH14, 300 GPa",absent,,,build-from-spec,1.187
 lam123,ISnH8,hydride,"I-4m2-SnH8, 220 GPa",absent,,,build-from-spec,1.188
 lam124,I4SnH4,hydride,"I4/mmm-SnH4, 220 GPa",absent,,,build-from-spec,1.18
 lam206,NbN,intermetallic,delta-NbN (sigma=0.18 Ry),openlam,NbN.scf.in,P-6m2,structure-ready,0.98
-lam207,CdAs,intermetallic,FCC CdAs,openlam,CdAs.scf.in,Pbca,structure-ready,1.426
-lam208,CdN,intermetallic,FCC CdN,openlam,CdN.scf.in,C2/m,structure-ready,1.314
-lam209,CdP,intermetallic,FCC CdP,openlam,CdP.scf.in,Pbca,structure-ready,1.266
-lam210,CuSb,intermetallic,FCC CuSb,openlam,CuSb.scf.in,P6_3/mmc,structure-ready,1.016
-lam211,HfP,intermetallic,FCC HfP,openlam,HfP.scf.in,P6_3/mmc,structure-ready,0.67
-lam212,HgSb,intermetallic,FCC HgSb,openlam,HgSb.scf.in,R-3m,structure-ready,0.956
-lam213,ZnSb,intermetallic,FCC ZnSb,openlam,ZnSb.scf.in,Imm2,structure-ready,1.387
+lam207,CdAs,intermetallic,FCC CdAs,audit-needs-rebuild,,Fm-3m,build-from-spec,1.426
+lam208,CdN,intermetallic,FCC CdN,audit-needs-rebuild,,Fm-3m,build-from-spec,1.314
+lam209,CdP,intermetallic,FCC CdP,audit-needs-rebuild,,Fm-3m,build-from-spec,1.266
+lam210,CuSb,intermetallic,FCC CuSb,audit-needs-rebuild,,Fm-3m,build-from-spec,1.016
+lam211,HfP,intermetallic,FCC HfP,audit-needs-rebuild,,Fm-3m,build-from-spec,0.67
+lam212,HgSb,intermetallic,FCC HgSb,audit-needs-rebuild,,Fm-3m,build-from-spec,0.956
+lam213,ZnSb,intermetallic,FCC ZnSb,audit-needs-rebuild,,Fm-3m,build-from-spec,1.387
 lam125,LaBH8,hydride,"Fm-3m LaBH8, 100 GPa",absent,,,build-from-spec,1.11
 lam126,LaBH8,hydride,"Fm-3m LaBH8, 200 GPa",absent,,,build-from-spec,0.72
 lam127,LaBH8,hydride,"Fm-3m LaBH8, 50 GPa (Allen-Dynes)",absent,,,build-from-spec,2.29
 lam128,LaBH8,hydride,"Fm-3m LaBH8, 55 GPa (Allen-Dynes)",absent,,,build-from-spec,1.97
 lam129,PLaBH7,hydride,"P-3m1 LaBH7, 110 GPa",absent,,,build-from-spec,1.46
-lam214,H3P,intermetallic,"Im-3m H3P, a=3.0 A (~220 GPa), mu*=0 (H-point unstable modes omitted)",mp,H3P.scf.in,,structure-ready,1.66
-lam215,H3S,intermetallic,"Im-3m H3S, a=3.0 A (~220 GPa), mu*=0",openlam,H3S.scf.in,P1,structure-ready,1.38
-lam216,AlB2,intermetallic,monolayer AlB2 (single Al on honeycomb B),openlam,AlB2.scf.in,P6/mmm,structure-ready,1.01
-lam268,H2,simple-metal,Cmcm-AtH2 50 GPa,openlam,H2.scf.in,P6_3/mmc,structure-ready,0.57
+lam214,H3P,intermetallic,"Im-3m H3P, a=3.0 A (~220 GPa), mu*=0 (H-point unstable modes omitted)",audit-source-review,,Im-3m,build-from-spec,1.66
+lam215,H3S,intermetallic,"Im-3m H3S, a=3.0 A (~220 GPa), mu*=0",audit-source-review,,Im-3m,build-from-spec,1.38
+lam216,AlB2,intermetallic,monolayer AlB2 (single Al on honeycomb B),audit-source-review,,P6/mmm,build-from-spec,1.01
+lam268,H2,simple-metal,Cmcm-AtH2 50 GPa,audit-source-review,,Cmcm,build-from-spec,0.57
 lam269,H4,simple-metal,Cmmm-AtH4 250 GPa,absent,,,build-from-spec,0.9
 lam270,P6H4,simple-metal,P6/mmm-AtH4 100 GPa,absent,,,build-from-spec,0.82
 lam271,P6H4,simple-metal,P6/mmm-AtH4 200 GPa with SOC,absent,,,build-from-spec,0.86
 lam272,P6H4,simple-metal,P6/mmm-AtH4 200 GPa without SOC,absent,,,build-from-spec,0.76
-lam273,H2,simple-metal,Pnma-AtH2 200 GPa,openlam,H2.scf.in,P6_3/mmc,structure-ready,0.56
+lam273,H2,simple-metal,Pnma-AtH2 200 GPa,audit-source-review,,Pnma,build-from-spec,0.56
 lam217,H,intermetallic,"H-diamond(111) FET n=6e14 cm-2, full-BZ Wannier",absent,,,build-from-spec,0.81
 lam218,H,intermetallic,"H-diamond(111) FET n=6e14 cm-2, q=Gamma approx",absent,,,build-from-spec,1.09
 lam219,Sn3S4I,intermetallic,Sn3S4 I-43d 30 GPa,absent,,,build-from-spec,1.2
 lam220,SnS,intermetallic,gamma-SnS Pm-3m 40 GPa,openlam,SnS.scf.in,Pnma,structure-ready,0.77
-lam221,BaC6,intermetallic,BaC6 0 GPa,openlam,BaC6.scf.in,P6_3/mmc,structure-ready,0.38
-lam222,BaC6,intermetallic,BaC6 8 GPa,openlam,BaC6.scf.in,P6_3/mmc,structure-ready,0.45
-lam223,CaC6,intermetallic,CaC6 0 GPa,openlam,CaC6.scf.in,P6_3/mmc,structure-ready,0.83
-lam224,CaC6,intermetallic,CaC6 5 GPa,openlam,CaC6.scf.in,P6_3/mmc,structure-ready,0.845
-lam225,SrC6,intermetallic,SrC6 0 GPa,openlam,SrC6.scf.in,P6_3/mmc,structure-ready,0.54
-lam226,SrC6,intermetallic,SrC6 8 GPa,openlam,SrC6.scf.in,P6_3/mmc,structure-ready,0.65
+lam221,BaC6,intermetallic,BaC6 0 GPa,audit-needs-rebuild,,,build-from-spec,0.38
+lam222,BaC6,intermetallic,BaC6 8 GPa,audit-needs-rebuild,,,build-from-spec,0.45
+lam223,CaC6,intermetallic,CaC6 0 GPa,audit-needs-rebuild,,R-3m,build-from-spec,0.83
+lam224,CaC6,intermetallic,CaC6 5 GPa,audit-needs-rebuild,,R-3m,build-from-spec,0.845
+lam225,SrC6,intermetallic,SrC6 0 GPa,audit-needs-rebuild,,,build-from-spec,0.54
+lam226,SrC6,intermetallic,SrC6 8 GPa,audit-needs-rebuild,,,build-from-spec,0.65
 lam030,Mo2CHXe,2d-layered,Mo2C bare 2H MXene,absent,,,build-from-spec,0.556
-lam031,Mo2C,2d-layered,"Mo2C(OH)2 (OH-terminated 2H, unstable)",openlam,Mo2C.scf.in,Pnnm,structure-ready,1.93
+lam031,Mo2C,2d-layered,"Mo2C(OH)2 (OH-terminated 2H, unstable)",audit-needs-rebuild,,,build-from-spec,1.93
 lam032,Mo2CH2,2d-layered,"Mo2CH2 (H-terminated 2H, 1% strain)",absent,,,build-from-spec,0.732
 lam033,Mo2CO2,2d-layered,Mo2CO2 (O-terminated 2H),absent,,,build-from-spec,0.231
-lam034,Ti2C,2d-layered,Ti2C monolayer,openlam,Ti2C.scf.in,P-1,structure-ready,0.402
+lam034,Ti2C,2d-layered,Ti2C monolayer,audit-needs-rebuild,,,build-from-spec,0.402
 lam227,Mo3Sb7,intermetallic,"Mo3Sb7, mu*=0.10",mp,Mo3Sb7.scf.in,,structure-ready,0.54
-lam035,B2C,2d-layered,"B2C monolayer, mu*=0.10",openlam,B2C.scf.in,P-3m1,structure-ready,0.92
+lam035,B2C,2d-layered,"B2C monolayer, mu*=0.10",audit-needs-rebuild,,,build-from-spec,0.92
 lam228,LaNiBN,intermetallic,LaNiBN,openlam,LaNiBN.scf.in,P4/nmm,structure-ready,0.52
 lam229,LaPtBN,intermetallic,LaPtBN,absent,,,build-from-spec,0.56
-lam230,LaNiC2,intermetallic,(single),openlam,LaNiC2.scf.in,Amm2,structure-ready,0.52
+lam230,LaNiC2,intermetallic,(single),audit-needs-rebuild,,Amm2,build-from-spec,0.52
 lam231,Nb4N5,intermetallic,beta'-Nb4N5 (tetragonal I4/m),openlam,Nb4N5.scf.in,I4/m,structure-ready,0.92
 lam232,Nb2N,intermetallic,beta1-Nb2N (trigonal P-31m),openlam,Nb2N.scf.in,Pnnm,structure-ready,0.36
 lam233,Nb2N,intermetallic,beta2-Nb2N (trigonal P-3m1),openlam,Nb2N.scf.in,Pnnm,structure-ready,0.57
@@ -274,4 +274,4 @@ lam037,C2CaC2,2d-layered,"C2CaC2 AA-stacking, -4% biaxial strain",absent,,,build
 lam038,C2CaC2,2d-layered,"C2CaC2 AA-stacking, unstrained",absent,,,build-from-spec,0.75
 lam274,III,simple-metal,"Sc-III, 100 GPa, mu*=0.10",absent,,,build-from-spec,0.79
 lam275,IV,simple-metal,"Sc-IV, 170 GPa, mu*=0.10",mp,IV.scf.in,,structure-ready,1.11
-lam276,V,simple-metal,"Sc-V, 260 GPa, mu*=0.10",openlam,V.scf.in,Im-3m,structure-ready,1.12
+lam276,V,simple-metal,"Sc-V, 260 GPa, mu*=0.10",audit-needs-rebuild,,P6_122,build-from-spec,1.12

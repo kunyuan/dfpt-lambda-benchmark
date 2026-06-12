@@ -3,7 +3,7 @@ version = "1.0"
 [metadata]
 author_name = "ARM λ-Bench (WF-6) — L3 intermetallic"
 author_email = "noreply@example.com"
-difficulty_explanation = "Compute the electron-phonon coupling λ (and ω_log) from first principles for intermetallic superconductors. 88 cases ship a ready QE structure (structures/); 19 are build-from-spec (construct the crystal from structure_hints.json, then run). Method is the agent's choice (this class typically uses DFPT-direct). Gold is the paper-reported λ; graded within 15%, core-hours reported (accuracy × cost). HPC runs off-sandbox (open-source Quantum ESPRESSO); the verifier compares reported values to the cached reference."
+difficulty_explanation = "Compute the electron-phonon coupling λ (and ω_log) from first principles for intermetallic superconductors. After the target-structure audit and first repair batch, 55 cases ship a trusted ready QE structure; 52 are build-from-spec (construct or repair the paper target crystal from structure_hints.json, then run). Method is the agent's choice (this class typically uses DFPT-direct). Gold is the paper-reported λ; graded within 15%, core-hours reported (accuracy × cost). HPC runs off-sandbox (open-source Quantum ESPRESSO); the verifier compares reported values to the cached reference."
 category = "scientific-computing"
 tags = ["physics","superconductivity","electron-phonon","dfpt","quantum-espresso","lambda","first-principles","wf-6","intermetallic"]
 

@@ -1,0 +1,2 @@
+case_id,qgrid,job_id,job_name,sku,np,nk,kgrid,image,bundle,lambda_ref,omega_log_ref_K,material,condition,note
+lam263,6,22840937,dfpt-scale-lam263-q6-k24-mpiifort-np8-20260610,c8_m64_cpu,8,1,24,registry.dp.tech/dptech/quantum-espresso:7.1,/tmp/dfpt_lbg_bundles_mpiifort_batch3_20260610/lam263_q6,0.76,439.1,S,"beta-Po sulfur, 160 GPa","q6 convergence follow-up after k24 q4 rerun matched benchmark and avoided QE set_kplusq failure"

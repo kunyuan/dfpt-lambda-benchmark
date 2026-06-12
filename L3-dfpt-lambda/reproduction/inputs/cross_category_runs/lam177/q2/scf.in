@@ -1,0 +1,24 @@
+&control
+  calculation='scf', prefix='x', pseudo_dir='./pseudo', outdir='./out'
+/
+&system
+  ibrav=6, celldm(1)=7.9986, celldm(3)=1.70969, nat=6, ntyp=3,
+  ecutwfc=60, ecutrho=240,
+  occupations='smearing', smearing='methfessel-paxton', degauss=0.02, nspin=1
+/
+&electrons
+  conv_thr=1.0d-10, mixing_beta=0.7
+/
+ATOMIC_SPECIES
+  Al 26.9815386 Al_ONCV_PBE-1.2.upf
+  Na 22.98976928 Na_ONCV_PBE-1.2.upf
+  Si 28.0855 Si_ONCV_PBE-1.2.upf
+ATOMIC_POSITIONS crystal
+  Na 0.500000 0.000000 0.634884
+  Na 0.000000 0.500000 0.365116
+  Al 0.000000 0.000000 0.000000
+  Al 0.500000 0.500000 0.000000
+  Si 0.500000 0.000000 0.201685
+  Si 0.000000 0.500000 0.798315
+K_POINTS automatic
+  20 20 20 0 0 0

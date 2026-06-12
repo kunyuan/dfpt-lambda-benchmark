@@ -51,8 +51,8 @@ metadata** for the verifier/budgeter, not revealed to the agent.
 
 | material-type track | cases | papers | method (hidden) | cost tier (core-h) |
 |---|---:|---:|---|---|
-| simple / elemental metal | 42 | — | DFPT-direct | 10²–10³ |
-| intermetallic compound | 105 | — | DFPT-direct | 10³–10⁴ |
+| simple / elemental metal | 40 | — | DFPT-direct | 10²–10³ |
+| intermetallic compound | 107 | — | DFPT-direct | 10³–10⁴ |
 | heavy-element (needs SOC) | 38 | — | DFPT + SOC | 10³–10⁴ (×SOC) |
 | 2D / layered | 38 | — | DFPT + Wannier/EPW | 10³–10⁴ |
 | high-pressure hydride | 53 | — | DFPT + anharmonic/SSCHA | 10⁴–10⁵ |
@@ -96,10 +96,12 @@ which gives the material and withholds the physics.
 | file | what |
 |---|---|
 | `lambda_reference.csv` / `.json` | 276 reference points (material, condition, λ, ω, μ\*, type, method, cost) |
+| `structure_targets.csv` / `_summary.md` | audited target phase/prototype, space group, pressure, confidence, and mismatch flags for all 276 L3 cases |
 | `lkm_extraction.json` | full per-paper LKM records (243 papers) |
 | `lambda_per_condition.json` | the per-condition split that produced the reference points |
 | `lambda_computed_vs_experimental.csv` | 15-paper computed-vs-experimental λ comparison (WF-6 internal) |
 | `lambda_dfpt_vs_experiment_survey.csv` | ~37-pair LKM-wide survey behind L4: SOTA λ vs experiment, grouped weak-corr / near-magnetic / anomalous / f-control |
+| `splits/l3_case_splits.csv` / `splits/l3_validation_core.csv` | Harbor-style L3 train/validation split; 251 train + 25 validation-core cases |
 
 All derive from WF-6 (243 papers). λ is reported first-principles in ~150 of them;
 DFPT/linear-response dominates, with Wannier/EPW, SOC, and anharmonic/SSCHA as the
@@ -133,6 +135,17 @@ method variants above.
   ran QE end-to-end on a 192-core server (MPI). With structures **relaxed to the
   stated pressure** + a **4×4×4 q-grid**, bcc Ta / sc P / fcc Li reproduce the paper
   λ within **2–6 %** and ω_log within **1–13 %**.
+- ✅ **LBG/QE reproduction record** ([`L3-dfpt-lambda/reproduction/`](L3-dfpt-lambda/reproduction/)):
+  organized job ledgers, selected scaling inputs, QE 7.1 `ph.x` build notes, and
+  curated λ/ω_log comparisons from the first NP=8 LBG batch. The strongest new
+  reproductions are high-pressure sulfur (`lam263`, `lam264`); 2D, hydride, and
+  heavy-SOC entries are currently smoke/method-validation records rather than final
+  leaderboard-grade results.
+- ✅ **L3 train/validation split defined** — a case-level Harbor split is in
+  [`splits/`](splits/): 251 public train cases plus a 25-case
+  `validation_core` set with exactly 5 cases from each material class. The
+  validation set excludes the heavily tuned public reproduction cases and mixes
+  structure-ready, build-from-spec, SOC, 2D, and hydride examples.
 - ✅ **Structures assembled** — 164/276 structure-ready (OpenLAM 144 / MP 14 / LKM 6);
   112 build-from-spec with the paper's structural info in `structure_hints`. SG15
   pseudo manifest + fetch script in each `packet/pseudos/`. See

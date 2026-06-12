@@ -1,0 +1,8 @@
+case_id,qgrid,job_id,job_name,sku,np,nk,image,bundle,lambda_ref,omega_log_ref_K,material,condition
+lam262,2,22835004,dfpt-scale-lam262-q2-qe71-20260609,c64_m128_cpu,64,4,registry.dp.tech/dptech/quantum-espresso:7.1,/tmp/dfpt_lbg_bundles_q2_20260609/lam262_q2,0.676,469,P,"sc P, 70 GPa (P_calc)"
+lam263,2,22835006,dfpt-scale-lam263-q2-qe71-20260609,c64_m128_cpu,64,4,registry.dp.tech/dptech/quantum-espresso:7.1,/tmp/dfpt_lbg_bundles_q2_20260609/lam263_q2,0.76,439.1,S,"beta-Po sulfur, 160 GPa"
+lam264,2,22835007,dfpt-scale-lam264-q2-qe71-20260609,c64_m128_cpu,64,4,registry.dp.tech/dptech/quantum-espresso:7.1,/tmp/dfpt_lbg_bundles_q2_20260609/lam264_q2,0.53,560.1,S,"simple-cubic sulfur, 280 GPa"
+lam150,2,22835009,dfpt-scale-lam150-q2-qe71-20260609,c64_m128_cpu,64,4,registry.dp.tech/dptech/quantum-espresso:7.1,/tmp/dfpt_lbg_bundles_q2_20260609/lam150_q2,0.43,186.3,I,"fcc iodine, 81 GPa"
+lam138,2,22835010,dfpt-scale-lam138-q2-qe71-20260609,c64_m128_cpu,64,4,registry.dp.tech/dptech/quantum-espresso:7.1,/tmp/dfpt_lbg_bundles_q2_20260609/lam138_q2,0.8,89.41,CdCNi3,cubic antiperovskite CdCNi3
+lam253,2,22835012,dfpt-scale-lam253-q2-qe71-20260609,c64_m128_cpu,64,4,registry.dp.tech/dptech/quantum-espresso:7.1,/tmp/dfpt_lbg_bundles_q2_20260609/lam253_q2,1.51,130.9,Mo3Os,A15 Mo3Os
+lam154,2,22835013,dfpt-scale-lam154-q2-qe71-20260609,c64_m128_cpu,64,4,registry.dp.tech/dptech/quantum-espresso:7.1,/tmp/dfpt_lbg_bundles_q2_20260609/lam154_q2,0.78,272,TaC,B1 TaC

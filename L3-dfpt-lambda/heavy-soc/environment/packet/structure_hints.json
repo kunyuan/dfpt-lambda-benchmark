@@ -1,635 +1,587 @@
 [
- {
-  "case_id": "lam039",
-  "formula": "Mg2Ir3Si",
-  "material": "Mg2Ir3Si (Ir Kagome network, P6_3/mmc)",
-  "condition": "Mg2Ir3Si with SOC",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "P6_3/mmc",
-  "prototype": "Mg2Cu3Si-type (hexagonal; Ir Kagome network)",
-  "lattice": {
-   "a": null,
-   "b": null,
-   "c": null,
-   "alpha": null,
-   "beta": null,
-   "gamma": null
+  {
+    "case_id": "lam040",
+    "formula": "Mg2Ir3Si",
+    "material": "Mg2Ir3Si (Ir Kagome network, P6_3/mmc)",
+    "condition": "Mg2Ir3Si without SOC",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0,
+    "space_group": "P6_3/mmc",
+    "prototype": "Mg2Cu3Si-type (hexagonal; Ir Kagome network)",
+    "lattice": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": null,
+      "beta": null,
+      "gamma": null
+    },
+    "sites": [],
+    "structure_completeness": "proto-only",
+    "mu_star": "0.11",
+    "lambda_ref": "1.05",
+    "omega_log_K_ref": "107.17",
+    "target_confidence": "high",
+    "mismatch_flags": "repo_no_current_structure",
+    "recommended_next_step": "build QE structure from paper Wyckoff/lattice; preserve SOC/no-SOC as calculation setting",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown",
+    "evidence_location": "812489714396299266.md:105-143; structure_hints missing; no repo structure",
+    "evidence_snippet": "hexagonal P6_3/mmc, two formula units, calculated a=5.30334 c=7.38874 with Mg/Ir internal coordinates",
+    "soc_or_relativistic": "without SOC control",
+    "strain_or_doping": ""
   },
-  "sites": [],
-  "structure_completeness": "proto-only",
-  "mu_star": "0.11",
-  "lambda_ref": "0.93",
-  "omega_log_K_ref": "120.15"
- },
- {
-  "case_id": "lam040",
-  "formula": "Mg2Ir3Si",
-  "material": "Mg2Ir3Si (Ir Kagome network, P6_3/mmc)",
-  "condition": "Mg2Ir3Si without SOC",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "P6_3/mmc",
-  "prototype": "Mg2Cu3Si-type (hexagonal; Ir Kagome network)",
-  "lattice": {
-   "a": null,
-   "b": null,
-   "c": null,
-   "alpha": null,
-   "beta": null,
-   "gamma": null
+  {
+    "case_id": "lam043",
+    "formula": "BaPt4Ge12",
+    "material": "Filled skutterudites MPt4Ge12 (M = Ba, Sr, Th)",
+    "condition": "BaPt4Ge12 with SOI",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0,
+    "space_group": "Im-3",
+    "prototype": "filled skutterudite (LaFe4P12-type; bcc)",
+    "lattice": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": null,
+      "beta": null,
+      "gamma": null
+    },
+    "sites": [],
+    "structure_completeness": "proto-only",
+    "mu_star": "0.1",
+    "lambda_ref": "0.74",
+    "omega_log_K_ref": "133.68",
+    "target_confidence": "high",
+    "mismatch_flags": "repo_no_current_structure",
+    "recommended_next_step": "build conventional/primitive Im-3 skutterudite cell from paper lattice and Wyckoff data",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown",
+    "evidence_location": "812601801109929984.md:94-180; no repo structure-ready entry",
+    "evidence_snippet": "filled skutterudite lattice fixed to crystallographic a=8.6838; Ge internal y=0.15387 z=0.36039",
+    "soc_or_relativistic": "with SOI / SOC included for heavy elements",
+    "strain_or_doping": ""
   },
-  "sites": [],
-  "structure_completeness": "proto-only",
-  "mu_star": "0.11",
-  "lambda_ref": "1.05",
-  "omega_log_K_ref": "107.17"
- },
- {
-  "case_id": "lam043",
-  "formula": "BaPt4Ge12",
-  "material": "Filled skutterudites MPt4Ge12 (M = Ba, Sr, Th)",
-  "condition": "BaPt4Ge12 with SOI",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "Im-3",
-  "prototype": "filled skutterudite (LaFe4P12-type; bcc)",
-  "lattice": {
-   "a": null,
-   "b": null,
-   "c": null,
-   "alpha": null,
-   "beta": null,
-   "gamma": null
+  {
+    "case_id": "lam045",
+    "formula": "ThPt4Ge12",
+    "material": "Filled skutterudites MPt4Ge12 (M = Ba, Sr, Th)",
+    "condition": "ThPt4Ge12 with SOI",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0,
+    "space_group": "Im-3",
+    "prototype": "filled skutterudite (LaFe4P12-type; bcc)",
+    "lattice": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": null,
+      "beta": null,
+      "gamma": null
+    },
+    "sites": [],
+    "structure_completeness": "proto-only",
+    "mu_star": "0.1",
+    "lambda_ref": "0.69",
+    "omega_log_K_ref": "132.51",
+    "target_confidence": "high",
+    "mismatch_flags": "repo_no_current_structure",
+    "recommended_next_step": "build conventional/primitive Im-3 skutterudite cell from paper lattice and Wyckoff data",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown",
+    "evidence_location": "812601801109929984.md:94-180; no repo structure-ready entry",
+    "evidence_snippet": "filled skutterudite lattice fixed to crystallographic a=8.5924; Ge internal y=0.14935 z=0.35455",
+    "soc_or_relativistic": "with SOI / SOC included for heavy elements",
+    "strain_or_doping": ""
   },
-  "sites": [],
-  "structure_completeness": "proto-only",
-  "mu_star": "0.1",
-  "lambda_ref": "0.74",
-  "omega_log_K_ref": "133.68"
- },
- {
-  "case_id": "lam044",
-  "formula": "SrPt4Ge12",
-  "material": "Filled skutterudites MPt4Ge12 (M = Ba, Sr, Th)",
-  "condition": "SrPt4Ge12 with SOI",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "Im-3",
-  "prototype": "filled skutterudite (LaFe4P12-type; bcc)",
-  "lattice": {
-   "a": null,
-   "b": null,
-   "c": null,
-   "alpha": null,
-   "beta": null,
-   "gamma": null
+  {
+    "case_id": "lam046",
+    "formula": "LaOs4As12",
+    "material": "filled skutterudites YRu4P12, YOs4P12, LaOs4P12, LaOs4As12",
+    "condition": "LaOs4As12",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0,
+    "space_group": "Im-3",
+    "prototype": "filled skutterudite (LaFe4P12-type; bcc, 17-atom cell)",
+    "lattice": {
+      "a": 8.706,
+      "b": 8.706,
+      "c": 8.706,
+      "alpha": 90,
+      "beta": 90,
+      "gamma": 90
+    },
+    "sites": [
+      {
+        "element": "As",
+        "x": 0.0,
+        "y": 0.3489,
+        "z": 0.1504,
+        "note": "pnictogen 24g (0,y,z); La at 2a (0,0,0); Os at 8c (1/4,1/4,1/4)"
+      }
+    ],
+    "structure_completeness": "full",
+    "mu_star": "0.13",
+    "lambda_ref": "0.59",
+    "omega_log_K_ref": "221.81",
+    "target_confidence": "high",
+    "mismatch_flags": "repo_no_current_structure",
+    "recommended_next_step": "build missing skutterudite targets from paper table; for lam047 verify repo primitive cell symmetry tolerance",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown",
+    "evidence_location": "812798558582341635.md:127,322-448; build_status for lam047 only",
+    "evidence_snippet": "Table gives LaOs4As12 a=8.706 and pnictogen y=0.3489 z=0.1504",
+    "soc_or_relativistic": "heavy element scalar-relativistic/SOC relevance; paper condition not split by SOC",
+    "strain_or_doping": ""
   },
-  "sites": [],
-  "structure_completeness": "proto-only",
-  "mu_star": "0.1",
-  "lambda_ref": "0.79",
-  "omega_log_K_ref": "119.45"
- },
- {
-  "case_id": "lam045",
-  "formula": "ThPt4Ge12",
-  "material": "Filled skutterudites MPt4Ge12 (M = Ba, Sr, Th)",
-  "condition": "ThPt4Ge12 with SOI",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "Im-3",
-  "prototype": "filled skutterudite (LaFe4P12-type; bcc)",
-  "lattice": {
-   "a": null,
-   "b": null,
-   "c": null,
-   "alpha": null,
-   "beta": null,
-   "gamma": null
+  {
+    "case_id": "lam049",
+    "formula": "YRu4P12",
+    "material": "filled skutterudites YRu4P12, YOs4P12, LaOs4P12, LaOs4As12",
+    "condition": "YRu4P12",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0,
+    "space_group": "Im-3",
+    "prototype": "filled skutterudite (LaFe4P12-type; bcc, 17-atom cell)",
+    "lattice": {
+      "a": 8.085,
+      "b": 8.085,
+      "c": 8.085,
+      "alpha": 90,
+      "beta": 90,
+      "gamma": 90
+    },
+    "sites": [
+      {
+        "element": "P",
+        "x": 0.0,
+        "y": 0.3575,
+        "z": 0.1428,
+        "note": "pnictogen 24g (0,y,z); Y at 2a (0,0,0); Ru at 8c (1/4,1/4,1/4)"
+      }
+    ],
+    "structure_completeness": "full",
+    "mu_star": "0.13",
+    "lambda_ref": "0.78",
+    "omega_log_K_ref": "216.97",
+    "target_confidence": "high",
+    "mismatch_flags": "repo_no_current_structure",
+    "recommended_next_step": "build missing skutterudite targets from paper table; for lam047 verify repo primitive cell symmetry tolerance",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown",
+    "evidence_location": "812798558582341635.md:127,322-448; build_status for lam047 only",
+    "evidence_snippet": "Table gives YRu4P12 a=8.085 and pnictogen y=0.3575 z=0.1428",
+    "soc_or_relativistic": "heavy element scalar-relativistic/SOC relevance; paper condition not split by SOC",
+    "strain_or_doping": ""
   },
-  "sites": [],
-  "structure_completeness": "proto-only",
-  "mu_star": "0.1",
-  "lambda_ref": "0.69",
-  "omega_log_K_ref": "132.51"
- },
- {
-  "case_id": "lam046",
-  "formula": "LaOs4As12",
-  "material": "filled skutterudites YRu4P12, YOs4P12, LaOs4P12, LaOs4As12",
-  "condition": "LaOs4As12",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "Im-3",
-  "prototype": "filled skutterudite (LaFe4P12-type; bcc, 17-atom cell)",
-  "lattice": {
-   "a": 8.706,
-   "b": 8.706,
-   "c": 8.706,
-   "alpha": 90,
-   "beta": 90,
-   "gamma": 90
+  {
+    "case_id": "lam054",
+    "formula": "LaIr2Si2",
+    "material": "YIr2Si2 and LaIr2Si2 (high-temperature polymorphs, 122-type)",
+    "condition": "LaIr2Si2 (HTP P4/nmm)",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0,
+    "space_group": "P4/nmm",
+    "prototype": "122-type high-temperature polymorph (CaBe2Ge2-type, tetragonal)",
+    "lattice": {
+      "a": 4.214,
+      "b": 4.214,
+      "c": 10.009,
+      "alpha": 90,
+      "beta": 90,
+      "gamma": 90
+    },
+    "sites": [
+      {
+        "element": "La",
+        "x": 0.25,
+        "y": 0.25,
+        "z": 0.744,
+        "note": "1/4,1/4,z site (relaxed z)"
+      },
+      {
+        "element": "Si2",
+        "x": 0.25,
+        "y": 0.25,
+        "z": 0.129,
+        "note": "1/4,1/4,z site (relaxed z); Si2 ~0.129c from Ir1 net"
+      }
+    ],
+    "structure_completeness": "lattice+proto",
+    "mu_star": "0.13",
+    "lambda_ref": "0.56",
+    "omega_log_K_ref": "159.2",
+    "target_confidence": "high",
+    "mismatch_flags": "repo_no_current_structure",
+    "recommended_next_step": "build P4/nmm CaBe2Ge2 HTP structure directly from paper positions",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown",
+    "evidence_location": "813152122194362369.md:17,24,31-60; no repo structure-ready entry",
+    "evidence_snippet": "HTP LaIr2Si2 is P4/nmm CaBe2Ge2-type with optimized a=4.214 c=10.009",
+    "soc_or_relativistic": "heavy Ir; SOC relevance not split in lambda_reference condition",
+    "strain_or_doping": ""
   },
-  "sites": [
-   {
-    "element": "As",
-    "x": 0.0,
-    "y": 0.3489,
-    "z": 0.1504,
-    "note": "pnictogen 24g (0,y,z); La at 2a (0,0,0); Os at 8c (1/4,1/4,1/4)"
-   }
-  ],
-  "structure_completeness": "full",
-  "mu_star": "0.13",
-  "lambda_ref": "0.59",
-  "omega_log_K_ref": "221.81"
- },
- {
-  "case_id": "lam048",
-  "formula": "YOs4P12",
-  "material": "filled skutterudites YRu4P12, YOs4P12, LaOs4P12, LaOs4As12",
-  "condition": "YOs4P12",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "Im-3",
-  "prototype": "filled skutterudite (LaFe4P12-type; bcc, 17-atom cell)",
-  "lattice": {
-   "a": 8.136,
-   "b": 8.136,
-   "c": 8.136,
-   "alpha": 90,
-   "beta": 90,
-   "gamma": 90
+  {
+    "case_id": "lam057",
+    "formula": "LaPtBN",
+    "material": "boronitride superconductors LaNiBN and LaPtBN",
+    "condition": "LaPtBN",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0,
+    "space_group": null,
+    "prototype": "n=2 layered boronitride (LaPtBN; alternating Pt-B and La-N layers)",
+    "lattice": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": null,
+      "beta": null,
+      "gamma": null
+    },
+    "sites": [],
+    "structure_completeness": "proto-only",
+    "mu_star": "0.1",
+    "lambda_ref": "0.56",
+    "omega_log_K_ref": "294",
+    "target_confidence": "high",
+    "mismatch_flags": "repo_no_current_structure",
+    "recommended_next_step": "build missing LaPtBN P4/nmm structure from paper lattice and z coordinates",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown",
+    "evidence_location": "813228976360128513.md:32-42; build_status for lam056 only",
+    "evidence_snippet": "LaPtBN P4/nmm with lattice a=3.824 c=7.8649 and optimized internal z values",
+    "soc_or_relativistic": "heavy Pt/Ni comparison; SOC relevance not split in condition",
+    "strain_or_doping": ""
   },
-  "sites": [
-   {
-    "element": "P",
-    "x": 0.0,
-    "y": 0.357,
-    "z": 0.1419,
-    "note": "pnictogen 24g (0,y,z); Y at 2a (0,0,0); Os at 8c (1/4,1/4,1/4)"
-   }
-  ],
-  "structure_completeness": "full",
-  "mu_star": "0.13",
-  "lambda_ref": "0.55",
-  "omega_log_K_ref": "235.41"
- },
- {
-  "case_id": "lam049",
-  "formula": "YRu4P12",
-  "material": "filled skutterudites YRu4P12, YOs4P12, LaOs4P12, LaOs4As12",
-  "condition": "YRu4P12",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "Im-3",
-  "prototype": "filled skutterudite (LaFe4P12-type; bcc, 17-atom cell)",
-  "lattice": {
-   "a": 8.085,
-   "b": 8.085,
-   "c": 8.085,
-   "alpha": 90,
-   "beta": 90,
-   "gamma": 90
+  {
+    "case_id": "lam058",
+    "formula": "SrPt3P",
+    "material": "SrPt3P (antiperovskite; series APt3P A=Sr,Ca,La)",
+    "condition": "SrPt3P, mu*=0.10",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0,
+    "space_group": "P4/nmm",
+    "prototype": "antiperovskite SrPt3P (tetragonal, antipolar; Pt6 octahedra)",
+    "lattice": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": null,
+      "beta": null,
+      "gamma": null
+    },
+    "sites": [
+      {
+        "element": "Pt",
+        "x": null,
+        "y": null,
+        "z": null,
+        "note": "Pt(I) on in-plane 4e site; Pt(II) on 2c site (no fractional coords given)"
+      }
+    ],
+    "structure_completeness": "proto-only",
+    "mu_star": "0.1",
+    "lambda_ref": "1.06",
+    "omega_log_K_ref": "81.35",
+    "target_confidence": "low",
+    "mismatch_flags": "LKM_has_lambda_but_no_structure;repo_no_current_structure",
+    "recommended_next_step": "manual_required: fetch crystallographic source from original paper/supporting data or validated database candidate",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown_no_lattice",
+    "evidence_location": "813231154529304578.md:23,66; no repo structure-ready entry",
+    "evidence_snippet": "paper describes P4/nmm antipolar antiperovskite topology but markdown/graph do not expose lattice/coords",
+    "soc_or_relativistic": "heavy Pt; SOC relevance not split in condition",
+    "strain_or_doping": ""
   },
-  "sites": [
-   {
-    "element": "P",
-    "x": 0.0,
-    "y": 0.3575,
-    "z": 0.1428,
-    "note": "pnictogen 24g (0,y,z); Y at 2a (0,0,0); Ru at 8c (1/4,1/4,1/4)"
-   }
-  ],
-  "structure_completeness": "full",
-  "mu_star": "0.13",
-  "lambda_ref": "0.78",
-  "omega_log_K_ref": "216.97"
- },
- {
-  "case_id": "lam054",
-  "formula": "LaIr2Si2",
-  "material": "YIr2Si2 and LaIr2Si2 (high-temperature polymorphs, 122-type)",
-  "condition": "LaIr2Si2 (HTP P4/nmm)",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "P4/nmm",
-  "prototype": "122-type high-temperature polymorph (CaBe2Ge2-type, tetragonal)",
-  "lattice": {
-   "a": 4.214,
-   "b": 4.214,
-   "c": 10.009,
-   "alpha": 90,
-   "beta": 90,
-   "gamma": 90
+  {
+    "case_id": "lam062",
+    "formula": "YPd2B2C",
+    "material": "RM2B2C borocarbides: LaPt2B2C, YPd2B2C, YPt2B2C, LuNi2B2C (I4/mmm)",
+    "condition": "YPd2B2C",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0,
+    "space_group": "I4/mmm",
+    "prototype": "LuNi2B2C-type (RM2B2C borocarbide)",
+    "lattice": {
+      "a": 3.807,
+      "b": 3.807,
+      "c": 10.745,
+      "alpha": 90,
+      "beta": 90,
+      "gamma": 90
+    },
+    "sites": [
+      {
+        "element": "Y",
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      {
+        "element": "Pd",
+        "x": 0.0,
+        "y": 0.5,
+        "z": 0.25
+      },
+      {
+        "element": "B",
+        "x": 0.0,
+        "y": 0.0,
+        "z": null
+      },
+      {
+        "element": "C",
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.5
+      }
+    ],
+    "structure_completeness": "lattice+proto",
+    "mu_star": "0.1",
+    "lambda_ref": "1.48",
+    "omega_log_K_ref": "182",
+    "target_confidence": "high",
+    "mismatch_flags": "repo_no_current_structure",
+    "recommended_next_step": "build missing I4/mmm structure from table",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown",
+    "evidence_location": "814602831179808769.md:54,81-83; build_status for lam061 only",
+    "evidence_snippet": "Table I present GGA gives YPd2B2C a=3.807 c=10.745 zB=0.363",
+    "soc_or_relativistic": "heavy transition metal; SOC relevance not split in condition",
+    "strain_or_doping": ""
   },
-  "sites": [
-   {
-    "element": "La",
-    "x": 0.25,
-    "y": 0.25,
-    "z": 0.744,
-    "note": "1/4,1/4,z site (relaxed z)"
-   },
-   {
-    "element": "Si2",
-    "x": 0.25,
-    "y": 0.25,
-    "z": 0.129,
-    "note": "1/4,1/4,z site (relaxed z); Si2 ~0.129c from Ir1 net"
-   }
-  ],
-  "structure_completeness": "lattice+proto",
-  "mu_star": "0.13",
-  "lambda_ref": "0.56",
-  "omega_log_K_ref": "159.2"
- },
- {
-  "case_id": "lam055",
-  "formula": "YIr2Si2",
-  "material": "YIr2Si2 and LaIr2Si2 (high-temperature polymorphs, 122-type)",
-  "condition": "YIr2Si2 (HTP P4/nmm)",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "P4/nmm",
-  "prototype": "122-type high-temperature polymorph (CaBe2Ge2-type, tetragonal)",
-  "lattice": {
-   "a": 4.132,
-   "b": 4.132,
-   "c": 9.858,
-   "alpha": 90,
-   "beta": 90,
-   "gamma": 90
+  {
+    "case_id": "lam063",
+    "formula": "YPt2B2C",
+    "material": "RM2B2C borocarbides: LaPt2B2C, YPd2B2C, YPt2B2C, LuNi2B2C (I4/mmm)",
+    "condition": "YPt2B2C",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0,
+    "space_group": "I4/mmm",
+    "prototype": "LuNi2B2C-type (RM2B2C borocarbide)",
+    "lattice": {
+      "a": 3.809,
+      "b": 3.809,
+      "c": 10.818,
+      "alpha": 90,
+      "beta": 90,
+      "gamma": 90
+    },
+    "sites": [
+      {
+        "element": "Y",
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      {
+        "element": "Pt",
+        "x": 0.0,
+        "y": 0.5,
+        "z": 0.25
+      },
+      {
+        "element": "B",
+        "x": 0.0,
+        "y": 0.0,
+        "z": null
+      },
+      {
+        "element": "C",
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.5
+      }
+    ],
+    "structure_completeness": "lattice+proto",
+    "mu_star": "0.1",
+    "lambda_ref": "0.96",
+    "omega_log_K_ref": "175",
+    "target_confidence": "high",
+    "mismatch_flags": "repo_no_current_structure",
+    "recommended_next_step": "build missing I4/mmm structure from table",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown",
+    "evidence_location": "814602831179808769.md:54,81-83; build_status for lam061 only",
+    "evidence_snippet": "Table I present GGA gives YPt2B2C a=3.809 c=10.818 zB=0.364",
+    "soc_or_relativistic": "heavy transition metal; SOC relevance not split in condition",
+    "strain_or_doping": ""
   },
-  "sites": [
-   {
-    "element": "Y",
-    "x": 0.25,
-    "y": 0.25,
-    "z": 0.754,
-    "note": "1/4,1/4,z site (relaxed z)"
-   },
-   {
-    "element": "Si2",
-    "x": 0.25,
-    "y": 0.25,
-    "z": 0.369,
-    "note": "1/4,1/4,z site (relaxed z); Si2 ~0.131c from Ir1 net"
-   }
-  ],
-  "structure_completeness": "lattice+proto",
-  "mu_star": "0.13",
-  "lambda_ref": "0.61",
-  "omega_log_K_ref": "145.5"
- },
- {
-  "case_id": "lam057",
-  "formula": "LaPtBN",
-  "material": "boronitride superconductors LaNiBN and LaPtBN",
-  "condition": "LaPtBN",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": null,
-  "prototype": "n=2 layered boronitride (LaPtBN; alternating Pt-B and La-N layers)",
-  "lattice": {
-   "a": null,
-   "b": null,
-   "c": null,
-   "alpha": null,
-   "beta": null,
-   "gamma": null
+  {
+    "case_id": "lam065",
+    "formula": "SrPtAs",
+    "material": "SrPtAs (hexagonal pnictide, P6/mmm)",
+    "condition": "(single)",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0,
+    "space_group": "P6/mmm",
+    "prototype": "hexagonal honeycomb pnictide (KZnAs-related)",
+    "lattice": {
+      "a": 4.307,
+      "b": 4.307,
+      "c": 9.063,
+      "alpha": 90,
+      "beta": 90,
+      "gamma": 120
+    },
+    "sites": null,
+    "structure_completeness": "lattice+proto",
+    "mu_star": "0.2",
+    "lambda_ref": "0.78",
+    "omega_log_K_ref": "105.5",
+    "target_confidence": "high",
+    "mismatch_flags": "repo_no_current_structure",
+    "recommended_next_step": "build P6/mmm target from paper Wyckoff/lattice",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown",
+    "evidence_location": "814721288294629376.md:66-116; no repo structure-ready entry",
+    "evidence_snippet": "P6/mmm KZnAs-type with this-work lattice a=4.307 c=9.063",
+    "soc_or_relativistic": "Pt/As heavy; SOC relevance not split in condition",
+    "strain_or_doping": ""
   },
-  "sites": [],
-  "structure_completeness": "proto-only",
-  "mu_star": "0.1",
-  "lambda_ref": "0.56",
-  "omega_log_K_ref": "294"
- },
- {
-  "case_id": "lam058",
-  "formula": "SrPt3P",
-  "material": "SrPt3P (antiperovskite; series APt3P A=Sr,Ca,La)",
-  "condition": "SrPt3P, mu*=0.10",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "P4/nmm",
-  "prototype": "antiperovskite SrPt3P (tetragonal, antipolar; Pt6 octahedra)",
-  "lattice": {
-   "a": null,
-   "b": null,
-   "c": null,
-   "alpha": null,
-   "beta": null,
-   "gamma": null
+  {
+    "case_id": "lam066",
+    "formula": "Bi4I4",
+    "material": "Bi4I4 high-pressure phases (epsilon-P31c, zeta-P4/mmm)",
+    "condition": "epsilon-Bi4I4 (P31c), 15 GPa",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 15,
+    "space_group": "P31c",
+    "prototype": "epsilon-Bi4I4 ([Bi4I3] chains + isolated I)",
+    "lattice": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": null,
+      "beta": null,
+      "gamma": null
+    },
+    "sites": null,
+    "structure_completeness": "proto-only",
+    "mu_star": "0.1",
+    "lambda_ref": "0.67",
+    "omega_log_K_ref": "86.6",
+    "target_confidence": "medium",
+    "mismatch_flags": "structure_table_pressure_10GPa_differs_from_condition_15GPa;repo_no_current_structure",
+    "recommended_next_step": "manual_required: relax or obtain epsilon Bi4I4 at 15 GPa before DFPT target run",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown_pressure_table_mismatch",
+    "evidence_location": "817398434037235713.md:13,33,45,51,57,66-278,310-318; no repo structure-ready entry",
+    "evidence_snippet": "epsilon P31c stable 8.4-16.6 GPa; structure table is at 10 GPa while lambda_reference condition is 15 GPa",
+    "soc_or_relativistic": "Bi/I heavy; SOC likely essential; condition is pressure phase",
+    "strain_or_doping": ""
   },
-  "sites": [
-   {
-    "element": "Pt",
-    "x": null,
-    "y": null,
-    "z": null,
-    "note": "Pt(I) on in-plane 4e site; Pt(II) on 2c site (no fractional coords given)"
-   }
-  ],
-  "structure_completeness": "proto-only",
-  "mu_star": "0.1",
-  "lambda_ref": "1.06",
-  "omega_log_K_ref": "81.35"
- },
- {
-  "case_id": "lam060",
-  "formula": "LaPt2B2C",
-  "material": "RM2B2C borocarbides: LaPt2B2C, YPd2B2C, YPt2B2C, LuNi2B2C (I4/mmm)",
-  "condition": "LaPt2B2C",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "I4/mmm",
-  "prototype": "LuNi2B2C-type (RM2B2C borocarbide)",
-  "lattice": {
-   "a": 3.904,
-   "b": 3.904,
-   "c": 10.773,
-   "alpha": 90,
-   "beta": 90,
-   "gamma": 90
+  {
+    "case_id": "lam069",
+    "formula": "LaO0.5F0.5BiS2",
+    "material": "LaO0.5F0.5BiS2 (layered BiS2 superconductor)",
+    "condition": "(single)",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0,
+    "space_group": "tetragonal layered BiS2 (P4/nmm-type, not explicitly named in node)",
+    "prototype": "layered BiS2 (CeOBiS2-type / ZrCuSiAs-related)",
+    "lattice": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90,
+      "beta": 90,
+      "gamma": 90
+    },
+    "sites": null,
+    "structure_completeness": "proto-only",
+    "mu_star": "0.1",
+    "lambda_ref": "0.85",
+    "omega_log_K_ref": "",
+    "target_confidence": "high",
+    "mismatch_flags": "repo_no_current_structure",
+    "recommended_next_step": "build ordered P4/nmm LaO0.5F0.5BiS2 target; keep doping/order explicit",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown",
+    "evidence_location": "867747957653373759.md:36-53,124-235; no repo structure-ready entry",
+    "evidence_snippet": "P4/nmm with SOC-relaxed a=4.0781 c=13.4566 and O/F half substitution",
+    "soc_or_relativistic": "SOC supplement available; main paper says SOC has small effect",
+    "strain_or_doping": "ordered F substitution x=0.5 on O site"
   },
-  "sites": [
-   {
-    "element": "La",
-    "x": 0.0,
-    "y": 0.0,
-    "z": 0.0
-   },
-   {
-    "element": "Pt",
-    "x": 0.0,
-    "y": 0.5,
-    "z": 0.25
-   },
-   {
-    "element": "B",
-    "x": 0.0,
-    "y": 0.0,
-    "z": null
-   },
-   {
-    "element": "C",
-    "x": 0.0,
-    "y": 0.0,
-    "z": 0.5
-   }
-  ],
-  "structure_completeness": "lattice+proto",
-  "mu_star": "0.1",
-  "lambda_ref": "0.78",
-  "omega_log_K_ref": "235"
- },
- {
-  "case_id": "lam062",
-  "formula": "YPd2B2C",
-  "material": "RM2B2C borocarbides: LaPt2B2C, YPd2B2C, YPt2B2C, LuNi2B2C (I4/mmm)",
-  "condition": "YPd2B2C",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "I4/mmm",
-  "prototype": "LuNi2B2C-type (RM2B2C borocarbide)",
-  "lattice": {
-   "a": 3.807,
-   "b": 3.807,
-   "c": 10.745,
-   "alpha": 90,
-   "beta": 90,
-   "gamma": 90
+  {
+    "case_id": "lam076",
+    "formula": "TlTaSe2",
+    "material": "TlTaSe2 (nodal-line semimetal, P-6m2), anisotropic SC",
+    "condition": "(single)",
+    "material_type": "heavy-soc",
+    "pressure_GPa": null,
+    "space_group": "P-6m2",
+    "prototype": "non-centrosymmetric hexagonal layered TlTaSe2 (no named prototype)",
+    "lattice": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": null,
+      "beta": null,
+      "gamma": null
+    },
+    "sites": null,
+    "structure_completeness": "proto-only",
+    "mu_star": "0.16",
+    "lambda_ref": "0.97",
+    "omega_log_K_ref": "141.13",
+    "target_confidence": "low",
+    "mismatch_flags": "LKM_has_lambda_but_no_structure;repo_no_current_structure",
+    "recommended_next_step": "manual_required: obtain crystallographic structure from paper/supporting data or validated database candidate; do not infer ground truth from lowest-energy candidate",
+    "source_kind": "repo_reference+LKM_graph+LKM_markdown_no_lattice",
+    "evidence_location": "923643931596423577.md:66-68; no repo structure-ready entry",
+    "evidence_snippet": "markdown identifies P-6m2 TlTaSe2 but lacks lattice constants and atomic coordinates",
+    "soc_or_relativistic": "Tl/Ta heavy; SOC relevance likely important but structure data absent in LKM",
+    "strain_or_doping": ""
   },
-  "sites": [
-   {
-    "element": "Y",
-    "x": 0.0,
-    "y": 0.0,
-    "z": 0.0
-   },
-   {
-    "element": "Pd",
-    "x": 0.0,
-    "y": 0.5,
-    "z": 0.25
-   },
-   {
-    "element": "B",
-    "x": 0.0,
-    "y": 0.0,
-    "z": null
-   },
-   {
-    "element": "C",
-    "x": 0.0,
-    "y": 0.0,
-    "z": 0.5
-   }
-  ],
-  "structure_completeness": "lattice+proto",
-  "mu_star": "0.1",
-  "lambda_ref": "1.48",
-  "omega_log_K_ref": "182"
- },
- {
-  "case_id": "lam063",
-  "formula": "YPt2B2C",
-  "material": "RM2B2C borocarbides: LaPt2B2C, YPd2B2C, YPt2B2C, LuNi2B2C (I4/mmm)",
-  "condition": "YPt2B2C",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "I4/mmm",
-  "prototype": "LuNi2B2C-type (RM2B2C borocarbide)",
-  "lattice": {
-   "a": 3.809,
-   "b": 3.809,
-   "c": 10.818,
-   "alpha": 90,
-   "beta": 90,
-   "gamma": 90
+  {
+    "case_id": "lam051",
+    "formula": "CaIr2",
+    "material": "CaIr2 and CaRh2 (cubic C15 Laves phase), SOC study",
+    "condition": "CaIr2, without SOC",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0.0,
+    "space_group": "Fd-3m (227)",
+    "prototype": "cubic C15 Laves AB2",
+    "lattice": {
+      "a": 7.594,
+      "b": 7.594,
+      "c": 7.594,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0
+    },
+    "sites": [],
+    "structure_completeness": "full primitive basis from paper: A at (0,0,0),(1/4,1/4,1/4); B at (5/8,5/8,5/8),(5/8,7/8,7/8),(7/8,5/8,7/8),(7/8,7/8,5/8)",
+    "mu_star": "0.15",
+    "lambda_ref": "1.43",
+    "omega_log_K_ref": "79.6",
+    "target_confidence": "high",
+    "mismatch_flags": "repo_current_structure_space_group_mismatch;repo_current_structure_wrong_C15_polytype",
+    "recommended_next_step": "replace repo CaIr2 P6_3/mmc candidate with Fd-3m C15 Laves target",
+    "source_kind": "repo_reference+repo_current_structure+LKM_graph+LKM_markdown",
+    "evidence_location": "813094079012274176.md:36-70; build_status.csv; structures/CaIr2.scf.in or CaRh2.scf.in",
+    "evidence_snippet": "CaIr2 target is Fd-3m C15 Laves; Table I gives a=7.594 for CaIr2 without SOC",
+    "soc_or_relativistic": "without SOC control",
+    "strain_or_doping": ""
   },
-  "sites": [
-   {
-    "element": "Y",
-    "x": 0.0,
-    "y": 0.0,
-    "z": 0.0
-   },
-   {
-    "element": "Pt",
-    "x": 0.0,
-    "y": 0.5,
-    "z": 0.25
-   },
-   {
-    "element": "B",
-    "x": 0.0,
-    "y": 0.0,
-    "z": null
-   },
-   {
-    "element": "C",
-    "x": 0.0,
-    "y": 0.0,
-    "z": 0.5
-   }
-  ],
-  "structure_completeness": "lattice+proto",
-  "mu_star": "0.1",
-  "lambda_ref": "0.96",
-  "omega_log_K_ref": "175"
- },
- {
-  "case_id": "lam064",
-  "formula": "Ca3Ir4Ge4",
-  "material": "Ca3Ir4Ge4 (noncentrosymmetric superconductor)",
-  "condition": "(single)",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "noncentrosymmetric body-centred cubic (Ca3Ir4Ge4-type)",
-  "prototype": "Ca3Ir4Ge4-type (noncentrosymmetric body-centred cubic)",
-  "lattice": {
-   "a": 7.651,
-   "b": 7.651,
-   "c": 7.651,
-   "alpha": 90,
-   "beta": 90,
-   "gamma": 90
-  },
-  "sites": [
-   {
-    "element": "Ir",
-    "x": 0.634,
-    "y": 0.634,
-    "z": 0.634
-   },
-   {
-    "element": "Ge",
-    "x": 0.813,
-    "y": 0.813,
-    "z": 0.813
-   }
-  ],
-  "structure_completeness": "lattice+proto",
-  "mu_star": "0.11",
-  "lambda_ref": "0.51",
-  "omega_log_K_ref": "158.3"
- },
- {
-  "case_id": "lam065",
-  "formula": "SrPtAs",
-  "material": "SrPtAs (hexagonal pnictide, P6/mmm)",
-  "condition": "(single)",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "P6/mmm",
-  "prototype": "hexagonal honeycomb pnictide (KZnAs-related)",
-  "lattice": {
-   "a": 4.307,
-   "b": 4.307,
-   "c": 9.063,
-   "alpha": 90,
-   "beta": 90,
-   "gamma": 120
-  },
-  "sites": null,
-  "structure_completeness": "lattice+proto",
-  "mu_star": "0.2",
-  "lambda_ref": "0.78",
-  "omega_log_K_ref": "105.5"
- },
- {
-  "case_id": "lam066",
-  "formula": "Bi4I4",
-  "material": "Bi4I4 high-pressure phases (epsilon-P31c, zeta-P4/mmm)",
-  "condition": "epsilon-Bi4I4 (P31c), 15 GPa",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 15,
-  "space_group": "P31c",
-  "prototype": "epsilon-Bi4I4 ([Bi4I3] chains + isolated I)",
-  "lattice": {
-   "a": null,
-   "b": null,
-   "c": null,
-   "alpha": null,
-   "beta": null,
-   "gamma": null
-  },
-  "sites": null,
-  "structure_completeness": "proto-only",
-  "mu_star": "0.1",
-  "lambda_ref": "0.67",
-  "omega_log_K_ref": "86.6"
- },
- {
-  "case_id": "lam067",
-  "formula": "Bi4I4",
-  "material": "Bi4I4 high-pressure phases (epsilon-P31c, zeta-P4/mmm)",
-  "condition": "zeta-Bi4I4 (P4/mmm), 18 GPa",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 18,
-  "space_group": "P4/mmm",
-  "prototype": "zeta-Bi4I4 (quasi-3D, alternating X/Y units)",
-  "lattice": {
-   "a": null,
-   "b": null,
-   "c": null,
-   "alpha": null,
-   "beta": null,
-   "gamma": null
-  },
-  "sites": null,
-  "structure_completeness": "proto-only",
-  "mu_star": "0.1",
-  "lambda_ref": "0.72",
-  "omega_log_K_ref": "97.5"
- },
- {
-  "case_id": "lam069",
-  "formula": "LaO0.5F0.5BiS2",
-  "material": "LaO0.5F0.5BiS2 (layered BiS2 superconductor)",
-  "condition": "(single)",
-  "material_type": "heavy-soc",
-  "pressure_GPa": 0,
-  "space_group": "tetragonal layered BiS2 (P4/nmm-type, not explicitly named in node)",
-  "prototype": "layered BiS2 (CeOBiS2-type / ZrCuSiAs-related)",
-  "lattice": {
-   "a": null,
-   "b": null,
-   "c": null,
-   "alpha": 90,
-   "beta": 90,
-   "gamma": 90
-  },
-  "sites": null,
-  "structure_completeness": "proto-only",
-  "mu_star": "0.1",
-  "lambda_ref": "0.85",
-  "omega_log_K_ref": ""
- },
- {
-  "case_id": "lam076",
-  "formula": "TlTaSe2",
-  "material": "TlTaSe2 (nodal-line semimetal, P-6m2), anisotropic SC",
-  "condition": "(single)",
-  "material_type": "heavy-soc",
-  "pressure_GPa": null,
-  "space_group": "P-6m2",
-  "prototype": "non-centrosymmetric hexagonal layered TlTaSe2 (no named prototype)",
-  "lattice": {
-   "a": null,
-   "b": null,
-   "c": null,
-   "alpha": null,
-   "beta": null,
-   "gamma": null
-  },
-  "sites": null,
-  "structure_completeness": "proto-only",
-  "mu_star": "0.16",
-  "lambda_ref": "0.97",
-  "omega_log_K_ref": "141.13"
- }
+  {
+    "case_id": "lam068",
+    "formula": "OsN2 / Os0.75Re0.25N2 virtual hole-doped target",
+    "material": "OsN2 (marcasite-like Pnnm), N-N covalent-bond-mediated SC",
+    "condition": "OsN2 0.5 holes/cell doped (Os0.75Re0.25N2)",
+    "material_type": "heavy-soc",
+    "pressure_GPa": 0.0,
+    "space_group": "Pnnm (58)",
+    "prototype": "marcasite-like hole-doped dinitride",
+    "lattice": {
+      "a": null,
+      "b": null,
+      "c": null,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0
+    },
+    "sites": [],
+    "structure_completeness": "prototype/Wyckoff only in markdown: Os 2a and N 4g; no lattice constants or fractional N coordinate found in LKM markdown",
+    "mu_star": "0.1",
+    "lambda_ref": "0.49",
+    "omega_log_K_ref": "310",
+    "target_confidence": "low",
+    "mismatch_flags": "LKM_has_lambda_but_no_structure;repo_current_structure_space_group_mismatch;doping_not_encoded_in_repo_structure",
+    "recommended_next_step": "manual_required: obtain Ref.16 Pnnm structure and define doping model/supercell or virtual-charge treatment",
+    "source_kind": "repo_reference+repo_current_structure+LKM_graph+LKM_markdown_no_lattice",
+    "evidence_location": "867747199868470067.md:24,39,83-113; build_status.csv; structures/OsN2.scf.in",
+    "evidence_snippet": "paper target is Pnnm marcasite-like hole-doped OsN2; repo OpenLAM structure is undoped P2_1/c OsN2",
+    "soc_or_relativistic": "5d Os heavy; spin-orbit splitting discussed; lambda target is hole-doped",
+    "strain_or_doping": "0.5 holes per unit cell, e.g. Os0.75Re0.25N2 virtual alloy"
+  }
 ]

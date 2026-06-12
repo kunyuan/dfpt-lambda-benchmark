@@ -11,8 +11,8 @@ tier are hidden metadata (in each `cases.csv`), not given to the agent.
 
 | track | dir | cases | method (hidden) | cost tier (core-h) |
 |---|---|---:|---|---|
-| simple / elemental metal | `simple-metal/` | 42 | DFPT-direct | 10²–10³ |
-| intermetallic compound | `intermetallic/` | 105 | DFPT-direct | 10³–10⁴ |
+| simple / elemental metal | `simple-metal/` | 40 | DFPT-direct | 10²–10³ |
+| intermetallic compound | `intermetallic/` | 107 | DFPT-direct | 10³–10⁴ |
 | heavy-element (SOC) | `heavy-soc/` | 38 | DFPT + SOC | 10³–10⁴ |
 | 2D / layered | `2d-layered/` | 38 | DFPT + Wannier/EPW | 10³–10⁴ |
 | high-pressure hydride | `hydride/` | 53 | DFPT + anharmonic/SSCHA | 10⁴–10⁵ |
@@ -26,14 +26,54 @@ omega_log_K/theta_D_K, mu_star, expected_method, cost_tier_coreh`.
 computed-vs-experimental spread), **and** the agent self-reports core-hours used —
 graded on the accuracy × cost Pareto frontier.
 
-## Status — TODO to make runnable
+## Train/Validation Split
 
-Each case currently carries the **reference λ/ω_log** but **not** the crystal
-structure. To make these runnable Harbor tasks:
+The benchmark now has a case-level Harbor split in [`../splits/`](../splits/):
 
-1. Attach a relaxed structure per case (from the source paper or Materials Project)
-   → `environment/packet/structure.cif` (+ conditions: pressure/doping/strain).
-2. Add an HPC-aware verifier: either run the DFPT pipeline, or compare against a
-   cached reference λ; emit accuracy + core-hour cost.
-3. Wrap each track as standard Harbor tasks (`task.toml`, `instruction.md` with the
-   **method withheld**, `environment/`, `solution/`, `tests/`).
+| split | cases | role |
+|---|---:|---|
+| `train` | 251 | public workflow tuning, structure repair, convergence debugging |
+| `validation_core` | 25 | stable cross-material validation, 5 cases per material class |
+
+Harbor does not need a special `split` field in each task. The intended packaging
+is to publish separate dataset versions from the split manifest, e.g.
+`dfpt-lambda-l3-train@0.1.0` and
+`dfpt-lambda-l3-validation-core@0.1.0`. Current material-type tasks still contain
+many case rows internally; the split manifest is the source of truth for generating
+split-specific task variants or future case-level Harbor tasks.
+
+## Status — packaged Harbor tracks
+
+The 276 L3 cases are packaged as five runnable Harbor-style tasks. Each track has
+`task.toml`, `instruction.md`, an `environment/packet/`, a baseline `solution/`, and
+`tests/` that compare submitted λ/ω_log values against root-only gold at 15 %
+tolerance while recording reported core-hours.
+
+| track | cases | dev | hidden | structure-ready | build-from-spec |
+|---|---:|---:|---:|---:|---:|
+| `simple-metal` | 40 | 26 | 14 | 11 | 29 |
+| `intermetallic` | 107 | 71 | 36 | 55 | 52 |
+| `heavy-soc` | 38 | 25 | 13 | 13 | 25 |
+| `2d-layered` | 38 | 25 | 13 | 0 | 38 |
+| `hydride` | 53 | 35 | 18 | 1 | 52 |
+| **total** | **276** | **182** | **94** | **80** | **196** |
+
+Two execution modes are present:
+
+1. **`structure-ready`** — the packet includes a proper-`ibrav` QE input in
+   `environment/packet/structures/`. The agent runs SCF → phonon/electron-phonon →
+   λ extraction.
+2. **`build-from-spec`** — the packet includes structural hints from the paper
+   (`structure_hints.json` / `.csv`) but no trusted ready coordinates. Some rows were
+   explicitly demoted after the LKM audit because their OpenLAM/MP candidate did not
+   match the paper's target phase, pressure, formula, or material family.
+
+Validated host-side self-checks cover all five tracks. The full target-structure
+audit is in `../data/structure_targets.csv` and
+`../data/structure_targets_summary.md`. Real QE reproductions on a 192-core server
+are summarized in `VALIDATION.md`. The first organized LBG/QE batch, including
+job ledgers, selected scaling inputs, QE 7.1 `ph.x` build notes, and curated
+material-type result summaries, is in `reproduction/`. The remaining hardening
+work is to rebuild the demoted cases from paper-specific structures, run these
+packages through the real Harbor runner, and replace the cached-gold verifier with
+an artifact-aware verifier for submitted DFPT outputs.

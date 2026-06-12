@@ -6,8 +6,8 @@ lam055,build-from-spec,,YIr2Si2 (HTP P4/nmm),0.13
 lam060,build-from-spec,,LaPt2B2C,0.1
 lam064,build-from-spec,,(single),0.11
 lam067,build-from-spec,,"zeta-Bi4I4 (P4/mmm), 18 GPa",0.1
-lam041,structure-ready,RuSi.scf.in,ScRuSi,0.11
-lam050,structure-ready,CaIr2.scf.in,"CaIr2, with SOC",0.15
+lam041,build-from-spec,,ScRuSi,0.11
+lam050,build-from-spec,,"CaIr2, with SOC",0.15
 lam053,structure-ready,CaRh2.scf.in,"CaRh2, without SOC",0.15
 lam061,structure-ready,LuNi2B2C.scf.in,LuNi2B2C,0.1
 lam071,structure-ready,Zr2Ir.scf.in,Zr2Ir without SOC,0.1

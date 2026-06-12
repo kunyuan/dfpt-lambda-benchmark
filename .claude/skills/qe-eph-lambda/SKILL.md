@@ -33,7 +33,7 @@ running QE is to *validate* that gold is reachable and to fill missing values.
   default for el-ph:
   `http://www.quantum-simulation.org/potentials/sg15_oncv/upf/<El>_ONCV_PBE-1.2.upf`.
 
-## ⚠️ The five gotchas (each cost hours to find)
+## ⚠️ The six gotchas (each cost hours to find)
 
 1. **`ibrav=0` + a multi-atom cell makes `ph.x` SIGSEGV at phonon setup.** This is the
    big one. 1-atom cells with `ibrav=0` are fine; ≥2 atoms crash *before the first q*
@@ -61,7 +61,12 @@ running QE is to *validate* that gold is reachable and to fill missing values.
    energy favors larger cells (more formula units) and selects the wrong polymorph
    (picked a 6-atom P-1 MgB₂ over the 3-atom P6/mmm). Prefer the structure whose space
    group matches the LKM-reported prototype; else min(energy/n_atoms).
-5. **Remote ops:** never `pkill -f "ph.x"` over SSH — the pattern matches your own
+5. **QE 7.x el-ph needs `fildvscf` with `electron_phonon='simple'`.** Without it,
+   `ph.x` can fail during input parsing with
+   `Error in routine phq_readin (1): El-ph needs a DeltaVscf file`. Add a stable
+   prefix such as `fildvscf='dvscf'` in `&inputph`; this writes the first-order
+   self-consistent potential that the el-ph path expects.
+6. **Remote ops:** never `pkill -f "ph.x"` over SSH — the pattern matches your own
    command line and kills the shell mid-script. Use `pkill -9 -x ph.x` (exact name).
    Run jobs with `nohup … &` + a flag file and poll; **don't run heavy cases
    concurrently** (core contention stalls them — the Γ DFPT silently hangs).
@@ -75,6 +80,7 @@ running QE is to *validate* that gold is reachable and to fill missing values.
   occupations='smearing', smearing='methfessel-paxton', degauss=0.02
   nspin=1                                        ! "nm" cases (e.g. hcp Fe @100GPa is non-magnetic)
 &inputph
+  fildvscf='dvscf'
   electron_phonon='simple', el_ph_sigma=0.005, el_ph_nsigma=10
   ldisp=.true., nq1=nq2=nq3=4, tr2_ph=1.0d-14
 ```
@@ -108,6 +114,7 @@ When a run fails or λ is far off, match the symptom — most are fixable, not p
 | symptom (in scf.out / ph.out) | cause | fix |
 |---|---|---|
 | `ph.x` SIGSEGV right after "Dynamical matrices for (n,n,n)" | `ibrav=0` + multi-atom | use proper Bravais `ibrav` |
+| `El-ph needs a DeltaVscf file` during `phq_readin` | QE 7.x el-ph input missing first-order potential file prefix | add `fildvscf='dvscf'` to `&inputph` |
 | **λ 2–5× too high**, per-mode λ_qν≳1 on acoustic modes | phonon anomaly under-converged on coarse q | denser q (4×4×4→6×6×6); convergence-check |
 | computed λ off **and** structure phase/composition ≠ paper (e.g. dhcp vs fcc, doped, off-stoich); **soft phonons (ω≲30 cm⁻¹)** | wrong/auto-fetched structure — not the paper's phase | get the paper's exact phase/pressure/ordering; relax to condition |
 | `Error in routine readpp` / `stopping` | a pseudopotential file won't read (corrupt/format) | re-download or swap that element's UPF |

@@ -15,7 +15,24 @@ the data-prep half; running QE + extracting λ is the [`qe-eph-lambda`](../qe-ep
 mu_star` from the track's `cases.csv`. You need to add: a **structure** and
 **pseudopotentials**.
 
-## Step 1 — formula → structure (OpenLAM)
+## Step 1 — paper target → structure candidate
+
+Start from the audited target, not from the formula alone:
+
+1. Read `data/structure_targets.csv` for the `case_id`.
+2. Use its `target_formula_or_system`, `space_group_symbol`, `pressure_GPa`,
+   `phase_or_prototype`, `atomic_positions_status`, `mismatch_flags`, and
+   `recommended_next_step`.
+3. If `mismatch_flags` says the reference row is cross-family, paper-title
+   mismatched, or material/condition inconsistent, repair the source mapping before
+   building any QE input.
+4. If the current row is `build-from-spec`, prefer the paper lattice/CIF/prototype
+   specified in `L3-dfpt-lambda/structure_hints.json`.
+
+OpenLAM is only a **candidate provider**. It is acceptable when the returned
+candidate matches the paper target formula, phase/prototype, space group, and
+condition after any required pressure relaxation. Do not use the lowest-energy
+formula match as ground truth.
 
 ```python
 from lam_optimize import CrystalStructure   # env: openlam ; export BOHRIUM_ACCESS_KEY=$DP_ACCESS_KEY
@@ -29,8 +46,9 @@ struct = pick.structure        # pymatgen Structure: lattice + fractional coords
 - `clean_formula` must be a real formula ("MgB2", "Nb3Sn") — extract it from LKM /
   the material name, not the descriptive string.
 - Record provenance: which OpenLAM entry (space group, energy/atom) was used.
-- If OpenLAM lacks it / wrong polymorph: fall back to COD or a prototype build from
-  the LKM space group + lattice constant.
+- If OpenLAM lacks it or returns the wrong polymorph / composition / dimensionality:
+  fall back to the paper supplement, COD, Materials Project, or a prototype build
+  from the audited LKM space group + lattice constant.
 
 ## Step 2 — structure → **proper-ibrav** QE input  ⚠️ critical
 
