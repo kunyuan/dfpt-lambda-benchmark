@@ -1,0 +1,14 @@
+material,phase,structure,knobs_planned,qgrid_target,functional,status,notes
+Na,1,bcc,A0;A1;A2;A3;A4;P;F,6x6x6,LDA+PBE,pending,pipeline validation; must resolve EPW-0.2 vs PC-0.10 tension
+K,1,bcc,A0;A1;A2;A3;A4;P,6x6x6,LDA,pending,theorem-zone replicate
+Al,2,fcc,A0;A1;A2;A3;A4;P;F,6x6x6,LDA,pending,multivalent; Umklapp enters A3/A4
+Sn,2,beta-Sn bct,A0;A1;A2;A3;A4,4x4x4,LDA,pending,non-cubic sp
+Pb,2,fcc,A0;A1;A2;A3;A4 x {SOC on;off},4x4x4,LDA-FR,pending,does SOC disturb the cancellation?
+V,3,bcc,A0;A1;A2;A3;A4;NL,6x6x6,LDA,pending,d at EF; bleed-order measurement
+Ta,3,bcc,A0;A1;A2;NL,4x4x4,LDA,pending,5d replicate
+Mo,3,bcc,A0;A1;A2;NL,4x4x4,LDA,pending,4d low-lambda replicate
+NbC,4,B1,A0;A1;A2;P,6x6x6,LDA,pending,Kohn anomaly: is the analytic 2kF structure in A3 MORE converged than coarse-q DFPT?
+NbN,4,B1,A0;A1;A2,6x6x6,LDA,pending,
+MgB2,4,AlB2,A0;A1,4x4x4(6 in-plane),LDA,pending,expected A1 ceiling (sigma-bond orbital selectivity)
+Nb3Sn,4,A15,A0;A1;A2,4x4x4,LDA,pending,8-atom cell; cost tier high
+V3Si,4,A15,A0;A1,4x4x4,LDA,pending,
