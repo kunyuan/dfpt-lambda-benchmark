@@ -1,0 +1,3 @@
+job_id,material,knob_config,functional,pseudo,qgrid,kgrid,smearing_scf_Ry,sku,np,nk,image,status,note
+22867110,Na,A0,LDA,Na.pz-n-vbc.UPF(z=1 smallcore),4x4x4,24x24x24,0.01,c8_m64_cpu,8,1,registry.dp.tech/dptech/quantum-espresso:7.1,submitted,"Phase1 pipeline validation; dvscf+dyn+phsave retained via artifacts_distill"
+22867111,Na,A0,LDA,Na.pz-n-vbc.UPF(z=1 smallcore),6x6x6,24x24x24,0.01,c8_m64_cpu,8,1,registry.dp.tech/dptech/quantum-espresso:7.1,submitted,"q-convergence partner; target grid per manifest"
