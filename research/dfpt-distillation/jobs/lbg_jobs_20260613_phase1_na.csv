@@ -1,3 +1,8 @@
 job_id,material,knob_config,functional,pseudo,qgrid,kgrid,smearing_scf_Ry,sku,np,nk,image,status,note
 22867110,Na,A0,LDA,Na.pz-n-vbc.UPF(z=1 smallcore),4x4x4,24x24x24,0.01,c8_m64_cpu,8,1,registry.dp.tech/dptech/quantum-espresso:7.1,submitted,"Phase1 pipeline validation; dvscf+dyn+phsave retained via artifacts_distill"
 22867111,Na,A0,LDA,Na.pz-n-vbc.UPF(z=1 smallcore),6x6x6,24x24x24,0.01,c8_m64_cpu,8,1,registry.dp.tech/dptech/quantum-espresso:7.1,submitted,"q-convergence partner; target grid per manifest"
+22867291,Na,A0-kconv,LDA,Na.pz-n-vbc.UPF(z=1 smallcore),4x4x4,32x32x32,0.01,c8_m64_cpu,8,1,registry.dp.tech/dptech/quantum-espresso:7.1,submitted,"k-resolution test for double-delta"
+22867292,Na,A0-kconv,LDA,Na.pz-n-vbc.UPF(z=1 smallcore),4x4x4,40x40x40,0.01,c8_m64_cpu,8,1,registry.dp.tech/dptech/quantum-espresso:7.1,submitted,"k-resolution test for double-delta"
+22867415,K,A0,LDA,K.pz-n-vbc.UPF(z=1 smallcore),6x6x6,24x24x24,0.01,c8_m64_cpu,8,1,registry.dp.tech/dptech/quantum-espresso:7.1,submitted,"anti-overfit replicate; node below 2kF"
+22867416,Al,A0,LDA,Al.pz-vbc.UPF(z=3 smallcore),6x6x6,24x24x24,0.01,c8_m64_cpu,8,1,registry.dp.tech/dptech/quantum-espresso:7.1,submitted,"multivalent fcc; FS beyond first zone"
+22867417,Na,vc-relax,LDA,Na.pz-n-vbc.UPF(z=1 smallcore),,24x24x24,0.01,c8_m64_cpu,8,1,registry.dp.tech/dptech/quantum-espresso:7.1,submitted,"LDA equilibrium volume for phonon/volume suspect"

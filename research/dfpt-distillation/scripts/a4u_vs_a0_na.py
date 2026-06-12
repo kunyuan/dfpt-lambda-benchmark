@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""A4u vs A0 for Na: mode-resolved vertex ablation with DFPT phonons held fixed.
+"""A4u vs A0 (frozen recipe — NO per-material tuning): mode-resolved vertex ablation with DFPT phonons held fixed.
 
 A4u model: lambda_qnu = C * sum_G |w(|q+G|)/eps(|q+G|)|^2 ((q+G).e_nu)^2 / (|q+G| om_nu^2)
 over Umklapp channels open on the Fermi sphere (|q+G| <= 2k_F); spherical double-delta
@@ -46,6 +46,7 @@ def main():
     ap.add_argument("--kf", type=float, required=True, help="conduction k_F (1/bohr)")
     ap.add_argument("--mass", type=float, required=True, help="ion mass (Ry units, dyn header)")
     ap.add_argument("--sigma", default="0.025")
+    ap.add_argument("--lattice", default="bcc", choices=["bcc", "fcc"])
     a = ap.parse_args()
 
     tpa = 2 * np.pi / a.alat
@@ -55,9 +56,15 @@ def main():
     def g2(Q):
         return np.interp(Q, qm, gmod, right=gmod[-1]) ** 2
 
-    # bcc reciprocal lattice in 2pi/a units
-    Gs = np.unique(np.array([[n + m, m + l, n + l] for n in range(-3, 4)
-                             for m in range(-3, 4) for l in range(-3, 4)]), axis=0)
+    # reciprocal lattice in 2pi/a units: bcc crystal -> fcc recip; fcc crystal -> bcc recip
+    if a.lattice == "bcc":
+        Gs = np.unique(np.array([[n + m, m + l, n + l] for n in range(-3, 4)
+                                 for m in range(-3, 4) for l in range(-3, 4)]), axis=0)
+    elif a.lattice == "fcc":
+        Gs = np.unique(np.array([[-n + m + l, n - m + l, n + m - l] for n in range(-3, 4)
+                                 for m in range(-3, 4) for l in range(-3, 4)]), axis=0)
+    else:
+        raise SystemExit(f"unsupported lattice {a.lattice}")
 
     data = []
     for f in sorted(glob.glob(f'{a.artifacts}/matdyn[0-9]*')):
