@@ -1,0 +1,9 @@
+case_id,material,lambda_exp,sigma_exp,exp_method,lambda_calc_lit,lkm_paper_ids
+exp01,K,0.13,0.03,point-contact spectroscopy,0.12-0.16,811963547251638272;812446570283794432;812434396702310401
+exp04,In,0.90,0.10,combined tunneling inversions (0.805-1.108; constrained 0.984) + specific-heat (0.86),0.882,813324336227155968;867761805064143602
+exp07,Hg,1.60,0.10,tunneling + specific-heat,1.57,867748261803328197
+exp11,Nb,1.16,0.08,specific-heat gamma (tunneling 0.92-1.22 scattered by surface oxidation),1.24,320901993621094400;812753086262018050
+exp14,Nb3Ge,1.64,0.15,tunneling (22.9 at.% Ge film; Tc-inversion 1.7-1.9),1.41,925815240883437667;812446410950574081;814720712370552834
+exp16,TaC,0.82,0.08,Tc/theta_D McMillan inversion from heat capacity (TaC0.99),0.692,319146207593103360;319491590588465152
+exp19,Cr,0.13,0.02,optical pump-probe,0.12 (AFM state; PM state gives 0.35),817404043482628098;867763996965471072
+exp20,La,1.10,0.15,gamma-route (specific-heat mass enhancement),1.3,812751867321778178

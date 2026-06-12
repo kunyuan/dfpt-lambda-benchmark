@@ -1,0 +1,15 @@
+version = "1.0"
+
+[metadata]
+author_name = "ARM λ-Bench (WF-6) — L4 λ vs experiment"
+author_email = "noreply@example.com"
+difficulty_explanation = "Compute λ from first principles, graded against EXPERIMENTALLY-inferred values (tunneling inversion / specific-heat mass enhancement / point-contact), not against a paper's computed λ. 21 materials across 8 classes where theory-experiment agreement is established; 13 train (both values + methods disclosed), 8 held-out. Method choice (SOC, magnetic state, multiband) is the agent's job. Scoring is uncertainty-normalized: per-case z = (λ_pred − λ_exp)/σ_eff with Gaussian credit; PASS = all |z| ≤ 2 and mean credit ≥ 0.5. Literature-grade calculations score ≈ 0.67."
+category = "scientific-computing"
+tags = ["physics","superconductivity","electron-phonon","dfpt","lambda","first-principles","experiment-anchored","wf-6"]
+
+[verifier]
+timeout_sec = 120.0
+[agent]
+timeout_sec = 14400.0
+[environment]
+build_timeout_sec = 600.0

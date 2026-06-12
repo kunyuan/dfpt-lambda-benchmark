@@ -19,7 +19,7 @@ it is free. This benchmark targets that expensive step, and grades on the
 
 ## Levels
 
-Two levels, mirroring how λ is actually obtained:
+Three levels, mirroring how λ is actually obtained — and how it is validated:
 
 - **L1 — α²F(ω) → λ, ω_log** (cheap, auto-gradable at scale). Given the Eliashberg
   spectral function α²F(ω), compute λ = 2∫α²F(ω)/ω dω and the logarithmic-average
@@ -29,11 +29,18 @@ Two levels, mirroring how λ is actually obtained:
   [`L1-alpha2F-to-lambda/`](L1-alpha2F-to-lambda/).
 - **L3 — structure → DFPT → λ** (the real first-principles task; HPC). Given a
   relaxed crystal structure + pseudopotentials + a protocol, run DFPT (phonons +
-  electron-phonon) and return λ, ω_log.
+  electron-phonon) and return λ, ω_log. Gold = the source paper's computed λ
+  (reproduction).
+- **L4 — λ vs experiment** (the harder anchor). Same computation, but gold is the
+  **experimentally-inferred λ** (tunneling inversion / specific-heat mass enhancement /
+  point-contact), with per-case σ and an uncertainty-normalized score. 21 materials in
+  8 classes where theory ↔ experiment agreement is established; 13 train (both values
+  disclosed) + 8 held-out. See
+  [`L4-lambda-vs-experiment/`](L4-lambda-vs-experiment/) and the survey behind it,
+  [`data/lambda_dfpt_vs_experiment_survey.csv`](data/lambda_dfpt_vs_experiment_survey.csv).
 
-(L2 = "assemble α²F from given DFPT intermediates" and L4 = "predict structure then
-DFPT" are deliberately omitted to keep the ladder to the two rungs that matter:
-post-processing vs full first-principles.)
+(L2 = "assemble α²F from given DFPT intermediates" and "predict structure then DFPT"
+are deliberately omitted to keep the ladder to the rungs that matter.)
 
 ## L3 is organized by material type — method + cost are hidden metadata
 
@@ -124,6 +131,16 @@ method variants above.
   112 build-from-spec with the paper's structural info in `structure_hints`. SG15
   pseudo manifest + fetch script in each `packet/pseudos/`. See
   [`L3-dfpt-lambda/BUILD.md`](L3-dfpt-lambda/BUILD.md).
+- ✅ **L4 — λ vs experiment Harbor task**
+  ([`L4-lambda-vs-experiment/`](L4-lambda-vs-experiment/)): 13 train + 8 held-out
+  materials across 8 classes, experimental gold with per-case σ, Gaussian-credit
+  z-score metric (PASS = all |z| ≤ 2 AND mean credit ≥ 0.5; literature-grade
+  first-principles values score 0.67). Dataset distilled from an LKM knowledge-graph
+  survey of ~37 computed-vs-experimental λ pairs
+  ([`data/lambda_dfpt_vs_experiment_survey.csv`](data/lambda_dfpt_vs_experiment_survey.csv)),
+  restricted to itinerant / far-from-magnetism materials where the comparison is
+  physically meaningful; near-magnetic, Hund/Mott-correlated, and localized-f systems
+  are documented as excluded control groups.
 - ⬜ **Run through real Harbor** — all tasks follow the contract and pass host-side
   self-checks, but have not been executed by the `harbor` runner (needs Docker).
 - ⬜ **Harden** — fill remaining build-from-spec structures; verifier to recompute λ
