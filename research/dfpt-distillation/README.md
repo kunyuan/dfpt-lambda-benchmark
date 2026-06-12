@@ -86,3 +86,27 @@ that paper proves why DFPT is right; this one measures which parts of it are nee
   contribution. Phase 1 must settle this as its first output.
 - PBE vs LDA kernel: L4-train uses PBE (benchmark protocol); the distillation track runs
   LDA. Na is cheap — run both, price the kernel difference alongside the F knob.
+
+## Phase-1 result (2026-06-13, Na): the ladder redesigned by data
+
+First A0↔analytic comparison (Na, LDA, q6, mode-resolved λ_qν from elph files,
+DFPT phonons held fixed = vertex-only ablation):
+
+1. **G=0 scalar model is invalid at any finite q** — not approximately, structurally:
+   bcc-monovalent 2k_F (0.961/bohr) exceeds half the shortest G (1.096/bohr), so
+   Umklapp channels are kinematically open on the Fermi sphere at every grid q.
+   Transverse modes couple *only* via Umklapp; measured T-share goes 0.2% (high-sym q,
+   where min|q+G| lands on the form-factor node) → 67% (mixed q, min|q+G| in the
+   form-factor's strong mid-range). The lattice sum over G is mandatory at every rung.
+2. **A4u (UEG screening + Umklapp lattice sum + spherical-FS nesting), one constant
+   calibrated at the smallest-q L point, reproduces all 15 q × 3 mode λ_qν**:
+   ratios 1.00–0.95 for |q| ≤ 0.5·2k_F, drifting smoothly to 0.81–0.87 at the zone
+   boundary; unweighted total ratio 0.89. The lattice cancellation theorem holds for
+   Na at the ~10% level; the residual is monotone in q with the right sign for the
+   sharp θ(2k_F−|q+G|) cutoff vs the smeared double-delta (next refinement).
+3. Corollary for the Na λ tension (exp 0.10 / 1970s 0.13 / EPW-PBE 0.2 / ours 0.32):
+   the vertex is theorem-protected — remaining suspects are the *phonon/volume* slot
+   (LDA at experimental volume → soft phonons → 1/ω² inflation) and k-resolution of
+   the double-delta (k32/k40 jobs in flight).
+
+Analysis: `scripts/a4u_vs_a0_na.py` on the 22867111 artifacts.
