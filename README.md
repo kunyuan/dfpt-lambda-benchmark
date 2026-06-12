@@ -83,8 +83,13 @@ which gives the material and withholds the physics.
   the 15 papers that also report an experimentally-inferred λ (mostly from the
   specific-heat mass enhancement γ_exp/γ_band = 1+λ), computed-vs-experimental λ
   agree to a **median ~9 %** (mean ~15 %), with computed λ running slightly low —
-  consistent with harmonic DFPT omitting anharmonic/correlation enhancement. This
-  set can serve as a harder "vs-experiment" anchor for L3.
+  consistent with harmonic DFPT omitting anharmonic/correlation enhancement.
+- **The vs-experiment anchor is now a runnable level**: a broader LKM survey
+  (~37 computed-vs-experimental pairs incl. tunneling-inversion gold standards,
+  near-magnetic and localized-f control groups —
+  [`data/lambda_dfpt_vs_experiment_survey.csv`](data/lambda_dfpt_vs_experiment_survey.csv))
+  feeds [`L4-lambda-vs-experiment/`](L4-lambda-vs-experiment/), where the agent's λ is
+  graded directly against experiment on the SOTA-gap scale.
 
 ## Provenance (`data/`)
 
@@ -93,7 +98,8 @@ which gives the material and withholds the physics.
 | `lambda_reference.csv` / `.json` | 276 reference points (material, condition, λ, ω, μ\*, type, method, cost) |
 | `lkm_extraction.json` | full per-paper LKM records (243 papers) |
 | `lambda_per_condition.json` | the per-condition split that produced the reference points |
-| `lambda_computed_vs_experimental.csv` | 15-paper computed-vs-experimental λ comparison |
+| `lambda_computed_vs_experimental.csv` | 15-paper computed-vs-experimental λ comparison (WF-6 internal) |
+| `lambda_dfpt_vs_experiment_survey.csv` | ~37-pair LKM-wide survey behind L4: SOTA λ vs experiment, grouped weak-corr / near-magnetic / anomalous / f-control |
 
 All derive from WF-6 (243 papers). λ is reported first-principles in ~150 of them;
 DFPT/linear-response dominates, with Wannier/EPW, SOC, and anharmonic/SSCHA as the
