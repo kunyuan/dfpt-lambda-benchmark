@@ -19,7 +19,7 @@ it is free. This benchmark targets that expensive step, and grades on the
 
 ## Levels
 
-Two levels, mirroring how λ is actually obtained:
+Three levels, mirroring how λ is actually obtained — and how it is validated:
 
 - **L1 — α²F(ω) → λ, ω_log** (cheap, auto-gradable at scale). Given the Eliashberg
   spectral function α²F(ω), compute λ = 2∫α²F(ω)/ω dω and the logarithmic-average
@@ -29,11 +29,18 @@ Two levels, mirroring how λ is actually obtained:
   [`L1-alpha2F-to-lambda/`](L1-alpha2F-to-lambda/).
 - **L3 — structure → DFPT → λ** (the real first-principles task; HPC). Given a
   relaxed crystal structure + pseudopotentials + a protocol, run DFPT (phonons +
-  electron-phonon) and return λ, ω_log.
+  electron-phonon) and return λ, ω_log. Gold = the source paper's computed λ
+  (reproduction).
+- **L4 — λ vs experiment** (the harder anchor). Same computation, but gold is the
+  **experimentally-inferred λ** (tunneling inversion / specific-heat mass enhancement /
+  point-contact), scored against the mean SOTA theory-experiment gap (G = 11.7% over the dataset). 21 materials in
+  8 classes where theory ↔ experiment agreement is established; 13 train (both values
+  disclosed) + 8 held-out. See
+  [`L4-lambda-vs-experiment/`](L4-lambda-vs-experiment/) and the survey behind it,
+  [`data/lambda_dfpt_vs_experiment_survey.csv`](data/lambda_dfpt_vs_experiment_survey.csv).
 
-(L2 = "assemble α²F from given DFPT intermediates" and L4 = "predict structure then
-DFPT" are deliberately omitted to keep the ladder to the two rungs that matter:
-post-processing vs full first-principles.)
+(L2 = "assemble α²F from given DFPT intermediates" and "predict structure then DFPT"
+are deliberately omitted to keep the ladder to the rungs that matter.)
 
 ## L3 is organized by material type — method + cost are hidden metadata
 
@@ -76,8 +83,13 @@ which gives the material and withholds the physics.
   the 15 papers that also report an experimentally-inferred λ (mostly from the
   specific-heat mass enhancement γ_exp/γ_band = 1+λ), computed-vs-experimental λ
   agree to a **median ~9 %** (mean ~15 %), with computed λ running slightly low —
-  consistent with harmonic DFPT omitting anharmonic/correlation enhancement. This
-  set can serve as a harder "vs-experiment" anchor for L3.
+  consistent with harmonic DFPT omitting anharmonic/correlation enhancement.
+- **The vs-experiment anchor is now a runnable level**: a broader LKM survey
+  (~37 computed-vs-experimental pairs incl. tunneling-inversion gold standards,
+  near-magnetic and localized-f control groups —
+  [`data/lambda_dfpt_vs_experiment_survey.csv`](data/lambda_dfpt_vs_experiment_survey.csv))
+  feeds [`L4-lambda-vs-experiment/`](L4-lambda-vs-experiment/), where the agent's λ is
+  graded directly against experiment on the SOTA-gap scale.
 
 ## Provenance (`data/`)
 
@@ -87,7 +99,8 @@ which gives the material and withholds the physics.
 | `structure_targets.csv` / `_summary.md` | audited target phase/prototype, space group, pressure, confidence, and mismatch flags for all 276 L3 cases |
 | `lkm_extraction.json` | full per-paper LKM records (243 papers) |
 | `lambda_per_condition.json` | the per-condition split that produced the reference points |
-| `lambda_computed_vs_experimental.csv` | 15-paper computed-vs-experimental λ comparison |
+| `lambda_computed_vs_experimental.csv` | 15-paper computed-vs-experimental λ comparison (WF-6 internal) |
+| `lambda_dfpt_vs_experiment_survey.csv` | ~37-pair LKM-wide survey behind L4: SOTA λ vs experiment, grouped weak-corr / near-magnetic / anomalous / f-control |
 | `splits/l3_case_splits.csv` / `splits/l3_validation_core.csv` | Harbor-style L3 train/validation split; 251 train + 25 validation-core cases |
 
 All derive from WF-6 (243 papers). λ is reported first-principles in ~150 of them;
@@ -109,11 +122,11 @@ method variants above.
 
   | track | cases | structure-ready | build-from-spec |
   |---|---:|---:|---:|
-  | `intermetallic` | 107 | 55 | 52 |
-  | `hydride` | 53 | 1 | 52 |
-  | `simple-metal` | 40 | 11 | 29 |
-  | `heavy-soc` | 38 | 13 | 25 |
-  | `2d-layered` | 38 | 0 | 38 |
+  | `intermetallic` | 107 | 88 | 19 |
+  | `hydride` | 53 | 15 | 38 |
+  | `simple-metal` | 40 | 30 | 10 |
+  | `heavy-soc` | 38 | 17 | 21 |
+  | `2d-layered` | 38 | 14 | 24 |
 
   Each case is either **structure-ready** (a proper-`ibrav` QE input in
   `packet/structures/`) or **build-from-spec** (construct the crystal from
@@ -128,18 +141,26 @@ method variants above.
   reproductions are high-pressure sulfur (`lam263`, `lam264`); 2D, hydride, and
   heavy-SOC entries are currently smoke/method-validation records rather than final
   leaderboard-grade results.
-- ✅ **Structures audited + first repair batch** — 80/276 are trusted
-  structure-ready after checking
-  the paper target phase/pressure against LKM and current QE inputs
-  (OpenLAM 55 / MP 10 / LKM 15). The other 196 are build-from-spec with target
-  structure metadata in `structure_hints` and the full audit in
-  `data/structure_targets.csv`. SG15 pseudo manifest + fetch script in each
-  `packet/pseudos/`. See [`L3-dfpt-lambda/BUILD.md`](L3-dfpt-lambda/BUILD.md).
 - ✅ **L3 train/validation split defined** — a case-level Harbor split is in
   [`splits/`](splits/): 251 public train cases plus a 25-case
   `validation_core` set with exactly 5 cases from each material class. The
   validation set excludes the heavily tuned public reproduction cases and mixes
   structure-ready, build-from-spec, SOC, 2D, and hydride examples.
+- ✅ **Structures assembled** — 164/276 structure-ready (OpenLAM 144 / MP 14 / LKM 6);
+  112 build-from-spec with the paper's structural info in `structure_hints`. SG15
+  pseudo manifest + fetch script in each `packet/pseudos/`. See
+  [`L3-dfpt-lambda/BUILD.md`](L3-dfpt-lambda/BUILD.md).
+- ✅ **L4 — λ vs experiment Harbor task**
+  ([`L4-lambda-vs-experiment/`](L4-lambda-vs-experiment/)): 13 train + 8 held-out
+  materials across 8 classes, experimental gold, scored against the
+  mean SOTA theory-experiment gap (G = mean |λ_sota − λ_exp|/λ_exp = 11.7% over all
+  21 pairs; leaderboard = mean rel-dev / G, < 1 beats published SOTA; PASS = mean ≤ G
+  and every case ≤ 3G; literature values give ratio 0.79). Dataset distilled from an LKM knowledge-graph
+  survey of ~37 computed-vs-experimental λ pairs
+  ([`data/lambda_dfpt_vs_experiment_survey.csv`](data/lambda_dfpt_vs_experiment_survey.csv)),
+  restricted to itinerant / far-from-magnetism materials where the comparison is
+  physically meaningful; near-magnetic, Hund/Mott-correlated, and localized-f systems
+  are documented as excluded control groups.
 - ⬜ **Run through real Harbor** — all tasks follow the contract and pass host-side
   self-checks, but have not been executed by the `harbor` runner (needs Docker).
 - ⬜ **Harden** — fill remaining build-from-spec structures; verifier to recompute λ

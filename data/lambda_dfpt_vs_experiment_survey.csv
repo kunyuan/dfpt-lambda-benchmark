@@ -1,0 +1,41 @@
+group,material,lambda_computed,calc_method,lambda_experimental,exp_method,agreement,notes,lkm_paper_ids
+weak-corr,Al,0.44,linear-response LMTO,0.42-0.43,tunneling + specific-heat,good,,320901993621094400;812692917033369601
+weak-corr,Pb,1.56-1.68,DFPT (SOC required),1.55,tunneling MR-inversion,good,SOC raises 1.08->1.56,811786452621852672;320901993621094400;867757225026781930
+weak-corr,In,0.882,ab-initio a2F,0.9+-0.1,tunneling + specific-heat combined,good,,813324336227155968;867761805064143602
+weak-corr,Hg,1.57,DFPT+Wannier,~1.6,tunneling + specific-heat,good,omega_log also matches (27.3 vs ~29 K),867748261803328197
+weak-corr,Sn,0.78-0.99,pseudopotential,0.7-0.8,tunneling,good,,812776456730968064
+weak-corr,Na,0.13,model-potential/OPW perturbation,0.10+-0.03,point-contact spectroscopy,good-absolute,relative ~25% because lambda tiny; e-e correction comparable,811963547251638272;812446570283794432;812434396702310401
+weak-corr,K,0.12-0.16,model-potential/OPW perturbation,0.13+-0.03,point-contact spectroscopy,good-absolute,same caveat as Na,811963547251638272;812446570283794432;812434396702310401
+weak-corr,Ta,0.85,linear-response LMTO,0.78-0.83,tunneling + specific-heat,good,,320901993621094400;813288528912842753
+weak-corr,Nb,1.24,linear-response LMTO,1.16-1.22,specific-heat + tunneling,good,low tunneling values = surface oxidation,320901993621094400;812753086262018050
+weak-corr,V,1.18,linear-response LMTO,1.17,specific-heat,good,tunneling 0.82 unreliable (oxidation); pressure-Tc rise hints small lambda_sf,320901993621094400
+weak-corr,Mo,0.49,linear-response LMTO,0.45,specific-heat,good,,320901993621094400
+weak-corr,Nb3Sn,1.85,DFPT,1.75,tunneling (Geerk/Wolf),good,,813240492505432065;812446410950574081
+weak-corr,Nb3Ge,1.41,ab-initio anisotropic ME,1.64,tunneling (22.9 at.% Ge film),~15%,off-stoichiometric film vs stoichiometric calc,925815240883437667;812446410950574081
+weak-corr,V3Si,1.255,mixed-basis DFPT,0.99-1.3,tunneling inversion,good,transport lambda=2.1 contaminated by spin fluctuations,817402391816044545;867764146089754866;811979255154999297
+weak-corr,NbC,0.77,first-principles site-decomposed,0.72-0.83,Tc/theta_D McMillan inversion,good,,812369572467310593;319491590588465152
+weak-corr,TaC,0.692,computed a2F,0.82,Tc/theta_D McMillan inversion,~16%,,319146207593103360;319491590588465152
+weak-corr,NbN,1.21,first-principles,1.06-1.46,Tc-inversion / film tunneling,scatter,stoichiometry-sensitive samples,812369572467310593;811671466935320576
+weak-corr,ZrN-optical,0.25,FP-LMTO linear-response,0.18,tunneling MR-inversion,~39%,optical-mode partial lambda only; inversion limits cited,319630854496190464;811914658750398465
+weak-corr,MgB2,0.80,DFPT,0.62-0.9,specific-heat + pi-band tunneling,good,multiband; compare per-band,812589704175157251;812295938948202496;811960905083387905
+near-magnetic,Pd,0.35,linear-response LMTO,0.69,specific-heat gamma,NO,lambda_spin=0.34 paramagnons (explicit); E_F on d-band-top DOS peak; no SC down to mK,320901993621094400;812746623552585730;867748489604366466;811773746577670145
+near-magnetic,Pt,0.49-0.70,literature first-principles,0.91,specific-heat inversion,NO,excess attributed to spin fluctuations; no SC down to mK,(see LKM Pt claims)
+near-magnetic,Sc-hcp,0.639,linear-response,1.063,specific-heat gamma,NO,lambda_sf=0.422; Stoner ~4,811944273455874049;867763539677282456
+near-magnetic,MgCNi3,0.67-0.95,RMTA / linear-response,0.69-1.9,DeltaC/(gamma Tc) inversion et al.,scatter,Stoner ~5; FM spin fluctuations T_sf~13-16 K,867759857325834259;813237665708113923;867757289237381473
+near-magnetic,FeSe,0.17,linear-response GGA,0.75,gamma_exp/gamma_band - 1,NO,DFPT Tc<<1K vs 8K; pump-probe 0.16 (e-ph only),811897617536516096;814585753471287297
+near-magnetic,BaFe2As2-family,0.18-0.37,DFPT/Wannier,>=0.5,ARPES + gamma,NO,Hund-correlated multiband,811856026788691969;814606374376833025;319408463098675200
+near-magnetic,LaFeAsO,0.20-0.21,DFPT,n/a,Tc=26K anchor,NO,phonon-only Tc<1K,811895644275867649;867763243479728744
+near-magnetic,Cr-AFM,0.12,DFPT GGA (AFM state),0.13+-0.02,optical pump-probe,good,PM-state DFPT 0.35 - magnetic state changes lambda 3x,817404043482628098;867763996965471072
+anomalous,cuprates-LSCO-YBCO,0.5-2.5 band,LDA,<=0.13,specific-heat,NO-reverse,correlations SUPPRESS lambda; band theory overestimates,812446852250075137;812683268246732801;812465072696721412
+anomalous,Ba1-xKxBiO3,0.47,DFT-GGA,1.0-1.2,tunneling + specific-heat,NO,LDA underestimates EP matrix elements (GW needed); non-magnetic failure,813170535063093254;812446333343367169;812414324080377856
+anomalous,K3C60-Rb3C60,0.58-0.69,FP-LMTO,~0.24,NMR pressure analysis,unclear,N(0) disagreement dominates,813295757061783554;812401492051886081
+f-control,La-fcc,1.3,Gaspari-Gyorffy N<I2>,1.1,gamma-route,good,itinerant f-band metal,812751867321778178
+f-control,Th-fcc,0.5,Gaspari-Gyorffy N<I2>,0.3,gamma-route,boundary,McMillan 0.53 elsewhere,812751867321778178;813343671989567489
+f-control,alpha-U,0.52,DFT Eliashberg,0.9+-0.2,gamma0/gamma_b - 1,boundary,band metal m*/m=1.55,964771472625106961;814669295542861825
+f-control,alpha-Ce,0.3,Gaspari-Gyorffy,0.65,gamma-route,NO,Stoner x2.8 contaminates gamma route,812751867321778178
+f-control,UIr3,n/a,LDA N(EF),ratio 1.5,gamma_exp/N_LDA,sane,conventional member of UX3 series,812447059696156673
+f-control,UPt3,n/a,band gamma0=19.8,lambda=22.8,gamma_exp=452 mJ/K2mol,ABSURD,e-ph attribution called implausible,812444998485147648;814635991309484033
+f-control,UBe13,n/a,gamma_band 13,ratio 31-85,gamma_exp=1100 mJ/K2mol,ABSURD,Kondo lattice,812448466063065091;812447095200940032
+f-control,CeCu2Si2,n/a,gamma_LDA 10.3,ratio ~100,gamma_exp~1000 mJ/K2mol,ABSURD,,812270104434704387
+f-control,YbRh2Si2,n/a,gamma_LDA 7.25,ratio ~235,gamma_exp=1700 mJ/K2mol,ABSURD,paper metadata partly corrupted in LKM - reverify before formal use,867767749168857582
+f-control,MBe13-series,n/a,band gamma per member,La/Th ratio~1; Ce/U 7-31x,specific-heat,internal-control,same structure same phonons - only f-count varies,812728024746164224
