@@ -33,7 +33,7 @@ Three levels, mirroring how λ is actually obtained — and how it is validated:
   (reproduction).
 - **L4 — λ vs experiment** (the harder anchor). Same computation, but gold is the
   **experimentally-inferred λ** (tunneling inversion / specific-heat mass enhancement /
-  point-contact), with per-case σ and an uncertainty-normalized score. 21 materials in
+  point-contact), scored against the mean SOTA theory-experiment gap (G = 11.7% over the dataset). 21 materials in
   8 classes where theory ↔ experiment agreement is established; 13 train (both values
   disclosed) + 8 held-out. See
   [`L4-lambda-vs-experiment/`](L4-lambda-vs-experiment/) and the survey behind it,
@@ -133,9 +133,10 @@ method variants above.
   [`L3-dfpt-lambda/BUILD.md`](L3-dfpt-lambda/BUILD.md).
 - ✅ **L4 — λ vs experiment Harbor task**
   ([`L4-lambda-vs-experiment/`](L4-lambda-vs-experiment/)): 13 train + 8 held-out
-  materials across 8 classes, experimental gold with per-case σ, Gaussian-credit
-  z-score metric (PASS = all |z| ≤ 2 AND mean credit ≥ 0.5; literature-grade
-  first-principles values score 0.67). Dataset distilled from an LKM knowledge-graph
+  materials across 8 classes, experimental gold, scored against the
+  mean SOTA theory-experiment gap (G = mean |λ_sota − λ_exp|/λ_exp = 11.7% over all
+  21 pairs; leaderboard = mean rel-dev / G, < 1 beats published SOTA; PASS = mean ≤ G
+  and every case ≤ 3G; literature values give ratio 0.79). Dataset distilled from an LKM knowledge-graph
   survey of ~37 computed-vs-experimental λ pairs
   ([`data/lambda_dfpt_vs_experiment_survey.csv`](data/lambda_dfpt_vs_experiment_survey.csv)),
   restricted to itinerant / far-from-magnetism materials where the comparison is

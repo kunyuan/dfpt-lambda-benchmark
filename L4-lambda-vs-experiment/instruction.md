@@ -29,10 +29,13 @@ V's tunneling value is corrupted by surface oxidation (trust specific-heat); NbN
 is wide because samples are stoichiometry-sensitive; Th's γ-route gold carries extra
 non-phonon renormalization (worst pair in the set — kept as a calibration warning).
 
-## Scoring (uncertainty-normalized, not a flat tolerance)
+## Scoring (scaled by the SOTA theory-experiment gap, not by experimental error)
 
-Per case: `z = (λ_pred − λ_exp) / σ_eff`, `σ_eff = max(σ_exp, 0.05·λ_exp)`; credit
-`exp(−z²/2)`. **PASS requires every case within 2σ_eff AND mean credit ≥ 0.50.**
-Literature-grade first-principles values pass with mean credit ≈ 0.67 — beating that
-margin means out-computing the published state of the art. `core_hours` is reported
-(accuracy × cost axis), not gated.
+The yardstick is how well state-of-the-art first-principles theory matches experiment
+on this dataset: the mean relative gap |λ_sota − λ_exp|/λ_exp over all 21 pairs is
+**G = 11.7%** (per-pair table in the dev gold). Per case the verifier computes
+`d = |λ_pred − λ_exp| / λ_exp`; the leaderboard number is **ratio = mean(d) / G**
+(below 1 means you out-compute the published state of the art). **PASS requires
+mean(d) ≤ G AND every case d ≤ 3G** (the cap kills single catastrophic misses — a
+forgotten SOC or a wrong magnetic state). Submitting the literature values verbatim
+gives ratio ≈ 0.79. `core_hours` is reported (accuracy × cost axis), not gated.

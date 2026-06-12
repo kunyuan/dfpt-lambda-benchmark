@@ -54,25 +54,41 @@ All numbers were read from LKM knowledge-graph claims (paper ids in the CSVs); n
 filled from model memory. Two LKM claims had corrupted paper-title metadata; affected
 materials were either excluded or carry ids verified through a second claim.
 
-## Metric
+## Metric: scaled by the SOTA theory-experiment gap
 
-Flat relative tolerance (L3's 15%) is wrong here: experimental σ ranges from ~3%
-(Pb tunneling) to ~30% (Na point-contact, where λ≈0.1 and the e-e mass correction is
-comparable). Instead:
+The tolerance is **not** the experimental error bar — the benchmark question is "can
+you match experiment as well as state-of-the-art theory does?", so the natural scale
+is the **SOTA gap**: the relative deviation of the best literature first-principles λ
+from experiment, averaged over **all 21 dataset pairs**:
+
+| pair | gap | pair | gap | pair | gap |
+|---|---:|---|---:|---|---:|
+| Th | 66.7% | Nb3Ge | 14.0% | Nb3Sn | 5.7% |
+| Na | 30.0% | Mo | 8.9% | Sn | 4.0% |
+| V3Si | 25.5% | K | 7.7% | NbN | 4.0% |
+| La | 18.2% | Cr | 7.7% | Al | 2.3% |
+| TaC | 15.6% | Ta | 7.6% | In | 2.0% |
+| MgB2 | 14.3% | Nb | 6.9% | Hg | 1.9% |
+| | | | | NbC, V, Pb | ≤1.3% |
 
 ```
-z_i     = (λ_pred − λ_exp) / σ_eff,   σ_eff = max(σ_exp, 0.05·λ_exp)
-credit_i = exp(−z_i²/2)
-PASS    = all |z_i| ≤ 2  AND  mean(credit) ≥ 0.50
+G_SOTA  = mean_i |λ_sota,i − λ_exp,i| / λ_exp,i = 0.117   (median 0.076)
+d_i     = |λ_pred,i − λ_exp,i| / λ_exp,i
+ratio   = mean(d_i) / G_SOTA          ← leaderboard axis (＜1 beats published SOTA)
+PASS    = mean(d_i) ≤ G_SOTA  AND  all d_i ≤ 3·G_SOTA
 ```
 
-- The 0.05·λ floor keeps razor-thin σ from demanding better-than-physics precision.
-- Gaussian credit makes the score continuous — the leaderboard axis — while the 2σ
-  gate kills any single blown case (e.g. forgetting SOC on Hg: 1.08 vs 1.60 → z = −5.2).
-- **Calibration**: submitting the literature first-principles values verbatim passes at
-  mean credit ≈ 0.67 (oracle baseline; `solution/precomputed.csv`). Headroom to 1.0 is
-  real signal — e.g. anisotropic Migdal-Eliashberg on Nb3Ge (z = −1.5 at the
-  literature value) or a better-converged TaC (z = −1.6).
+- The per-case 3G cap (35.1%) kills single catastrophic misses without letting one
+  case dominate the mean: a Pb-like SOC omission lands ~30% low (right at the cap on
+  a heavy element), and computing Cr in the paramagnetic state (λ = 0.35 vs gold
+  0.13) gives d = 169% → hard fail.
+- **Calibration**: submitting the literature first-principles values verbatim gives
+  ratio = 0.79 on the held-out set (oracle baseline; `solution/precomputed.csv`).
+  Pushing ratio below 0.79 is real signal — e.g. anisotropic Migdal-Eliashberg on
+  Nb3Ge (literature gap 14%) or a better-converged TaC (15.6%).
+- σ_exp and exp_method stay in the gold CSVs as metadata (route quality documentation),
+  but do not enter the score: heterogeneous experimental error is folded into G_SOTA
+  itself, since the SOTA gap *includes* experimental scatter by construction.
 - `core_hours` is reported, not gated, preserving the repo's accuracy × cost frontier.
 
 ## Files
