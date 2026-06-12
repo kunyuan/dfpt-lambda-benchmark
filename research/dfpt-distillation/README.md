@@ -110,3 +110,17 @@ DFPT phonons held fixed = vertex-only ablation):
    the double-delta (k32/k40 jobs in flight).
 
 Analysis: `scripts/a4u_vs_a0_na.py` on the 22867111 artifacts.
+
+## Phase-1b (Na relax + Al): the anti-overfit test bites, as designed
+
+- Na LDA equilibrium: a0 = 7.736 bohr (4.09 Å) vs expt 4.29 Å (−13% volume).
+  Relaxed-volume q6 in flight (22867472) — the volume verdict for the λ tension.
+- **Al fails the frozen A4u recipe in a localized, interpretable way**: total ratio
+  1.62, but large-q mode ratios ≈ 0.9–1.1 (screened vertex magnitude still correct)
+  while small-q transverse Umklapp channels overshoot ×2–7. Mechanism: Al's
+  2k_F (1.85/bohr) ≫ shortest G (1.42/bohr), so small-q Umklapp scattering crosses
+  Bragg planes — exactly where the real Al FS is gapped (2nd/3rd-zone carving); the
+  free-sphere phase space overcounts those channels. **First non-trivial price-list
+  entry: the spherical-FS approximation costs ~10% (monovalent Na) vs ~60%
+  (multivalent Al), concentrated in transverse Umklapp.** Next rung: real-FS
+  double-delta nesting (A3-geometry), not a vertex fix.

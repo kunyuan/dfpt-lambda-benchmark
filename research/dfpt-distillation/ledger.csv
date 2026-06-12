@@ -5,3 +5,6 @@ date,material,knob_config,functional,qgrid,kgrid,smearing_Ry,lambda,omega_log_K,
 2026-06-13,Na,A4u-vertex-vs-A0(P fixed),LDA,6x6x6,24x24x24,0.025,,,-11 (total),mode-resolved ratios 1.00->0.81,0,scripts/a4u_vs_a0_na.py,VALIDATED,"Umklapp lattice sum mandatory at all rungs; theorem holds ~10% for Na; residual monotone, consistent with sharp-2kF cutoff vs smeared double-delta"
 2026-06-13,Na,A0-kconv,LDA,4x4x4,32x32x32,0.025,0.292,122.3,-0.3 vs k24,,4.5,lbg:22867291,k-suspect ELIMINATED,double-delta converged at k24
 2026-06-13,Na,A0-kconv,LDA,4x4x4,40x40x40,0.025,,,,,1.0,lbg:22867292,failed,"QE set_kplusq limit (known, harmless)"
+2026-06-13,Na,vc-relax,LDA,,24x24x24,0.01,,,,,0.3,lbg:22867417,relaxed-vol q6 submitted (22867472),LDA a0=7.736 bohr=4.09A vs expt 4.29A: -13% volume
+2026-06-13,Al,A0,LDA,6x6x6,24x24x24,0.025,0.503,269.7,,,8,lbg:22867416,baseline,top-q 6%; expt lambda ~0.43 - same-direction volume effect as Na
+2026-06-13,Al,A4u-vertex-vs-A0(P fixed),LDA,6x6x6,24x24x24,0.025,,,+62 (total),large-q ~1.0; small-q T-modes x2-7 over,0,frozen recipe,A3-RUNG IDENTIFIED,overcount localized in small-q transverse Umklapp channels crossing Bragg planes where real Al FS is gapped; screened vertex magnitude itself fine (large-q ratios 0.9-1.1); spherical-FS phase space is the failing element - price: 60% for multivalent Al vs 10% monovalent Na
