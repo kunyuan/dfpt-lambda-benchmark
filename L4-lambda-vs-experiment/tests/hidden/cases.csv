@@ -1,0 +1,9 @@
+case_id,material,material_type,condition
+exp01,K,alkali-sp,"bcc, ambient pressure, T->0"
+exp04,In,simple-sp,"bct (A6), ambient pressure, T->0"
+exp07,Hg,simple-sp-heavy,"alpha-Hg (rhombohedral A10), ambient pressure, T->0"
+exp11,Nb,bcc-transition-4d,"bcc, ambient pressure, T->0"
+exp14,Nb3Ge,A15-intermetallic,"A15 (Cr3Si type); reference experiment on 22.9 at.% Ge film (Tc=19.8 K)"
+exp16,TaC,rocksalt-carbide,"B1 rocksalt, near-stoichiometric (TaC0.99), ambient pressure"
+exp19,Cr,bcc-transition-3d,"bcc, ambient pressure, T->0 (use the correct magnetic ground state)"
+exp20,La,f-band-metal,"fcc-La, ambient pressure, T->0"
