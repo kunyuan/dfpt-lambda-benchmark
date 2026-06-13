@@ -26,3 +26,6 @@ date,material,knob_config,functional,qgrid,kgrid,smearing_Ry,lambda,omega_log_K,
 2026-06-13,NbC,mode decomposition,PBE,4x4x4,24x24x24,0.025,,,,acoustic-Kohn dominated; optical(covalent) 5-44%,0,inline,3RD MODE,soft acoustic Kohn anomaly at nesting q; covalent C-vs-Nb optical modest
 2026-06-13,Nb3Sn,A0,PBE,2x2x2,12x12x12,0.025,,,,,,lbg:22867435,KILLED 18h,A15 q2 pathological; stop-loss; NbC supplies compound mode
 2026-06-13,S-160GPa,A0,PBE,4x4x4,,0.025,,,,,,lbg:22867925,FAILED,QE numerical; S-280 covers S anchor
+2026-06-13,Na/K/Al,ITER2: smeared-nesting (R1),-,-,-,0.025,,,"Na 0.87, K 7.3, Al 1.62",nesting NOT the cause,0,scripts/a4u_v2_smeared.py,R1 INSUFFICIENT,smeared double-delta barely moves ratios; sharp 2kF cutoff was not the dominant error
+2026-06-13,K,ITER2 diagnosis: form-factor node,-,-,-,0.025,,,blowup in LONGITUDINAL channel (theorem-protected!),node@Q/2kF=0.64 (mid-range); Na node@0.99 (edge),0,node analysis,ROOT CAUSE = LOCAL VERTEX,K T-share only 5% (free-electron) so NOT orbital gap; local w(Q) unreliable near its node; K's low empty-3d makes pseudopotential nonlocal -> NL knob needed
+2026-06-13,Al,ITER2 diagnosis: small-q orbital,-,-,-,0.025,,,,"small-q T-share 45% (vs Na 1%, K 5%)",0,T-share,PARTIAL ORBITAL,Al p-character contributes transverse coupling even at small q; not pure free-electron

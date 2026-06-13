@@ -111,3 +111,35 @@ monotone large-q drift and the soft-phonon node sensitivity seen in K). Pb's spi
 (scalar λ=0.92 here; the Ward identity is spin-orbit-blind, so the cancellation is
 predicted to survive — to be verified with a fully-relativistic pair). Full ledger and
 per-q mode tables in `ledger.csv`; analysis in `scripts/a4u_vs_a0_na.py`.
+
+## Iteration 2 (2026-06-13): the screening is fine — the *local scalar vertex* is the weak link
+
+Refining the model exposed a sharper boundary than the s-vs-orbital split above. Two
+fixes were tested against the s-character class:
+
+- **Smeared double-delta nesting** (replace the sharp θ(2k_F−|Q|) cutoff with the
+  Gaussian-broadened static nesting at the DFPT σ): barely moved the ratios (K 9.0→7.3,
+  Al unchanged). The hard cutoff was *not* the dominant error.
+- **Node diagnosis**: K's blowup (×7) sits in the **longitudinal** channel — the one the
+  cancellation theorem protects — so it cannot be a screening failure. The cause is the
+  bare *local* form factor w(|q|): K's node sits at Q/2k_F = 0.64, mid-range where the
+  Umklapp channels sample it, while Na's node is pushed to 0.99 (the integration edge).
+  Near the node the local-only w is unreliable — and K's low-lying empty 3d makes its
+  pseudopotential genuinely nonlocal, so a local w is the wrong object there. K's
+  transverse share is only 5% (it *is* free-electron), confirming this is a
+  vertex-representation failure, not the orbital gap.
+
+**Sharpened conclusion.** The UEG screening relation (the theorem) is robust for *every*
+material tested — it is never the source of disagreement. What fails is the assumption
+that the *bare* electron–phonon vertex is a local scalar form factor w(|q|). That
+assumption holds only for the most free-electron metal (Na, node at 2k_F). It breaks
+three ways: (i) node sensitivity where the pseudopotential is nonlocal (K — even though
+K is free-electron); (ii) partial orbital/transverse coupling already at small q (Al,
+45% small-q transverse); (iii) full orbital deformation potential (P, S, V, Ta, Mo,
+~2/3 transverse). The minimal sufficient theory of λ is therefore **UEG-screened
+*full* (nonlocal, orbital) vertex matrix elements** — the simplification rigorously
+eliminates the self-consistent screening (the Sternheimer iteration), but *not* the
+bare-vertex matrix-element evaluation, which carries the nonlocal/orbital structure that
+is most of the DFPT cost. Next iteration: add the pseudopotential's nonlocal
+Kleinman–Bylander projectors to the model vertex (NL knob) — the targeted fix for K and
+the entry point to the orbital channel for the p/d materials.
