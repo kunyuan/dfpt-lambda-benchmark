@@ -22,3 +22,7 @@ date,material,knob_config,functional,qgrid,kgrid,smearing_Ry,lambda,omega_log_K,
 2026-06-13,S-280GPa,A0,PBE,4x4x4,32x32x32,0.025,0.585,549.1,+10 vs paper 0.53,,18,lbg:22867926,REPRODUCED anchor,sc z=6
 2026-06-13,P-70GPa,A4u + T-share,PBE,4x4x4,32x32x32,0.025,,,A4u total ratio 0.40 (UNDERshoots),T-share 65% (77% smallest-q),0,frozen recipe,KEY FINDING,p-block FS has orbital deformation potential like d-metals; A4u undershoots 2.5x; refines axis from sp-vs-d to s-character-vs-orbital(p/d)
 2026-06-13,S-280GPa,T-share,PBE,4x4x4,32x32x32,0.025,,,,T-share 71% (72% smallest-q),0,inline,CONFIRMS,3p FS same orbital signature
+2026-06-13,NbC,A0,PBE,4x4x4,24x24x24,0.025,0.843,310.0,+9 vs lit 0.77,,11,lbg:22867433,baseline-q4,top-q 18%; Kohn acoustic spike lam=3.4 at |q|=0.644 - needs q6
+2026-06-13,NbC,mode decomposition,PBE,4x4x4,24x24x24,0.025,,,,acoustic-Kohn dominated; optical(covalent) 5-44%,0,inline,3RD MODE,soft acoustic Kohn anomaly at nesting q; covalent C-vs-Nb optical modest
+2026-06-13,Nb3Sn,A0,PBE,2x2x2,12x12x12,0.025,,,,,,lbg:22867435,KILLED 18h,A15 q2 pathological; stop-loss; NbC supplies compound mode
+2026-06-13,S-160GPa,A0,PBE,4x4x4,,0.025,,,,,,lbg:22867925,FAILED,QE numerical; S-280 covers S anchor
