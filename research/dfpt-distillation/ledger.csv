@@ -16,3 +16,5 @@ date,material,knob_config,functional,qgrid,kgrid,smearing_Ry,lambda,omega_log_K,
 2026-06-13,Pb,A0-scalar,PBE,4x4x4,24x24x24,0.025,0.921,70.7,,,19,lbg:22867432,baseline,paper no-SOC 1.08; FR+SOC pair queued
 2026-06-13,MgB2,A0,PBE,4x4x3,16x16x12,0.025,0.627,732.2,,,23,lbg:22867434,baseline,consistent with repo q4 0.66; E2g q-convergence known
 2026-06-13,Ta+Mo,T-share diagnostic (model-free),PBE,4x4x4,24x24x24,0.025,,,,T-share: Ta 63% / Mo 71% TOTAL,0,inline,D-REGION VERDICT,transverse dominates at ALL q incl. smallest (Ta 69% at 0.167*2kF vs Na 0.2% at 0.19*2kF); d deformation potential couples to shear - no scalar-UEG analog; UEG-based rungs cap at ~30-37% of lambda for bcc d metals; minimal theory needs orbital/NL vertex channel
+2026-06-13,V,A0,PBE,6x6x6,24x24x24,0.025,1.064,239.8,,,75,lbg:22867428,baseline,lit 1.18 / exp-SH 1.17 / our-q2 1.013; top-q 10%
+2026-06-13,V,T-share diagnostic (model-free),PBE,6x6x6,24x24x24,0.025,,,,T-share 72.8% @ 0.111*2kF; TOTAL 63.4%,0,inline,D-VERDICT x3,3d/4d/5d all confirm: transverse/orbital channel carries ~2/3 of lambda at all q
