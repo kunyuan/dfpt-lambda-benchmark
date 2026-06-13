@@ -12,3 +12,6 @@ NbN,4,B1,A0;A1;A2,6x6x6,LDA,pending,
 MgB2,4,AlB2,A0;A1,4x4x4(6 in-plane),LDA,pending,expected A1 ceiling (sigma-bond orbital selectivity)
 Nb3Sn,4,A15,A0;A1;A2,4x4x4,LDA,pending,8-atom cell; cost tier high
 V3Si,4,A15,A0;A1,4x4x4,LDA,pending,
+P-70GPa,1-anchor,sc(ibrav1),A0;A4u;P,4x4x4(validated +2%),PBE,A0 submitted 22867923,REPRODUCED anchor; SG15 z=5 chemical valence - no semicore; large lambda 0.8; stiff phonons
+S-160GPa,1-anchor,beta-Po,A0;A4u,4x4x4(validated 3.5%),PBE,A0 submitted 22867925,REPRODUCED anchor; z=6 clean
+S-280GPa,1-anchor,sc,A0;A4u,4x4x4(validated),PBE,A0 submitted 22867926,REPRODUCED anchor

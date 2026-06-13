@@ -138,3 +138,17 @@ theory there must carry an orbital/nonlocal vertex channel** (modernized
 Gaspari-Gyorffy d-phase-shift, or A2-level Bloch projection). Exactly the expected
 failure, now with numbers — and the cleanest possible contrast: same lattice, same
 mode analysis, sp → 0.2%, 5d → 69%.
+
+## Anchor pivot (2026-06-13): reproduced materials replace tiny-λ alkalis
+
+Na/K turned out to be poor anchors: their experimental λ is itself ambiguous
+(point-contact background; e-e mass correction comparable to λ), and small λ
+amplifies technical noise (soft-phonon 1/ω² lever, form-factor-node sensitivity).
+They served as pipeline debuggers — volume verdict, Umklapp necessity, node
+sensitivity — cheap tuition, now banked. **The anchor set moving forward is the
+already-reproduced list**: sc-P 70 GPa (+2% vs paper), β-Po S 160 GPa (3.5%),
+sc-S 280 GPa, fcc-Li 30 GPa, bcc-Ta (+6%), V, MgB₂. High-pressure sp metals are
+the better theorem-zone probes: large λ (0.5–0.8), stiff phonons (no soft-mode
+lever), and SG15 pseudos at chemical valence (P z=5, S z=6 — no semicore mismatch),
+so A4u runs clean. Validated q4 inputs reused verbatim from
+`L3-dfpt-lambda/reproduction/inputs/scaling_runs/` with dvscf retention added.
