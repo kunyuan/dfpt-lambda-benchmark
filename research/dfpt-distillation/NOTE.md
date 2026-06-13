@@ -143,3 +143,32 @@ bare-vertex matrix-element evaluation, which carries the nonlocal/orbital struct
 is most of the DFPT cost. Next iteration: add the pseudopotential's nonlocal
 Kleinman–Bylander projectors to the model vertex (NL knob) — the targeted fix for K and
 the entry point to the orbital channel for the p/d materials.
+
+## Iteration 3 (2026-06-13): the orbital channel splits by orbital type — d is cheap, p is not
+
+Staying on the orbital anchors (P, V) — simple metals are settled and not revisited —
+a model-free rigid-ion test resolves *how much theory the orbital 2/3 actually needs*.
+In the Gaspari–Gyorffy (GG) on-site picture λ_qν ≈ η/(M ω_qν²) with a q-independent
+matrix element η = N(0)⟨I²⟩, so **η = λ_qν·ω_qν² should be constant across q and modes**
+if the coupling is an on-site rigid-ion matrix element.
+
+- **V (3d): η clusters, and η_L ≈ η_T.** L-modes CV = 0.42, T-modes CV = 0.38, comparable
+  magnitudes (~1×10⁻⁶ Ry²). The d-deformation potential is a genuine **isotropic on-site
+  matrix element** — d orbitals couple to shear as strongly as to compression, so the
+  transverse coupling is intrinsic and large. **Minimal orbital model for d-metals = a
+  single GG number N(0)⟨I²⟩, q-independent — cheap.** This vindicates Gaspari–Gyorffy
+  (1971) for transition metals as the correct minimal theory of the orbital channel.
+
+- **P (3p): η_L ≫ η_T, and η_T scatters.** L-modes η = 3.6–11 (semi-clustered, CV 0.37);
+  T-modes η = 0.08–8.5 (CV 1.22). The p-orbital transverse *vertex* is weak and
+  q-dependent — **the 65% transverse λ-share of P is a soft-transverse-phonon effect
+  (small ω_T amplifies a small η_T), not a large transverse coupling.** An on-site
+  rigid-ion η is insufficient; the p-block transverse vertex is irreducibly q-resolved.
+
+**Net.** "How much DFPT does the orbital 2/3 need?" splits by orbital character:
+d-metals reduce to one on-site integral (GG) — DFPT's orbital matrix elements *are*
+compressible there; p-metals do not — their transverse vertex is weak but q-structured
+and needs the full evaluation. The minimal sufficient theory is therefore
+material-class-dependent: UEG-screened scalar vertex (Na corner) → +GG on-site η
+(d-metals) → full q-resolved vertex (p-metals, compounds). Each tier is a measured,
+not assumed, reduction.
