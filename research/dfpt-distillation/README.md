@@ -124,3 +124,17 @@ Analysis: `scripts/a4u_vs_a0_na.py` on the 22867111 artifacts.
   entry: the spherical-FS approximation costs ~10% (monovalent Na) vs ~60%
   (multivalent Al), concentrated in transverse Umklapp.** Next rung: real-FS
   double-delta nesting (A3-geometry), not a vertex fix.
+
+## Phase-3 first verdict (Ta, Mo): the d-region price, measured model-free
+
+Mode-resolved T-share (eigenvector-projected, no analytic model involved — immune to
+the semicore form-factor caveat): **Ta 63%, Mo 71% of λ lives in transverse channels,
+at every q including the smallest** (Ta 69% at 0.167·2k_F where Na shows 0.2%).
+Transverse coupling has no scalar-UEG analog (g ∝ Q·e), and at small q Umklapp
+geometry cannot supply it either — this is the d deformation potential coupling to
+shear, i.e. orbital matrix-element physics. **Price-list entry: UEG-screening-based
+rungs cap at the ~30–37% longitudinal share for bcc d metals; the minimal sufficient
+theory there must carry an orbital/nonlocal vertex channel** (modernized
+Gaspari-Gyorffy d-phase-shift, or A2-level Bloch projection). Exactly the expected
+failure, now with numbers — and the cleanest possible contrast: same lattice, same
+mode analysis, sp → 0.2%, 5d → 69%.
