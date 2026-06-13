@@ -152,3 +152,25 @@ the better theorem-zone probes: large λ (0.5–0.8), stiff phonons (no soft-mod
 lever), and SG15 pseudos at chemical valence (P z=5, S z=6 — no semicore mismatch),
 so A4u runs clean. Validated q4 inputs reused verbatim from
 `L3-dfpt-lambda/reproduction/inputs/scaling_runs/` with dvscf retention added.
+
+## Anchor result (2026-06-13): the real axis is s-character vs orbital, not sp vs d
+
+The reproduced high-pressure anchors overturned the working hypothesis. P 70 GPa
+(λ=0.701, +4% vs paper — a clean reproduction, z=5 chemical valence, no semicore) and
+S 280 GPa (λ=0.585) are *sp* metals, yet:
+
+- **T-share 65% (P), 71% (S)** — transverse channels carry two-thirds of λ, at every q
+  including the smallest (P 77% at 0.148·2k_F). Identical to the d-metals (V/Ta/Mo
+  63–71%), NOT to Na (0.2%).
+- **Frozen A4u UNDER-shoots P by 2.5×** (total ratio 0.40) — opposite sign to Al's
+  over-shoot. The scalar local form factor w(Q) misses real coupling.
+
+Mechanism: P/S conduction states at E_F are **3p-dominated**. p orbitals carry angular
+structure, so the deformation potential couples to shear exactly like d states — there
+is no scalar-UEG analog, and the local form factor undercounts it. **The price-list
+axis is therefore s-character (free-electron-like: Na, K, Al) vs orbital character
+(p or d: P, S, V, Ta, Mo), not sp vs transition-metal.** This matters for the field:
+the interesting phonon superconductors (hydrides, high-pressure p-block) are all
+orbital-character — the UEG-screening simplification is a theorem-zone tool for the
+alkali/free-electron corner only. Multi-material discipline forced this out; Na/Al
+alone would have given the wrong map.

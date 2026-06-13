@@ -18,3 +18,7 @@ date,material,knob_config,functional,qgrid,kgrid,smearing_Ry,lambda,omega_log_K,
 2026-06-13,Ta+Mo,T-share diagnostic (model-free),PBE,4x4x4,24x24x24,0.025,,,,T-share: Ta 63% / Mo 71% TOTAL,0,inline,D-REGION VERDICT,transverse dominates at ALL q incl. smallest (Ta 69% at 0.167*2kF vs Na 0.2% at 0.19*2kF); d deformation potential couples to shear - no scalar-UEG analog; UEG-based rungs cap at ~30-37% of lambda for bcc d metals; minimal theory needs orbital/NL vertex channel
 2026-06-13,V,A0,PBE,6x6x6,24x24x24,0.025,1.064,239.8,,,75,lbg:22867428,baseline,lit 1.18 / exp-SH 1.17 / our-q2 1.013; top-q 10%
 2026-06-13,V,T-share diagnostic (model-free),PBE,6x6x6,24x24x24,0.025,,,,T-share 72.8% @ 0.111*2kF; TOTAL 63.4%,0,inline,D-VERDICT x3,3d/4d/5d all confirm: transverse/orbital channel carries ~2/3 of lambda at all q
+2026-06-13,P-70GPa,A0,PBE,4x4x4,32x32x32,0.025,0.701,440.0,+4 vs paper 0.676,,20,lbg:22867923,REPRODUCED anchor,sc z=5 clean; matches our prior LBG 0.701
+2026-06-13,S-280GPa,A0,PBE,4x4x4,32x32x32,0.025,0.585,549.1,+10 vs paper 0.53,,18,lbg:22867926,REPRODUCED anchor,sc z=6
+2026-06-13,P-70GPa,A4u + T-share,PBE,4x4x4,32x32x32,0.025,,,A4u total ratio 0.40 (UNDERshoots),T-share 65% (77% smallest-q),0,frozen recipe,KEY FINDING,p-block FS has orbital deformation potential like d-metals; A4u undershoots 2.5x; refines axis from sp-vs-d to s-character-vs-orbital(p/d)
+2026-06-13,S-280GPa,T-share,PBE,4x4x4,32x32x32,0.025,,,,T-share 71% (72% smallest-q),0,inline,CONFIRMS,3p FS same orbital signature
